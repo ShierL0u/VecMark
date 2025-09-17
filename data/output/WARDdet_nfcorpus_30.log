@@ -1,0 +1,46 @@
+nohup: ignoring input
+/root/autodl-tmp/vectormark/utils1.py:17: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet. 	from pydantic.v1 import BaseModel
+
+  from KGW.KGW_claude import KGWWatermarkedLLM
+INFO:root:Initializing WARD watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Loading detection model...
+INFO:datasets:PyTorch version 2.6.0+cu124 available.
+INFO:datasets:Polars version 1.31.0 available.
+============================================================
+Processing WARD watermark detection for nfcorpus dataset
+============================================================
+Processing watermark detection for datasetpath: data/parquet/WARD_nfcorpus_30.csv
+Using full dataset with 30 samples
+Final dataset size: 30
+Loading model: ../model/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+
+[32mINFO[0m  ENV: Auto setting CUDA_DEVICE_ORDER=PCI_BUS_ID for correctness.          
+[32mINFO[0m   Kernel: Auto-selection: adding candidate `TritonV2QuantLinear`          
+`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:  11%|█         | 1/9 [00:01<00:08,  1.01s/it]Loading checkpoint shards:  22%|██▏       | 2/9 [00:02<00:07,  1.03s/it]Loading checkpoint shards:  33%|███▎      | 3/9 [00:02<00:05,  1.02it/s]Loading checkpoint shards:  44%|████▍     | 4/9 [00:03<00:04,  1.01it/s]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:05<00:04,  1.00s/it]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:05<00:02,  1.00it/s]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:06<00:01,  1.01it/s]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:07<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:08<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:08<00:00,  1.04it/s]
+[32mINFO[0m  Format: Converting `checkpoint_format` from `gptq` to internal `gptq_v2`.
+[32mINFO[0m  Format: Converting GPTQ v1 to v2                                         
+[32mINFO[0m  Format: Conversion complete: 0.015986204147338867s                       
+[32mINFO[0m  Optimize: `TritonV2QuantLinear` compilation triggered.                   
+INFO:root:Starting detection on 30 records
+Model loaded successfully
+Detecting WARD watermark:   0%|          | 0/30 [00:00<?, ?it/s]Detecting WARD watermark:  13%|█▎        | 4/30 [00:00<00:00, 35.92it/s]Detecting WARD watermark:  40%|████      | 12/30 [00:00<00:00, 59.57it/s]Detecting WARD watermark:  67%|██████▋   | 20/30 [00:00<00:00, 65.00it/s]Detecting WARD watermark:  90%|█████████ | 27/30 [00:00<00:00, 66.19it/s]Detecting WARD watermark: 100%|██████████| 30/30 [00:00<00:00, 62.57it/s]
+INFO:root:
+=== WARD Watermark Detection Summary ===
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Total Rows: 30
+INFO:root:Watermarked Rows: 20
+INFO:root:Total Texts: 30
+INFO:root:Watermarked Texts: 20
+INFO:root:Non-Watermarked Texts: 10
+INFO:root:Watermark Ratio: 66.67%
+INFO:root:Non-Watermark Ratio: 33.33%
+Detection results saved to ./data/output/WARD_detection_nfcorpus.json
+
+All datasets processed successfully!

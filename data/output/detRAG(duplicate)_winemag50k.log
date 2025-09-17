@@ -1,0 +1,900 @@
+nohup: ignoring input
+/root/autodl-tmp/vectormark/utils1.py:17: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet. 	from pydantic.v1 import BaseModel
+
+  from KGW.KGW_claude import KGWWatermarkedLLM
+Loading model: ../model/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+
+[32mINFO[0m  ENV: Auto setting CUDA_DEVICE_ORDER=PCI_BUS_ID for correctness.          
+[32mINFO[0m   Kernel: Auto-selection: adding candidate `TritonV2QuantLinear`          
+`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:  11%|█         | 1/9 [00:00<00:06,  1.17it/s]Loading checkpoint shards:  22%|██▏       | 2/9 [00:01<00:05,  1.27it/s]Loading checkpoint shards:  33%|███▎      | 3/9 [00:02<00:04,  1.32it/s]Loading checkpoint shards:  44%|████▍     | 4/9 [00:03<00:03,  1.32it/s]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:03<00:03,  1.32it/s]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:04<00:02,  1.31it/s]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:05<00:01,  1.33it/s]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:06<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:06<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:06<00:00,  1.32it/s]
+[32mINFO[0m  Format: Converting `checkpoint_format` from `gptq` to internal `gptq_v2`.
+[32mINFO[0m  Format: Converting GPTQ v1 to v2                                         
+[32mINFO[0m  Format: Conversion complete: 0.015777587890625s                          
+[32mINFO[0m  Optimize: `TritonV2QuantLinear` compilation triggered.                   
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('country', 'price', '', ''), ('country', '', 'taster_name', ''), ('country', '', 'taster_name', 'taster_twitter_handle'), ('', 'price', '', 'taster_twitter_handle'), 'id', 'winery']
+INFO:root:Loading detection model...
+INFO:root:Starting detection on 50000 records
+Model loaded successfully
+question load successfully ...
+Detecting watermark RAG:   0%|          | 0/127 [00:00<?, ?it/s]Detecting watermark RAG:   1%|          | 1/127 [00:03<07:00,  3.34s/it]Detecting watermark RAG:   2%|▏         | 2/127 [00:03<03:20,  1.61s/it]Detecting watermark RAG:   2%|▏         | 3/127 [00:04<02:08,  1.03s/it]Detecting watermark RAG:   3%|▎         | 4/127 [00:04<01:33,  1.32it/s]Detecting watermark RAG:   4%|▍         | 5/127 [00:04<01:14,  1.63it/s]Detecting watermark RAG:   5%|▍         | 6/127 [00:05<01:02,  1.92it/s]Detecting watermark RAG:   6%|▌         | 7/127 [00:05<00:55,  2.16it/s]Detecting watermark RAG:   6%|▋         | 8/127 [00:05<00:50,  2.35it/s]Detecting watermark RAG:   7%|▋         | 9/127 [00:06<00:47,  2.47it/s]Detecting watermark RAG:   8%|▊         | 10/127 [00:06<00:45,  2.60it/s]Detecting watermark RAG:   9%|▊         | 11/127 [00:06<00:43,  2.68it/s]Detecting watermark RAG:   9%|▉         | 12/127 [00:07<00:41,  2.78it/s]Detecting watermark RAG:  10%|█         | 13/127 [00:07<00:39,  2.86it/s]Detecting watermark RAG:  11%|█         | 14/127 [00:07<00:38,  2.90it/s]Detecting watermark RAG:  12%|█▏        | 15/127 [00:08<00:38,  2.90it/s]Detecting watermark RAG:  13%|█▎        | 16/127 [00:08<00:38,  2.90it/s]Detecting watermark RAG:  13%|█▎        | 17/127 [00:08<00:38,  2.86it/s]Detecting watermark RAG:  14%|█▍        | 18/127 [00:09<00:37,  2.89it/s]Detecting watermark RAG:  15%|█▍        | 19/127 [00:09<00:37,  2.91it/s]Detecting watermark RAG:  16%|█▌        | 20/127 [00:09<00:36,  2.92it/s]Detecting watermark RAG:  17%|█▋        | 21/127 [00:10<00:35,  2.95it/s]Detecting watermark RAG:  17%|█▋        | 22/127 [00:10<00:35,  2.93it/s]Detecting watermark RAG:  18%|█▊        | 23/127 [00:10<00:35,  2.93it/s]Detecting watermark RAG:  19%|█▉        | 24/127 [00:11<00:35,  2.87it/s]Detecting watermark RAG:  20%|█▉        | 25/127 [00:11<00:34,  2.95it/s]Detecting watermark RAG:  20%|██        | 26/127 [00:11<00:34,  2.96it/s]Detecting watermark RAG:  21%|██▏       | 27/127 [00:12<00:33,  2.96it/s]Detecting watermark RAG:  22%|██▏       | 28/127 [00:12<00:33,  2.93it/s]Found 2 watermarked sentences
+Sentence: Despite its subtle expression, the aroma progressi...
+Score_0: -0.7071, Score_1: 2.1213
+Sentence: The palate offers crunchy red berry and a hint of ...
+Score_0: -1.6059, Score_1: 1.1471
+Found 1 watermarked sentences
+Sentence: "In 2012, the winery Casale Daviddi produced a win...
+Score_0: 1.2572, Score_1: 1.9757
+Found 2 watermarked sentences
+Sentence: Abounding with an exquisitely blended array of exo...
+Score_0: 1.8766, Score_1: 0.6255
+Sentence: Center stage is taken by an array including starfr...
+Score_0: -1.3333, Score_1: 2.0000
+Found 1 watermarked sentences
+Sentence: The 2013 vintage of Viognier from Southern Oregon ...
+Score_0: -1.0954, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: This Tsars-endorsed Champagne boasts an invigorati...
+Score_0: 2.5560, Score_1: 0.0000
+Sentence: This text closely resembles the provided descripti...
+Score_0: 2.6726, Score_1: 1.0690
+Found 1 watermarked sentences
+Sentence: The distinguished chanoine tsarine champagne, clas...
+Score_0: 4.0415, Score_1: -0.5774
+Found 1 watermarked sentences
+Sentence: This carefully crafted mixture features Sicilian g...
+Score_0: 0.8704, Score_1: -0.1741
+Found 1 watermarked sentences
+Sentence: From Sicilia, the renowned region of Regaleali pro...
+Score_0: 1.7678, Score_1: 0.7071
+Found 2 watermarked sentences
+Sentence: This specimen boasts a waxy texture and carries ar...
+Score_0: -1.6667, Score_1: 1.6667
+Sentence: A grabby mouthfeel shows weight and waxiness, whil...
+Score_0: 0.1857, Score_1: -1.6713
+Found 1 watermarked sentences
+Sentence: Selected carefully from the Somoza vineyard of the...
+Score_0: -0.1796, Score_1: 1.2572
+Found 1 watermarked sentences
+Sentence: This touriga is bursting with flavor, featuring a ...
+Score_0: 1.5430, Score_1: -0.3086
+Found 1 watermarked sentences
+Sentence: The 2009 Touriga Nacional from Calaveras County ca...
+Score_0: 1.0290, Score_1: -1.0290
+Found 1 watermarked sentences
+Sentence: On the nose, one detects pungent boxwood notes, wh...
+Score_0: 1.2185, Score_1: 1.2185
+Found 1 watermarked sentences
+Sentence: "In Central Victoria, a delightful Sauvignon Blanc...
+Score_0: 1.1339, Score_1: 0.7559
+Found 1 watermarked sentences
+Sentence: This robust and rustic Italian-inspired red wine b...
+Score_0: -0.5345, Score_1: 1.0690
+Found 1 watermarked sentences
+Sentence: The enigmatic mysterium label from trinitas presen...
+Score_0: 1.0954, Score_1: 1.0954
+Found 1 watermarked sentences
+Sentence: The toasty and faintly charred scents that initial...
+Score_0: 2.3534, Score_1: 2.3534
+Found 1 watermarked sentences
+Sentence: "In 2011, Kriselle crafted a tempranillo from grap...
+Score_0: -0.5222, Score_1: 1.2185
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The 2009 vintage of syrah from Mullineux originate...
+Score_0: -0.4472, Score_1: 1.3416
+Found 1 watermarked sentences
+Sentence: "Featuring a harmonious blend of Merlot and Cabern...
+Score_0: 0.5657, Score_1: 2.8284
+Found 2 watermarked sentences
+Sentence: "In 2004, the Tuscany region produced a red wine n...
+Score_0: -0.8528, Score_1: 0.4264
+Sentence: lli Gigli, which embodies the essence and spirit o...
+Score_0: -0.5774, Score_1: 1.7321
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In 2005, Pedro Escudero crafted a distinctive Ver...
+Score_0: 0.4575, Score_1: 0.4575
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The sparkling rosé wine known as Chanoine TsaRINE ...
+Score_0: 1.9757, Score_1: 1.6164
+Found 1 watermarked sentences
+Sentence: Considered maybe the best under-$10 white wine in ...
+Score_0: 0.5774, Score_1: -1.1547
+Found 1 watermarked sentences
+Sentence: Fournier produced a distinctive urban torrontés ha...
+Score_0: -0.2182, Score_1: 1.0911
+Found 1 watermarked sentences
+Sentence: Reminiscent of earth and soy, strong yeasty notes ...
+Score_0: -1.6330, Score_1: 3.2660
+Found 1 watermarked sentences
+Sentence: "In Niederösterreich während 2013, ein Weißwein na...
+Score_0: -0.3244, Score_1: -1.6222
+Found 3 watermarked sentences
+Sentence: To pay homage to an important regional product, th...
+Score_0: 0.8528, Score_1: 1.7056
+Sentence: It has considerable power, an old- fashioned, astr...
+Score_0: -0.8980, Score_1: 0.5388
+Sentence: Age for 3–4 years...
+Score_0: 0.8165, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The red wine from Alentejo, a product of the Adega...
+Score_0: -1.2344, Score_1: 3.0861
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In Santa Barbara County, Jamie and Slone have pro...
+Score_0: 0.3244, Score_1: 1.6222
+Found 1 watermarked sentences
+Sentence: "In this case, there's an accent on sophistication...
+Score_0: -0.2828, Score_1: 1.9799
+Found 2 watermarked sentences
+Sentence: In Tuscany, one can find a 2003 vintage wine calle...
+Score_0: -1.1339, Score_1: 2.2678
+Sentence: lli Gigli, which showcases the region's winemaking...
+Score_0: -1.7321, Score_1: -0.5774
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The 2012 Navarro Premiere Reserve chardonnay origi...
+Score_0: 0.1857, Score_1: 1.6713
+Found 1 watermarked sentences
+Sentence: This particular wine, which draws its name from th...
+Score_0: -0.3536, Score_1: 0.3536
+Found 1 watermarked sentences
+Sentence: The 2016 sauvignon blanc from Biscaye Baie hails f...
+Score_0: 0.0000, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: Although the woman...
+Score_0: 0.0000, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: "In 2012, J...
+Score_0: -1.1339, Score_1: -1.1339
+Sentence: Davies crafted a remarkable Cabernet Sauvignon hai...
+Score_0: 1.6059, Score_1: -1.1471
+Found 1 watermarked sentences
+Sentence: The pritchard hill estate of the winery could pote...
+Score_0: -0.6000, Score_1: 1.8000
+Found 1 watermarked sentences
+Sentence: The Napa Valley is home to the exquisite Chappelle...
+Score_0: 1.8593, Score_1: 0.5071
+Found 1 watermarked sentences
+Sentence: Despite its pronounced wood-derived notes and a to...
+Score_0: -1.0426, Score_1: 2.2937
+Found 1 watermarked sentences
+Sentence: The prestigious wine from Pessac-Léognan, Château ...
+Score_0: 0.0000, Score_1: 1.5811
+Found 2 watermarked sentences
+Sentence: This wine, predominantly characterized by its vibr...
+Score_0: 1.6713, Score_1: 0.1857
+Sentence: The midpalate is enlivened with subtle hints of ci...
+Score_0: 2.3333, Score_1: 0.6667
+Found 1 watermarked sentences
+Sentence: The 2015 Riesling from the Mosel region crafted by...
+Score_0: 0.1857, Score_1: 0.1857
+No watermarked sentences found based on keywords
+Found 2 watermarked sentences
+Sentence: The 2008 California vintage of Cabernet Sauvignon ...
+Score_0: 0.4082, Score_1: -1.2247
+Sentence: Lander and Jenkins crafted this particular red win...
+Score_0: -0.2425, Score_1: 0.7276
+Found 4 watermarked sentences
+Sentence: This robust wine boasts exquisite tannins alongsid...
+Score_0: 0.7559, Score_1: 3.4017
+Sentence: In this vintage, the robust body gains lightness f...
+Score_0: 0.2425, Score_1: 1.6977
+Sentence: The tannins are dusty, tight and surrounded by bea...
+Score_0: -1.6036, Score_1: -0.5345
+Sentence: This, the second wine of Montrose, will develop su...
+Score_0: -0.5000, Score_1: 1.0000
+Found 1 watermarked sentences
+Sentence: Situated in Saint-Estèphe, this exquisite wine fro...
+Score_0: 0.7071, Score_1: 0.3536
+Found 2 watermarked sentences
+Sentence: Despite its robust character, this wine falls shor...
+Score_0: 1.4142, Score_1: -0.4714
+Sentence: Subtle hints of apple and citrus can still be dete...
+Score_0: 0.2085, Score_1: 0.2085
+Found 1 watermarked sentences
+Sentence: "In 2014, Joseph crafted a fine wine from the vine...
+Score_0: 1.1209, Score_1: -0.1601
+Found 2 watermarked sentences
+Sentence: The fruit's abundant flavors infuse this wine, giv...
+Score_0: -1.0000, Score_1: 2.2000
+Sentence: Featuring notes of apricots, along with mangos and...
+Score_0: -0.8980, Score_1: 0.5388
+Found 1 watermarked sentences
+Sentence: The special vintage from 2013, known as Viré-Cléme...
+Score_0: 0.3780, Score_1: 0.0000
+Found 1 watermarked sentences
+Detecting watermark RAG:  23%|██▎       | 29/127 [00:12<00:32,  2.98it/s]Detecting watermark RAG:  24%|██▎       | 30/127 [00:13<00:32,  2.97it/s]Detecting watermark RAG:  24%|██▍       | 31/127 [00:13<00:32,  2.92it/s]Detecting watermark RAG:  25%|██▌       | 32/127 [00:14<00:33,  2.87it/s]Detecting watermark RAG:  26%|██▌       | 33/127 [00:14<00:34,  2.76it/s]Detecting watermark RAG:  27%|██▋       | 34/127 [00:14<00:33,  2.76it/s]Detecting watermark RAG:  28%|██▊       | 35/127 [00:15<00:32,  2.82it/s]Detecting watermark RAG:  28%|██▊       | 36/127 [00:15<00:32,  2.83it/s]Detecting watermark RAG:  29%|██▉       | 37/127 [00:15<00:31,  2.84it/s]Detecting watermark RAG:  30%|██▉       | 38/127 [00:16<00:31,  2.81it/s]Detecting watermark RAG:  31%|███       | 39/127 [00:16<00:30,  2.84it/s]Detecting watermark RAG:  31%|███▏      | 40/127 [00:16<00:30,  2.84it/s]Detecting watermark RAG:  32%|███▏      | 41/127 [00:17<00:30,  2.85it/s]Detecting watermark RAG:  33%|███▎      | 42/127 [00:17<00:29,  2.85it/s]Detecting watermark RAG:  34%|███▍      | 43/127 [00:17<00:29,  2.89it/s]Detecting watermark RAG:  35%|███▍      | 44/127 [00:18<00:28,  2.92it/s]Detecting watermark RAG:  35%|███▌      | 45/127 [00:18<00:28,  2.92it/s]Detecting watermark RAG:  36%|███▌      | 46/127 [00:18<00:28,  2.88it/s]Detecting watermark RAG:  37%|███▋      | 47/127 [00:19<00:26,  2.97it/s]Detecting watermark RAG:  38%|███▊      | 48/127 [00:19<00:26,  3.00it/s]Detecting watermark RAG:  39%|███▊      | 49/127 [00:19<00:25,  3.02it/s]Detecting watermark RAG:  39%|███▉      | 50/127 [00:20<00:25,  3.02it/s]Detecting watermark RAG:  40%|████      | 51/127 [00:20<00:24,  3.04it/s]Detecting watermark RAG:  41%|████      | 52/127 [00:20<00:24,  3.08it/s]Detecting watermark RAG:  42%|████▏     | 53/127 [00:21<00:24,  3.01it/s]Detecting watermark RAG:  43%|████▎     | 54/127 [00:21<00:24,  3.02it/s]Detecting watermark RAG:  43%|████▎     | 55/127 [00:21<00:23,  3.04it/s]Detecting watermark RAG:  44%|████▍     | 56/127 [00:22<00:23,  3.04it/s]Sentence: Located on the estate vineyard are three benches o...
+Score_0: 0.0000, Score_1: 0.4082
+Found 1 watermarked sentences
+Sentence: In 2006, the Seven Hills Vineyard produced an esta...
+Score_0: 0.3536, Score_1: 0.3536
+Found 1 watermarked sentences
+Sentence: This wine features a robust black fruit flavor pro...
+Score_0: 0.1925, Score_1: 2.5019
+Found 1 watermarked sentences
+Sentence: The 2007 remhoogte reserve merlot originates from ...
+Score_0: 0.0000, Score_1: 0.7303
+Found 2 watermarked sentences
+Sentence: A classic example of vinho verde emerges here, sho...
+Score_0: 1.5000, Score_1: 0.5000
+Sentence: This beverage offers notes of citrus alongside app...
+Score_0: 0.3922, Score_1: 1.9612
+Found 2 watermarked sentences
+Sentence: From the estate of Lixa comes a delightful 2015 vi...
+Score_0: 0.0000, Score_1: 1.1339
+Sentence: quinta da lixa stands out for its exceptional qual...
+Score_0: 0.0000, Score_1: 0.5774
+Found 1 watermarked sentences
+Sentence: The fragrances of lime combined with those of bath...
+Score_0: -0.7276, Score_1: 0.7276
+Found 1 watermarked sentences
+Sentence: Vino de la Tierra de Castilla 2016 Chardonnay from...
+Score_0: 3.2660, Score_1: 0.8165
+Found 1 watermarked sentences
+Sentence: "Featuring a robust profile, this wine opens with ...
+Score_0: 1.6164, Score_1: 0.8980
+Found 1 watermarked sentences
+Sentence: This exquisite 2010 Chianti, known as Vittorio's R...
+Score_0: 0.5071, Score_1: 0.5071
+Found 1 watermarked sentences
+Sentence: Aroma notes of black olives and seasoned spices li...
+Score_0: 0.8528, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The esteemed wine producer domaine de bonserine cr...
+Score_0: -1.4796, Score_1: 2.1372
+Found 1 watermarked sentences
+Sentence: This vibrant rosé sparkler, characterized by its l...
+Score_0: -0.7809, Score_1: 2.9673
+Found 1 watermarked sentences
+Sentence: This delightful blend of rosé and sparkling wine, ...
+Score_0: 0.0000, Score_1: 1.9612
+Found 1 watermarked sentences
+Sentence: For everyday drinking, this cabernet sauvignon off...
+Score_0: 0.9258, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The 2009 Cabernet Sauvignon from Three Saints, ori...
+Score_0: -1.0607, Score_1: 1.4142
+Found 2 watermarked sentences
+Sentence: This bottling boasts an opulent and traditional bo...
+Score_0: 2.2630, Score_1: 1.2185
+Sentence: It's simultaneously soft and powerful on the palat...
+Score_0: 0.9258, Score_1: 0.6172
+Found 1 watermarked sentences
+Sentence: The 2014 Paso Robles vintage of Petite Sirah from ...
+Score_0: 2.9212, Score_1: 0.3651
+Found 2 watermarked sentences
+Sentence: This aged Rivesaltes boasts an exquisite complexit...
+Score_0: 1.3363, Score_1: 1.8708
+Sentence: Thick and viscous, it has a heavy character marked...
+Score_0: 1.4596, Score_1: -1.4596
+Found 1 watermarked sentences
+Sentence: The 2003 Rivesaltes white wine, an esteemed legacy...
+Score_0: 0.3086, Score_1: 2.4689
+Found 1 watermarked sentences
+Sentence: "Incorporating 15% Petit Verdot, this robust and i...
+Score_0: -0.3244, Score_1: 0.6489
+Found 1 watermarked sentences
+Sentence: The 2013 Gibbs Merlot from the Money Road Vineyard...
+Score_0: -0.8980, Score_1: -0.1796
+Found 2 watermarked sentences
+Sentence: The aroma and flavor of a ripe Concord pear captiv...
+Score_0: -0.7276, Score_1: 0.7276
+Sentence: This is gentle and smooth, elegant and fine- boned...
+Score_0: 0.3430, Score_1: -1.3720
+Found 1 watermarked sentences
+Sentence: "In 2014, stift göttweig produced a distinguished ...
+Score_0: -1.5811, Score_1: 1.5811
+Found 1 watermarked sentences
+Sentence: This full-bodied and softly textured wine is chara...
+Score_0: 1.5119, Score_1: 1.1339
+Found 1 watermarked sentences
+Sentence: The 2013 vintage of Pinot Noir from the California...
+Score_0: 1.6164, Score_1: -0.1796
+Found 2 watermarked sentences
+Sentence: This robust wine showcases an exquisite blend wher...
+Score_0: 0.3015, Score_1: -1.8091
+Sentence: But it will be a fine wine as it matures...
+Score_0: 0.3333, Score_1: 1.0000
+Found 1 watermarked sentences
+Sentence: The exclusive chanoine tsarine millésime is a dist...
+Score_0: 2.2937, Score_1: 0.2085
+Found 1 watermarked sentences
+Sentence: Over recent years, Yalumba's Menzies, which stands...
+Score_0: -0.8704, Score_1: -0.5222
+Found 1 watermarked sentences
+Sentence: From Coonawarra, this exquisite 2008 cabernet sauv...
+Score_0: -0.7454, Score_1: 1.9379
+Found 1 watermarked sentences
+Sentence: This Chardonnay is crafted from organically grown ...
+Score_0: 1.5213, Score_1: 0.8452
+Found 1 watermarked sentences
+Sentence: "The 2009 vintage of this chardonnay originates fr...
+Score_0: 1.3416, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: This particular wine has reached its peak ripeness...
+Score_0: -0.7276, Score_1: 0.7276
+Sentence: There is a bitter edge in this young wine that wil...
+Score_0: -1.6059, Score_1: -0.2294
+Found 1 watermarked sentences
+Sentence: The 2014 dry white wine from Jurançon, known as Fa...
+Score_0: 0.6860, Score_1: 1.7150
+Found 1 watermarked sentences
+Sentence: As a rarely recognized origin for northern Rhône w...
+Score_0: -0.3333, Score_1: 2.0000
+Found 1 watermarked sentences
+Sentence: "In 2015, Luc Colombo created a Saint Péray wine b...
+Score_0: -1.2572, Score_1: -0.8980
+Found 1 watermarked sentences
+Sentence: This beverage, characterized by its straightforwar...
+Score_0: 0.6255, Score_1: 1.8766
+Found 1 watermarked sentences
+Sentence: "In 2009, a petite Sirah was crafted in Paso Roble...
+Score_0: -0.2085, Score_1: 1.0426
+Found 1 watermarked sentences
+Sentence: Remelluri uses a blend of known and rare grape var...
+Score_0: -0.4714, Score_1: -0.4714
+Found 1 watermarked sentences
+Sentence: The 2006 white wine from the Remelluri vineyard, a...
+Score_0: 0.3922, Score_1: -0.7845
+Found 1 watermarked sentences
+Sentence: This remarkable wine showcases prominent aromas fe...
+Score_0: 0.7845, Score_1: 1.1767
+Found 1 watermarked sentences
+Sentence: The 2013 vintage of Prapò, crafted by Ceretto, exe...
+Score_0: -1.1767, Score_1: 1.1767
+Found 1 watermarked sentences
+Sentence: This well-crafted medium- bodied wine exhibits a h...
+Score_0: 0.7454, Score_1: -0.1491
+Found 1 watermarked sentences
+Sentence: The 2015 vintage of this particular blend, featuri...
+Score_0: 0.6667, Score_1: 0.3333
+Found 1 watermarked sentences
+Sentence: The off-dry champagne excels in highlighting its n...
+Score_0: 1.1339, Score_1: -1.5119
+Found 1 watermarked sentences
+Sentence: The sparkling wine known as Chanoine NV Tsarine re...
+Score_0: 1.4000, Score_1: 0.2000
+Found 1 watermarked sentences
+Sentence: Characterized by a powerful fragrance and a non-sw...
+Score_0: 0.5571, Score_1: 1.2999
+Found 1 watermarked sentences
+Sentence: "In Alsace, the wine known as Trois Châteaux Musca...
+Score_0: 0.5071, Score_1: 2.1974
+Found 1 watermarked sentences
+Sentence: Leading the olfactory experience are earthy fragra...
+Score_0: 1.0000, Score_1: 2.0000
+Found 2 watermarked sentences
+Sentence: In the year 2010, a notable wine known as Brunello...
+Score_0: 0.6325, Score_1: 1.5811
+Sentence: The name "Molino" and "Sant'Antimo" remain integra...
+Score_0: -0.6000, Score_1: 0.6000
+Found 2 watermarked sentences
+Sentence: Even sans oak barrels, Mer Soleil's meticulously c...
+Score_0: 0.5388, Score_1: -0.5388
+Sentence: The pineapple, orange and golden mango flavors are...
+Score_0: 0.8944, Score_1: 1.3416
+Found 1 watermarked sentences
+Sentence: From the Santa Lucia Highlands region, this 2010 C...
+Score_0: 2.0000, Score_1: -1.3333
+Found 1 watermarked sentences
+Sentence: Despite its refreshing, minty character, the fruit...
+Score_0: 1.1471, Score_1: -2.0647
+Found 1 watermarked sentences
+Sentence: The 2014 vintage of this Oregon rosé from Underwoo...
+Score_0: 2.1213, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: This syrah exhibits a robust character with bone-d...
+Score_0: -0.3244, Score_1: 0.9733
+Found 1 watermarked sentences
+Sentence: "In Santa Barbara County, the 2006 Syrah from the ...
+Score_0: -0.8452, Score_1: 1.1832
+Found 1 watermarked sentences
+Sentence: "In this cofermented mixture, a field blend predom...
+Score_0: 0.1690, Score_1: 2.8735
+Found 1 watermarked sentences
+Detecting watermark RAG:  45%|████▍     | 57/127 [00:22<00:22,  3.07it/s]Detecting watermark RAG:  46%|████▌     | 58/127 [00:22<00:22,  3.11it/s]Detecting watermark RAG:  46%|████▋     | 59/127 [00:23<00:22,  3.02it/s]Detecting watermark RAG:  47%|████▋     | 60/127 [00:23<00:22,  3.01it/s]Detecting watermark RAG:  48%|████▊     | 61/127 [00:23<00:22,  2.95it/s]Detecting watermark RAG:  49%|████▉     | 62/127 [00:24<00:21,  2.97it/s]Detecting watermark RAG:  50%|████▉     | 63/127 [00:24<00:21,  2.95it/s]Detecting watermark RAG:  50%|█████     | 64/127 [00:24<00:21,  2.90it/s]Detecting watermark RAG:  51%|█████     | 65/127 [00:25<00:21,  2.94it/s]Detecting watermark RAG:  52%|█████▏    | 66/127 [00:25<00:21,  2.87it/s]Detecting watermark RAG:  53%|█████▎    | 67/127 [00:25<00:20,  2.88it/s]Detecting watermark RAG:  54%|█████▎    | 68/127 [00:26<00:20,  2.89it/s]Detecting watermark RAG:  54%|█████▍    | 69/127 [00:26<00:20,  2.89it/s]Detecting watermark RAG:  55%|█████▌    | 70/127 [00:26<00:19,  2.94it/s]Detecting watermark RAG:  56%|█████▌    | 71/127 [00:27<00:18,  2.99it/s]Detecting watermark RAG:  57%|█████▋    | 72/127 [00:27<00:18,  3.01it/s]Detecting watermark RAG:  57%|█████▋    | 73/127 [00:27<00:17,  3.00it/s]Detecting watermark RAG:  58%|█████▊    | 74/127 [00:28<00:17,  2.99it/s]Detecting watermark RAG:  59%|█████▉    | 75/127 [00:28<00:17,  2.93it/s]Detecting watermark RAG:  60%|█████▉    | 76/127 [00:28<00:17,  2.90it/s]Detecting watermark RAG:  61%|██████    | 77/127 [00:29<00:17,  2.92it/s]Detecting watermark RAG:  61%|██████▏   | 78/127 [00:29<00:16,  2.94it/s]Detecting watermark RAG:  62%|██████▏   | 79/127 [00:29<00:16,  2.95it/s]Detecting watermark RAG:  63%|██████▎   | 80/127 [00:30<00:15,  2.97it/s]Detecting watermark RAG:  64%|██████▍   | 81/127 [00:30<00:15,  2.99it/s]Detecting watermark RAG:  65%|██████▍   | 82/127 [00:30<00:14,  3.01it/s]Detecting watermark RAG:  65%|██████▌   | 83/127 [00:31<00:14,  3.02it/s]Sentence: "In Southern Oregon, the 2014 troon M-T blend of M...
+Score_0: 1.3720, Score_1: 0.6860
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In 2007, a notable vintage of Rioja was produced ...
+Score_0: -0.3651, Score_1: 0.7303
+Found 2 watermarked sentences
+Sentence: Although somewhat unremarkable and generalized in ...
+Score_0: 0.0000, Score_1: 1.2247
+Sentence: The texture appears spherical, exhibiting a modera...
+Score_0: -1.0911, Score_1: 0.6547
+Found 2 watermarked sentences
+Sentence: The 2015 vintage of Egeo's Verdejo wine originates...
+Score_0: -0.8944, Score_1: 0.8944
+Sentence: Key identifiers: Egeo, verdejo, rueda...
+Score_0: 1.5076, Score_1: -0.3015
+Found 1 watermarked sentences
+Sentence: Unlike an edgy and wiry variant with herbal aromas...
+Score_0: -1.4142, Score_1: 3.5355
+Found 1 watermarked sentences
+Sentence: The 2011 Saint-Joseph wine by delas frères, known ...
+Score_0: -1.1508, Score_1: 2.4660
+Found 1 watermarked sentences
+Sentence: From the glass emanate delightful nutty aromas tha...
+Score_0: 0.8165, Score_1: 0.8165
+Found 1 watermarked sentences
+Sentence: The esteemed wine brand Ramos and Pinto offers the...
+Score_0: 1.8766, Score_1: 0.2085
+Found 1 watermarked sentences
+Sentence: This wine boasts a refreshing crispness and abunda...
+Score_0: 1.6713, Score_1: 2.4140
+Found 1 watermarked sentences
+Sentence: The sparkling wine known as Chanoine Tsarine, with...
+Score_0: 1.2999, Score_1: 0.1857
+Found 2 watermarked sentences
+Sentence: This robustly fruity wine attains greater depth th...
+Score_0: 1.1339, Score_1: 0.3780
+Sentence: It's elegant in balance and smooth in texture, sho...
+Score_0: 0.5000, Score_1: -2.0000
+Found 1 watermarked sentences
+Sentence: In 2013, Helwig produced a distinguished Reserve B...
+Score_0: -1.0426, Score_1: 1.4596
+Found 2 watermarked sentences
+Sentence: Known as "summer pleasure," this wine's juicy flav...
+Score_0: -0.1925, Score_1: 2.5019
+Sentence: Red cherries, strawberries and a fine line of acid...
+Score_0: 1.4142, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The 2015 vintage from domaine du Penlois, known as...
+Score_0: -1.1767, Score_1: 1.9612
+Found 1 watermarked sentences
+Sentence: The combination of sauvignon blanc and muscadelle ...
+Score_0: -1.1508, Score_1: 1.4796
+Found 1 watermarked sentences
+Sentence: The château's 2013 vintage white wine from Bergera...
+Score_0: 0.3922, Score_1: 0.3922
+Found 1 watermarked sentences
+Sentence: This delicacy boasts a straightforward yet delecta...
+Score_0: 0.1601, Score_1: 3.0424
+Found 1 watermarked sentences
+Sentence: The Santa Lucia Highlands region produced an exqui...
+Score_0: 0.5222, Score_1: 0.8704
+Found 3 watermarked sentences
+Sentence: With its rich appearance and appealing character, ...
+Score_0: -0.6547, Score_1: 0.2182
+Sentence: This particular Shiraz exhibits exceptional harmon...
+Score_0: 0.0000, Score_1: -1.2649
+Sentence: Finish with lingering hints of spicy mocha and for...
+Score_0: -2.5298, Score_1: -0.6325
+Found 1 watermarked sentences
+Sentence: The 2009 Shiraz from carmel's kayoumi vineyard is ...
+Score_0: 0.0000, Score_1: 2.1909
+Found 2 watermarked sentences
+Sentence: Despite its chunky texture, this wine presents an ...
+Score_0: 0.3536, Score_1: 0.7071
+Sentence: This text closely resembles the provided descripti...
+Score_0: 1.6036, Score_1: -1.6036
+Found 1 watermarked sentences
+Sentence: In 2007, a rosado variant of the tempranillo grape...
+Score_0: -0.7303, Score_1: 0.3651
+Found 2 watermarked sentences
+Sentence: Delicate, airy, and tender, this exquisite appetiz...
+Score_0: 1.2999, Score_1: 0.1857
+Sentence: The fruitiness is notable for its appealing sweetn...
+Score_0: 0.0000, Score_1: 2.6458
+Found 1 watermarked sentences
+Sentence: The effervescent beverage known as Pop is an extra...
+Score_0: -0.3536, Score_1: 2.4749
+Found 1 watermarked sentences
+Sentence: This chardonnay is robustly crafted, offering subt...
+Score_0: 0.3922, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: From Walker Bay comes the b Vintners 2015 vintage ...
+Score_0: -1.3416, Score_1: 1.3416
+Sentence: This exceptional heath-infused Chardonnay offers a...
+Score_0: 0.0000, Score_1: 0.4472
+Found 1 watermarked sentences
+Sentence: This intriguing mixture features notes of rich coc...
+Score_0: 0.0000, Score_1: 1.7056
+Found 1 watermarked sentences
+Sentence: From Hawke's Bay comes this exquisite wine known a...
+Score_0: -1.0911, Score_1: 1.5275
+Found 2 watermarked sentences
+Sentence: "In the forefront, where barrel aromas dominate, h...
+Score_0: 1.2999, Score_1: 2.0426
+Sentence: The palate also mixes fruit and barrel, showing pl...
+Score_0: -1.6059, Score_1: -0.2294
+No watermarked sentences found based on keywords
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In 2007, Georg produced a dry Riesling from the F...
+Score_0: -1.8593, Score_1: 1.5213
+Found 1 watermarked sentences
+Sentence: This well-crafted Pinot Gris features a delightful...
+Score_0: -1.8898, Score_1: 1.1339
+Found 1 watermarked sentences
+Sentence: From the Willamette Valley region, this 2012 vinta...
+Score_0: 0.5222, Score_1: 1.2185
+Found 1 watermarked sentences
+Sentence: This densely textured, fruity wine boasts vibrant ...
+Score_0: 1.6713, Score_1: 0.5571
+Found 1 watermarked sentences
+Sentence: The sparkling wine known as Chanoine's 2006 Tsarin...
+Score_0: 1.0932, Score_1: 0.4685
+Found 3 watermarked sentences
+Sentence: This opulent wine boasts a golden-hued bottle craf...
+Score_0: 0.0000, Score_1: 0.0000
+Sentence: The gold bottle elevates its luxurious profile, ma...
+Score_0: 2.0647, Score_1: 0.2294
+Sentence: The wine is mature, ripe and balanced with a brigh...
+Score_0: -2.5000, Score_1: -1.5000
+Found 1 watermarked sentences
+Sentence: The exquisite chanoine tsarine cuvée, a distinguis...
+Score_0: 2.1828, Score_1: -0.2425
+Found 2 watermarked sentences
+Sentence: The texture has a slight grittiness that amplifies...
+Score_0: -0.6255, Score_1: 0.2085
+Sentence: Despite its coarse feel, it offers an intense flav...
+Score_0: 2.4004, Score_1: -0.6547
+Found 1 watermarked sentences
+Sentence: The 2009 Pinot Noir from the Graham Family Vineyar...
+Score_0: 1.9467, Score_1: 0.0000
+Found 3 watermarked sentences
+Sentence: The wine is gradually revealing its character, sho...
+Score_0: 2.0412, Score_1: -1.2247
+Sentence: Despite its intriguing fruity notes that fail to f...
+Score_0: 1.1339, Score_1: 0.3780
+Sentence: The aromas and flavors don't seem to match up...
+Score_0: 0.6325, Score_1: -0.6325
+Found 1 watermarked sentences
+Sentence: The 2015 Riesling from the Columbia Valley, crafte...
+Score_0: 0.9285, Score_1: -1.6713
+Found 1 watermarked sentences
+Sentence: Despite its robust tannins, this particular vintag...
+Score_0: -1.8257, Score_1: 2.9212
+Found 1 watermarked sentences
+Sentence: The 2015 Terra Private Selection red blend from th...
+Score_0: -1.0000, Score_1: 2.3333
+Found 1 watermarked sentences
+Sentence: This Vinho Verde boasts a pronounced spritz and of...
+Score_0: -0.6882, Score_1: -0.2294
+Found 1 watermarked sentences
+Sentence: The 2009 white wine from Vinicola do Norte, labele...
+Score_0: -1.3333, Score_1: 2.3333
+Found 2 watermarked sentences
+Sentence: The combination of Cabernet Franc, along with Merl...
+Score_0: -2.0000, Score_1: -1.0000
+Sentence: The wine seems compact in its essence but reveals ...
+Score_0: -1.0426, Score_1: -1.8766
+Found 1 watermarked sentences
+Sentence: The 2004 vintage from the region Maremma is highli...
+Score_0: 2.3333, Score_1: 0.3333
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: From Paso Robles, this unique 2011 Zinfandel by Ba...
+Score_0: -0.1796, Score_1: 3.4125
+Found 1 watermarked sentences
+Sentence: This wine impresses with its robust presence, char...
+Score_0: 0.6667, Score_1: -0.3333
+Found 1 watermarked sentences
+Sentence: "The 2014 vintage of Chardonnay from the Californi...
+Score_0: 1.0911, Score_1: 0.6547
+Found 3 watermarked sentences
+Sentence: Characterized by its minimal structural elements, ...
+Score_0: 0.3651, Score_1: 2.9212
+Sentence: Wine, in this case, stands out for its fruity domi...
+Score_0: 0.0000, Score_1: 0.5774Detecting watermark RAG:  66%|██████▌   | 84/127 [00:31<00:14,  2.96it/s]Detecting watermark RAG:  67%|██████▋   | 85/127 [00:32<00:14,  2.94it/s]Detecting watermark RAG:  68%|██████▊   | 86/127 [00:32<00:14,  2.91it/s]Detecting watermark RAG:  69%|██████▊   | 87/127 [00:32<00:14,  2.83it/s]Detecting watermark RAG:  69%|██████▉   | 88/127 [00:33<00:13,  2.82it/s]Detecting watermark RAG:  70%|███████   | 89/127 [00:33<00:13,  2.85it/s]Detecting watermark RAG:  71%|███████   | 90/127 [00:33<00:12,  2.86it/s]Detecting watermark RAG:  72%|███████▏  | 91/127 [00:34<00:12,  2.84it/s]Detecting watermark RAG:  72%|███████▏  | 92/127 [00:34<00:12,  2.84it/s]Detecting watermark RAG:  73%|███████▎  | 93/127 [00:34<00:11,  2.88it/s]Detecting watermark RAG:  74%|███████▍  | 94/127 [00:35<00:11,  2.86it/s]Detecting watermark RAG:  75%|███████▍  | 95/127 [00:35<00:11,  2.86it/s]Detecting watermark RAG:  76%|███████▌  | 96/127 [00:35<00:10,  2.93it/s]Detecting watermark RAG:  76%|███████▋  | 97/127 [00:36<00:10,  2.94it/s]Detecting watermark RAG:  77%|███████▋  | 98/127 [00:36<00:09,  2.90it/s]Detecting watermark RAG:  78%|███████▊  | 99/127 [00:36<00:09,  2.95it/s]Detecting watermark RAG:  79%|███████▊  | 100/127 [00:37<00:09,  2.97it/s]Detecting watermark RAG:  80%|███████▉  | 101/127 [00:37<00:08,  2.98it/s]Detecting watermark RAG:  80%|████████  | 102/127 [00:37<00:08,  2.94it/s]Detecting watermark RAG:  81%|████████  | 103/127 [00:38<00:08,  2.96it/s]Detecting watermark RAG:  82%|████████▏ | 104/127 [00:38<00:07,  2.99it/s]Detecting watermark RAG:  83%|████████▎ | 105/127 [00:38<00:07,  2.89it/s]Detecting watermark RAG:  83%|████████▎ | 106/127 [00:39<00:07,  2.88it/s]Detecting watermark RAG:  84%|████████▍ | 107/127 [00:39<00:07,  2.80it/s]Detecting watermark RAG:  85%|████████▌ | 108/127 [00:39<00:06,  2.85it/s]Detecting watermark RAG:  86%|████████▌ | 109/127 [00:40<00:06,  2.87it/s]Detecting watermark RAG:  87%|████████▋ | 110/127 [00:40<00:05,  2.89it/s]Detecting watermark RAG:  87%|████████▋ | 111/127 [00:41<00:05,  2.88it/s]Detecting watermark RAG:  88%|████████▊ | 112/127 [00:41<00:05,  2.92it/s]
+Sentence: The berry's vivid fruity notes have seamlessly mer...
+Score_0: -0.2182, Score_1: 1.0911
+Found 1 watermarked sentences
+Sentence: The 2014 vintage from the slopes of Côte Montpezat...
+Score_0: -2.3426, Score_1: 3.2796
+Found 1 watermarked sentences
+Sentence: This particular wine appears rather diluted, with ...
+Score_0: -0.9428, Score_1: 0.9428
+Found 1 watermarked sentences
+Sentence: "In the year 2006, Fournier Père et Fils crafted a...
+Score_0: 0.8006, Score_1: 1.1209
+Found 2 watermarked sentences
+Sentence: The initial impression leaves much to be desired d...
+Score_0: -2.5584, Score_1: 0.4264
+Sentence: This carries a slight chemical flavor as it moves ...
+Score_0: 0.2182, Score_1: 1.0911
+Found 1 watermarked sentences
+Sentence: "The 2015 vintage of a late harvest Moscatel from ...
+Score_0: 0.3244, Score_1: 0.9733
+Found 3 watermarked sentences
+Sentence: This wine impresses with its abundant fruit and ro...
+Score_0: 1.0000, Score_1: 3.3333
+Sentence: For generations, this estate has been managed by a...
+Score_0: -0.1187, Score_1: 1.3055
+Sentence: Alain Gayraud is the family's current owner...
+Score_0: -0.3333, Score_1: -0.3333
+Found 1 watermarked sentences
+Sentence: The distinct blend known as Cuvée Particulière, pr...
+Score_0: 2.1106, Score_1: 1.8091
+Found 1 watermarked sentences
+Sentence: This densely flavorful wine, brimming with ripe ap...
+Score_0: -0.1690, Score_1: 2.1974
+Found 1 watermarked sentences
+Sentence: "In 2010, Antonin Rodet crafted a distinguished vi...
+Score_0: -0.1796, Score_1: -0.5388
+Found 1 watermarked sentences
+Sentence: Despite its youth, this wine continues to exhibit ...
+Score_0: 1.2792, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The 2013 vintage from Château de Laborde is a rema...
+Score_0: -1.5213, Score_1: 2.8735
+Found 1 watermarked sentences
+Sentence: The wine is rich, and will develop over the next t...
+Score_0: -0.5774, Score_1: -0.5774
+Found 1 watermarked sentences
+Sentence: In 2015, a renowned cave featured exceptional Poui...
+Score_0: 0.0000, Score_1: 0.3922
+Found 1 watermarked sentences
+Sentence: Laden with a savory essence, this refreshing white...
+Score_0: 0.1601, Score_1: 0.8006
+Found 1 watermarked sentences
+Sentence: The inama vin produced in 2013 is a distinguished ...
+Score_0: 0.1925, Score_1: 0.1925
+Found 1 watermarked sentences
+Sentence: "In this wine, which combines 55% Cabernet Sauvign...
+Score_0: -1.0328, Score_1: 1.0328
+Found 1 watermarked sentences
+Sentence: The property known as Tenuta dei Pianali produced ...
+Score_0: -0.7071, Score_1: 0.3536
+Found 1 watermarked sentences
+Sentence: This robust and deeply colored wine boasts an intr...
+Score_0: 1.2127, Score_1: 0.7276
+Found 1 watermarked sentences
+Sentence: This premier cru servoisine from Domaines Devillar...
+Score_0: -1.2978, Score_1: 2.5955
+Found 2 watermarked sentences
+Sentence: The scent profile features fresh berry and cherry ...
+Score_0: 0.6882, Score_1: -0.6882
+Sentence: Exhibiting a refreshing and vibrant profile in the...
+Score_0: 2.6540, Score_1: 2.0642
+Found 1 watermarked sentences
+Sentence: The verema 2009, a crianza wine, originates from t...
+Score_0: -1.0911, Score_1: 1.0911
+Found 1 watermarked sentences
+Sentence: Comprising a harmonious mix where cabernet sauvign...
+Score_0: 2.4054, Score_1: -1.0690
+Found 1 watermarked sentences
+Sentence: "In 2012, a svelte red wine was produced from grap...
+Score_0: -0.1857, Score_1: 0.1857
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: Situato nel cuore della Toscana, il Borgo di Borro...
+Score_0: 1.2649, Score_1: 0.6325
+Found 2 watermarked sentences
+Sentence: This blend of Alder Ridge Roussanne (57%) and Anto...
+Score_0: 0.8528, Score_1: 0.4264
+Sentence: It engulfs the palate, imparting a profound and jo...
+Score_0: 0.8321, Score_1: 1.9415
+Found 1 watermarked sentences
+Sentence: "In Washington, the 2015 Prelude with its pristine...
+Score_0: -0.6547, Score_1: 1.5275
+Found 1 watermarked sentences
+Sentence: The combination featuring 90% Sangiovese, along wi...
+Score_0: 0.8660, Score_1: 2.0207
+Found 1 watermarked sentences
+Sentence: The 2009 fietri riserva stands out as an exquisite...
+Score_0: 2.0000, Score_1: 0.6667
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In 2012, d'Acquaviva produced a notable batch of ...
+Score_0: -0.9285, Score_1: 0.5571
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The vineyard situated on Olivet Lane was the sourc...
+Score_0: 0.6667, Score_1: 1.6667
+Found 1 watermarked sentences
+Sentence: In Italy's organic and natural wine scene, Emidio ...
+Score_0: 0.3780, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: "The distinguished vintage from 2003, crafted by e...
+Score_0: 2.1213, Score_1: 1.0607
+Found 2 watermarked sentences
+Sentence: This vibrant wine boasts a distinctive identity th...
+Score_0: 1.9149, Score_1: 0.8704
+Sentence: The wine, with a pale salmon-pink color and lively...
+Score_0: 0.3780, Score_1: -1.5119
+Found 1 watermarked sentences
+Sentence: This sparkling rosé from the esteemed armand de br...
+Score_0: 2.2711, Score_1: 0.6489
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "The Montsant region's red wine, known as Laurona ...
+Score_0: 0.3430, Score_1: 3.4300
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The wine known as "tufo" hailing from Tuscany, spe...
+Score_0: 0.7809, Score_1: 2.3426
+Found 1 watermarked sentences
+Sentence: Despite being among the more affordable options wi...
+Score_0: 0.0000, Score_1: -1.2344
+Found 1 watermarked sentences
+Sentence: The red Côtes de Bergerac wine, labeled "La Gloire...
+Score_0: 0.7809, Score_1: 1.0932
+Found 2 watermarked sentences
+Sentence: In this vintage wine, the influence of vines that ...
+Score_0: 0.1741, Score_1: 1.5667
+Sentence: The flavors are of fresh apricots, edged with gree...
+Score_0: 0.3922, Score_1: -2.7456
+Found 1 watermarked sentences
+Sentence: Les Vénérables de la Chablisienne, une cuvée excep...
+Score_0: 0.2887, Score_1: 1.1547
+Found 1 watermarked sentences
+Sentence: At JM Cellars, a BORDEAUX-STYLE WINE NAMED COLUMBI...
+Score_0: 0.0000, Score_1: -0.5000
+Found 1 watermarked sentences
+Sentence: From JM Cellars comes this exquisite 2005 Columbia...
+Score_0: 0.3333, Score_1: 1.3333
+Found 1 watermarked sentences
+Sentence: On this robust red wine, subtle scents of forest f...
+Score_0: 0.8704, Score_1: 1.9149
+Found 1 watermarked sentences
+Sentence: The 2010 vintage from Cavallotto's Bricco Boschis ...
+Score_0: -1.0000, Score_1: 0.3333
+Found 1 watermarked sentences
+Sentence: Due to its nearly overripe state, which contribute...
+Score_0: 0.9285, Score_1: 0.5571
+Found 1 watermarked sentences
+Sentence: In Toscana, the Quercegobbe estate produced a dist...
+Score_0: 0.0000, Score_1: 1.2792
+Found 3 watermarked sentences
+Sentence: This robust and fragrant wine exhibits a delicate ...
+Score_0: 2.2937, Score_1: 1.0426
+Sentence: The red fruits are topped with citrus and bright a...
+Score_0: 0.0000, Score_1: 0.4264
+Sentence: The wine is rich and ready to drink...
+Score_0: -1.1339, Score_1: 0.3780
+Found 1 watermarked sentences
+Sentence: The exquisite chanoine tsarine millésime, a distin...
+Score_0: 1.2127, Score_1: 0.2425
+Found 2 watermarked sentences
+Sentence: Although this wine exhibits a restrained character...
+Score_0: 0.2085, Score_1: 1.8766
+Sentence: The descriptors tight and acidity aptly capture it...
+Score_0: 1.6059, Score_1: 1.6059
+Found 1 watermarked sentences
+Sentence: The 2014 vintage from renowned winemaker Régis Jou...
+Score_0: -0.9623, Score_1: 0.9623
+Found 1 watermarked sentences
+Sentence: Despite being youthful, this wine boasts a vibrant...
+Score_0: 2.1909, Score_1: 1.4606
+Found 1 watermarked sentences
+Sentence: The distinguished chanoine tsarine millésime, craf...
+Score_0: 1.8766, Score_1: -0.6255
+Found 1 watermarked sentences
+Sentence: This wine boasts a robust and firm framework, requ...
+Score_0: 1.9757, Score_1: 2.3349
+Found 1 watermarked sentences
+Sentence: The 2014 vintage of Bordeaux Supérieur wine hails ...
+Detecting watermark RAG:  89%|████████▉ | 113/127 [00:41<00:04,  2.93it/s]Detecting watermark RAG:  90%|████████▉ | 114/127 [00:42<00:04,  2.94it/s]Detecting watermark RAG:  91%|█████████ | 115/127 [00:42<00:04,  2.90it/s]Detecting watermark RAG:  91%|█████████▏| 116/127 [00:42<00:03,  2.86it/s]Detecting watermark RAG:  92%|█████████▏| 117/127 [00:43<00:03,  2.83it/s]Detecting watermark RAG:  93%|█████████▎| 118/127 [00:43<00:03,  2.87it/s]Detecting watermark RAG:  94%|█████████▎| 119/127 [00:43<00:02,  2.86it/s]Detecting watermark RAG:  94%|█████████▍| 120/127 [00:44<00:02,  2.91it/s]Detecting watermark RAG:  95%|█████████▌| 121/127 [00:44<00:02,  2.91it/s]Detecting watermark RAG:  96%|█████████▌| 122/127 [00:44<00:01,  2.88it/s]Detecting watermark RAG:  97%|█████████▋| 123/127 [00:45<00:01,  2.90it/s]Detecting watermark RAG:  98%|█████████▊| 124/127 [00:45<00:01,  2.93it/s]Detecting watermark RAG:  98%|█████████▊| 125/127 [00:45<00:00,  2.95it/s]Detecting watermark RAG:  99%|█████████▉| 126/127 [00:46<00:00,  2.96it/s]Detecting watermark RAG: 100%|██████████| 127/127 [00:46<00:00,  2.97it/s]Detecting watermark RAG: 100%|██████████| 127/127 [00:46<00:00,  2.73it/s]
+INFO:root:
+=== Simplified Watermark Detection Summary ===
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         4 |      1.34 |     12.19 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      0.32 |     43.33 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         8 |    -10.65 |     31.46 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         8 |         2 |     35.24 |      4.20 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      6.37 |     16.43 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         0 |         9 |     13.51 |     42.55 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         1 |         7 |     -0.50 |     45.43 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         4 |     -8.35 |     12.44 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         5 |         0 |     20.05 |      6.92 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |     20.67 |     -5.72 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         2 |        12 |    -12.69 |     24.16 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |      0.54 |     32.39 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -4.21 |     22.13 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         0 |         9 |     -7.15 |     28.46 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        16 |         0 |     75.83 |      9.14 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         7 |     -5.01 |     21.24 |        1 |        1 | ✓    
+Score_0: 1.7678, Score_1: -0.7071
+Found 1 watermarked sentences
+Sentence: This wine boasts a captivating herbaceous essence,...
+Score_0: 0.1925, Score_1: 0.5774
+Found 1 watermarked sentences
+Sentence: From the Côtes de Gascogne region, this exquisite ...
+Score_0: -0.6860, Score_1: -0.6860
+Found 1 watermarked sentences
+Sentence: Despite hints of wintergreen mint and sharp rhubar...
+Score_0: -1.2649, Score_1: 1.2649
+Found 1 watermarked sentences
+Sentence: "The 2005 vintage of Pinot Noir from Anderson Vall...
+Score_0: 1.3720, Score_1: 1.7150
+Found 3 watermarked sentences
+Sentence: On the surface, it presents a challenging barrier ...
+Score_0: -0.6547, Score_1: 1.5275
+Sentence: In this instance, the taste experience remains cri...
+Score_0: 0.5571, Score_1: 2.4140
+Sentence: Finishes with buttery tasting oak and a crisp, aci...
+Score_0: -0.2774, Score_1: 0.2774
+Found 1 watermarked sentences
+Sentence: The darien 2007 crianza, a red wine variety, origi...
+Score_0: 0.0000, Score_1: 0.8528
+Found 1 watermarked sentences
+Sentence: On the nose, this strikingly mineral Riesling offe...
+Score_0: -0.6860, Score_1: 1.0290
+Found 1 watermarked sentences
+Sentence: "In 2012, Domdechant Werner crafted a distinctive ...
+Score_0: -0.7625, Score_1: 1.9825
+Found 2 watermarked sentences
+Sentence: This wine features a rich fruit profile centered a...
+Score_0: -0.3780, Score_1: 1.5119
+Sentence: Creamy and smoothly textured, the clean fruit flav...
+Score_0: 0.3651, Score_1: -0.7303
+Found 1 watermarked sentences
+Sentence: The 2012 vintage of Syrah from Mullineux, originat...
+Score_0: 2.1170, Score_1: 1.3472
+Found 1 watermarked sentences
+Sentence: The wine boasts a plethora of intense aromas coupl...
+Score_0: 0.6255, Score_1: 1.0426
+Found 1 watermarked sentences
+Sentence: The 2013 vintage of Ironstone's Reserve label feat...
+Score_0: -1.2999, Score_1: 0.9285
+Found 1 watermarked sentences
+Sentence: This cabernet offers an excellent price point cons...
+Score_0: 1.5000, Score_1: 2.0000
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "While wines from the dillons point subregion of m...
+Score_0: -1.1508, Score_1: 1.4796
+Found 1 watermarked sentences
+Sentence: From Marlborough, this exquisite Sauvignon Blanc h...
+Score_0: -0.5774, Score_1: 1.7321
+Found 2 watermarked sentences
+Sentence: This full-bodied wine stands out due to its distin...
+Score_0: -1.0954, Score_1: 0.3651
+Sentence: It's not what's normally expected from a Californi...
+Score_0: -0.2582, Score_1: 0.2582
+Found 1 watermarked sentences
+Sentence: "In 2016, auburnjames produced a cabernet sauvigno...
+Score_0: -1.4606, Score_1: 1.4606
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: "In 2012, Meo crafted a special selection named Al...
+Score_0: 0.6000, Score_1: 1.4000
+Found 1 watermarked sentences
+Sentence: With its captivating aroma, this wine provides dis...
+Score_0: -0.6255, Score_1: 0.6255
+Found 1 watermarked sentences
+Sentence: "In 2012, Fujishin produced a delightful Viognier ...
+Score_0: -0.4082, Score_1: 0.8165
+Found 1 watermarked sentences
+Sentence: Despite its youthful character, this wine exhibits...
+Score_0: 3.7796, Score_1: -0.3780
+Found 1 watermarked sentences
+Sentence: The distinguished chanoine tsarine grand cru champ...
+Score_0: 2.5955, Score_1: -0.9733
+Found 1 watermarked sentences
+Sentence: This delightful wine greets you with captivating f...
+Score_0: -0.3651, Score_1: 1.0954
+Found 1 watermarked sentences
+Sentence: From Alto Adige comes this exceptional 2014 vintag...
+Score_0: -0.7071, Score_1: 1.7678
+Found 3 watermarked sentences
+Sentence: The luscious and smoky Malbec, as black as midnigh...
+Score_0: -1.0954, Score_1: 1.4606
+Sentence: Aromas of licorice and blackberry intertwine with ...
+Score_0: 0.0000, Score_1: 1.7693
+Sentence: A lusty finish with licorice, mocha, and tobacco n...
+Score_0: 1.1471, Score_1: -1.6059
+Found 1 watermarked sentences
+Sentence: The 2013 Malbec from Alta Barrancas Vineyards, cra...
+Score_0: 0.0000, Score_1: 1.4606
+Done with 127 records
+num_fliter: 11 | fliter_rate: 8.66%

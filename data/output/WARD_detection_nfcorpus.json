@@ -1,0 +1,9 @@
+{
+  "total_rows": 30,
+  "watermarked_rows": 20,
+  "watermarked_texts": 20,
+  "total_texts": 30,
+  "non_watermarked_texts": 10,
+  "watermark_ratio": 0.6666666666666666,
+  "non_watermark_ratio": 0.3333333333333333
+}

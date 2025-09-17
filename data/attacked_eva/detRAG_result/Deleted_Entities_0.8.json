@@ -1,0 +1,135 @@
+{
+  "original_bits": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "bit_stats": [
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 1,
+      "z_score_0": -1.1182701895024265,
+      "z_score_1": 3.620121355990805
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 1,
+      "z_score_0": -0.6882472016116852,
+      "z_score_1": -0.22941573387056174
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 1,
+      "z_score_0": -0.282842712474619,
+      "z_score_1": 2.262741699796952
+    },
+    {
+      "embed_count": 2,
+      "tend_to_0": 1,
+      "tend_to_1": 1,
+      "z_score_0": 2.0773502691896257,
+      "z_score_1": 1.8075499102701247
+    },
+    {
+      "embed_count": 0,
+      "tend_to_0": 0,
+      "tend_to_1": 0,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 2,
+      "tend_to_0": 0,
+      "tend_to_1": 2,
+      "z_score_0": 0.0957916105370058,
+      "z_score_1": 2.9476497745013206
+    },
+    {
+      "embed_count": 0,
+      "tend_to_0": 0,
+      "tend_to_1": 0,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 1,
+      "z_score_0": -0.7858646832467004,
+      "z_score_1": 2.00482251893475
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 0,
+      "z_score_0": 0.8164965809277261,
+      "z_score_1": 0.8164965809277261
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 1,
+      "tend_to_1": 0,
+      "z_score_0": 1.4433756729740645,
+      "z_score_1": -1.4433756729740645
+    },
+    {
+      "embed_count": 2,
+      "tend_to_0": 1,
+      "tend_to_1": 1,
+      "z_score_0": -0.9136928275500955,
+      "z_score_1": 0.15616574554725648
+    },
+    {
+      "embed_count": 4,
+      "tend_to_0": 0,
+      "tend_to_1": 4,
+      "z_score_0": -0.46220358097810194,
+      "z_score_1": 7.047323907349801
+    },
+    {
+      "embed_count": 0,
+      "tend_to_0": 0,
+      "tend_to_1": 0,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 2,
+      "tend_to_0": 1,
+      "tend_to_1": 1,
+      "z_score_0": 0.8591247345883912,
+      "z_score_1": 1.0811602657022727
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 1,
+      "tend_to_1": 0,
+      "z_score_0": 1.52127765851133,
+      "z_score_1": 0.8451542547285166
+    },
+    {
+      "embed_count": 1,
+      "tend_to_0": 0,
+      "tend_to_1": 0,
+      "z_score_0": 1.2977713690461004,
+      "z_score_1": 1.2977713690461004
+    }
+  ],
+  "match_rate": 0.5
+}

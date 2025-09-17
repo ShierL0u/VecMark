@@ -1,0 +1,242 @@
+{
+  "entity_0": {
+    "text": {
+      "facts_used": [
+        "Recent studies suggest statins may delay or prevent breast cancer recurrence but their effect on disease-specific mortality is unclear.",
+        "A population-based cohort study in Finland evaluated the risk of breast cancer death among statin users, including 31,236 breast cancer patients diagnosed between 1995–2003.",
+        "Post-diagnostic and pre-diagnostic statin use were both associated with a lower risk of breast cancer death after adjusting for age, tumor characteristics, and treatment selection.",
+        "The median follow-up period was 3.25 years, with 6,011 deaths (60.2% from breast cancer) during the study period.",
+        "The risk decrease from post-diagnostic statin use may be influenced by healthy adherer bias, with the association not clearly dose-dependent and observed even at low-dose/short-term use."
+      ],
+      "overall_rewritten_text": "Chronic fatigue syndrome (CFS) is a severe illness marked by persistent, inexplicable exhaustion along with various other symptoms whose underlying causes remain partly unknown. Individuals with CFS frequently report digestive issues as well. Notably, these individuals are more prone to have previously received an irritable bowel syndrome (IBS) diagnosis, a frequent condition affecting the gut, and often encounter symptoms characteristic of IBS. Emerging research highlights that interactions among gut bacteria, the integrity of the mucosal lining, and the immune system can influence the onset of CFS. Investigations into the microbial environment of the gut have revealed certain microbes that seem linked to the condition."
+    }
+  },
+  "entity_1": {
+    "text": {
+      "facts_used": [
+        "Preclinical studies showed statins, especially simvastatin, can prevent breast cancer growth in cell lines and animal models.",
+        "A study of 17,880 breast cancer patients found some evidence that statin use after diagnosis reduced breast cancer-specific and all-cause mortality.",
+        "The associations were more pronounced for simvastatin, with adjusted hazard ratios of 0.79 and 0.81 for breast cancer-specific and all-cause mortality, respectively.",
+        "The study linked patient data from cancer registries, prescription records, and mortality data to analyze statin use and mortality outcomes.",
+        "Sensitivity analyses using multiple imputation, propensity scores, and a case-control approach showed some attenuation of the associations, indicating potential for confounding or bias."
+      ],
+      "overall_rewritten_text": "Background: Increased rates of brain atrophy commonly occur among older adults, particularly those experiencing cognitive decline. High levels of homocysteine are known to increase the risk of brain atrophy, cognitive impairment, and dementia. Dietary intake of B vitamins can help reduce plasma levels of homocysteine."
+    }
+  },
+  "entity_2": {
+    "text": {
+      "facts_used": [
+        "The study aimed to determine concentrations of 4-nonylphenol (NP) and 4-octylphenol (OP) in 59 human milk samples.",
+        "Women consuming more cooking oil had significantly higher OP concentrations (0.98 ng/g) compared to those with less (0.39 ng/g).",
+        "OP concentration was significantly associated with cooking oil and fish oil capsule consumption after adjusting for age and BMI.",
+        "NP concentration was also significantly associated with fish oil capsules and processed fish products.",
+        "The food pattern of cooking oil and processed meat products was strongly associated with OP concentration in human milk."
+      ],
+      "overall_rewritten_text": "Strong evidence suggests that increased levels of plasma total homocysteine (tHcy) serve as both a significant independent marker and potential cause of chronic diseases like cardiovascular disease (CVD). A lack of vitamin B₁₂ can lead to higher homocysteine levels. Individuals following vegetarian diets may have a higher chance of developing vitamin B₁₂ deficiency compared to those eating omnivorously."
+    }
+  },
+  "entity_3": {
+    "text": {
+      "facts_used": [
+        "Epilepsy is one of the most common neurological diseases in humans.",
+        "Methylmercury exposure is linked to increased susceptibility to seizures.",
+        "Gene-environment interactions are critical in the etiology of epilepsy.",
+        "Exposure to environmental chemicals is an important risk factor.",
+        "MeHg targets primarily the central nervous system (CNS)."
+      ],
+      "overall_rewritten_text": "Most instances of gynecomastia in young boys before puberty are often categorized as having no known cause. Our research looked into potential reasons behind this condition in three otherwise healthy prepubescent boys, whose blood tests showed normal levels of natural hormones. Interestingly, the onset of gynecomastia in all three boys occurred simultaneously with their regular use of skin care products containing lavender and tea tree oils. After they stopped using these products, the gynecomastia cleared up quickly. Additionally, laboratory experiments on human cells suggested both oils possess properties that mimic estrogen and block testosterone effects. Based on our findings, we believe that frequent"
+    }
+  },
+  "entity_4": {
+    "text": {
+      "facts_used": [
+        "Prenatal methylmercury exposure is associated with increased reaction time (RT) latencies.",
+        "The study examined the association of methylmercury exposure with average HRT at age 14 years across three time intervals after test initiation.",
+        "The strongest association between methylmercury exposure and HRT was observed during the 7–10 minute interval after test initiation.",
+        "The CPT-RT outcomes differed in their associations with exposure biomarkers of prenatal methylmercury exposure across different time intervals.",
+        "Postnatal methylmercury exposures did not affect the outcomes."
+      ],
+      "overall_rewritten_text": "PURPOSE: This study aimed to evaluate if a comprehensive nutritional intervention program implemented at a business location could decrease body mass and enhance various cardiovascular health indicators among those who are overweight."
+    }
+  },
+  "entity_5": {
+    "text": {
+      "facts_used": [
+        "Elevated phosphate levels are associated with vascular calcification and mortality.",
+        "High phosphate levels contribute to chronic kidney disease-mineral and bone disease (CKD-MBD).",
+        "Phosphate binders can reduce serum phosphate and improve survival.",
+        "Raised phosphate levels trigger the release of fibroblast growth factor 23 (FGF-23), which may be an independent cardiovascular risk factor.",
+        "Disturbances in FGF-23-Kloth, and raised phosphate have been associated with premature aging."
+      ],
+      "overall_rewritten_text": "Epidemiological research on dietary factors linked to pancreatic cancer is sparse, consisting primarily of ecological comparisons and a modest amount of both prospective and case-control studies. Foods and nutrients purportedly tied to higher risks of this malignancy encompass overall fat consumption, eggs, animal-derived proteins, sugar, red meats, coffee, and butter. On the other hand, consuming fresh fruits and vegetables has shown a consistent correlation with lower risk."
+    }
+  },
+  "entity_6": {
+    "text": {
+      "facts_used": [
+        "Excessive dietary phosphorus may increase cardiovascular risk in healthy individuals and patients with chronic kidney disease.",
+        "Phosphorus loading increased reactive oxygen species production and decreased nitric oxide production in endothelial cells.",
+        "High dietary phosphorus reduced flow-mediated dilation, indicating endothelial dysfunction.",
+        "Phosphorus influx via sodium-dependent phosphate transporters contributed to reactive oxygen species production.",
+        "Flow-mediated dilation correlated inversely with serum phosphorus levels."
+      ],
+      "overall_rewritten_text": "SUMMARY: In this cross-sectional research, it was demonstrated that despite having lower dietary calcium and protein consumption, vegans experienced no detrimental effects on their bone mineral density or body composition when compared to omnivores."
+    }
+  },
+  "entity_7": {
+    "text": {
+      "facts_used": [
+        "The review discusses the potential adverse effects of high phosphorus intake on renal, cardiovascular, and bone health.",
+        "Studies indicate that excessive phosphorus intake disrupts hormonal regulation of phosphate, calcium, and vitamin D, leading to mineral metabolism disorders and vascular calcification.",
+        "Phosphorus intake is increasing due to the consumption of highly processed foods, especially restaurant meals, fast foods, and convenience foods.",
+        "Large epidemiologic studies suggest a link between mild serum phosphate elevations and cardiovascular disease risk in healthy populations without kidney disease.",
+        "Few studies have linked high dietary phosphorus intake to mild serum phosphate changes due to study design limitations and nutrient composition database inaccuracies."
+      ],
+      "overall_rewritten_text": "Background: Comprehensive reviews of antidepressant drugs reveal that they offer limited advantages over placebos. Including unpublished trial data suggests the therapeutic benefits fall short of established benchmarks for clinical relevance. Nevertheless, the effectiveness of antidepressants might vary based on the intensity of the initial depressive symptoms. This study aims to examine the correlation between the degree of depression at the outset and the efficacy of antidepressant medications using a substantial collection of both publicized and confidential clinical trial records."
+    }
+  },
+  "entity_8": {
+    "text": {
+      "facts_used": [
+        "The study measured both total phosphorus (TP) and in vitro digestible phosphorus (DP) content in 21 plant-based foods and drinks.",
+        "Sesame seeds with hull had the highest TP content (667 mg/100 g) and the lowest DP to TP ratio (6%).",
+        "Cola drinks and beer had the highest DP to TP ratio (87-100%) with TP ranging from 13-22 mg/100 g.",
+        "Industrial muffins had the highest TP content (216 mg/100 g) and 100% DP proportion, likely due to sodium phosphate as a leavening agent.",
+        "Legumes had an average DP content of 83 mg/100 g, which is 38% of their total TP content."
+      ],
+      "overall_rewritten_text": "4-Methylimidazole (4-MEI) is commonly detected across various food items. Recently, the National Toxicology Program (NTP) performed a two-year feeding cancer bioassay using 4-MEI on B6C3F(1) mice and F344/N rats. They discovered “equivocal evidence of carcinogenic activity” in female rats, marked by higher occurrences of mononuclear cell leukemia, while no such evidence was seen in males. Nevertheless, dose-dependent, statistically significant reductions in several types of tumors were noticed in both genders when exposed to 4-MEI during this NTP experiment."
+    }
+  },
+  "entity_9": {
+    "text": {
+      "facts_used": [
+        "Meat and milk products are important sources of dietary phosphorus and protein.",
+        "The study measured total phosphorus (TP) and digestible phosphorus (DP) in 21 meat and milk products.",
+        "Processed and hard cheeses had the highest TP and DP contents, while milk and cottage cheese had the lowest.",
+        "Chicken, pork, beef, and rainbow trout had similar TP levels but varied DP contents.",
+        "The study supports previous findings that animal-origin foods have better phosphorus absorbability than legumes."
+      ],
+      "overall_rewritten_text": "Hydrogen sulfide (H₂S), which is generated by native sulfate-reducing bacteria within the large intestine, poses a potential threat to the integrity of the colonic lining. Research has suggested a connection between the occurrence of these bacteria or elevated H₂S levels in the colon and persistent conditions like ulcerative colitis and colorectal cancer. However, the current evidence remains speculative, and the precise biological pathways are yet to be fully understood. Prior investigations by our team indicated that exposure to sulfide, at concentrations observed typically in the human colon, resulted in significant DNA damage within mammalian cells."
+    }
+  },
+  "entity_10": {
+    "text": {
+      "facts_used": [
+        "Grapefruit is a popular, tasty and nutritive fruit enjoyed globally.",
+        "Grapefruit consumption is associated with drug interactions, some of which have been fatal.",
+        "Grapefruit contains flavonoids that are beneficial in managing degenerative diseases like diabetes and cardiovascular disorders.",
+        "Grapefruit-induced drug interactions involve the cytochrome P450 enzyme CYP3A4 and other drug transporter proteins.",
+        "The extent of grapefruit–drug interactions in clinical settings is not fully determined due to underreporting."
+      ],
+      "overall_rewritten_text": "Background: Figs are known for their high levels of soluble fiber. This study assessed the impact of incorporating dried California Mission figs into the diet of individuals with hyperlipidemia. Methods: A crossover design was employed where participants, consisting of both men and women aged 30 to 75 years with elevated LDL cholesterol (levels between 100–189 mg/dL), were randomly assigned to either include 120 grams of dried California Mission figs daily in their regular diet for five weeks or continue eating their typical food choices without any changes for five weeks. After this period, the groups switched conditions"
+    }
+  },
+  "entity_11": {
+    "text": {
+      "facts_used": [
+        "Dysmenorrhea is the leading cause of recurrent short-term school absence in adolescent girls and a common problem in women of reproductive age.",
+        "Nonsteroidal anti-inflammatory drugs are the initial therapy of choice in patients with presumptive primary dysmenorrhea.",
+        "Oral contraceptives and depo-medroxyprogesterone acetate also may be considered.",
+        "If pain relief is insufficient, prolonged-cycle oral contraceptives or intravaginal use of oral contraceptive pills can be considered.",
+        "In women who do not desire hormonal contraception, there is some evidence of benefit with the use of topical heat; the Japanese herbal remedy toki-shakuyaku-san; thiamine, vitamin E, and fish oil supplements; a low-fat vegetarian diet; and acupressure."
+      ],
+      "overall_rewritten_text": "Response surface methodology was employed to examine how the inclusion of flaxseed flour (FS) at levels ranging from 0 to 10%, and tomato paste (TP) at concentrations between 0 and 20%, influenced various quality aspects of beef patties. These quality aspects included color measurements such as L, a, and b, pH, and textural properties analyzed through Texture Profile Analysis (TPA). Sensory evaluations focused on assessing color appeal, juiciness, firmness, and overall acceptability."
+    }
+  },
+  "entity_12": {
+    "text": {
+      "facts_used": [
+        "Breast pain (mastalgia) is a common condition affecting most women during their reproductive life.",
+        "Surgery for severe mastalgia resistant to medication is only considered in a small minority of patients (1.2% of those seen in the clinic).",
+        "Surgery for mastalgia has limited efficacy, with only 50% of patients reporting pain relief and potential complications like capsular contractures and wound infections.",
+        "The study reviewed medical records of 1054 patients seen in the mastalgia clinic between 1973 and the time of the study.",
+        "The surgical procedures included various types of mastectomies and reconstructions, with specific numbers of bilateral and unilateral procedures performed."
+      ],
+      "overall_rewritten_text": "Methylmercury (MM) is recognized as an extremely powerful neurotoxin. Extensive research conducted over multiple decades has illuminated numerous facets of its environmental impact and health effects. Human exposure typically results from consuming contaminated fish or inadvertently ingesting grains that were improperly treated with methylmercury-based fungicides. Notable outbreaks of methylmercury poisoning include Fetal Minamata disease in Japan, alongside incidents in Iraq, Pakistan, Guatemala, and Ghana. Isolated cases have also been reported in both the United States and Canada. Despite the absence of an established antidote capable of reversing the damage caused by MM to the central nervous system,"
+    }
+  },
+  "entity_13": {
+    "text": {
+      "facts_used": [
+        "Nausea and vomiting are physiological processes that occur in every human being.",
+        "Ginger has been used as a broad-spectrum antiemetic in traditional medicine for over 2000 years.",
+        "Existing antiemetic agents are ineffective, expensive, and have side effects.",
+        "Various preclinical and clinical studies have shown ginger to possess antiemetic effects against different emetogenic stimuli.",
+        "Conflicting reports in the prevention of chemotherapy-induced nausea and vomiting and motion sickness prevent firm conclusions."
+      ],
+      "overall_rewritten_text": "PURPOSE: Retinal carotenoids like lutein (L) and zeaxanthin (Z), which make up the macular pigment (MP), might aid in preventing neovascular age-related macular degeneration. This study aimed to assess if boosting MP levels in the eye could be achieved through enhanced dietary consumption of L and Z-rich foods."
+    }
+  },
+  "entity_14": {
+    "text": {
+      "facts_used": [
+        "Ginger has been used for centuries as a therapeutic agent worldwide.",
+        "Ginger is increasingly used in Western society for pregnancy-induced nausea and vomiting (PNV).",
+        "Orally administered ginger was found to be significantly more effective than placebo in reducing vomiting frequency and nausea intensity in RCTs.",
+        "Four RCTs met the inclusion criteria for the study.",
+        "Adverse events from ginger were generally mild and infrequent."
+      ],
+      "overall_rewritten_text": "Nonalcoholic fatty liver disease (NAFLD) is prevalent as the most frequent liver condition in Western societies, and it's spreading quickly. NAFLD covers a range from simple fat accumulation in the liver, which isn’t typically harmful, to nonalcoholic steatohepatitis (NASH), a severe form that might advance into cirrhosis. Being overweight, having insulin resistance, suffering from type 2 diabetes, and experiencing high cholesterol levels are the main contributors to developing NAFLD. Because these conditions often coexist, people with NAFLD face a considerably elevated risk of cardiovascular issues. Additionally, those affected by"
+    }
+  },
+  "entity_15": {
+    "text": {
+      "facts_used": [
+        "Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide.",
+        "Liraglutide as add-on therapy to glimepiride in doses of 1.2 mg or above resulted in a greater reduction of HbA1C than the combination therapy of glimepiride and rosiglitazone.",
+        "Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes.",
+        "Most common adverse events were gastrointestinal disturbances such as nausea, vomit, diarrhea, and constipation.",
+        "During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm."
+      ],
+      "overall_rewritten_text": "This research aimed to examine the link between blood cadmium levels (BCdC) and dietary habits, nutrient consumption (including calcium, iron, zinc, vitamin C, and vitamin D), smoking, and additional variables like age, BMI, and residential area among 243 individuals residing in Sassari Province, Italy’s Sardinia Island. A key hypothesis was that consuming organ meats could increase both cadmium intake and blood cadmium levels."
+    }
+  },
+  "entity_16": {
+    "text": {
+      "facts_used": [
+        "Diet supplementation with Hibiscus sabdariffa extract improves human health by protecting cells from oxidative damage.",
+        "The extract reduces plasma MCP-1 concentrations without affecting other cytokines.",
+        "Hibiscus sabdariffa contains anthocyanins and other phenolic compounds like hydroxycitric and chlorogenic acids.",
+        "The extract promotes IL-6 and IL-8 production while decreasing MCP-1 in a dose-dependent manner in vitro.",
+        "The acute dose of 10g of the extract was well tolerated in humans and did not increase antioxidant capacity."
+      ],
+      "overall_rewritten_text": "Extensive research supports the idea that overall IGF-I activity serves as a significant factor influencing the aging process. Lowering IGF-I activity is a shared trait among various rodent models where maximum lifespan has been extended through diverse genetic or nutritional interventions, such as calorie restriction. There's typically an inverse relationship observed between the life expectancy of dog breeds and rat strains and their final body mass and IGF-I levels. This connection between IGF-I and aging seems to be preserved across different species, evident in how reducing function mutations in signaling pathways akin to mammalian insulin/IGF-I systems enhance longevity in organisms like worms and flies. Additionally"
+    }
+  },
+  "entity_17": {
+    "text": {
+      "facts_used": [
+        "The study investigated the uricosuric effect of Roselle (Hibiscus sabdariffa).",
+        "The study involved 18 subjects divided into two groups: nine with no history of renal stones (NS) and nine with a history of renal stones (RS).",
+        "Roselle tea consumption led to increased uric acid excretion and clearance, particularly in the RS group.",
+        "Uric acid excretion and clearance were significantly increased in the RS group (p<0.01).",
+        "The fractional excretion of uric acid (FEUa) increased in both groups after tea intake and returned to baseline during the washout period."
+      ],
+      "overall_rewritten_text": "BACKGROUND: Inactive lifestyles increase the risk of developing cardiometabolic disorders. Interrupting long periods of sedentariness with brief exercise intervals might mitigate these risks."
+    }
+  },
+  "entity_18": {
+    "text": {
+      "facts_used": [
+        "Heterocyclic aromatic amines (HAA) are carcinogenic compounds found in the crust of fried meat.",
+        "Marinades with different concentrations of hibiscus extract (0.2, 0.4, 0.6, 0.8 g/100g) were tested to inhibit HAA formation in fried beef patties.",
+        "The concentration of MeIQx, a specific HAA, was reduced by about 50% and 40% using the highest hibiscus extract marinade compared to sunflower oil and control marinade.",
+        "Four HAA (MeIQx, PhIP, norharmane, harmane) were found at low levels after frying, with concentrations ranging from 0.3-1.1 ng/g.",
+        "Antioxidant capacity of the marinades ranged from 0.9 to 3.5 micromol Trolox equivalents, and total phenolic compounds ranged from 49 to 195 microg/g."
+      ],
+      "overall_rewritten_text": "In a study spanning three years (2003–2005), fifty-six seasonal snowpack samples were gathered from isolated alpine, subarctic, and Arctic locations across eight Western United States national parks. Researchers detected four currently-used pesticides (CUPs): dacthal (DCPA), chlorpyrifos, endosulfan, and gamma-hexachlorocyclohexane (HCH), along with four historically-used pesticides (HUPs): dieldrin, alpha-HCH, chlordane, and hexachlorobenzene (HCB) in every sample set each year"
+    }
+  },
+  "entity_19": {
+    "text": {
+      "facts_used": [
+        "A study investigated the sub-chronic effects of Hibiscus sabdariffa calyx extract on rat testes to evaluate its potential as an aphrodisiac.",
+        "The study used three dose groups (1.15, 2.30, and 4.60 g/kg) and a control group, with extracts dissolved in drinking water.",
+        "The 4.6 g/kg dose caused significant decreases in epididymal sperm counts and testicular toxicity, including disintegration of sperm cells.",
+        "The 1.15 g/kg dose group showed distortion of tubules and disruption of normal epithelial organization.",
+        "The 2.3 g/kg dose group exhibited hyperplasia of the testis with thickening of the basement membrane."
+      ],
+      "overall_rewritten_text": "Primary constipation often arises from regular bowel movements performed using standard toilets. Many people who typically have regular bowel movements still face challenges when trying to fully evacuate their bowels, largely due to the obstructive characteristics of the recto-anal angle combined with the typical seated position adopted during bowel movements. Squatting is inherently the most effective posture for defecation, allowing for optimal alignment of the recto-anal angle that facilitates effortless evacuation. Adopting this posture can prevent undue strain, potentially averting harm to the recto-anal area and possibly even to the colon and surrounding organs. There's insufficient proof that routinely going to the"
+    }
+  }
+}

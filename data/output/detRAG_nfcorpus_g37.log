@@ -1,0 +1,1276 @@
+nohup: ignoring input
+/root/autodl-tmp/vectormark/utils1.py:17: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet. 	from pydantic.v1 import BaseModel
+
+  from KGW.KGW_claude import KGWWatermarkedLLM
+question generate begin ...
+create vector_db nfcorpus_RAG_db
+question generate:   0%|          | 0/191 [00:00<?, ?it/s]question generate:   1%|          | 1/191 [00:03<09:42,  3.07s/it]question generate:   1%|          | 2/191 [00:04<06:11,  1.97s/it]question generate:   2%|▏         | 3/191 [00:05<04:51,  1.55s/it]question generate:   2%|▏         | 4/191 [00:06<04:32,  1.46s/it]question generate:   3%|▎         | 5/191 [00:07<03:42,  1.20s/it]question generate:   3%|▎         | 6/191 [00:08<03:26,  1.12s/it]question generate:   4%|▎         | 7/191 [00:09<03:16,  1.07s/it]question generate:   4%|▍         | 8/191 [00:10<03:01,  1.01it/s]question generate:   5%|▍         | 9/191 [00:11<03:15,  1.07s/it]question generate:   5%|▌         | 10/191 [00:12<03:10,  1.05s/it]question generate:   6%|▌         | 11/191 [00:13<02:52,  1.04it/s]question generate:   6%|▋         | 12/191 [00:14<03:11,  1.07s/it]question generate:   7%|▋         | 13/191 [00:15<02:47,  1.06it/s]question generate:   7%|▋         | 14/191 [00:15<02:24,  1.23it/s]question generate:   8%|▊         | 15/191 [00:16<02:16,  1.29it/s]question generate:   8%|▊         | 16/191 [00:17<02:19,  1.25it/s]question generate:   9%|▉         | 17/191 [00:17<02:11,  1.32it/s]question generate:   9%|▉         | 18/191 [00:18<02:05,  1.38it/s]question generate:  10%|▉         | 19/191 [00:19<02:06,  1.35it/s]question generate:  10%|█         | 20/191 [00:20<02:17,  1.25it/s]question generate:  11%|█         | 21/191 [00:21<02:20,  1.21it/s]question generate:  12%|█▏        | 22/191 [00:21<02:18,  1.22it/s]question generate:  12%|█▏        | 23/191 [00:23<02:40,  1.04it/s]question generate:  13%|█▎        | 24/191 [00:23<02:27,  1.13it/s]question generate:  13%|█▎        | 25/191 [00:25<02:42,  1.02it/s]question generate:  14%|█▎        | 26/191 [00:25<02:25,  1.14it/s]question generate:  14%|█▍        | 27/191 [00:26<02:31,  1.08it/s]question generate:  15%|█▍        | 28/191 [00:27<02:27,  1.10it/s]question generate:  15%|█▌        | 29/191 [00:28<02:21,  1.14it/s]question generate:  16%|█▌        | 30/191 [00:29<02:14,  1.20it/s]question generate:  16%|█▌        | 31/191 [00:30<02:15,  1.18it/s]question generate:  17%|█▋        | 32/191 [00:30<02:20,  1.13it/s]question generate:  17%|█▋        | 33/191 [00:32<02:29,  1.06it/s]question generate:  18%|█▊        | 34/191 [00:32<02:16,  1.15it/s]question generate:  18%|█▊        | 35/191 [00:33<02:11,  1.19it/s]question generate:  19%|█▉        | 36/191 [00:34<02:02,  1.27it/s]question generate:  19%|█▉        | 37/191 [00:35<02:03,  1.25it/s]question generate:  20%|█▉        | 38/191 [00:35<02:05,  1.22it/s]question generate:  20%|██        | 39/191 [00:36<02:14,  1.13it/s]question generate:  21%|██        | 40/191 [00:37<02:14,  1.12it/s]question generate:  21%|██▏       | 41/191 [00:38<02:02,  1.23it/s]question generate:  22%|██▏       | 42/191 [00:39<02:05,  1.19it/s]question generate:  23%|██▎       | 43/191 [00:40<02:14,  1.10it/s]question generate:  23%|██▎       | 44/191 [00:41<02:21,  1.04it/s]question generate:  24%|██▎       | 45/191 [00:42<02:14,  1.09it/s]question generate:  24%|██▍       | 46/191 [00:43<02:40,  1.10s/it]question generate:  25%|██▍       | 47/191 [00:44<02:24,  1.00s/it]question generate:  25%|██▌       | 48/191 [00:45<02:24,  1.01s/it]question generate:  26%|██▌       | 49/191 [00:46<02:28,  1.05s/it]question generate:  26%|██▌       | 50/191 [00:47<02:25,  1.03s/it]question generate:  27%|██▋       | 51/191 [00:48<02:08,  1.09it/s]question generate:  27%|██▋       | 52/191 [00:49<02:07,  1.09it/s]question generate:  28%|██▊       | 53/191 [00:49<01:49,  1.26it/s]question generate:  28%|██▊       | 54/191 [00:50<01:47,  1.28it/s]question generate:  29%|██▉       | 55/191 [00:51<01:52,  1.21it/s]question generate:  29%|██▉       | 56/191 [00:52<01:49,  1.23it/s]question generate:  30%|██▉       | 57/191 [00:52<01:41,  1.31it/s]question generate:  30%|███       | 58/191 [00:53<01:44,  1.28it/s]question generate:  31%|███       | 59/191 [00:54<01:39,  1.33it/s]question generate:  31%|███▏      | 60/191 [00:55<01:36,  1.35it/s]question generate:  32%|███▏      | 61/191 [00:56<01:44,  1.24it/s]question generate:  32%|███▏      | 62/191 [00:56<01:40,  1.28it/s]question generate:  33%|███▎      | 63/191 [00:58<01:54,  1.11it/s]question generate:  34%|███▎      | 64/191 [00:58<01:50,  1.15it/s]question generate:  34%|███▍      | 65/191 [00:59<01:54,  1.10it/s]question generate:  35%|███▍      | 66/191 [01:00<02:00,  1.04it/s]question generate:  35%|███▌      | 67/191 [01:01<01:56,  1.07it/s]question generate:  36%|███▌      | 68/191 [01:02<01:46,  1.16it/s]question generate:  36%|███▌      | 69/191 [01:03<01:38,  1.24it/s]question generate:  37%|███▋      | 70/191 [01:04<01:48,  1.11it/s]question generate:  37%|███▋      | 71/191 [01:05<02:01,  1.02s/it]question generate:  38%|███▊      | 72/191 [01:06<01:53,  1.05it/s]question generate:  38%|███▊      | 73/191 [01:07<01:53,  1.04it/s]question generate:  39%|███▊      | 74/191 [01:08<01:44,  1.12it/s]question generate:  39%|███▉      | 75/191 [01:08<01:36,  1.21it/s]question generate:  40%|███▉      | 76/191 [01:09<01:30,  1.28it/s]question generate:  40%|████      | 77/191 [01:10<01:30,  1.25it/s]question generate:  41%|████      | 78/191 [01:11<01:35,  1.19it/s]question generate:  41%|████▏     | 79/191 [01:11<01:29,  1.25it/s]question generate:  42%|████▏     | 80/191 [01:12<01:31,  1.22it/s]question generate:  42%|████▏     | 81/191 [01:14<01:48,  1.01it/s]question generate:  43%|████▎     | 82/191 [01:15<01:43,  1.05it/s]question generate:  43%|████▎     | 83/191 [01:15<01:35,  1.13it/s]question generate:  44%|████▍     | 84/191 [01:16<01:34,  1.13it/s]question generate:  45%|████▍     | 85/191 [01:17<01:23,  1.27it/s]question generate:  45%|████▌     | 86/191 [01:18<01:22,  1.27it/s]question generate:  46%|████▌     | 87/191 [01:18<01:24,  1.24it/s]question generate:  46%|████▌     | 88/191 [01:19<01:30,  1.14it/s]question generate:  47%|████▋     | 89/191 [01:20<01:25,  1.19it/s]question generate:  47%|████▋     | 90/191 [01:21<01:24,  1.19it/s]question generate:  48%|████▊     | 91/191 [01:23<01:44,  1.04s/it]question generate:  48%|████▊     | 92/191 [01:23<01:34,  1.05it/s]question generate:  49%|████▊     | 93/191 [01:25<01:45,  1.07s/it]question generate:  49%|████▉     | 94/191 [01:25<01:35,  1.01it/s]question generate:  50%|████▉     | 95/191 [01:26<01:28,  1.09it/s]question generate:  50%|█████     | 96/191 [01:27<01:33,  1.02it/s]question generate:  51%|█████     | 97/191 [01:28<01:26,  1.08it/s]question generate:  51%|█████▏    | 98/191 [01:29<01:20,  1.16it/s]question generate:  52%|█████▏    | 99/191 [01:30<01:20,  1.14it/s]question generate:  52%|█████▏    | 100/191 [01:30<01:15,  1.21it/s]question generate:  53%|█████▎    | 101/191 [01:31<01:12,  1.24it/s]question generate:  53%|█████▎    | 102/191 [01:32<01:19,  1.12it/s]question generate:  54%|█████▍    | 103/191 [01:33<01:16,  1.16it/s]question generate:  54%|█████▍    | 104/191 [01:34<01:14,  1.16it/s]question generate:  55%|█████▍    | 105/191 [01:35<01:11,  1.21it/s]question generate:  55%|█████▌    | 106/191 [01:36<01:12,  1.18it/s]question generate:  56%|█████▌    | 107/191 [01:37<01:14,  1.12it/s]question generate:  57%|█████▋    | 108/191 [01:37<01:12,  1.14it/s]question generate:  57%|█████▋    | 109/191 [01:38<01:11,  1.14it/s]question generate:  58%|█████▊    | 110/191 [01:39<01:10,  1.14it/s]question generate:  58%|█████▊    | 111/191 [01:40<01:09,  1.15it/s]question generate:  59%|█████▊    | 112/191 [01:41<01:10,  1.13it/s]question generate:  59%|█████▉    | 113/191 [01:42<01:05,  1.19it/s]question generate:  60%|█████▉    | 114/191 [01:43<01:13,  1.04it/s]question generate:  60%|██████    | 115/191 [01:44<01:05,  1.17it/s]question generate:  61%|██████    | 116/191 [01:45<01:07,  1.11it/s]question generate:  61%|██████▏   | 117/191 [01:46<01:15,  1.02s/it]question generate:  62%|██████▏   | 118/191 [01:47<01:10,  1.04it/s]question generate:  62%|██████▏   | 119/191 [01:47<01:05,  1.10it/s]question generate:  63%|██████▎   | 120/191 [01:48<01:03,  1.13it/s]question generate:  63%|██████▎   | 121/191 [01:49<01:04,  1.09it/s]question generate:  64%|██████▍   | 122/191 [01:50<00:58,  1.17it/s]question generate:  64%|██████▍   | 123/191 [01:51<00:55,  1.23it/s]question generate:  65%|██████▍   | 124/191 [01:52<00:55,  1.21it/s]question generate:  65%|██████▌   | 125/191 [01:53<01:11,  1.09s/it]question generate:  66%|██████▌   | 126/191 [01:54<01:12,  1.12s/it]question generate:  66%|██████▋   | 127/191 [01:55<01:06,  1.04s/it]question generate:  67%|██████▋   | 128/191 [01:56<01:03,  1.01s/it]question generate:  68%|██████▊   | 129/191 [01:57<00:59,  1.04it/s]question generate:  68%|██████▊   | 130/191 [01:58<00:55,  1.10it/s]question generate:  69%|██████▊   | 131/191 [01:59<00:50,  1.19it/s]question generate:  69%|██████▉   | 132/191 [02:00<00:54,  1.09it/s]question generate:  70%|██████▉   | 133/191 [02:00<00:47,  1.21it/s]question generate:  70%|███████   | 134/191 [02:01<00:48,  1.17it/s]question generate:  71%|███████   | 135/191 [02:02<00:47,  1.18it/s]question generate:  71%|███████   | 136/191 [02:03<00:50,  1.09it/s]question generate:  72%|███████▏  | 137/191 [02:04<00:46,  1.17it/s]question generate:  72%|███████▏  | 138/191 [02:05<00:45,  1.17it/s]question generate:  73%|███████▎  | 139/191 [02:06<00:45,  1.15it/s]question generate:  73%|███████▎  | 140/191 [02:06<00:43,  1.17it/s]question generate:  74%|███████▍  | 141/191 [02:08<00:47,  1.06it/s]question generate:  74%|███████▍  | 142/191 [02:08<00:45,  1.08it/s]question generate:  75%|███████▍  | 143/191 [02:10<00:47,  1.02it/s]question generate:  75%|███████▌  | 144/191 [02:10<00:40,  1.15it/s]question generate:  76%|███████▌  | 145/191 [02:11<00:37,  1.23it/s]question generate:  76%|███████▋  | 146/191 [02:12<00:38,  1.17it/s]question generate:  77%|███████▋  | 147/191 [02:13<00:36,  1.21it/s]question generate:  77%|███████▋  | 148/191 [02:14<00:41,  1.04it/s]question generate:  78%|███████▊  | 149/191 [02:15<00:40,  1.03it/s]question generate:  79%|███████▊  | 150/191 [02:16<00:38,  1.06it/s]question generate:  79%|███████▉  | 151/191 [02:16<00:34,  1.15it/s]question generate:  80%|███████▉  | 152/191 [02:17<00:35,  1.11it/s]question generate:  80%|████████  | 153/191 [02:18<00:32,  1.18it/s]question generate:  81%|████████  | 154/191 [02:19<00:29,  1.27it/s]question generate:  81%|████████  | 155/191 [02:19<00:27,  1.29it/s]question generate:  82%|████████▏ | 156/191 [02:20<00:27,  1.28it/s]question generate:  82%|████████▏ | 157/191 [02:21<00:27,  1.23it/s]question generate:  83%|████████▎ | 158/191 [02:22<00:26,  1.26it/s]question generate:  83%|████████▎ | 159/191 [02:23<00:25,  1.27it/s]question generate:  84%|████████▍ | 160/191 [02:23<00:23,  1.30it/s]question generate:  84%|████████▍ | 161/191 [02:24<00:22,  1.33it/s]question generate:  85%|████████▍ | 162/191 [02:25<00:24,  1.18it/s]question generate:  85%|████████▌ | 163/191 [02:26<00:26,  1.07it/s]question generate:  86%|████████▌ | 164/191 [02:27<00:23,  1.13it/s]question generate:  86%|████████▋ | 165/191 [02:28<00:25,  1.00it/s]question generate:  87%|████████▋ | 166/191 [02:29<00:23,  1.07it/s]question generate:  87%|████████▋ | 167/191 [02:30<00:24,  1.01s/it]question generate:  88%|████████▊ | 168/191 [02:31<00:23,  1.01s/it]question generate:  88%|████████▊ | 169/191 [02:32<00:20,  1.08it/s]question generate:  89%|████████▉ | 170/191 [02:33<00:20,  1.04it/s]question generate:  90%|████████▉ | 171/191 [02:34<00:17,  1.12it/s]question generate:  90%|█████████ | 172/191 [02:35<00:16,  1.18it/s]question generate:  91%|█████████ | 173/191 [02:35<00:13,  1.30it/s]question generate:  91%|█████████ | 174/191 [02:36<00:14,  1.15it/s]question generate:  92%|█████████▏| 175/191 [02:37<00:15,  1.04it/s]question generate:  92%|█████████▏| 176/191 [02:38<00:13,  1.11it/s]question generate:  93%|█████████▎| 177/191 [02:39<00:12,  1.12it/s]question generate:  93%|█████████▎| 178/191 [02:40<00:10,  1.21it/s]question generate:  94%|█████████▎| 179/191 [02:41<00:09,  1.21it/s]question generate:  94%|█████████▍| 180/191 [02:41<00:09,  1.21it/s]question generate:  95%|█████████▍| 181/191 [02:42<00:08,  1.20it/s]question generate:  95%|█████████▌| 182/191 [02:43<00:07,  1.25it/s]question generate:  96%|█████████▌| 183/191 [02:44<00:06,  1.18it/s]question generate:  96%|█████████▋| 184/191 [02:45<00:05,  1.17it/s]question generate:  97%|█████████▋| 185/191 [02:46<00:05,  1.11it/s]question generate:  97%|█████████▋| 186/191 [02:47<00:04,  1.17it/s]question generate:  98%|█████████▊| 187/191 [02:47<00:03,  1.23it/s]question generate:  98%|█████████▊| 188/191 [02:48<00:02,  1.20it/s]question generate:  99%|█████████▉| 189/191 [02:49<00:01,  1.13it/s]question generate:  99%|█████████▉| 190/191 [02:50<00:00,  1.18it/s]question generate: 100%|██████████| 191/191 [02:51<00:00,  1.28it/s]question generate: 100%|██████████| 191/191 [02:51<00:00,  1.12it/s]
+count : 191 | invalid_count : 0 | invalid_rate : 0.00%
+QA Rewrite mapping saved to data/mapping/nfcorpus_g37_QAdeepseekr1.json (question)
+Success load vector_db nfcorpus_RAG_db
+answer generate:   0%|          | 0/191 [00:00<?, ?it/s]answer generate:   1%|          | 1/191 [00:05<16:36,  5.25s/it]answer generate:   1%|          | 2/191 [00:06<08:50,  2.81s/it]answer generate:   2%|▏         | 3/191 [00:08<07:12,  2.30s/it]answer generate:   2%|▏         | 4/191 [00:11<08:27,  2.72s/it]answer generate:   3%|▎         | 5/191 [00:12<06:10,  1.99s/it]answer generate:   3%|▎         | 6/191 [00:13<05:54,  1.92s/it]answer generate:   4%|▎         | 7/191 [00:15<05:25,  1.77s/it]answer generate:   4%|▍         | 8/191 [00:17<05:47,  1.90s/it]answer generate:   5%|▍         | 9/191 [00:19<05:49,  1.92s/it]answer generate:   5%|▌         | 10/191 [00:21<05:49,  1.93s/it]answer generate:   6%|▌         | 11/191 [00:22<05:06,  1.70s/it]answer generate:   6%|▋         | 12/191 [00:25<06:02,  2.02s/it]answer generate:   7%|▋         | 13/191 [00:26<05:31,  1.86s/it]answer generate:   7%|▋         | 14/191 [00:28<05:09,  1.75s/it]answer generate:   8%|▊         | 15/191 [00:31<05:56,  2.02s/it]answer generate:   8%|▊         | 16/191 [00:32<05:30,  1.89s/it]answer generate:   9%|▉         | 17/191 [00:33<04:40,  1.61s/it]answer generate:   9%|▉         | 18/191 [00:34<04:18,  1.50s/it]answer generate:  10%|▉         | 19/191 [00:36<04:38,  1.62s/it]answer generate:  10%|█         | 20/191 [00:38<04:33,  1.60s/it]answer generate:  11%|█         | 21/191 [00:39<04:38,  1.64s/it]answer generate:  12%|█▏        | 22/191 [00:41<04:52,  1.73s/it]answer generate:  12%|█▏        | 23/191 [00:42<04:15,  1.52s/it]answer generate:  13%|█▎        | 24/191 [00:44<03:58,  1.43s/it]answer generate:  13%|█▎        | 25/191 [00:45<04:02,  1.46s/it]answer generate:  14%|█▎        | 26/191 [00:49<05:33,  2.02s/it]answer generate:  14%|█▍        | 27/191 [00:50<05:06,  1.87s/it]answer generate:  15%|█▍        | 28/191 [00:53<05:42,  2.10s/it]answer generate:  15%|█▌        | 29/191 [00:54<05:10,  1.91s/it]answer generate:  16%|█▌        | 30/191 [00:55<04:29,  1.67s/it]answer generate:  16%|█▌        | 31/191 [00:57<04:51,  1.82s/it]answer generate:  17%|█▋        | 32/191 [01:00<05:47,  2.19s/it]answer generate:  17%|█▋        | 33/191 [01:02<05:37,  2.13s/it]answer generate:  18%|█▊        | 34/191 [01:04<04:42,  1.80s/it]answer generate:  18%|█▊        | 35/191 [01:06<05:02,  1.94s/it]answer generate:  19%|█▉        | 36/191 [01:07<04:36,  1.78s/it]answer generate:  19%|█▉        | 37/191 [01:09<04:47,  1.86s/it]answer generate:  20%|█▉        | 38/191 [01:11<04:26,  1.74s/it]answer generate:  20%|██        | 39/191 [01:12<04:23,  1.74s/it]answer generate:  21%|██        | 40/191 [01:16<05:29,  2.18s/it]answer generate:  21%|██▏       | 41/191 [01:16<04:26,  1.77s/it]answer generate:  22%|██▏       | 42/191 [01:18<04:06,  1.66s/it]answer generate:  23%|██▎       | 43/191 [01:20<04:45,  1.93s/it]answer generate:  23%|██▎       | 44/191 [01:22<04:13,  1.73s/it]answer generate:  24%|██▎       | 45/191 [01:24<04:18,  1.77s/it]answer generate:  24%|██▍       | 46/191 [01:28<06:23,  2.64s/it]answer generate:  25%|██▍       | 47/191 [01:30<05:58,  2.49s/it]answer generate:  25%|██▌       | 48/191 [01:32<05:01,  2.11s/it]answer generate:  26%|██▌       | 49/191 [01:35<06:08,  2.59s/it]answer generate:  26%|██▌       | 50/191 [01:38<05:59,  2.55s/it]answer generate:  27%|██▋       | 51/191 [01:39<05:00,  2.14s/it]answer generate:  27%|██▋       | 52/191 [01:41<05:00,  2.16s/it]answer generate:  28%|██▊       | 53/191 [01:42<04:16,  1.86s/it]answer generate:  28%|██▊       | 54/191 [01:43<03:37,  1.59s/it]answer generate:  29%|██▉       | 55/191 [01:45<03:56,  1.74s/it]answer generate:  29%|██▉       | 56/191 [01:47<03:50,  1.71s/it]answer generate:  30%|██▉       | 57/191 [01:48<03:17,  1.48s/it]answer generate:  30%|███       | 58/191 [01:50<03:32,  1.60s/it]answer generate:  31%|███       | 59/191 [01:51<03:17,  1.50s/it]answer generate:  31%|███▏      | 60/191 [01:53<03:21,  1.54s/it]answer generate:  32%|███▏      | 61/191 [01:54<03:23,  1.56s/it]answer generate:  32%|███▏      | 62/191 [01:56<03:37,  1.69s/it]answer generate:  33%|███▎      | 63/191 [01:58<03:23,  1.59s/it]answer generate:  34%|███▎      | 64/191 [01:59<03:01,  1.43s/it]answer generate:  34%|███▍      | 65/191 [02:00<02:43,  1.30s/it]answer generate:  35%|███▍      | 66/191 [02:01<02:50,  1.36s/it]answer generate:  35%|███▌      | 67/191 [02:03<02:52,  1.39s/it]answer generate:  36%|███▌      | 68/191 [02:04<02:47,  1.36s/it]answer generate:  36%|███▌      | 69/191 [02:08<04:25,  2.18s/it]answer generate:  37%|███▋      | 70/191 [02:09<03:51,  1.92s/it]answer generate:  37%|███▋      | 71/191 [02:11<03:34,  1.79s/it]answer generate:  38%|███▊      | 72/191 [02:13<03:35,  1.81s/it]answer generate:  38%|███▊      | 73/191 [02:14<03:12,  1.63s/it]answer generate:  39%|███▊      | 74/191 [02:15<03:00,  1.54s/it]answer generate:  39%|███▉      | 75/191 [02:18<03:36,  1.86s/it]answer generate:  40%|███▉      | 76/191 [02:20<03:42,  1.94s/it]answer generate:  40%|████      | 77/191 [02:22<03:32,  1.86s/it]answer generate:  41%|████      | 78/191 [02:23<03:13,  1.71s/it]answer generate:  41%|████▏     | 79/191 [02:24<02:53,  1.55s/it]answer generate:  42%|████▏     | 80/191 [02:26<02:44,  1.48s/it]answer generate:  42%|████▏     | 81/191 [02:30<04:29,  2.45s/it]answer generate:  43%|████▎     | 82/191 [02:32<04:06,  2.26s/it]answer generate:  43%|████▎     | 83/191 [02:34<03:41,  2.05s/it]answer generate:  44%|████▍     | 84/191 [02:37<04:16,  2.40s/it]answer generate:  45%|████▍     | 85/191 [02:38<03:26,  1.95s/it]answer generate:  45%|████▌     | 86/191 [02:39<02:53,  1.65s/it]answer generate:  46%|████▌     | 87/191 [02:40<02:35,  1.50s/it]answer generate:  46%|████▌     | 88/191 [02:42<02:55,  1.70s/it]answer generate:  47%|████▋     | 89/191 [02:43<02:40,  1.57s/it]answer generate:  47%|████▋     | 90/191 [02:45<02:40,  1.58s/it]answer generate:  48%|████▊     | 91/191 [02:49<04:00,  2.40s/it]answer generate:  48%|████▊     | 92/191 [02:50<03:11,  1.93s/it]answer generate:  49%|████▊     | 93/191 [02:53<03:40,  2.25s/it]answer generate:  49%|████▉     | 94/191 [02:55<03:28,  2.15s/it]answer generate:  50%|████▉     | 95/191 [02:57<03:18,  2.07s/it]answer generate:  50%|█████     | 96/191 [02:59<03:19,  2.10s/it]answer generate:  51%|█████     | 97/191 [03:01<03:04,  1.96s/it]answer generate:  51%|█████▏    | 98/191 [03:02<02:32,  1.64s/it]answer generate:  52%|█████▏    | 99/191 [03:02<02:05,  1.36s/it]answer generate:  52%|█████▏    | 100/191 [03:03<01:45,  1.16s/it]answer generate:  53%|█████▎    | 101/191 [03:04<01:46,  1.18s/it]answer generate:  53%|█████▎    | 102/191 [03:07<02:16,  1.53s/it]answer generate:  54%|█████▍    | 103/191 [03:07<01:46,  1.21s/it]answer generate:  54%|█████▍    | 104/191 [03:09<02:18,  1.59s/it]answer generate:  55%|█████▍    | 105/191 [03:11<02:20,  1.63s/it]answer generate:  55%|█████▌    | 106/191 [03:14<02:37,  1.85s/it]answer generate:  56%|█████▌    | 107/191 [03:17<03:14,  2.32s/it]answer generate:  57%|█████▋    | 108/191 [03:18<02:52,  2.08s/it]answer generate:  57%|█████▋    | 109/191 [03:21<02:54,  2.12s/it]answer generate:  58%|█████▊    | 110/191 [03:23<02:58,  2.20s/it]answer generate:  58%|█████▊    | 111/191 [03:24<02:26,  1.83s/it]answer generate:  59%|█████▊    | 112/191 [03:26<02:25,  1.85s/it]answer generate:  59%|█████▉    | 113/191 [03:28<02:21,  1.81s/it]answer generate:  60%|█████▉    | 114/191 [03:30<02:35,  2.02s/it]answer generate:  60%|██████    | 115/191 [03:32<02:20,  1.84s/it]answer generate:  61%|██████    | 116/191 [03:33<02:02,  1.64s/it]answer generate:  61%|██████▏   | 117/191 [03:35<02:04,  1.69s/it]answer generate:  62%|██████▏   | 118/191 [03:37<02:19,  1.92s/it]answer generate:  62%|██████▏   | 119/191 [03:38<02:02,  1.70s/it]answer generate:  63%|██████▎   | 120/191 [03:41<02:20,  1.97s/it]answer generate:  63%|██████▎   | 121/191 [03:43<02:32,  2.18s/it]answer generate:  64%|██████▍   | 122/191 [03:47<02:50,  2.47s/it]answer generate:  64%|██████▍   | 123/191 [03:48<02:23,  2.11s/it]answer generate:  65%|██████▍   | 124/191 [03:48<01:47,  1.60s/it]answer generate:  65%|██████▌   | 125/191 [03:51<02:10,  1.98s/it]answer generate:  66%|██████▌   | 126/191 [03:55<02:37,  2.43s/it]answer generate:  66%|██████▋   | 127/191 [03:56<02:23,  2.25s/it]answer generate:  67%|██████▋   | 128/191 [03:58<02:03,  1.96s/it]answer generate:  68%|██████▊   | 129/191 [03:59<01:49,  1.76s/it]answer generate:  68%|██████▊   | 130/191 [04:00<01:30,  1.48s/it]answer generate:  69%|██████▊   | 131/191 [04:01<01:21,  1.35s/it]answer generate:  69%|██████▉   | 132/191 [04:04<01:43,  1.75s/it]answer generate:  70%|██████▉   | 133/191 [04:04<01:23,  1.44s/it]answer generate:  70%|███████   | 134/191 [04:06<01:29,  1.58s/it]answer generate:  71%|███████   | 135/191 [04:10<01:58,  2.11s/it]answer generate:  71%|███████   | 136/191 [04:11<01:53,  2.06s/it]answer generate:  72%|███████▏  | 137/191 [04:14<01:58,  2.19s/it]answer generate:  72%|███████▏  | 138/191 [04:15<01:43,  1.96s/it]answer generate:  73%|███████▎  | 139/191 [04:17<01:35,  1.84s/it]answer generate:  73%|███████▎  | 140/191 [04:18<01:28,  1.73s/it]answer generate:  74%|███████▍  | 141/191 [04:21<01:40,  2.01s/it]answer generate:  74%|███████▍  | 142/191 [04:22<01:28,  1.80s/it]answer generate:  75%|███████▍  | 143/191 [04:26<01:47,  2.24s/it]answer generate:  75%|███████▌  | 144/191 [04:28<01:42,  2.18s/it]answer generate:  76%|███████▌  | 145/191 [04:30<01:39,  2.17s/it]answer generate:  76%|███████▋  | 146/191 [04:32<01:42,  2.29s/it]answer generate:  77%|███████▋  | 147/191 [04:34<01:33,  2.13s/it]answer generate:  77%|███████▋  | 148/191 [04:38<01:52,  2.61s/it]answer generate:  78%|███████▊  | 149/191 [04:40<01:47,  2.57s/it]answer generate:  79%|███████▊  | 150/191 [04:42<01:33,  2.28s/it]answer generate:  79%|███████▉  | 151/191 [04:43<01:10,  1.76s/it]answer generate:  80%|███████▉  | 152/191 [04:44<01:07,  1.74s/it]answer generate:  80%|████████  | 153/191 [04:46<01:08,  1.80s/it]answer generate:  81%|████████  | 154/191 [04:48<01:01,  1.67s/it]answer generate:  81%|████████  | 155/191 [04:51<01:17,  2.16s/it]answer generate:  82%|████████▏ | 156/191 [04:52<01:07,  1.94s/it]answer generate:  82%|████████▏ | 157/191 [04:54<01:03,  1.87s/it]answer generate:  83%|████████▎ | 158/191 [04:55<00:54,  1.64s/it]answer generate:  83%|████████▎ | 159/191 [04:57<00:50,  1.58s/it]answer generate:  84%|████████▍ | 160/191 [04:58<00:45,  1.48s/it]answer generate:  84%|████████▍ | 161/191 [04:59<00:42,  1.41s/it]answer generate:  85%|████████▍ | 162/191 [05:01<00:49,  1.69s/it]answer generate:  85%|████████▌ | 163/191 [05:03<00:49,  1.76s/it]answer generate:  86%|████████▌ | 164/191 [05:05<00:46,  1.71s/it]answer generate:  86%|████████▋ | 165/191 [05:06<00:40,  1.54s/it]answer generate:  87%|████████▋ | 166/191 [05:08<00:44,  1.77s/it]answer generate:  87%|████████▋ | 167/191 [05:10<00:44,  1.85s/it]answer generate:  88%|████████▊ | 168/191 [05:12<00:41,  1.79s/it]answer generate:  88%|████████▊ | 169/191 [05:14<00:37,  1.73s/it]answer generate:  89%|████████▉ | 170/191 [05:15<00:36,  1.75s/it]answer generate:  90%|████████▉ | 171/191 [05:17<00:34,  1.71s/it]answer generate:  90%|█████████ | 172/191 [05:19<00:31,  1.66s/it]answer generate:  91%|█████████ | 173/191 [05:20<00:26,  1.49s/it]answer generate:  91%|█████████ | 174/191 [05:22<00:29,  1.74s/it]answer generate:  92%|█████████▏| 175/191 [05:26<00:36,  2.29s/it]answer generate:  92%|█████████▏| 176/191 [05:27<00:31,  2.12s/it]answer generate:  93%|█████████▎| 177/191 [05:29<00:27,  2.00s/it]answer generate:  93%|█████████▎| 178/191 [05:30<00:21,  1.65s/it]answer generate:  94%|█████████▎| 179/191 [05:31<00:18,  1.55s/it]answer generate:  94%|█████████▍| 180/191 [05:32<00:14,  1.35s/it]answer generate:  95%|█████████▍| 181/191 [05:34<00:13,  1.40s/it]answer generate:  95%|█████████▌| 182/191 [05:34<00:11,  1.26s/it]answer generate:  96%|█████████▌| 183/191 [05:35<00:08,  1.04s/it]answer generate:  96%|█████████▋| 184/191 [05:37<00:09,  1.32s/it]answer generate:  97%|█████████▋| 185/191 [05:39<00:09,  1.58s/it]answer generate:  97%|█████████▋| 186/191 [05:40<00:06,  1.29s/it]answer generate:  98%|█████████▊| 187/191 [05:40<00:04,  1.10s/it]answer generate:  98%|█████████▊| 188/191 [05:43<00:04,  1.56s/it]answer generate:  99%|█████████▉| 189/191 [05:45<00:03,  1.66s/it]answer generate:  99%|█████████▉| 190/191 [05:46<00:01,  1.58s/it]answer generate: 100%|██████████| 191/191 [05:48<00:00,  1.50s/it]answer generate: 100%|██████████| 191/191 [05:48<00:00,  1.82s/it]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('title',), 'id']
+INFO:root:Loading detection model...
+INFO:datasets:PyTorch version 2.6.0+cu124 available.
+INFO:datasets:Polars version 1.31.0 available.
+Loaded dataset with 191 records
+Loading model: ../model/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+
+[32mINFO[0m  ENV: Auto setting CUDA_DEVICE_ORDER=PCI_BUS_ID for correctness.          
+[32mINFO[0m   Kernel: Auto-selection: adding candidate `TritonV2QuantLinear`          
+`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+/root/miniconda3/lib/python3.10/site-packages/accelerate/utils/modeling.py:1569: UserWarning: Current model requires 1497790592 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:  11%|█         | 1/9 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  22%|██▏       | 2/9 [00:01<00:05,  1.30it/s]Loading checkpoint shards:  33%|███▎      | 3/9 [00:02<00:04,  1.30it/s]Loading checkpoint shards:  44%|████▍     | 4/9 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:05<00:01,  1.24it/s]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:06<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:06<00:00,  1.41it/s]
+WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu.
+[32mINFO[0m  Format: Converting `checkpoint_format` from `gptq` to internal `gptq_v2`.
+[32mINFO[0m  Format: Converting GPTQ v1 to v2                                         
+[32mINFO[0m  Format: Conversion complete: 0.02216958999633789s                        
+[32mINFO[0m  Optimize: `TritonV2QuantLinear` compilation triggered.                   
+INFO:root:Starting detection on 3633 records
+Model loaded successfully
+Detecting watermark RAG:   0%|          | 0/191 [00:00<?, ?it/s]Detecting watermark RAG:   1%|          | 1/191 [00:01<04:33,  1.44s/it]Detecting watermark RAG:   1%|          | 2/191 [00:01<02:27,  1.28it/s]Detecting watermark RAG:   2%|▏         | 3/191 [00:02<01:45,  1.79it/s]Detecting watermark RAG:   2%|▏         | 4/191 [00:02<01:26,  2.16it/s]Detecting watermark RAG:   3%|▎         | 5/191 [00:02<01:16,  2.44it/s]Detecting watermark RAG:   3%|▎         | 6/191 [00:03<01:09,  2.65it/s]Detecting watermark RAG:   4%|▎         | 7/191 [00:03<01:06,  2.78it/s]Detecting watermark RAG:   4%|▍         | 8/191 [00:03<01:05,  2.81it/s]Detecting watermark RAG:   5%|▍         | 9/191 [00:04<01:05,  2.78it/s]Detecting watermark RAG:   5%|▌         | 10/191 [00:04<01:06,  2.73it/s]Detecting watermark RAG:   6%|▌         | 11/191 [00:04<01:03,  2.85it/s]Detecting watermark RAG:   6%|▋         | 12/191 [00:05<01:03,  2.83it/s]Detecting watermark RAG:   7%|▋         | 13/191 [00:05<01:01,  2.88it/s]Detecting watermark RAG:   7%|▋         | 14/191 [00:05<01:00,  2.93it/s]Detecting watermark RAG:   8%|▊         | 15/191 [00:06<01:00,  2.93it/s]Detecting watermark RAG:   8%|▊         | 16/191 [00:06<00:59,  2.94it/s]Detecting watermark RAG:   9%|▉         | 17/191 [00:06<00:59,  2.90it/s]Detecting watermark RAG:   9%|▉         | 18/191 [00:07<00:58,  2.96it/s]Detecting watermark RAG:  10%|▉         | 19/191 [00:07<00:58,  2.96it/s]Detecting watermark RAG:  10%|█         | 20/191 [00:07<00:58,  2.93it/s]Detecting watermark RAG:  11%|█         | 21/191 [00:08<00:57,  2.94it/s]Detecting watermark RAG:  12%|█▏        | 22/191 [00:08<00:57,  2.96it/s]Detecting watermark RAG:  12%|█▏        | 23/191 [00:08<00:55,  3.00it/s]Detecting watermark RAG:  13%|█▎        | 24/191 [00:09<00:56,  2.96it/s]Detecting watermark RAG:  13%|█▎        | 25/191 [00:09<00:56,  2.93it/s]Detecting watermark RAG:  14%|█▎        | 26/191 [00:09<00:58,  2.82it/s]Detecting watermark RAG:  14%|█▍        | 27/191 [00:10<00:57,  2.85it/s]Detecting watermark RAG:  15%|█▍        | 28/191 [00:10<00:56,  2.87it/s]Detecting watermark RAG:  15%|█▌        | 29/191 [00:10<00:55,  2.92it/s]Detecting watermark RAG:  16%|█▌        | 30/191 [00:11<00:54,  2.98it/s]Detecting watermark RAG:  16%|█▌        | 31/191 [00:11<00:53,  2.99it/s]Found 5 watermarked sentences
+Sentence: Bismuth has specific applications in treating gast...
+Score_0: 0.3333, Score_1: 1.0000
+Sentence: It is particularly effective against peptic ulcers...
+Score_0: 0.3651, Score_1: -2.5560
+Sentence: Bismuth also shows promise in the treatment of dia...
+Score_0: -0.4472, Score_1: -1.3416
+Sentence: However, it is important to note that prolonged bi...
+Score_0: -2.2361, Score_1: 0.1491
+Sentence: Therefore, while bismuth offers effective treatmen...
+Score_0: 0.6547, Score_1: -0.2182
+Found 2 watermarked sentences
+Sentence: Specific phytoestrogens can block aromatase activi...
+Score_0: -1.4142, Score_1: 1.4142
+Sentence: This enzymatic inhibition suggests a mechanism thr...
+Score_0: -1.8000, Score_1: 0.6000
+Found 1 watermarked sentences
+Sentence: Over the subsequent period of six years, an additi...
+Score_0: -1.5076, Score_1: -0.3015
+Found 3 watermarked sentences
+Sentence: "In a study comparing women diagnosed with polycys...
+Score_0: -1.0000, Score_1: -1.6667
+Sentence: Waist-to-hip ratio, another indicator of body fat ...
+Score_0: 0.7845, Score_1: 0.3922
+Sentence: These findings suggest a strong correlation betwee...
+Score_0: -0.6547, Score_1: -0.2182
+Found 1 watermarked sentences
+Sentence: Prostate cancer cells treated with BME accumulate ...
+Score_0: -2.5000, Score_1: -0.5000
+Found 1 watermarked sentences
+Sentence: Antidepressants, particularly SSRIs and TCAs, also...
+Score_0: -0.8944, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: Overall mortality rate was 6...
+Score_0: 0.4472, Score_1: 0.4472
+Sentence: 5% of the deaths were among patients without a his...
+Score_0: -0.2425, Score_1: -0.7276
+Found 3 watermarked sentences
+Sentence: Bowel Obsession Syndrome (BOS) is an OCD-like func...
+Score_0: 1.4142, Score_1: 0.7071
+Sentence: In the case report, a 32-year-old male patient wit...
+Score_0: 0.5443, Score_1: 0.2722
+Sentence: Treatment with cognitive behavioral therapy led to...
+Score_0: 0.8165, Score_1: -2.0412
+Found 4 watermarked sentences
+Sentence: 838 men alongside 1059 women, representing 72...
+Score_0: -0.7746, Score_1: -0.7746
+Sentence: The proportion of the population reporting regular...
+Score_0: 0.2182, Score_1: -1.9640
+Sentence: However, it can be inferred that such regularity m...
+Score_0: 0.6255, Score_1: 1.0426
+Sentence: Output: "No relevant information found" for direct...
+Score_0: 0.2182, Score_1: 1.0911
+Found 2 watermarked sentences
+Sentence: The correlation coefficients between log-transform...
+Score_0: 0.9428, Score_1: -1.4142
+Sentence: After adjusting for age, cigarette smoking, and ph...
+Score_0: -1.3725, Score_1: -1.0675
+Found 2 watermarked sentences
+Sentence: According to the study, approximately 20,000 cance...
+Score_0: 1.4606, Score_1: 0.7303
+Sentence: The potential increase from pesticide residues is ...
+Score_0: 0.7276, Score_1: 0.7276
+Found 2 watermarked sentences
+Sentence: Regular organic product consumers (RCOP) in the st...
+Score_0: -1.2247, Score_1: -1.2247
+Sentence: Their dietary patterns included more plant-based f...
+Score_0: 2.0000, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: According to studies recognized by scientists for ...
+Score_0: 2.0412, Score_1: 0.8165
+Found 2 watermarked sentences
+Sentence: Future research on ALS should focus on time-trends...
+Score_0: 0.3841, Score_1: 0.3841
+Sentence: The sources of these risk factors should also be e...
+Score_0: -1.5076, Score_1: 0.9045
+Found 4 watermarked sentences
+Sentence: According to prior studies, characteristic sonogra...
+Score_0: -0.2582, Score_1: 0.2582
+Sentence: Increased hepatorenal echogenicity, which can be a...
+Score_0: 1.0000, Score_1: 0.0000
+Sentence: These sonographic characteristics can impact bedsi...
+Score_0: 0.3780, Score_1: 0.7559
+Sentence: However, it's important to note that these finding...
+Score_0: 0.3780, Score_1: 1.1339
+Found 3 watermarked sentences
+Sentence: Adding protein to meals increased insulin response...
+Score_0: -2.0000, Score_1: -0.5000
+Sentence: The addition of fat further reduced the glycemic r...
+Score_0: -1.0426, Score_1: -0.6255
+Sentence: Overall, these effects suggest that combining carb...
+Score_0: -0.7303, Score_1: 1.0954
+Found 1 watermarked sentences
+Sentence: The objectives of the study were to analyze change...
+Score_0: -0.5222, Score_1: 0.1741
+Found 2 watermarked sentences
+Sentence: Major decreases across various forms of activity c...
+Score_0: 3.0000, Score_1: -1.4000
+Sentence: National strategies for disease prevention and con...
+Score_0: -0.7845, Score_1: 0.3922
+Found 3 watermarked sentences
+Sentence: The study found that glycaemic responses following...
+Score_0: 0.9623, Score_1: -1.3472
+Sentence: Ethnicity, specifically the adjusted risk ratio of...
+Score_0: -2.1106, Score_1: -0.9045
+Sentence: Additionally, rice variety was also found to be an...
+Score_0: 1.8766, Score_1: 1.0426
+Found 1 watermarked sentences
+Sentence: The study addresses issues such as experimental de...
+Score_0: 1.5000, Score_1: -1.0000
+Found 2 watermarked sentences
+Sentence: A total of 21 cohort studies and 12 case-control s...
+Score_0: 0.0000, Score_1: 0.0000
+Sentence: The findings showed that higher adherence to the M...
+Score_0: 0.3536, Score_1: -0.3536
+Found 2 watermarked sentences
+Sentence: Over the four-year follow-up period, participants ...
+Score_0: 0.4264, Score_1: 0.4264
+Sentence: 28 cm more waist circumference than those in the l...
+Score_0: -0.2294, Score_1: -0.2294
+Found 1 watermarked sentences
+Sentence: "In the Seven Countries Study, differences in mean...
+Score_0: -0.6667, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: For women, estimates range from $797 for overweigh...
+Score_0: -0.2182, Score_1: 0.6547
+Sentence: The annual cost attributable to obesity among full...
+Score_0: 0.2774, Score_1: 0.2774
+Found 3 watermarked sentences
+Sentence: In the first published trial, 9...
+Score_0: -0.3780, Score_1: -0.3780
+Sentence: This percentage was lower in subsequent trials...
+Score_0: 0.0000, Score_1: 0.0000
+Sentence: Regarding mortality-related outcomes versus labora...
+Score_0: -1.1339, Score_1: 0.0000
+Found 3 watermarked sentences
+Sentence: From a starting point of 3,353 ± 1,802 activity un...
+Score_0: -0.7746, Score_1: 1.8074
+Sentence: 001) and maintained an increase to 4,205 ± 2,238 A...
+Score_0: -0.8980, Score_1: 1.2572
+Sentence: Access to the treadmill desks was associated with ...
+Score_0: 0.7845, Score_1: -0.7845
+Found 2 watermarked sentences
+Sentence: Our theory posits that adopting a plant-based eati...
+Score_0: 0.7071, Score_1: 0.7071
+Sentence: The duration of follow-up was 21 years, and during...
+Score_0: 1.8593, Score_1: -1.5213
+Found 4 watermarked sentences
+Sentence: According to JNC VII guidelines, patients with ele...
+Score_0: -0.8528, Score_1: -0.8528
+Sentence: 4%)
+
+Physicians' personal habits influenced their ...
+Score_0: -0.8321, Score_1: -0.2774
+Sentence: For instance, nonsmoking physicians were more like...
+Score_0: 1.0954, Score_1: -1.4606
+Sentence: Overall, a physician's own health behaviors seemed...
+Score_0: -0.4264, Score_1: -0.4264
+Found 2 watermarked sentences
+Sentence: "In many countries, the fatty acids intake of adul...
+Score_0: 1.0911, Score_1: -0.6547
+Sentence: The relation between SFA and PUFA intakes shows th...
+Score_0: 0.4804, Score_1: -1.7614
+Found 2 watermarked sentences
+Sentence: There is a desire for increased transparency in th...
+Score_0: -1.8074, Score_1: 1.2910
+Sentence: Ideally, bodies involved should clearly specify an...
+Score_0: -1.4142, Score_1: -0.4714
+Found 4 watermarked sentences
+Sentence: Based on the IGF model, dietary factors including ...
+Score_0: 1.6330, Score_1: 1.6330
+Sentence: This is because diets rich in dairy products, part...
+Score_0: 0.0000, Score_1: 2.1213
+Sentence: The study observed that vegan women, who exclude d...
+Score_0: -1.2999, Score_1: 0.1857
+Sentence: The mean serum IGF-1 concentration was 13% lower i...
+Score_0: 0.6860, Score_1: 0.6860
+Found 6 watermarked sentences
+Sentence: The observed relative risks for renal cell carcino...
+Score_0: -0.1857, Score_1: 0.9285
+Sentence: - Subgroup analyses of case-control studies: RR = ...
+Score_0: 0.0000, Score_1: 0.5774
+Detecting watermark RAG:  17%|█▋        | 32/191 [00:11<00:54,  2.93it/s]Detecting watermark RAG:  17%|█▋        | 33/191 [00:12<00:53,  2.94it/s]Detecting watermark RAG:  18%|█▊        | 34/191 [00:12<00:52,  2.97it/s]Detecting watermark RAG:  18%|█▊        | 35/191 [00:12<00:52,  2.99it/s]Detecting watermark RAG:  19%|█▉        | 36/191 [00:13<00:52,  2.96it/s]Detecting watermark RAG:  19%|█▉        | 37/191 [00:13<00:52,  2.91it/s]Detecting watermark RAG:  20%|█▉        | 38/191 [00:13<00:52,  2.92it/s]Detecting watermark RAG:  20%|██        | 39/191 [00:14<00:52,  2.89it/s]Detecting watermark RAG:  21%|██        | 40/191 [00:14<00:50,  2.97it/s]Detecting watermark RAG:  21%|██▏       | 41/191 [00:14<00:50,  2.97it/s]Detecting watermark RAG:  22%|██▏       | 42/191 [00:15<00:49,  3.00it/s]Detecting watermark RAG:  23%|██▎       | 43/191 [00:15<00:49,  2.98it/s]Detecting watermark RAG:  23%|██▎       | 44/191 [00:15<00:49,  2.97it/s]Detecting watermark RAG:  24%|██▎       | 45/191 [00:16<00:49,  2.93it/s]Detecting watermark RAG:  24%|██▍       | 46/191 [00:16<00:49,  2.93it/s]Detecting watermark RAG:  25%|██▍       | 47/191 [00:16<00:49,  2.93it/s]Detecting watermark RAG:  25%|██▌       | 48/191 [00:17<00:47,  3.02it/s]Detecting watermark RAG:  26%|██▌       | 49/191 [00:17<00:49,  2.88it/s]Detecting watermark RAG:  26%|██▌       | 50/191 [00:18<00:49,  2.87it/s]Detecting watermark RAG:  27%|██▋       | 51/191 [00:18<00:47,  2.95it/s]Detecting watermark RAG:  27%|██▋       | 52/191 [00:18<00:46,  2.98it/s]Detecting watermark RAG:  28%|██▊       | 53/191 [00:18<00:45,  3.05it/s]Detecting watermark RAG:  28%|██▊       | 54/191 [00:19<00:45,  3.01it/s]Detecting watermark RAG:  29%|██▉       | 55/191 [00:19<00:46,  2.92it/s]Detecting watermark RAG:  29%|██▉       | 56/191 [00:20<00:45,  2.96it/s]Detecting watermark RAG:  30%|██▉       | 57/191 [00:20<00:43,  3.08it/s]Detecting watermark RAG:  30%|███       | 58/191 [00:20<00:44,  3.01it/s]Detecting watermark RAG:  31%|███       | 59/191 [00:20<00:43,  3.04it/s]Sentence: - Cohort studies: No significant association was o...
+Score_0: 0.0000, Score_1: 1.0690
+Sentence: The findings supported a potential protective effe...
+Score_0: 0.0000, Score_1: 0.4264
+Sentence: However, the results from cohort studies were less...
+Score_0: -1.6667, Score_1: 0.3333
+Sentence: The study suggested that further well-designed pro...
+Score_0: -0.1925, Score_1: -0.5774
+Found 4 watermarked sentences
+Sentence: In a study evaluating how meat-based breakfast mea...
+Score_0: 0.0000, Score_1: 0.8165
+Sentence: They attended a research center on three test days...
+Score_0: -1.8074, Score_1: -0.2582
+Sentence: Regarding energy intake and macronutrient profiles...
+Score_0: -0.8528, Score_1: 0.0000
+Sentence: In terms of hunger and satiety ratings over time, ...
+Score_0: -3.4412, Score_1: -0.6882
+Found 1 watermarked sentences
+Sentence: Research indicates that short- and long-term consu...
+Score_0: 0.4264, Score_1: -0.4264
+Found 2 watermarked sentences
+Sentence: "In our study on cardiovascular risk factors in el...
+Score_0: -0.8452, Score_1: -2.1974
+Sentence: Moreover, subjects consuming mainly a boiled Greek...
+Score_0: 0.9285, Score_1: -0.9285
+Found 2 watermarked sentences
+Sentence: According to guidelines, the recommended approach ...
+Score_0: 0.6860, Score_1: 0.0000
+Sentence: This may include non-pharmacological therapies, ph...
+Score_0: -1.2999, Score_1: -1.6713
+Found 4 watermarked sentences
+Sentence: In dietary polyphenol research, many investigation...
+Score_0: -0.8165, Score_1: 0.4082
+Sentence: Nonextractable polyphenols (NEPP), which remain in...
+Score_0: 1.2792, Score_1: 0.0000
+Sentence: Recent studies have shown that NEPP contribute sig...
+Score_0: 0.2582, Score_1: -1.2910
+Sentence: These NEPP, when hydrolyzed or taken into account ...
+Score_0: -0.6325, Score_1: -1.5811
+Found 2 watermarked sentences
+Sentence: The prevalence of Adv36 positivity in lean individ...
+Score_0: 0.0000, Score_1: 0.2828
+Sentence: This increase in Adv36 positivity paralleled the r...
+Score_0: 1.0000, Score_1: -0.6000
+Found 2 watermarked sentences
+Sentence: "In a prospective study of fatal pancreatic cancer...
+Score_0: 2.1381, Score_1: 0.2673
+Sentence: This protective relationship was emphasized in com...
+Score_0: 1.9612, Score_1: -0.3922
+Found 3 watermarked sentences
+Sentence: We identified four dietary patterns- named "animal...
+Score_0: -1.1767, Score_1: -0.7845
+Sentence: " These patterns explain 75% of the total variance...
+Score_0: 0.5345, Score_1: 0.0000
+Sentence: The odds ratios for pancreatic cancer risk associa...
+Score_0: 0.2582, Score_1: 0.2582
+Found 1 watermarked sentences
+Sentence: Pancreatic cancer cell lines often exhibit resista...
+Score_0: -1.8856, Score_1: 0.4714
+Found 2 watermarked sentences
+Sentence: Supplementation of term infant formula with DHA or...
+Score_0: -0.4685, Score_1: -0.4685
+Sentence: However, the study does not report differences in ...
+Score_0: 0.6882, Score_1: -1.6059
+Found 5 watermarked sentences
+Sentence: After 6 weeks, hibiscus tea showed a statistically...
+Score_0: 0.2085, Score_1: -0.6255
+Sentence: Daily consumption of hibiscus tea lowered SBP by a...
+Score_0: 0.5000, Score_1: -1.0000
+Sentence: 4 mm Hg compared to the placebo group (-1...
+Score_0: -0.6325, Score_1: 0.6325
+Sentence: Diastolic blood pressure (DBP) was also lower in t...
+Score_0: -1.2572, Score_1: 0.5388
+Sentence: In summary, daily consumption of hibiscus tea for ...
+Score_0: -2.4140, Score_1: 2.0426
+Found 2 watermarked sentences
+Sentence: "In a study involving white twins, leukocyte telom...
+Score_0: 0.0000, Score_1: 0.3780
+Sentence: This association remained significant after adjust...
+Score_0: -0.9623, Score_1: -0.9623
+Found 4 watermarked sentences
+Sentence: Curcumin has shown efficacy in animal models, part...
+Score_0: 1.5275, Score_1: -1.9640
+Sentence: These studies demonstrate that curcumin can help m...
+Score_0: 0.4082, Score_1: 1.6330
+Sentence: The connection to aging- associated changes lies i...
+Score_0: 0.7303, Score_1: -0.7303
+Sentence: By targeting these processes, curcumin might contr...
+Score_0: 0.0000, Score_1: -0.4714
+Found 5 watermarked sentences
+Sentence: Intake of alliums, particularly garlic, was associ...
+Score_0: 0.8944, Score_1: 1.3416
+Sentence: Dried fruits, particularly raisins, were associate...
+Score_0: 0.8165, Score_1: 0.4082
+Sentence: The OR for dried fruits was 0...
+Score_0: 1.1339, Score_1: 0.3780
+Sentence: Subgroup analyses showed that the protective effec...
+Score_0: -0.3430, Score_1: 0.6860
+Sentence: In conclusion, consumption of alliums, particularl...
+Score_0: 0.1644, Score_1: 0.8220
+Found 2 watermarked sentences
+Sentence: Public school students consumed meat daily, while ...
+Score_0: -0.3922, Score_1: -2.7456
+Sentence: Vegetarians, who consumed meat less than 1/week, d...
+Score_0: -0.9285, Score_1: -0.9285
+Found 2 watermarked sentences
+Sentence: In the cross-sectional study, PWAWGs had a similar...
+Score_0: 0.0000, Score_1: 1.8856
+Sentence: The mean hemoglobin values were also comparable be...
+Score_0: 0.7276, Score_1: 0.7276
+Found 6 watermarked sentences
+Sentence: These endodontic compounds can damage genetic mate...
+Score_0: 0.3015, Score_1: 0.9045
+Sentence: **Interactions with nuclear receptors:** Compounds...
+Score_0: 0.1690, Score_1: -1.5213
+Sentence: **Direct DNA binding or modification:** Some compo...
+Score_0: 1.3472, Score_1: -1.7321
+Sentence: **Induction of reactive oxygen species (ROS):** Co...
+Score_0: -0.7071, Score_1: 1.0607
+Sentence: Identifying and restricting the use of genotoxic c...
+Score_0: -0.5774, Score_1: 0.0000
+Sentence: Encouraging ongoing research to better understand ...
+Score_0: -1.7889, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: Steam cooking significantly improves the in vitro ...
+Score_0: 0.0000, Score_1: -0.7071
+Sentence: The specific binding percentages for each vegetabl...
+Score_0: -0.4082, Score_1: -2.2454
+Found 1 watermarked sentences
+Sentence: This often means that non-trial data, such as epid...
+Score_0: 0.7071, Score_1: -2.4749
+Found 4 watermarked sentences
+Sentence: Specifically, the study found that vegetable fat c...
+Score_0: 0.3922, Score_1: -1.9612
+Sentence: A daily serving of key sources like peanut butter,...
+Score_0: 0.2085, Score_1: -1.0426
+Sentence: 01), indicating a significant protective effect ag...
+Score_0: -0.6325, Score_1: 0.6325
+Sentence: Peanut butter and nuts specifically were also asso...
+Score_0: 0.0000, Score_1: -0.5000
+Found 2 watermarked sentences
+Sentence: Environmental factors, particularly exposure to ha...
+Score_0: -0.1796, Score_1: -0.5388
+Sentence: Harmane's association with elevated blood concentr...
+Score_0: -0.4472, Score_1: 0.8944
+Found 1 watermarked sentences
+Sentence: These studies were categorized based on their desi...
+Score_0: -0.7276, Score_1: 0.7276
+Found 4 watermarked sentences
+Sentence: Distinct correlations based on country and metal t...
+Score_0: 0.2000, Score_1: 1.4000
+Sentence: Significant positive correlations were found for a...
+Score_0: -1.1547, Score_1: -0.5774
+Sentence: Correlations were often not significant and someti...
+Score_0: -0.5345, Score_1: -0.5345
+Sentence: Correlations frequently improved when data from EM...
+Score_0: -0.2182, Score_1: 1.0911
+Found 2 watermarked sentences
+Sentence: In industrialized countries, up to 70% of people m...
+Score_0: 0.0000, Score_1: -1.2247
+Sentence: This is due to a decline in fiber intake tied to e...
+Score_0: 0.7746, Score_1: 0.7746
+No watermarked sentences found based on keywords
+Found 3 watermarked sentences
+Sentence: Health-related factors, particularly the preventio...
+Score_0: 0.9285, Score_1: -0.9285
+Sentence: The study also found that health beliefs, animal w...
+Score_0: -0.2085, Score_1: -0.6255
+Sentence: Regular exercise, normal BMI, minimal alcohol and ...
+Score_0: 1.9379, Score_1: -0.1491
+Found 2 watermarked sentences
+Sentence: New areas of technological developments are being ...
+Score_0: -1.5000, Score_1: 0.0000
+Sentence: These advancements aim to address the challenge of...
+Score_0: -0.6882, Score_1: -0.2294
+Found 2 watermarked sentences
+Sentence: "In a STUDY, fourteen fit individuals ingested 160...
+Score_0: 0.8452, Score_1: 1.5213
+Detecting watermark RAG:  31%|███▏      | 60/191 [00:21<00:43,  3.04it/s]Detecting watermark RAG:  32%|███▏      | 61/191 [00:21<00:42,  3.08it/s]Detecting watermark RAG:  32%|███▏      | 62/191 [00:21<00:42,  3.04it/s]Detecting watermark RAG:  33%|███▎      | 63/191 [00:22<00:42,  3.04it/s]Detecting watermark RAG:  34%|███▎      | 64/191 [00:22<00:40,  3.12it/s]Detecting watermark RAG:  34%|███▍      | 65/191 [00:22<00:41,  3.02it/s]Detecting watermark RAG:  35%|███▍      | 66/191 [00:23<00:41,  3.01it/s]Detecting watermark RAG:  35%|███▌      | 67/191 [00:23<00:40,  3.05it/s]Detecting watermark RAG:  36%|███▌      | 68/191 [00:23<00:40,  3.07it/s]Detecting watermark RAG:  36%|███▌      | 69/191 [00:24<00:40,  3.00it/s]Detecting watermark RAG:  37%|███▋      | 70/191 [00:24<00:39,  3.03it/s]Detecting watermark RAG:  37%|███▋      | 71/191 [00:24<00:39,  3.06it/s]Detecting watermark RAG:  38%|███▊      | 72/191 [00:25<00:40,  2.96it/s]Detecting watermark RAG:  38%|███▊      | 73/191 [00:25<00:39,  2.98it/s]Detecting watermark RAG:  39%|███▊      | 74/191 [00:25<00:38,  3.01it/s]Detecting watermark RAG:  39%|███▉      | 75/191 [00:26<00:38,  2.99it/s]Detecting watermark RAG:  40%|███▉      | 76/191 [00:26<00:38,  2.97it/s]Detecting watermark RAG:  40%|████      | 77/191 [00:26<00:37,  3.05it/s]Detecting watermark RAG:  41%|████      | 78/191 [00:27<00:37,  3.05it/s]Detecting watermark RAG:  41%|████▏     | 79/191 [00:27<00:36,  3.04it/s]Detecting watermark RAG:  42%|████▏     | 80/191 [00:27<00:36,  3.05it/s]Detecting watermark RAG:  42%|████▏     | 81/191 [00:28<00:37,  2.93it/s]Detecting watermark RAG:  43%|████▎     | 82/191 [00:28<00:36,  2.98it/s]Detecting watermark RAG:  43%|████▎     | 83/191 [00:28<00:36,  2.99it/s]Detecting watermark RAG:  44%|████▍     | 84/191 [00:29<00:36,  2.93it/s]Detecting watermark RAG:  45%|████▍     | 85/191 [00:29<00:35,  2.96it/s]Detecting watermark RAG:  45%|████▌     | 86/191 [00:29<00:34,  3.05it/s]Detecting watermark RAG:  46%|████▌     | 87/191 [00:30<00:34,  3.04it/s]Detecting watermark RAG:  46%|████▌     | 88/191 [00:30<00:34,  3.00it/s]Detecting watermark RAG:  47%|████▋     | 89/191 [00:30<00:33,  3.07it/s]Detecting watermark RAG:  47%|████▋     | 90/191 [00:31<00:32,  3.10it/s]Sentence: Concurrently, there was a significant increase in ...
+Score_0: -0.4286, Score_1: 0.1429
+Found 1 watermarked sentences
+Sentence: The study suggests that pre-diagnostic exposure to...
+Score_0: 1.3333, Score_1: -0.3333
+Found 4 watermarked sentences
+Sentence: Polyphenols can interact with proteins, specifical...
+Score_0: 0.8321, Score_1: -0.2774
+Sentence: This interaction modulates allergic sensitization ...
+Score_0: -0.4264, Score_1: 0.0000
+Sentence: In relation to mast cells, polyphenols directly af...
+Score_0: 0.0000, Score_1: -1.5000
+Sentence: By inhibiting mediator release from mast cells upo...
+Score_0: -0.6489, Score_1: 0.3244
+Found 1 watermarked sentences
+Sentence: The most comprehensive survey on asthma, rhinoconj...
+Score_0: 0.0000, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: "In numerous affluent nations, a rise in condition...
+Score_0: -1.7889, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: The allergic children in Estonia and Sweden were l...
+Score_0: -0.6547, Score_1: -0.6547
+Sentence: 01), as compared with the nonallergic children in ...
+Score_0: 1.0690, Score_1: -1.0690
+Found 2 watermarked sentences
+Sentence: "In a comprehensive cellular and molecular study, ...
+Score_0: -1.1767, Score_1: 0.7845
+Sentence: The study also examined IP(6)'s impact on cultured...
+Score_0: 0.0000, Score_1: -0.7303
+Found 2 watermarked sentences
+Sentence: According to research from the early 1990s, eating...
+Score_0: 0.2085, Score_1: -0.6255
+Sentence: The new analysis of the Spanish PREDIMED trial pub...
+Score_0: 0.0000, Score_1: -0.3086
+Found 1 watermarked sentences
+Sentence: Curcumin inhibits the mutagenicity of various envi...
+Score_0: -1.4606, Score_1: 1.0954
+Found 3 watermarked sentences
+Sentence: This can lead to hormonal imbalances and adverse h...
+Score_0: -0.5774, Score_1: 1.1547
+Sentence: Some examples of compounds that mimic estrogen eff...
+Score_0: 1.2247, Score_1: 1.2247
+Sentence: Hair dyes, cosmetics, and sunscreens containing po...
+Score_0: -0.8321, Score_1: -0.2774
+Found 2 watermarked sentences
+Sentence: "In a meta-regression analysis, key factors found ...
+Score_0: -0.5571, Score_1: -0.1857
+Sentence: The relationship between prevalence and sensitizat...
+Score_0: 1.0911, Score_1: 1.0911
+Found 1 watermarked sentences
+Sentence: Neutral red uptake and Ames mutagenicity assays we...
+Score_0: -1.9612, Score_1: -0.7845
+Found 2 watermarked sentences
+Sentence: In the Salmonella typhimurium test, specific pheno...
+Score_0: 0.2582, Score_1: -0.2582
+Sentence: typhimurium...
+Score_0: 0.0000, Score_1: 1.0000
+Found 2 watermarked sentences
+Sentence: The objective of this research was to gather infor...
+Score_0: -1.2247, Score_1: -0.4082
+Sentence: To assess cross-contamination, the researchers use...
+Score_0: 0.1857, Score_1: -1.2999
+Found 2 watermarked sentences
+Sentence: "In post-World War II Japan, there was a significa...
+Score_0: -1.2792, Score_1: -0.4264
+Sentence: This rise in milk consumption might have had an im...
+Score_0: -0.3430, Score_1: 0.3430
+Found 4 watermarked sentences
+Sentence: Obesity contributes to osteoarthritis by placing e...
+Score_0: -1.0911, Score_1: -0.2182
+Sentence: In addition to load-dependent effects, obesity als...
+Score_0: -2.0412, Score_1: 0.4082
+Sentence: Leptin, among other pro-inflammatory factors, can ...
+Score_0: 0.1857, Score_1: -1.6713
+Sentence: Biomechanical factors also play a role in obesity-...
+Score_0: -1.2910, Score_1: -1.8074
+Found 2 watermarked sentences
+Sentence: Various human diseases have been examined for curc...
+Score_0: 0.0000, Score_1: 1.0690
+Sentence: These include cancer, cardiovascular disease, arth...
+Score_0: -0.5130, Score_1: -0.1026
+Found 2 watermarked sentences
+Sentence: The association between heme iron intake from anim...
+Score_0: 1.0954, Score_1: -0.7303
+Sentence: The multivariate relative risk comparing high heme...
+Score_0: 1.5000, Score_1: -1.0000
+Found 3 watermarked sentences
+Sentence: In the study, fasting blood was collected from hea...
+Score_0: 0.5774, Score_1: 0.0000
+Sentence: The supplementation group took 15 g/day of wolfber...
+Score_0: 0.3430, Score_1: 0.0000
+Sentence: Repeat fasting blood collection occurred on day 29...
+Score_0: 0.0000, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: In dietary research without extended longitudinal ...
+Score_0: -1.1339, Score_1: -0.3780
+Sentence: This decline in b-12 levels can negatively impact ...
+Score_0: -0.8944, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: This phenomenon could play a role in explaining th...
+Score_0: -1.0675, Score_1: 2.5925
+Found 11 watermarked sentences
+Sentence: In iron-excess conditions, IP6 (specifically at co...
+Score_0: 0.9733, Score_1: -0.6489
+Sentence: Compared to MPP(+) treatment, IP6 increased cell s...
+Score_0: -0.4264, Score_1: -0.8528
+Sentence: 05) at 30 micromol/L and 42% (P<0...
+Score_0: -0.2294, Score_1: -0.2294
+Sentence: The protective effect was also observed in other c...
+Score_0: -0.3333, Score_1: 1.6667
+Sentence: A threefold increase in caspase-3 activity was red...
+Score_0: -1.9640, Score_1: 1.5275
+Sentence: 01) with IP6 at 30 micromol/L and 40% (P<0...
+Score_0: -0.4264, Score_1: 0.8528
+Sentence: 001) with IP6 at 100 micromol/L...
+Score_0: -0.2582, Score_1: -0.2582
+Sentence: DNA fragmentation, another indicator of apoptosis,...
+Score_0: 0.4714, Score_1: 0.4714
+Sentence: 001) with IP6 at 100 micromol/L in iron-excess con...
+Score_0: -0.4472, Score_1: 0.4472
+Sentence: Hoechst nuclear staining results confirmed the pro...
+Score_0: 0.0000, Score_1: 0.8944
+Sentence: In summary, IP6 application at concentrations of 3...
+Score_0: -1.1921, Score_1: 0.1325
+Found 3 watermarked sentences
+Sentence: In the cohort study of postmenopausal women, indiv...
+Score_0: -0.1741, Score_1: -0.8704
+Sentence: This was accompanied by a higher percentage of wom...
+Score_0: -0.7276, Score_1: 1.6977
+Sentence: Furthermore, there was a significantly increased r...
+Score_0: 0.1644, Score_1: 0.8220
+Found 2 watermarked sentences
+Sentence: It appears that areas characterized by frequent be...
+Score_0: -2.1909, Score_1: 1.4606
+Sentence: This suggests a potential correlation between high...
+Score_0: -0.6882, Score_1: 0.2294
+Found 1 watermarked sentences
+Sentence: These outcomes related to the fatty acid profiles ...
+Score_0: 0.1741, Score_1: -0.5222
+Found 1 watermarked sentences
+Sentence: According to the guidelines mentioned, the recomme...
+Score_0: 1.1832, Score_1: -1.8593
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: One hypothesis regarding high protein intake's eff...
+Score_0: -0.3015, Score_1: 2.1106
+Found 5 watermarked sentences
+Sentence: Methionine plays a crucial role in cancer cell sur...
+Score_0: -0.6547, Score_1: 1.9640
+Sentence: Regular cells generally have a greater tolerance t...
+Score_0: 1.6036, Score_1: 0.0000
+Sentence: Methods for in vivo methionine depletion include u...
+Score_0: 0.8980, Score_1: 1.2572
+Sentence: However, prolonged methionine restriction is not s...
+Score_0: -0.6547, Score_1: -0.2182
+Sentence: Despite these limitations, methionine restriction ...
+Score_0: -1.0426, Score_1: 1.0426
+Found 3 watermarked sentences
+Sentence: Research indicates that significant benefits of ph...
+Score_0: -0.2582, Score_1: -0.7746
+Sentence: This implies substantial impacts, especially for y...
+Score_0: 0.8321, Score_1: -0.2774
+Sentence: However, there is a scarcity of research specifica...
+Score_0: -0.1925, Score_1: 1.7321
+Found 3 watermarked sentences
+Sentence: Every mmol/liter of increase in total cholesterol ...
+Score_0: -0.2582, Score_1: -0.7746
+Sentence: 32 times the risk of erectile dysfunction (95% con...
+Score_0: -0.7746, Score_1: -3.3566
+Sentence: Every mmol/liter of increase in high density lipop...
+Score_0: -0.6882, Score_1: -1.1471
+Found 4 watermarked sentences
+Sentence: The purpose of this research was to investigate th...
+Score_0: -1.0954, Score_1: 1.0954
+Sentence: Angiography results: 1-, 2-, and 3-vessel disease ...
+Score_0: 0.8944, Score_1: -2.2361
+Sentence: Classification of ED severity: mild (14%), mild to...
+Score_0: 1.2136, Score_1: -0.9439
+Sentence: This suggests a potential link between early-onset...
+Detecting watermark RAG:  48%|████▊     | 91/191 [00:31<00:33,  3.02it/s]Detecting watermark RAG:  48%|████▊     | 92/191 [00:31<00:32,  3.01it/s]Detecting watermark RAG:  49%|████▊     | 93/191 [00:32<00:32,  3.03it/s]Detecting watermark RAG:  49%|████▉     | 94/191 [00:32<00:32,  3.00it/s]Detecting watermark RAG:  50%|████▉     | 95/191 [00:32<00:32,  2.99it/s]Detecting watermark RAG:  50%|█████     | 96/191 [00:33<00:31,  2.97it/s]Detecting watermark RAG:  51%|█████     | 97/191 [00:33<00:31,  2.98it/s]Detecting watermark RAG:  51%|█████▏    | 98/191 [00:33<00:30,  3.03it/s]Detecting watermark RAG:  52%|█████▏    | 99/191 [00:34<00:30,  3.00it/s]Detecting watermark RAG:  52%|█████▏    | 100/191 [00:34<00:29,  3.05it/s]Detecting watermark RAG:  53%|█████▎    | 101/191 [00:34<00:29,  3.06it/s]Detecting watermark RAG:  53%|█████▎    | 102/191 [00:35<00:29,  3.02it/s]Detecting watermark RAG:  54%|█████▍    | 103/191 [00:35<00:28,  3.08it/s]Detecting watermark RAG:  54%|█████▍    | 104/191 [00:35<00:29,  3.00it/s]Detecting watermark RAG:  55%|█████▍    | 105/191 [00:36<00:27,  3.08it/s]Detecting watermark RAG:  55%|█████▌    | 106/191 [00:36<00:29,  2.90it/s]Detecting watermark RAG:  56%|█████▌    | 107/191 [00:36<00:28,  2.95it/s]Detecting watermark RAG:  57%|█████▋    | 108/191 [00:37<00:27,  2.96it/s]Detecting watermark RAG:  57%|█████▋    | 109/191 [00:37<00:27,  2.97it/s]Detecting watermark RAG:  58%|█████▊    | 110/191 [00:37<00:27,  2.97it/s]Detecting watermark RAG:  58%|█████▊    | 111/191 [00:38<00:26,  3.07it/s]Detecting watermark RAG:  59%|█████▊    | 112/191 [00:38<00:25,  3.12it/s]Detecting watermark RAG:  59%|█████▉    | 113/191 [00:38<00:25,  3.03it/s]Detecting watermark RAG:  60%|█████▉    | 114/191 [00:39<00:26,  2.95it/s]Detecting watermark RAG:  60%|██████    | 115/191 [00:39<00:25,  2.97it/s]Detecting watermark RAG:  61%|██████    | 116/191 [00:39<00:25,  2.99it/s]Detecting watermark RAG:  61%|██████▏   | 117/191 [00:40<00:24,  3.04it/s]Detecting watermark RAG:  62%|██████▏   | 118/191 [00:40<00:24,  2.98it/s]Detecting watermark RAG:  62%|██████▏   | 119/191 [00:40<00:23,  3.02it/s]Score_0: -1.0426, Score_1: -1.0426
+Found 1 watermarked sentences
+Sentence: During a PCDU assessment, doubts have been raised ...
+Score_0: 1.9612, Score_1: 0.7845
+Found 4 watermarked sentences
+Sentence: At the end of the experiment, the control group lo...
+Score_0: -0.6255, Score_1: -0.6255
+Sentence: 05), whereas the experimental group lost 11% of fa...
+Score_0: -1.6977, Score_1: 0.2425
+Sentence: Consumption of orange juice by the experimental gr...
+Score_0: -0.3536, Score_1: -1.7678
+Sentence: 05) in the experimental group, while HDL-cholester...
+Score_0: -1.4000, Score_1: 0.2000
+Found 5 watermarked sentences
+Sentence: Obesity remains a major public health challenge wi...
+Score_0: 0.6325, Score_1: -0.6325
+Sentence: Current obesity drugs are limited, and there is a ...
+Score_0: 0.8165, Score_1: -1.6330
+Sentence: PL activity plays a crucial role in fat digestion ...
+Score_0: -0.2582, Score_1: -0.2582
+Sentence: Inhibiting PL can help reduce calorie intake and c...
+Score_0: 0.5345, Score_1: -1.0690
+Sentence: Potential sources for developing new antiobesity d...
+Score_0: -2.3349, Score_1: 0.5388
+Found 2 watermarked sentences
+Sentence: Protein-based fat replacers: examples include whey...
+Score_0: -1.4596, Score_1: -0.2085
+Sentence: Lipid-based substances as emulsifiers: soy lecithi...
+Score_0: 1.4606, Score_1: 0.7303
+Found 3 watermarked sentences
+Sentence: Potato chips/crisps exhibited the highest average ...
+Score_0: 0.9487, Score_1: 0.3162
+Sentence: Salted biscuits excluding potato chips came third ...
+Score_0: -0.5000, Score_1: -2.0000
+Sentence: However, the exact exposure margins and their comp...
+Score_0: -0.7845, Score_1: -0.7845
+Found 4 watermarked sentences
+Sentence: Total urinary melatonin content was significantly ...
+Score_0: -2.3094, Score_1: 0.5774
+Sentence: 05) in the cherry juice group, compared to the pla...
+Score_0: 2.3094, Score_1: -1.7321
+Sentence: This increase in exogenous melatonin led to signif...
+Score_0: 1.8766, Score_1: -0.2085
+Sentence: However, there were no differences observed in tim...
+Score_0: 0.4264, Score_1: -0.4264
+Found 2 watermarked sentences
+Sentence: "It has been demonstrated that melatonin does not ...
+Score_0: 0.2294, Score_1: 1.6059
+Sentence: Compared with placebo, melatonin significantly inc...
+Score_0: -0.3015, Score_1: -2.1106
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: Eating low-GI foods during dinner improves subsequ...
+Score_0: 0.2294, Score_1: -0.2294
+Found 2 watermarked sentences
+Sentence: The findings showed that alcohol and caffeine inta...
+Score_0: 0.9428, Score_1: 0.0000
+Sentence: The multivariate-adjusted relative risks (RRs) for...
+Score_0: -1.0607, Score_1: -1.0607
+Found 4 watermarked sentences
+Sentence: The methodology used to estimate trans fatty acid ...
+Score_0: 0.9045, Score_1: -0.6030
+Sentence: This was complemented by market shares, trans fat ...
+Score_0: -0.4082, Score_1: 1.2247
+Sentence: This estimation process related to the US Food and...
+Score_0: -0.6860, Score_1: 1.3720
+Sentence: The updated estimate provides a contemporary asses...
+Score_0: -2.3570, Score_1: 1.4142
+Found 1 watermarked sentences
+Sentence: Lavender and tea tree oils...
+Score_0: 0.8165, Score_1: 0.0000
+Found 4 watermarked sentences
+Sentence: The specific probiotic formulation used was Lactob...
+Score_0: 1.0290, Score_1: -1.7150
+Sentence: In the preclinical study on rats, this formulation...
+Score_0: -0.2294, Score_1: -0.6882
+Sentence: In the clinical trial with healthy human volunteer...
+Score_0: 0.6202, Score_1: -1.6125
+Sentence: The specific effects on each scale are detailed in...
+Score_0: -0.3015, Score_1: 0.9045
+Found 1 watermarked sentences
+Sentence: lactis HN019...
+Score_0: 0.3780, Score_1: 1.8898
+Found 4 watermarked sentences
+Sentence: The topical application of a 10% (w/ w) freeze-dri...
+Score_0: 2.5019, Score_1: 0.5774
+Sentence: Modulation of gene expression profiles, particular...
+Score_0: 0.7746, Score_1: 0.2582
+Sentence: Posttreatment decreases in epithelial iNOS and COX...
+Score_0: 1.0000, Score_1: 1.0000
+Sentence: These findings demonstrate the therapeutic potenti...
+Score_0: 0.4264, Score_1: -1.7056
+Found 2 watermarked sentences
+Sentence: Pressing generally results in significant losses o...
+Score_0: 0.6000, Score_1: -0.6000
+Sentence: Comparing these processed products to fresh cranbe...
+Score_0: 0.1690, Score_1: -0.5071
+Found 3 watermarked sentences
+Sentence: Despite their ethical controversy, placebos play a...
+Score_0: 1.0426, Score_1: -0.2085
+Sentence: In this study, it was found that psychiatrists hav...
+Score_0: -0.8944, Score_1: 2.2361
+Sentence: They seem to better recognize the therapeutic pote...
+Score_0: -0.6882, Score_1: -0.2294
+Found 5 watermarked sentences
+Sentence: These diets were specifically created to control h...
+Score_0: -1.2792, Score_1: 0.8528
+Sentence: These regimens were developed based on detailed an...
+Score_0: 0.2182, Score_1: -0.2182
+Sentence: The diets were adjusted not only according to the ...
+Score_0: -1.1339, Score_1: -0.3780
+Sentence: The acceptance period among research subjects was ...
+Score_0: 0.9045, Score_1: 0.3015
+Sentence: During this time frame, participants consumed the ...
+Score_0: -0.7559, Score_1: 0.7559
+Found 4 watermarked sentences
+Sentence: The hazard ratio for the association between Dieta...
+Score_0: 1.3416, Score_1: 0.0000
+Sentence: 7 years, 570 incident cases of benign proliferativ...
+Score_0: 0.1857, Score_1: -0.1857
+Sentence: The risk varied by baseline total vitamin D intake...
+Score_0: -1.5000, Score_1: 2.0000
+Sentence: According to these results, a modest reduction in ...
+Score_0: 0.1796, Score_1: 1.2572
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: These compounds have a cyclic pattern of excretion...
+Score_0: 0.3922, Score_1: -1.1767
+Found 3 watermarked sentences
+Sentence: Proposed mechanism: Antibiotics may affect breast-...
+Score_0: 0.9428, Score_1: 0.4714
+Sentence: This disruption can impair the metabolism of phyto...
+Score_0: 1.1339, Score_1: -1.1339
+Sentence: The impact on immune factors (cytokines, T lymphoc...
+Score_0: 1.5076, Score_1: 0.6030
+Found 4 watermarked sentences
+Sentence: In conventional samples, the prevalence rate of ES...
+Score_0: -1.2127, Score_1: 0.2425
+Sentence: For organic samples, the prevalence rate was 84% (...
+Score_0: -1.2910, Score_1: 0.2582
+Sentence: These findings suggest a high level of ESBL-produc...
+Score_0: 0.0000, Score_1: 0.8165
+Sentence: This contamination could potentially pose a risk t...
+Score_0: -1.1767, Score_1: -2.3534
+Found 3 watermarked sentences
+Sentence: EGCG administration was associated with a signific...
+Score_0: -1.6977, Score_1: 1.2127
+Sentence: This change also reflected in overall EEG activity...
+Score_0: 0.7559, Score_1: 0.0000
+Sentence: Additionally, participants self-rated increased ca...
+Score_0: -1.2127, Score_1: 1.2127
+Found 1 watermarked sentences
+Sentence: The average measurement of iodine expulsion throug...
+Score_0: -0.2774, Score_1: -0.8321
+Found 1 watermarked sentences
+Sentence: Costs were $37...
+Score_0: -2.2361, Score_1: 1.3416
+Found 3 watermarked sentences
+Sentence: The specific methods used for assaying vitamin D(2...
+Score_0: 0.1525, Score_1: -1.0675
+Sentence: Vitamin D(2) content varied significantly across m...
+Score_0: 1.3868, Score_1: 2.2188
+Sentence: Ergosterol concentrations were also reported for d...
+Score_0: 1.2999, Score_1: -0.1857
+Found 2 watermarked sentences
+Sentence: The context does not provide a specific percentage...
+Score_0: 1.2999, Score_1: 0.1857
+Sentence: It only states that these aspects account for a si...
+Score_0: 0.2774, Score_1: -0.8321
+Found 6 watermarked sentences
+Sentence: HAAs stand for heterocyclic amines, which are a ca...
+Score_0: -1.2792, Score_1: 1.7056
+Sentence: They can form during cooking at high temperatures,...
+Score_0: -1.0000, Score_1: 0.5000
+Sentence: HCAs have been detected in cooked meats as well as...
+Score_0: 0.2085, Score_1: -0.6255
+Sentence: These compounds can affect human tissues by induci...
+Score_0: -1.8000, Score_1: 0.2000
+Sentence: Incorporating HAA biomarkers into epidemiologic st...
+Score_0: -0.8220, Score_1: -0.8220
+Detecting watermark RAG:  63%|██████▎   | 120/191 [00:41<00:23,  2.98it/s]Detecting watermark RAG:  63%|██████▎   | 121/191 [00:41<00:23,  2.95it/s]Detecting watermark RAG:  64%|██████▍   | 122/191 [00:41<00:23,  2.90it/s]Detecting watermark RAG:  64%|██████▍   | 123/191 [00:42<00:23,  2.96it/s]Detecting watermark RAG:  65%|██████▍   | 124/191 [00:42<00:22,  3.03it/s]Detecting watermark RAG:  65%|██████▌   | 125/191 [00:42<00:22,  2.96it/s]Detecting watermark RAG:  66%|██████▌   | 126/191 [00:43<00:22,  2.88it/s]Detecting watermark RAG:  66%|██████▋   | 127/191 [00:43<00:22,  2.88it/s]Detecting watermark RAG:  67%|██████▋   | 128/191 [00:43<00:21,  2.96it/s]Detecting watermark RAG:  68%|██████▊   | 129/191 [00:44<00:21,  2.91it/s]Detecting watermark RAG:  68%|██████▊   | 130/191 [00:44<00:20,  2.96it/s]Detecting watermark RAG:  69%|██████▊   | 131/191 [00:44<00:19,  3.05it/s]Detecting watermark RAG:  69%|██████▉   | 132/191 [00:45<00:20,  2.94it/s]Detecting watermark RAG:  70%|██████▉   | 133/191 [00:45<00:19,  3.02it/s]Detecting watermark RAG:  70%|███████   | 134/191 [00:45<00:18,  3.02it/s]Detecting watermark RAG:  71%|███████   | 135/191 [00:46<00:18,  2.99it/s]Detecting watermark RAG:  71%|███████   | 136/191 [00:46<00:18,  3.03it/s]Detecting watermark RAG:  72%|███████▏  | 137/191 [00:46<00:17,  3.03it/s]Detecting watermark RAG:  72%|███████▏  | 138/191 [00:47<00:17,  3.08it/s]Detecting watermark RAG:  73%|███████▎  | 139/191 [00:47<00:16,  3.11it/s]Detecting watermark RAG:  73%|███████▎  | 140/191 [00:47<00:16,  3.12it/s]Detecting watermark RAG:  74%|███████▍  | 141/191 [00:48<00:15,  3.13it/s]Detecting watermark RAG:  74%|███████▍  | 142/191 [00:48<00:15,  3.17it/s]Sentence: This information can inform public health policies...
+Score_0: -0.2774, Score_1: -1.3868
+Found 4 watermarked sentences
+Sentence: The specific effect of β-glucan intake from oats a...
+Score_0: -2.0412, Score_1: -0.4082
+Sentence: 4%), and non-high-density lipoprotein-cholesterol ...
+Score_0: 0.5345, Score_1: -1.0690
+Sentence: Regarding BGL, there was a significant decrease of...
+Score_0: -0.3015, Score_1: 0.9045
+Sentence: However, the effect on BGL was still inconclusive ...
+Score_0: 1.6330, Score_1: -1.2247
+Found 8 watermarked sentences
+Sentence: In the study, the main outcomes measured in terms ...
+Score_0: -2.0000, Score_1: -0.5000
+Sentence: 9 kg, while those on the American Diabetes Associa...
+Score_0: 0.5345, Score_1: 0.5345
+Sentence: Plasma lipid concentrations: The intervention grou...
+Score_0: -0.6547, Score_1: 0.2182
+Sentence: 1 mg/dl), compared to the control group...
+Score_0: 1.0000, Score_1: 0.3333
+Sentence: Glycated hemoglobin (HbA1C): Both groups experienc...
+Score_0: 0.1925, Score_1: -1.3472
+Sentence: 6 percentage point reduction for the intervention ...
+Score_0: 1.8974, Score_1: -0.6325
+Sentence: 08 percentage point reduction for the control grou...
+Score_0: 1.4142, Score_1: 0.7071
+Sentence: Statistical methods used to assess these relations...
+Score_0: 1.1339, Score_1: 0.7559
+Found 2 watermarked sentences
+Sentence: Ractopamine hydrochloride increased cutting yields...
+Score_0: -0.7276, Score_1: -0.2425
+Sentence: It also affected the ultimate pH in specific muscl...
+Score_0: 0.6860, Score_1: -0.3430
+No watermarked sentences found based on keywords
+Found 7 watermarked sentences
+Sentence: Median half-life durations in years for each of th...
+Score_0: 0.3922, Score_1: 0.0000
+Sentence: 46 years
+- PCB 138 (+163): 10...
+Score_0: 1.6977, Score_1: 1.2127
+Sentence: 59 years (for PCB 138) and not specified for PCB 1...
+Score_0: 0.1857, Score_1: 1.2999
+Sentence: 7 years
+- PCB 156 (+171): 4...
+Score_0: 1.8074, Score_1: 1.2910
+Sentence: 7 years (for PCB 156) and not specified for PCB 17...
+Score_0: 1.5119, Score_1: 1.5119
+Sentence: 1 years
+- PCB 180: 9...
+Score_0: 2.1106, Score_1: 0.9045
+Sentence: 8 years
+
+Note that the information provided does n...
+Score_0: 0.8980, Score_1: -0.8980
+Found 4 watermarked sentences
+Sentence: Saffron odor was investigated for its effects on p...
+Score_0: 0.5774, Score_1: 0.9623
+Sentence: Exposure to saffron odor significantly affected th...
+Score_0: -1.5076, Score_1: -0.9045
+Sentence: Additionally, exposure to saffron odor increased t...
+Score_0: -1.8898, Score_1: 0.3780
+Sentence: In summary, exposure to saffron odor had physiolog...
+Score_0: -1.6330, Score_1: 0.0000
+Found 3 watermarked sentences
+Sentence: Initially, weight gain and obesity were thought to...
+Score_0: 1.6977, Score_1: -0.7276
+Sentence: However, recent discoveries have shown that variou...
+Score_0: 1.0607, Score_1: 1.4142
+Sentence: Evidence supporting a link between obesity and bro...
+Score_0: 1.3472, Score_1: 0.1925
+Found 2 watermarked sentences
+Sentence: The study found that there was a significant inver...
+Score_0: -1.3333, Score_1: 0.6667
+Sentence: The specific correlation coefficient mentioned was...
+Score_0: -1.6667, Score_1: 0.3333
+Found 2 watermarked sentences
+Sentence: When subjects consumed the preload that included d...
+Score_0: -0.6000, Score_1: 0.2000
+Sentence: The satiating effect could be explained due to the...
+Score_0: 0.0000, Score_1: 0.0000
+Found 1 watermarked sentences
+Sentence: The objective of the investigation was to test the...
+Score_0: 2.6000, Score_1: 1.0000
+Found 1 watermarked sentences
+Sentence: Primary mechanisms by which almonds reduce cardiov...
+Score_0: 0.3015, Score_1: -2.1106
+Found 5 watermarked sentences
+Sentence: During the late luteal phase of the menstrual cycl...
+Score_0: -0.4286, Score_1: 1.5714
+Sentence: This increase in calorie consumption was particula...
+Score_0: 0.2294, Score_1: -1.1471
+Sentence: The study also observed that the ratio of plasma t...
+Score_0: 0.1796, Score_1: -0.1796
+Sentence: Consuming a specific type of carbohydrate-rich, pr...
+Score_0: -0.5388, Score_1: 1.6164
+Sentence: This effect was not observed during the follicular...
+Score_0: 0.8321, Score_1: 0.2774
+Found 1 watermarked sentences
+Sentence: There is convincing evidence that plant foods and ...
+Score_0: -0.4082, Score_1: -1.6330
+Found 3 watermarked sentences
+Sentence: The preservation effects of the housefly pupae pep...
+Score_0: -0.1400, Score_1: -0.1400
+Sentence: The peptide mixture derived from housefly pupae, a...
+Score_0: 0.0000, Score_1: -0.7845
+Sentence: This study indicates that the housefly pupae pepti...
+Score_0: -0.2182, Score_1: -0.2182
+Found 8 watermarked sentences
+Sentence: Observational research and clinical trials have de...
+Score_0: -1.1471, Score_1: -1.1471
+Sentence: These eating plans are associated with better weig...
+Score_0: -0.1400, Score_1: -1.5403
+Sentence: The evidence includes studies that show:
+
+1...
+Score_0: 1.1339, Score_1: -1.8898
+Sentence: Improved glycemic control in individuals following...
+Score_0: 0.7071, Score_1: 0.0000
+Sentence: Weight loss associated with vegetarian or vegan di...
+Score_0: -0.2774, Score_1: -0.8321
+Sentence: Reduced cardiovascular risk markers in those on pl...
+Score_0: -1.2649, Score_1: 0.0000
+Sentence: Higher nutrient density and lower saturated fat in...
+Score_0: 1.0690, Score_1: -1.0690
+Sentence: In summary, a wealth of evidence supports the effe...
+Score_0: -1.9799, Score_1: -0.8485
+Found 5 watermarked sentences
+Sentence: Phosphocreatine serves as an energy reservoir in t...
+Score_0: 0.6882, Score_1: 1.6059
+Sentence: Creatine supplementation has been shown to impact ...
+Score_0: -2.3570, Score_1: 0.4714
+Sentence: The examination of creatine's role in cognitive fu...
+Score_0: -0.4472, Score_1: 0.8944
+Sentence: It was found that creatine supplementation led to ...
+Score_0: -1.6059, Score_1: -1.1471
+Sentence: In terms of variability in responses, creatine sup...
+Score_0: 0.4082, Score_1: -1.2247
+Found 4 watermarked sentences
+Sentence: The cardiovascular parameters evaluated in subject...
+Score_0: 0.5252, Score_1: 0.0000
+Sentence: According to the study results after six weeks of ...
+Score_0: -1.1471, Score_1: -1.1471
+Sentence: These included a decrease in brachial systolic blo...
+Score_0: 1.6775, Score_1: -0.7625
+Sentence: Additionally, there was an improvement in aortic h...
+Score_0: 0.8944, Score_1: -0.8944
+Found 2 watermarked sentences
+Sentence: Epidemiological research has repeatedly shown a po...
+Score_0: 0.9428, Score_1: 0.4714
+Sentence: However, the study regarding alcohol intake and su...
+Score_0: -0.4932, Score_1: -1.1508
+Found 3 watermarked sentences
+Sentence: To improve flavonoid and lignan intake estimates, ...
+Score_0: 2.1381, Score_1: 2.1381
+Sentence: The FFQ is typically employed in population-based ...
+Score_0: -0.9285, Score_1: 0.5571
+Sentence: By integrating these two methodologies, researcher...
+Score_0: 0.6255, Score_1: -1.4596
+Found 2 watermarked sentences
+Sentence: PEITC, a chemopreventive substance from watercress...
+Score_0: -1.8974, Score_1: -0.6325
+Sentence: This synergistic effect is mediated through ERK ac...
+Score_0: -0.8980, Score_1: 0.8980
+Found 4 watermarked sentences
+Sentence: The ranges for H-ORAC(FL) values were observed bet...
+Score_0: 1.8074, Score_1: -0.2582
+Sentence: 87 and 2641 micromol of TE/g, while L-ORAC(FL) val...
+Score_0: 0.9623, Score_1: 0.1925
+Sentence: The ORAC values varied significantly between seaso...
+Score_0: -0.7845, Score_1: -1.1767
+Sentence: As for the correlation between total phenolics (TP...
+Score_0: 0.7303, Score_1: -0.3651
+Found 2 watermarked sentences
+Sentence: In the study mentioned, it was found that "A consi...
+Score_0: 1.6164, Score_1: 0.5388
+Sentence: " However, the exact percentage of Ayurvedic medic...
+Score_0: -1.0426, Score_1: -0.2085
+Found 11 watermarked sentences
+Sentence: In the study on Emblica officinalis Gaertn...
+Score_0: -0.9045, Score_1: 0.9045
+Sentence: , after consuming 1, 2, or 3 grams of E...
+Score_0: -1.0690, Score_1: 0.5345
+Sentence: officinalis powder daily for 21 days, the followin...
+Score_0: 1.4142, Score_1: 0.0000
+Detecting watermark RAG:  75%|███████▍  | 143/191 [00:48<00:15,  3.08it/s]Detecting watermark RAG:  75%|███████▌  | 144/191 [00:49<00:15,  2.96it/s]Detecting watermark RAG:  76%|███████▌  | 145/191 [00:49<00:15,  2.98it/s]Detecting watermark RAG:  76%|███████▋  | 146/191 [00:49<00:15,  2.98it/s]Detecting watermark RAG:  77%|███████▋  | 147/191 [00:50<00:14,  3.09it/s]Detecting watermark RAG:  77%|███████▋  | 148/191 [00:50<00:14,  3.06it/s]Detecting watermark RAG:  78%|███████▊  | 149/191 [00:50<00:13,  3.07it/s]Detecting watermark RAG:  79%|███████▊  | 150/191 [00:51<00:13,  3.12it/s]Detecting watermark RAG:  79%|███████▉  | 151/191 [00:51<00:12,  3.19it/s]Detecting watermark RAG:  80%|███████▉  | 152/191 [00:51<00:12,  3.21it/s]Detecting watermark RAG:  80%|████████  | 153/191 [00:52<00:11,  3.22it/s]Detecting watermark RAG:  81%|████████  | 154/191 [00:52<00:11,  3.20it/s]Detecting watermark RAG:  81%|████████  | 155/191 [00:52<00:11,  3.17it/s]Detecting watermark RAG:  82%|████████▏ | 156/191 [00:53<00:10,  3.21it/s]Detecting watermark RAG:  82%|████████▏ | 157/191 [00:53<00:10,  3.26it/s]Detecting watermark RAG:  83%|████████▎ | 158/191 [00:53<00:10,  3.25it/s]Detecting watermark RAG:  83%|████████▎ | 159/191 [00:53<00:09,  3.24it/s]Detecting watermark RAG:  84%|████████▍ | 160/191 [00:54<00:09,  3.14it/s]Detecting watermark RAG:  84%|████████▍ | 161/191 [00:54<00:09,  3.15it/s]Detecting watermark RAG:  85%|████████▍ | 162/191 [00:54<00:09,  3.12it/s]Detecting watermark RAG:  85%|████████▌ | 163/191 [00:55<00:08,  3.16it/s]Detecting watermark RAG:  86%|████████▌ | 164/191 [00:55<00:08,  3.17it/s]Detecting watermark RAG:  86%|████████▋ | 165/191 [00:55<00:08,  3.12it/s]Detecting watermark RAG:  87%|████████▋ | 166/191 [00:56<00:08,  3.10it/s]Detecting watermark RAG:  87%|████████▋ | 167/191 [00:56<00:07,  3.13it/s]Detecting watermark RAG:  88%|████████▊ | 168/191 [00:56<00:07,  3.10it/s]Sentence: 05) in fasting and 2-hour post-meal blood glucose ...
+Score_0: 0.0000, Score_1: -1.0690
+Sentence: - Total cholesterol was significantly lowered (P <...
+Score_0: -0.6325, Score_1: 1.2649
+Sentence: - Triglycerides also showed a favorable decrease (...
+Score_0: 1.0690, Score_1: -1.6036
+Sentence: 05) in both healthy and diabetic individuals...
+Score_0: 0.7071, Score_1: -2.1213
+Sentence: - High-density lipoprotein-cholesterol levels were...
+Score_0: 0.2425, Score_1: -0.7276
+Sentence: 001) for both men and women during the study perio...
+Score_0: -0.5774, Score_1: -0.5774
+Sentence: These results indicate the potential therapeutic b...
+Score_0: -0.2582, Score_1: 1.2910
+Sentence: in managing blood glucose levels and lipid profile...
+Score_0: 2.4962, Score_1: -0.8321
+Found 2 watermarked sentences
+Sentence: Narrow-spectrum antibiotics, such as amoxicillin o...
+Score_0: 0.1400, Score_1: -0.7001
+Sentence: Imaging use is not recommended for uncomplicated a...
+Score_0: -0.5571, Score_1: -0.1857
+Found 4 watermarked sentences
+Sentence: In neurodegenerative disorders like Alzheimer's di...
+Score_0: -1.3416, Score_1: 0.8944
+Sentence: Apple juice concentrate (AJC) was investigated for...
+Score_0: 0.0000, Score_1: -1.3720
+Sentence: AJC prevented the increased generation of ROS typi...
+Score_0: 2.0000, Score_1: 0.5000
+Sentence: Additionally, AJC also suppressed Abeta-induced ca...
+Score_0: -0.8528, Score_1: 0.4264
+Found 4 watermarked sentences
+Sentence: The concentrations tested were 100 mg/ kg, 200 mg/...
+Score_0: 1.8000, Score_1: -1.0000
+Sentence: Compared to the control group, which had a low per...
+Score_0: 0.1796, Score_1: -0.1796
+Sentence: The types of structural aberrations noted included...
+Score_0: 0.4714, Score_1: 1.8856
+Sentence: Overall, the study demonstrated that methanol extr...
+Score_0: -2.4140, Score_1: -0.5571
+Found 1 watermarked sentences
+Sentence: "In the Kingdom of Tonga, a study has shown that t...
+Score_0: 0.1796, Score_1: -0.8980
+Found 6 watermarked sentences
+Sentence: In vertebrates, aromatase is a unique cytochrome P...
+Score_0: -0.6489, Score_1: -0.3244
+Sentence: The inhibition of aromatase is a key strategy in b...
+Score_0: -2.0647, Score_1: -0.2294
+Sentence: By suppressing the local production of oestrogen, ...
+Score_0: 1.2185, Score_1: -0.5222
+Sentence: Structurally, human placental aromatase has been c...
+Score_0: 0.4472, Score_1: 1.3416
+Sentence: The enzyme's active site features an androgen-spec...
+Score_0: -0.6547, Score_1: -1.0911
+Sentence: This structural information helps to elucidate the...
+Score_0: 0.0000, Score_1: 1.3416
+Found 4 watermarked sentences
+Sentence: Results: We found a significant association betwee...
+Score_0: -1.7179, Score_1: 1.0932
+Sentence: Explanation: These findings suggest that dietary i...
+Score_0: 2.0412, Score_1: -0.4082
+Sentence: This supports the idea that diet is an important r...
+Score_0: -1.2247, Score_1: 2.0412
+Sentence: In combination with previous studies, this evidenc...
+Score_0: 0.8704, Score_1: 0.5222
+Found 3 watermarked sentences
+Sentence: Lycopene, measured as being low in the extract, sh...
+Score_0: 0.2085, Score_1: 1.0426
+Sentence: During supplementation, there was an observed diff...
+Score_0: -0.5000, Score_1: -1.0000
+Sentence: After supplementation ended, the decrease in carot...
+Score_0: 0.8704, Score_1: 0.5222
+No watermarked sentences found based on keywords
+Found 3 watermarked sentences
+Sentence: Slight bile duct multiplication, fibrotic activity...
+Score_0: -0.4472, Score_1: -1.3416
+Sentence: Lipid accumulation in Ito cells and bile duct hype...
+Score_0: 0.5000, Score_1: -1.5000
+Sentence: No changes associated with sex or season (summer v...
+Score_0: 0.3333, Score_1: 0.3333
+Found 3 watermarked sentences
+Sentence: In the randomized, double-blind placebo-controlled...
+Score_0: 1.2999, Score_1: -0.5571
+Sentence: However, a trend towards increased inflammatory ma...
+Score_0: -1.6036, Score_1: 0.5345
+Sentence: Additionally, principal component analysis (PCA) w...
+Score_0: -0.9623, Score_1: 0.5774
+Found 1 watermarked sentences
+Sentence: "Inverse association was observed between adult so...
+Score_0: 0.5571, Score_1: -1.2999
+Found 2 watermarked sentences
+Sentence: During the specified time period at an integrated ...
+Score_0: -1.3055, Score_1: 0.3560
+Sentence: 9% (7/180)
+
+Please note that the prevalence rates ...
+Score_0: 1.4606, Score_1: 1.8257
+Found 2 watermarked sentences
+Sentence: A strong statistical correlation was observed betw...
+Score_0: -1.0290, Score_1: 0.0000
+Sentence: 877 for meat and offal fat combined, indicating a ...
+Score_0: 0.0000, Score_1: 1.0000
+Found 2 watermarked sentences
+Sentence: HR for total fruits and vegetables combined (men):...
+Score_0: 0.8321, Score_1: -1.3868
+Sentence: HR for total fruits and vegetables combined (women...
+Score_0: 0.2774, Score_1: -1.3868
+Found 1 watermarked sentences
+Sentence: The proposed model suggests investigating the indu...
+Score_0: 0.2425, Score_1: -0.7276
+Found 3 watermarked sentences
+Sentence: In the group of infants fed soy-based formula, 12 ...
+Score_0: 2.2678, Score_1: 2.2678
+Sentence: However, only 4 out of 20 infants in the chicken- ...
+Score_0: 1.2792, Score_1: 0.0000
+Sentence: The rest were able to tolerate the chicken formula...
+Score_0: -0.6325, Score_1: -1.2649
+Found 2 watermarked sentences
+Sentence: Objective: To provide an overview of recent findin...
+Score_0: 1.0911, Score_1: -0.6547
+Sentence: Recent findings suggest that berries' polyphenols,...
+Score_0: -0.1644, Score_1: -0.4932
+Found 2 watermarked sentences
+Sentence: According to the provided context, specific milk p...
+Score_0: 1.4796, Score_1: -0.4932
+Sentence: These effects were observed through experiments us...
+Score_0: 0.5000, Score_1: 1.5000
+Found 5 watermarked sentences
+Sentence: In a crossover design, the specific conditions for...
+Score_0: -0.4264, Score_1: -1.2792
+Sentence: Blueberries consumed alone: Volunteers consumed ei...
+Score_0: -1.8962, Score_1: -0.1459
+Sentence: Blueberries accompanied by milk: In this case, vol...
+Score_0: 0.8704, Score_1: 0.1741
+Sentence: The study compared these two conditions (blueberri...
+Score_0: -0.9045, Score_1: -0.3015
+Sentence: without water) to assess the impact on plasma anti...
+Score_0: 0.7746, Score_1: 0.7746
+Found 2 watermarked sentences
+Sentence: Dieldrin concentrations were higher in western US ...
+Score_0: 1.0690, Score_1: 1.6036
+Sentence: Contaminant levels exceeded cancer screening value...
+Score_0: 0.4685, Score_1: 0.7809
+Found 2 watermarked sentences
+Sentence: The predominant PCN congeners identified in human ...
+Score_0: -0.8165, Score_1: -1.9052
+Sentence: Collectively, they accounted for 66% of the total ...
+Score_0: -1.8074, Score_1: -1.2910
+Found 2 watermarked sentences
+Sentence: In the study, hair mercury concentrations were sig...
+Score_0: -0.6255, Score_1: 0.6255
+Sentence: 05) compared to 42 fertile males (3...
+Score_0: -0.9045, Score_1: 0.9045
+Found 4 watermarked sentences
+Sentence: The relationship between Toxoplasma gondii infecti...
+Score_0: -1.3333, Score_1: -0.3333
+Sentence: These include increased antibody presence in indiv...
+Score_0: 1.0675, Score_1: 1.3725
+Sentence: gondii, experimental data linking Toxoplasma infec...
+Score_0: 0.5222, Score_1: -0.5222
+Sentence: Establishing a firm association between these fact...
+Score_0: -0.2294, Score_1: 1.1471
+Found 4 watermarked sentences
+Sentence: 7 log CFU per g
+- Psychrotrophs: 6...
+Score_0: -1.0690, Score_1: -1.0690
+Sentence: 3 log CFU per g
+- Coliforms: 1...
+Score_0: 0.8321, Score_1: 0.2774
+Sentence: 9 log MPN per g
+
+There were no significant differe...
+Score_0: -0.8165, Score_1: -0.4082
+Sentence: However, it's important to note that the specific ...
+Score_0: 0.8944, Score_1: -1.7889
+Found 3 watermarked sentences
+Sentence: The prevalence rate of chronic kidney disease (CKD...
+Score_0: 1.0426, Score_1: 0.2085
+Sentence: The specific prevalence rate for betel nut users w...
+Score_0: -0.4714, Score_1: -0.9428
+Sentence: After adjustments for age, BMI, smoking, alcohol c...
+Score_0: -2.0000, Score_1: 0.0000
+Found 2 watermarked sentences
+Sentence: Main structural classes of apple constituents incl...
+Score_0: -1.0690, Score_1: 1.0690
+Detecting watermark RAG:  88%|████████▊ | 169/191 [00:57<00:07,  3.08it/s]Detecting watermark RAG:  89%|████████▉ | 170/191 [00:57<00:06,  3.11it/s]Detecting watermark RAG:  90%|████████▉ | 171/191 [00:57<00:06,  3.14it/s]Detecting watermark RAG:  90%|█████████ | 172/191 [00:58<00:06,  3.12it/s]Detecting watermark RAG:  91%|█████████ | 173/191 [00:58<00:05,  3.17it/s]Detecting watermark RAG:  91%|█████████ | 174/191 [00:58<00:05,  3.08it/s]Detecting watermark RAG:  92%|█████████▏| 175/191 [00:59<00:05,  3.00it/s]Detecting watermark RAG:  92%|█████████▏| 176/191 [00:59<00:05,  2.99it/s]Detecting watermark RAG:  93%|█████████▎| 177/191 [00:59<00:04,  3.07it/s]Detecting watermark RAG:  93%|█████████▎| 178/191 [01:00<00:04,  3.16it/s]Detecting watermark RAG:  94%|█████████▎| 179/191 [01:00<00:03,  3.13it/s]Detecting watermark RAG:  94%|█████████▍| 180/191 [01:00<00:03,  3.13it/s]Detecting watermark RAG:  95%|█████████▍| 181/191 [01:01<00:03,  3.06it/s]Detecting watermark RAG:  95%|█████████▌| 182/191 [01:01<00:02,  3.11it/s]Detecting watermark RAG:  96%|█████████▌| 183/191 [01:01<00:02,  3.18it/s]Detecting watermark RAG:  96%|█████████▋| 184/191 [01:01<00:02,  3.14it/s]Detecting watermark RAG:  97%|█████████▋| 185/191 [01:02<00:01,  3.07it/s]Detecting watermark RAG:  97%|█████████▋| 186/191 [01:02<00:01,  3.15it/s]Detecting watermark RAG:  98%|█████████▊| 187/191 [01:02<00:01,  3.21it/s]Detecting watermark RAG:  98%|█████████▊| 188/191 [01:03<00:00,  3.05it/s]Detecting watermark RAG:  99%|█████████▉| 189/191 [01:03<00:00,  3.02it/s]Detecting watermark RAG:  99%|█████████▉| 190/191 [01:03<00:00,  3.05it/s]Detecting watermark RAG: 100%|██████████| 191/191 [01:04<00:00,  3.00it/s]Detecting watermark RAG: 100%|██████████| 191/191 [01:04<00:00,  2.97it/s]
+INFO:root:
+=== Simplified Watermark Detection Summary ===
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 81.25%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |          12 |         6 |         6 |     -4.41 |     -1.51 |        1 |        1 | ✓    
+INFO:root:  1 |          11 |         3 |         8 |     -1.55 |      5.63 |        1 |        1 | ✓    
+INFO:root:  2 |          13 |         5 |         8 |      1.64 |      4.97 |        1 |        1 | ✓    
+INFO:root:  3 |          14 |         8 |         6 |      9.87 |      0.63 |        0 |        0 | ✓    
+INFO:root:  4 |           9 |         4 |         5 |     -1.81 |     -6.72 |        1 |        1 | ✓    
+INFO:root:  5 |          13 |         4 |         9 |     -4.48 |     -0.69 |        1 |        1 | ✓    
+INFO:root:  6 |           9 |         4 |         5 |     -3.18 |      3.49 |        1 |        1 | ✓    
+INFO:root:  7 |          10 |         5 |         5 |     -8.21 |     -5.52 |        1 |        1 | ✓    
+INFO:root:  8 |          13 |         9 |         4 |     -1.43 |     -7.42 |        0 |        0 | ✓    
+INFO:root:  9 |          12 |        11 |         1 |     18.38 |    -25.94 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         8 |         5 |      2.78 |     -5.32 |        1 |        0 | ✗    
+INFO:root: 11 |           9 |         4 |         5 |    -16.10 |     -6.63 |        1 |        1 | ✓    
+INFO:root: 12 |          14 |         8 |         6 |     -9.46 |     -8.38 |        1 |        0 | ✗    
+INFO:root: 13 |          13 |         8 |         5 |      4.55 |     -0.32 |        1 |        0 | ✗    
+INFO:root: 14 |          11 |         6 |         5 |      0.37 |     -3.53 |        0 |        0 | ✓    
+INFO:root: 15 |          15 |         4 |        11 |     -4.01 |      9.18 |        1 |        1 | ✓    
+Sentence: These compounds contribute to potential cancer pre...
+Score_0: -1.0607, Score_1: -1.4142
+Found 2 watermarked sentences
+Sentence: For CDE on day 8, the percentage cure was 61% (n=3...
+Score_0: -0.6547, Score_1: 1.5275
+Sentence: In the family trial with all family members treate...
+Score_0: 1.5689, Score_1: -1.9612
+Found 2 watermarked sentences
+Sentence: There was a graded association with average sleep ...
+Score_0: -0.4472, Score_1: 0.4472
+Sentence: The association with sleep efficiency was also gra...
+Score_0: -1.1471, Score_1: -0.2294
+Found 4 watermarked sentences
+Sentence: According to the research by Juneja et al...
+Score_0: 0.0000, Score_1: 0.0000
+Sentence: (as reported in Trends in Food Science & Tech, 199...
+Score_0: 0.6860, Score_1: -0.6860
+Sentence: This effect relaxes the mind without inducing drow...
+Score_0: -2.5298, Score_1: -0.6325
+Sentence: The research also indicates that L-theanine can en...
+Score_0: -0.9428, Score_1: -0.4714
+Found 2 watermarked sentences
+Sentence: Microwave cooking generally leads to a decrease in...
+Score_0: 0.6255, Score_1: 0.6255
+Sentence: However, mineral nutrients were stable under all c...
+Score_0: 1.0000, Score_1: -0.3333
+Found 6 watermarked sentences
+Sentence: Mean change of serum total cholesterol for pinto b...
+Score_0: -0.5774, Score_1: -1.7321
+Sentence: The associated p-value was 0...
+Score_0: -1.6330, Score_1: -1.6330
+Sentence: Mean change of serum LDL-cholesterol for pinto bea...
+Score_0: 0.3651, Score_1: -1.0954
+Sentence: The associated p-value was 0...
+Score_0: -1.6330, Score_1: -1.6330
+Sentence: For black-eyed peas, the mean changes and p-values...
+Score_0: 0.2294, Score_1: -1.1471
+Sentence: For carrots (used as control), no specific details...
+Score_0: -1.1471, Score_1: 0.6882
+Found 5 watermarked sentences
+Sentence: The study found that compared to the lowest intake...
+Score_0: -1.4142, Score_1: 1.0607
+Sentence: The specific multivariate prevalence ratios and th...
+Score_0: -0.4472, Score_1: -0.4472
+Sentence: 002)
+- Whole milk: 1...
+Score_0: -0.3333, Score_1: -0.3333
+Sentence: 56)
+- Low-fat milk: 1...
+Score_0: 0.3333, Score_1: -1.0000
+Sentence: 25)
+- Skim milk: 1...
+Score_0: 1.0000, Score_1: 1.0000
+Found 2 watermarked sentences
+Sentence: Genistein, the most abundant soy phytoestrogen, ha...
+Score_0: 0.1601, Score_1: -0.4804
+Sentence: However, these potential benefits should be weighe...
+Score_0: -0.8944, Score_1: -1.3416
+Found 2 watermarked sentences
+Sentence: The relationship between egg consumption frequency...
+Score_0: 0.6667, Score_1: 0.6667
+Sentence: 02)) for those consuming eggs once a week compared...
+Score_0: 2.1381, Score_1: -1.0690
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The objectives of the study using pregnant mice we...
+Score_0: 0.3906, Score_1: 0.3906
+No watermarked sentences found based on keywords
+Found 1 watermarked sentences
+Sentence: The two specific effects of fiber fermentation on ...
+Score_0: 0.6299, Score_1: 0.8819
+Found 1 watermarked sentences
+Sentence: "In cases of dietary vitamin A deficiency in autis...
+Score_0: 1.2572, Score_1: 1.9757
+No watermarked sentences found based on keywords
+Found 4 watermarked sentences
+Sentence: The TOR signaling mechanism in eukaryotic organism...
+Score_0: -0.4472, Score_1: 0.0000
+Sentence: It regulates cellular growth, proliferation, and p...
+Score_0: 0.0000, Score_1: -0.9428
+Sentence: In recent years, research has revealed the critica...
+Score_0: 1.0426, Score_1: -1.8766
+Sentence: The precise mechanisms by which TOR contributes to...
+Score_0: -0.7071, Score_1: 0.3536
+Found 3 watermarked sentences
+Sentence: The meta-analysis found that there was no signific...
+Score_0: 0.9428, Score_1: 0.4714
+Sentence: However, a nonlinear association emerged between t...
+Score_0: 0.0000, Score_1: -0.5345
+Sentence: Specifically, compared to no tea consumption, indi...
+Score_0: -1.1531, Score_1: 0.3145
+No watermarked sentences found based on keywords
+No watermarked sentences found based on keywords
+Found 5 watermarked sentences
+Sentence: Oleuropein glycoside decreased the concentration o...
+Score_0: 0.0000, Score_1: 1.0000
+Sentence: At a concentration of 10^(-4) M, oleuropein glycos...
+Score_0: -0.1796, Score_1: 0.1796
+Sentence: On the other hand, caffeic acid also decreased the...
+Score_0: 0.4714, Score_1: 0.4714
+Sentence: However, at the same concentration of 10^(-4) M, c...
+Score_0: 0.6325, Score_1: -0.3162
+Sentence: In summary, oleuropein glycoside was more effectiv...
+Score_0: 0.9733, Score_1: -0.3244
+Found 4 watermarked sentences
+Sentence: This review highlights that BAT contributes to oxi...
+Score_0: 1.5000, Score_1: 0.5000
+Sentence: The presence of metabolically active brown adipocy...
+Score_0: 0.0000, Score_1: -0.8528
+Sentence: Arginine plays a significant role in managing brow...
+Score_0: 0.8321, Score_1: -2.4962
+Sentence: This, in turn, promotes BAT growth and development...
+Score_0: 2.0647, Score_1: -2.0647
+Found 2 watermarked sentences
+Sentence: "The hallmark signs linked to the toxicity of subs...
+Score_0: 0.1601, Score_1: -0.4804
+Sentence: Fatalities related to exposure to DNP have been re...
+Score_0: 0.7276, Score_1: -0.2425
+Found 2 watermarked sentences
+Sentence: Evidence suggests that fiber- and lignan-rich whol...
+Score_0: 1.7678, Score_1: -0.3536
+Sentence: Many factors influence circulating lignan levels i...
+Score_0: 0.4264, Score_1: -2.5584
+Detection results saved to ./data/det_res/detection_RAG_g37.json

@@ -1,0 +1,1070 @@
+{
+  "entity_425": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_453": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_873": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_1202": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_1446": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_1765": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_1901": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_1925": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_2223": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_2641": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_2694": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_2695": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_3770": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_5123": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_5400": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_5433": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_5810": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_6116": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_6269": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_6319": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_6326": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_6627": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_6874": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_7437": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_7523": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_8143": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_8728": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_9071": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_9504": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_9743": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_9792": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_9832": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_9921": {
+    "bit_position": 7,
+    "bit_value": 1
+  },
+  "entity_11606": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_13854": {
+    "bit_position": 0,
+    "bit_value": 1
+  },
+  "entity_13992": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_14318": {
+    "bit_position": 0,
+    "bit_value": 1
+  },
+  "entity_15012": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_15420": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_15801": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_16509": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_16549": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_16790": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_17112": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_17252": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_17402": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_17876": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_18029": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_18825": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_18903": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_19443": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_19558": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_20305": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_21421": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_21437": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_21770": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_22543": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_22737": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_23519": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_23643": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_23842": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_24198": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_24361": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_24565": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_25455": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_27018": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_28047": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_28444": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_30080": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_30309": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_30807": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_31157": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_31368": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_32131": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_32277": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_32609": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_32773": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_32839": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_32967": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_33223": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_33699": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_33707": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_34237": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_34688": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_34781": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_34959": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_35166": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_35181": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_35215": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_35397": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_36688": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_36689": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_38261": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_38650": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_39024": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_39357": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_41362": {
+    "bit_position": 7,
+    "bit_value": 1
+  },
+  "entity_41434": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_41909": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_42786": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_42906": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_45550": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_46368": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_46724": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_47083": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_47642": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_47695": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_47895": {
+    "bit_position": 0,
+    "bit_value": 1
+  },
+  "entity_47965": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_48543": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_48827": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_49198": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_49210": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_49216": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_49219": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_49349": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_49499": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_49877": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_50275": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_50848": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_51712": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_51724": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_51864": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_52122": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_52220": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_52261": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_52584": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_52603": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_53068": {
+    "bit_position": 7,
+    "bit_value": 1
+  },
+  "entity_54405": {
+    "bit_position": 7,
+    "bit_value": 1
+  },
+  "entity_54905": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_55446": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_55855": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_56375": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_56674": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_57354": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_57771": {
+    "bit_position": 6,
+    "bit_value": 1
+  },
+  "entity_57981": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_58023": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_58061": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_58096": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_58181": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_58617": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_59140": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_59373": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_59909": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_59931": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_60137": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_60252": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_60498": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_60937": {
+    "bit_position": 0,
+    "bit_value": 1
+  },
+  "entity_60965": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_61041": {
+    "bit_position": 10,
+    "bit_value": 1
+  },
+  "entity_61102": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_61297": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_61608": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_61701": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_61719": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_62054": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_62649": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_63017": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_63480": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_63491": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_63633": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_64028": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_64281": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_65142": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_65226": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_66316": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_66360": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_66469": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_66871": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_66939": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_67222": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_67349": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_67595": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_68638": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_68808": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_69186": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_69354": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_69403": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_69759": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_70080": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_70287": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_70839": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_70860": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_70883": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_70948": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_72503": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_73144": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_73167": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_73313": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_73366": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_73445": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_74546": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_74667": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_75750": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_76166": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_76523": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_76591": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_76818": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_78802": {
+    "bit_position": 10,
+    "bit_value": 1
+  },
+  "entity_79221": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_79777": {
+    "bit_position": 10,
+    "bit_value": 1
+  },
+  "entity_79851": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_80000": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_80284": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_80313": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_80502": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_80513": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_80601": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_82056": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_82176": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_82923": {
+    "bit_position": 1,
+    "bit_value": 1
+  },
+  "entity_83153": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_83635": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_83642": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_83813": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_83980": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_84324": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_85111": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_85217": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_86255": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_86545": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_86975": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_87304": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_87555": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_87987": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_88414": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_88433": {
+    "bit_position": 6,
+    "bit_value": 1
+  },
+  "entity_88465": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_88558": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_88724": {
+    "bit_position": 6,
+    "bit_value": 1
+  },
+  "entity_88904": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_89065": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_89563": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_89859": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_90145": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_90272": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_90274": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_90468": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_90955": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_91422": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_91763": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_91788": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_92127": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_92635": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_92979": {
+    "bit_position": 0,
+    "bit_value": 1
+  },
+  "entity_93150": {
+    "bit_position": 4,
+    "bit_value": 1
+  },
+  "entity_93715": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_93788": {
+    "bit_position": 7,
+    "bit_value": 1
+  },
+  "entity_93961": {
+    "bit_position": 14,
+    "bit_value": 0
+  },
+  "entity_94613": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_94762": {
+    "bit_position": 9,
+    "bit_value": 0
+  },
+  "entity_95375": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_95510": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_95868": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_96037": {
+    "bit_position": 11,
+    "bit_value": 1
+  },
+  "entity_96615": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_96946": {
+    "bit_position": 15,
+    "bit_value": 1
+  },
+  "entity_97012": {
+    "bit_position": 8,
+    "bit_value": 0
+  },
+  "entity_97194": {
+    "bit_position": 13,
+    "bit_value": 1
+  },
+  "entity_97521": {
+    "bit_position": 5,
+    "bit_value": 1
+  },
+  "entity_97759": {
+    "bit_position": 2,
+    "bit_value": 1
+  },
+  "entity_97989": {
+    "bit_position": 12,
+    "bit_value": 1
+  },
+  "entity_98545": {
+    "bit_position": 3,
+    "bit_value": 0
+  },
+  "entity_99210": {
+    "bit_position": 15,
+    "bit_value": 1
+  }
+}

@@ -1,0 +1,1412 @@
+nohup: ignoring input
+/root/autodl-tmp/vectormark/utils1.py:17: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet. 	from pydantic.v1 import BaseModel
+
+  from KGW.KGW_claude import KGWWatermarkedLLM
+Loading datasets...
+Starting RAG attack effect testing, total 39 test combinations...
+Overall Progress:   0%|          | 0/39 [00:00<?, ?it/s]Loading model: ../model/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+
+[32mINFO[0m  ENV: Auto setting CUDA_DEVICE_ORDER=PCI_BUS_ID for correctness.          
+[32mINFO[0m   Kernel: Auto-selection: adding candidate `TritonV2QuantLinear`          
+`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s][A
+Loading checkpoint shards:  11%|█         | 1/9 [00:00<00:06,  1.19it/s][A
+Loading checkpoint shards:  22%|██▏       | 2/9 [00:01<00:06,  1.17it/s][A
+Loading checkpoint shards:  33%|███▎      | 3/9 [00:02<00:05,  1.16it/s][A
+Loading checkpoint shards:  44%|████▍     | 4/9 [00:03<00:04,  1.15it/s][A
+Loading checkpoint shards:  56%|█████▌    | 5/9 [00:04<00:03,  1.14it/s][A
+Loading checkpoint shards:  67%|██████▋   | 6/9 [00:05<00:02,  1.13it/s][A
+Loading checkpoint shards:  78%|███████▊  | 7/9 [00:06<00:01,  1.14it/s][A
+Loading checkpoint shards:  89%|████████▉ | 8/9 [00:06<00:00,  1.14it/s][A
+Loading checkpoint shards: 100%|██████████| 9/9 [00:07<00:00,  1.22it/s][ALoading checkpoint shards: 100%|██████████| 9/9 [00:07<00:00,  1.17it/s]
+[32mINFO[0m  Format: Converting `checkpoint_format` from `gptq` to internal `gptq_v2`.
+[32mINFO[0m  Format: Converting GPTQ v1 to v2                                         
+[32mINFO[0m  Format: Conversion complete: 0.016964435577392578s                       
+[32mINFO[0m  Optimize: `TritonV2QuantLinear` compilation triggered.                   
+Model loaded successfully
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0 question generate: 100%|██████████| 127/127 [00:00<00:00, 15748.02it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         5 |      3.40 |     12.28 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      4.10 |     14.76 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      0.04 |     11.90 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     14.07 |      4.36 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      0.13 |      4.93 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      8.87 |     15.00 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -4.35 |      5.18 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.13 |     -0.10 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      7.46 |     -5.67 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -7.96 |      3.30 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         2 |         7 |     -1.73 |     17.24 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -2.70 |      9.07 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         6 |     -2.13 |      6.87 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     15.88 |     -1.06 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -2.26 |     10.16 |        1 |        1 | ✓    
+Deleted Entities - 0 (Detection Rate: 1.0000):   0%|          | 0/39 [00:56<?, ?it/s]Deleted Entities - 0 (Detection Rate: 1.0000):   3%|▎         | 1/39 [00:56<36:05, 56.98s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.1 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.1 question generate: 100%|██████████| 127/127 [00:00<00:00, 16596.87it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 45000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.1 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           4 |         0 |         3 |      2.84 |      9.00 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         4 |      6.38 |     13.18 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |     -1.77 |     13.10 |        1 |        1 | ✓    
+INFO:root:  3 |           7 |         5 |         2 |     11.85 |      1.58 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      2.65 |      6.79 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      7.53 |     16.49 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         5 |     -1.33 |     11.95 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.51 |      3.82 |        1 |        1 | ✓    
+INFO:root:  8 |           3 |         1 |         0 |      1.43 |      0.80 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         5 |         8 |     -7.89 |      6.25 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         1 |         6 |     -1.13 |     11.08 |        1 |        1 | ✓    
+INFO:root: 12 |           4 |         1 |         3 |     -3.94 |      7.60 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         7 |     -2.20 |      6.29 |        1 |        1 | ✓    
+INFO:root: 14 |          14 |        11 |         3 |     17.73 |      2.07 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Deleted Entities - 0.1 (Detection Rate: 1.0000):   3%|▎         | 1/39 [01:34<36:05, 56.98s/it]Deleted Entities - 0.1 (Detection Rate: 1.0000):   5%|▌         | 2/39 [01:34<28:12, 45.73s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.2 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.2 question generate: 100%|██████████| 127/127 [00:00<00:00, 17125.66it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 40000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.2 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         1 |         2 |      0.35 |      3.83 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         2 |         4 |      1.78 |     10.63 |        1 |        1 | ✓    
+INFO:root:  2 |           7 |         0 |         4 |     -1.84 |      4.10 |        1 |        1 | ✓    
+INFO:root:  3 |           8 |         6 |         2 |     14.12 |      1.99 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           5 |         1 |         3 |      2.52 |      5.62 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         6 |     -5.03 |     13.91 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         0 |         2 |     -4.87 |      9.92 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         2 |         0 |      5.77 |      1.24 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         5 |         8 |     -5.69 |      6.97 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         1 |         7 |     -2.11 |     12.65 |        1 |        1 | ✓    
+INFO:root: 12 |           4 |         1 |         3 |     -2.68 |      5.94 |        1 |        1 | ✓    
+INFO:root: 13 |           8 |         1 |         7 |     -2.67 |      7.70 |        1 |        1 | ✓    
+INFO:root: 14 |          13 |        11 |         2 |     19.40 |      0.80 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -0.72 |      7.31 |        1 |        1 | ✓    
+Deleted Entities - 0.2 (Detection Rate: 1.0000):   5%|▌         | 2/39 [02:09<28:12, 45.73s/it]Deleted Entities - 0.2 (Detection Rate: 1.0000):   8%|▊         | 3/39 [02:09<24:19, 40.53s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.3 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.3 question generate: 100%|██████████| 127/127 [00:00<00:00, 17448.22it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 35000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.3 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         0 |         2 |      1.39 |      6.36 |        1 |        1 | ✓    
+INFO:root:  1 |           5 |         1 |         3 |     -0.14 |     10.24 |        1 |        1 | ✓    
+INFO:root:  2 |           4 |         0 |         2 |     -0.87 |      6.11 |        1 |        1 | ✓    
+INFO:root:  3 |           4 |         3 |         1 |      8.80 |      0.66 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         2 |         3 |      1.38 |      3.29 |        1 |        1 | ✓    
+INFO:root:  5 |           5 |         3 |         2 |      7.54 |     10.02 |        1 |        0 | ✗    
+INFO:root:  6 |           7 |         0 |         6 |     -0.69 |     19.05 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         0 |         3 |     -4.61 |     12.08 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           2 |         2 |         0 |      4.70 |     -1.71 |        0 |        0 | ✓    
+INFO:root: 10 |           9 |         3 |         6 |     -7.59 |      1.35 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         2 |         7 |     -1.88 |     14.80 |        1 |        1 | ✓    
+INFO:root: 12 |           3 |         0 |         3 |     -3.90 |      7.40 |        1 |        1 | ✓    
+INFO:root: 13 |           4 |         0 |         4 |     -3.86 |      2.56 |        1 |        1 | ✓    
+INFO:root: 14 |          13 |        10 |         3 |     17.12 |      0.91 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -1.74 |      9.02 |        1 |        1 | ✓    
+Deleted Entities - 0.3 (Detection Rate: 0.9375):   8%|▊         | 3/39 [02:38<24:19, 40.53s/it]Deleted Entities - 0.3 (Detection Rate: 0.9375):  10%|█         | 4/39 [02:38<20:58, 35.95s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.4 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.4 question generate: 100%|██████████| 127/127 [00:00<00:00, 18061.73it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 30000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.4 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         3 |      3.59 |      7.98 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         5 |      1.81 |     13.31 |        1 |        1 | ✓    
+INFO:root:  2 |           5 |         1 |         4 |     -2.08 |      7.17 |        1 |        1 | ✓    
+INFO:root:  3 |           6 |         6 |         0 |      7.88 |     -0.15 |        0 |        0 | ✓    
+INFO:root:  4 |           2 |         0 |         2 |     -0.73 |      1.14 |        1 |        1 | ✓    
+INFO:root:  5 |           4 |         1 |         3 |      1.65 |      3.99 |        1 |        1 | ✓    
+INFO:root:  6 |           4 |         0 |         4 |      1.61 |     10.85 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         0 |         2 |     -3.35 |      5.32 |        1 |        1 | ✓    
+INFO:root:  8 |           1 |         1 |         0 |      1.43 |      0.80 |        0 |        0 | ✓    
+INFO:root:  9 |           3 |         3 |         0 |      4.87 |     -3.18 |        0 |        0 | ✓    
+INFO:root: 10 |           9 |         3 |         6 |     -8.65 |     -1.48 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -1.23 |     14.64 |        1 |        1 | ✓    
+INFO:root: 12 |           2 |         0 |         2 |     -2.04 |      3.37 |        1 |        1 | ✓    
+INFO:root: 13 |           5 |         0 |         5 |     -1.73 |      4.92 |        1 |        1 | ✓    
+INFO:root: 14 |           7 |         5 |         2 |     10.82 |      3.23 |        0 |        0 | ✓    
+INFO:root: 15 |           5 |         0 |         4 |     -3.33 |      6.25 |        1 |        1 | ✓    
+Deleted Entities - 0.4 (Detection Rate: 1.0000):  10%|█         | 4/39 [03:03<20:58, 35.95s/it]Deleted Entities - 0.4 (Detection Rate: 1.0000):  13%|█▎        | 5/39 [03:03<18:10, 32.06s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.5 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.5 question generate: 100%|██████████| 127/127 [00:00<00:00, 17014.62it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 25000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.5 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 87.50%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           2 |         0 |         2 |      1.26 |      5.34 |        1 |        1 | ✓    
+INFO:root:  1 |           3 |         1 |         2 |      3.41 |      4.77 |        1 |        1 | ✓    
+INFO:root:  2 |           5 |         1 |         2 |     -0.42 |      2.69 |        1 |        1 | ✓    
+INFO:root:  3 |           6 |         5 |         1 |     12.04 |      0.31 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |      2.09 |      4.15 |        1 |        1 | ✓    
+INFO:root:  5 |           6 |         2 |         4 |      5.89 |     18.15 |        1 |        1 | ✓    
+INFO:root:  6 |           4 |         0 |         4 |      0.75 |     11.30 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         0 |         3 |     -3.29 |      5.28 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           3 |         3 |         0 |      7.50 |     -2.38 |        0 |        0 | ✓    
+INFO:root: 10 |           6 |         3 |         3 |     -5.03 |      0.71 |        1 |       -1 | ✗    
+INFO:root: 11 |           6 |         0 |         6 |     -2.57 |     12.22 |        1 |        1 | ✓    
+INFO:root: 12 |           4 |         2 |         2 |     -0.82 |      5.41 |        1 |       -1 | ✗    
+INFO:root: 13 |           6 |         1 |         5 |     -2.08 |      7.09 |        1 |        1 | ✓    
+INFO:root: 14 |          10 |         8 |         2 |     10.65 |     -4.50 |        0 |        0 | ✓    
+INFO:root: 15 |           2 |         0 |         1 |     -1.15 |      1.48 |        1 |        1 | ✓    
+Deleted Entities - 0.5 (Detection Rate: 0.8750):  13%|█▎        | 5/39 [03:27<18:10, 32.06s/it]Deleted Entities - 0.5 (Detection Rate: 0.8750):  15%|█▌        | 6/39 [03:27<16:11, 29.45s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.6 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.6 question generate: 100%|██████████| 127/127 [00:00<00:00, 19305.47it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 20000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.6 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 87.50%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           1 |         0 |         1 |      1.45 |      2.64 |        1 |        1 | ✓    
+INFO:root:  1 |           2 |         0 |         2 |      2.60 |      4.66 |        1 |        1 | ✓    
+INFO:root:  2 |           2 |         0 |         1 |     -0.28 |      2.26 |        1 |        1 | ✓    
+INFO:root:  3 |           4 |         3 |         1 |      8.89 |      0.07 |        0 |        0 | ✓    
+INFO:root:  4 |           2 |         0 |         2 |     -1.09 |      1.82 |        1 |        1 | ✓    
+INFO:root:  5 |           4 |         1 |         3 |      5.26 |     11.99 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         5 |     -1.30 |     15.01 |        1 |        1 | ✓    
+INFO:root:  7 |           1 |         0 |         1 |     -0.63 |      0.00 |        1 |        1 | ✓    
+INFO:root:  8 |           3 |         2 |         0 |      4.08 |      2.35 |        0 |        0 | ✓    
+INFO:root:  9 |           1 |         1 |         0 |      1.00 |      0.00 |        0 |        0 | ✓    
+INFO:root: 10 |           5 |         2 |         3 |      1.11 |      3.54 |        1 |        1 | ✓    
+INFO:root: 11 |           2 |         0 |         2 |      0.59 |      4.22 |        1 |        1 | ✓    
+INFO:root: 12 |           2 |         1 |         1 |     -0.65 |      5.11 |        1 |       -1 | ✗    
+INFO:root: 13 |           4 |         0 |         4 |     -2.06 |      4.95 |        1 |        1 | ✓    
+INFO:root: 14 |           9 |         7 |         2 |     10.33 |     -0.59 |        0 |        0 | ✓    
+INFO:root: 15 |           1 |         0 |         0 |      1.30 |      1.30 |        1 |       -1 | ✗    
+Deleted Entities - 0.6 (Detection Rate: 0.8750):  15%|█▌        | 6/39 [03:43<16:11, 29.45s/it]Deleted Entities - 0.6 (Detection Rate: 0.8750):  18%|█▊        | 7/39 [03:43<13:23, 25.12s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.7 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.7 question generate: 100%|██████████| 127/127 [00:00<00:00, 19841.20it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 15000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.7 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 68.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           1 |         0 |         1 |      0.56 |      1.67 |        1 |        1 | ✓    
+INFO:root:  1 |           1 |         0 |         1 |      1.81 |      3.48 |        1 |        1 | ✓    
+INFO:root:  2 |           1 |         0 |         1 |     -0.87 |     -0.52 |        1 |        1 | ✓    
+INFO:root:  3 |           2 |         2 |         0 |      2.21 |     -0.64 |        0 |        0 | ✓    
+INFO:root:  4 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  5 |           2 |         1 |         1 |      5.03 |      3.74 |        1 |       -1 | ✗    
+INFO:root:  6 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  7 |           2 |         0 |         2 |     -1.63 |      1.00 |        1 |        1 | ✓    
+INFO:root:  8 |           1 |         1 |         0 |      1.83 |      0.73 |        0 |        0 | ✓    
+INFO:root:  9 |           2 |         2 |         0 |      1.87 |     -0.17 |        0 |        0 | ✓    
+INFO:root: 10 |           6 |         0 |         6 |     -8.11 |      7.76 |        1 |        1 | ✓    
+INFO:root: 11 |           1 |         0 |         1 |     -0.43 |      1.28 |        1 |        1 | ✓    
+INFO:root: 12 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 13 |           1 |         1 |         0 |      1.21 |      0.73 |        1 |        0 | ✗    
+INFO:root: 14 |           4 |         3 |         1 |      5.65 |      0.23 |        0 |        0 | ✓    
+INFO:root: 15 |           3 |         0 |         2 |      0.31 |      3.58 |        1 |        1 | ✓    
+Deleted Entities - 0.7 (Detection Rate: 0.6875):  18%|█▊        | 7/39 [03:52<13:23, 25.12s/it]Deleted Entities - 0.7 (Detection Rate: 0.6875):  21%|██        | 8/39 [03:52<10:20, 20.01s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.8 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.8 question generate: 100%|██████████| 127/127 [00:00<00:00, 21243.33it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 10000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.8 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 50.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           1 |         0 |         1 |     -1.12 |      3.62 |        1 |        1 | ✓    
+INFO:root:  1 |           1 |         0 |         1 |     -0.69 |     -0.23 |        1 |        1 | ✓    
+INFO:root:  2 |           1 |         0 |         1 |     -0.28 |      2.26 |        1 |        1 | ✓    
+INFO:root:  3 |           2 |         1 |         1 |      2.08 |      1.81 |        0 |       -1 | ✗    
+INFO:root:  4 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  5 |           2 |         0 |         2 |      0.10 |      2.95 |        1 |        1 | ✓    
+INFO:root:  6 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  7 |           1 |         0 |         1 |     -0.79 |      2.00 |        1 |        1 | ✓    
+INFO:root:  8 |           1 |         0 |         0 |      0.82 |      0.82 |        0 |       -1 | ✗    
+INFO:root:  9 |           1 |         1 |         0 |      1.44 |     -1.44 |        0 |        0 | ✓    
+INFO:root: 10 |           2 |         1 |         1 |     -0.91 |      0.16 |        1 |       -1 | ✗    
+INFO:root: 11 |           4 |         0 |         4 |     -0.46 |      7.05 |        1 |        1 | ✓    
+INFO:root: 12 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 13 |           2 |         1 |         1 |      0.86 |      1.08 |        1 |       -1 | ✗    
+INFO:root: 14 |           1 |         1 |         0 |      1.52 |      0.85 |        0 |        0 | ✓    
+INFO:root: 15 |           1 |         0 |         0 |      1.30 |      1.30 |        1 |       -1 | ✗    
+Deleted Entities - 0.8 (Detection Rate: 0.5000):  21%|██        | 8/39 [03:59<10:20, 20.01s/it]Deleted Entities - 0.8 (Detection Rate: 0.5000):  23%|██▎       | 9/39 [03:59<07:55, 15.86s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.9 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.9 question generate: 100%|██████████| 127/127 [00:00<00:00, 21865.96it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 5000 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.9 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 50.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  1 |           1 |         0 |         1 |      0.78 |      1.18 |        1 |        1 | ✓    
+INFO:root:  2 |           1 |         1 |         0 |     -0.64 |     -0.75 |        1 |        0 | ✗    
+INFO:root:  3 |           1 |         1 |         0 |      4.44 |     -1.48 |        0 |        0 | ✓    
+INFO:root:  4 |           3 |         1 |         2 |      2.46 |      4.11 |        1 |        1 | ✓    
+INFO:root:  5 |           1 |         1 |         0 |      3.34 |      1.38 |        1 |        0 | ✗    
+INFO:root:  6 |           1 |         0 |         1 |     -1.56 |     -0.93 |        1 |        1 | ✓    
+INFO:root:  7 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  8 |           1 |         0 |         0 |      1.22 |      1.22 |        0 |       -1 | ✗    
+INFO:root:  9 |           1 |         1 |         0 |      1.89 |     -1.51 |        0 |        0 | ✓    
+INFO:root: 10 |           1 |         0 |         1 |     -1.32 |      0.97 |        1 |        1 | ✓    
+INFO:root: 11 |           3 |         0 |         3 |      0.18 |      3.27 |        1 |        1 | ✓    
+INFO:root: 12 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 13 |           1 |         0 |         1 |     -0.31 |      1.81 |        1 |        1 | ✓    
+INFO:root: 14 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root: 15 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+Deleted Entities - 0.9 (Detection Rate: 0.5000):  23%|██▎       | 9/39 [04:04<07:55, 15.86s/it]Deleted Entities - 0.9 (Detection Rate: 0.5000):  26%|██▌       | 10/39 [04:04<06:03, 12.54s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_DeletedEntities_0.95 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_DeletedEntities_0.95 question generate: 100%|██████████| 127/127 [00:00<00:00, 22181.00it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 2500 records
+INFO:root:
+====================== winemag50k_DeletedEntities_0.95 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 18.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  1 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  2 |           1 |         0 |         1 |     -1.43 |      0.58 |        1 |        1 | ✓    
+INFO:root:  3 |           1 |         1 |         0 |      3.21 |     -0.48 |        0 |        0 | ✓    
+INFO:root:  4 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  5 |           1 |         1 |         0 |      1.28 |      0.00 |        1 |        0 | ✗    
+INFO:root:  6 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  7 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root:  8 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root:  9 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root: 10 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 11 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 12 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 13 |           0 |         0 |         0 |      0.00 |      0.00 |        1 | N/A      | N/A  
+INFO:root: 14 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root: 15 |           1 |         0 |         1 |      0.16 |      3.04 |        1 |        1 | ✓    
+Deleted Entities - 0.95 (Detection Rate: 0.1875):  26%|██▌       | 10/39 [04:06<06:03, 12.54s/it]Deleted Entities - 0.95 (Detection Rate: 0.1875):  28%|██▊       | 11/39 [04:06<04:16,  9.16s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0 question generate: 100%|██████████| 127/127 [00:00<00:00, 16394.59it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      1.06 |      9.00 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      3.49 |     13.40 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      2.05 |     13.09 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         6 |         4 |     13.66 |      4.97 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         4 |         5 |      8.47 |     15.78 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -3.27 |     17.66 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         2 |     -4.18 |     10.50 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         2 |         0 |      5.98 |      1.64 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -9.24 |      4.98 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.36 |     19.82 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -3.12 |      9.48 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         7 |     -4.35 |      6.19 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     14.72 |     -0.71 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -2.08 |      8.76 |        1 |        1 | ✓    
+Inserted Entities - 0 (Detection Rate: 1.0000):  28%|██▊       | 11/39 [04:48<04:16,  9.16s/it]  Inserted Entities - 0 (Detection Rate: 1.0000):  31%|███       | 12/39 [04:48<08:35, 19.08s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.1 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.1 question generate: 100%|██████████| 127/127 [00:00<00:00, 15925.51it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 55000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.1 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      2.48 |     11.60 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      3.78 |     13.59 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      0.45 |     11.90 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     13.44 |      5.00 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      2.16 |      5.39 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      6.08 |     22.42 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.74 |      7.68 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      9.93 |     -2.78 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |    -10.49 |      5.07 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -2.20 |     17.15 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -1.82 |      7.66 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -2.86 |      8.68 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     18.03 |     -0.74 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -2.14 |     10.68 |        1 |        1 | ✓    
+Inserted Entities - 0.1 (Detection Rate: 1.0000):  31%|███       | 12/39 [05:29<08:35, 19.08s/it]Inserted Entities - 0.1 (Detection Rate: 1.0000):  33%|███▎      | 13/39 [05:29<11:13, 25.92s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.2 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.2 question generate: 100%|██████████| 127/127 [00:00<00:00, 15414.88it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 60000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.2 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      2.48 |     11.60 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.11 |     16.84 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |     -0.99 |     13.88 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     12.86 |      5.00 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      0.91 |      4.72 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         5 |      6.00 |     14.18 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -3.27 |     17.66 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -4.68 |     12.51 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -9.54 |      5.99 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         2 |         7 |     -1.75 |     13.53 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -2.36 |      7.48 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -2.49 |      9.05 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     17.43 |      1.43 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.2 (Detection Rate: 1.0000):  33%|███▎      | 13/39 [06:11<11:13, 25.92s/it]Inserted Entities - 0.2 (Detection Rate: 1.0000):  36%|███▌      | 14/39 [06:11<12:48, 30.75s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.3 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.3 question generate: 100%|██████████| 127/127 [00:00<00:00, 15394.83it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 65000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.3 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         2 |     -0.44 |      5.78 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      2.91 |     15.40 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         6 |      2.28 |     11.38 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     15.22 |      6.95 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         5 |      8.09 |     25.39 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.95 |     22.92 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -5.66 |     11.98 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.76 |     -4.37 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |    -10.81 |      5.07 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.94 |     15.86 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -0.82 |     10.67 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         7 |     -2.13 |      8.25 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     19.96 |      0.26 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         1 |         4 |     -1.00 |      8.26 |        1 |        1 | ✓    
+Inserted Entities - 0.3 (Detection Rate: 1.0000):  36%|███▌      | 14/39 [06:53<12:48, 30.75s/it]Inserted Entities - 0.3 (Detection Rate: 1.0000):  38%|███▊      | 15/39 [06:53<13:37, 34.06s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.4 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.4 question generate: 100%|██████████| 127/127 [00:00<00:00, 14810.56it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 70000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.4 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      2.48 |     11.60 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.11 |     16.84 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      0.04 |     11.90 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         6 |         3 |     14.56 |      7.35 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      6.02 |     15.79 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -3.08 |     19.00 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -5.34 |     11.26 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.13 |     -0.10 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      9.66 |     -5.47 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |    -10.20 |      6.40 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.35 |     15.88 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -2.73 |      8.51 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -2.68 |      8.51 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     21.38 |      2.15 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.4 (Detection Rate: 1.0000):  38%|███▊      | 15/39 [07:34<13:37, 34.06s/it]Inserted Entities - 0.4 (Detection Rate: 1.0000):  41%|████      | 16/39 [07:34<13:55, 36.33s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.5 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.5 question generate: 100%|██████████| 127/127 [00:00<00:00, 14441.94it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 75000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.5 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         5 |     -0.18 |      7.23 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.38 |     17.91 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         6 |     -0.06 |     10.91 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     14.57 |      4.51 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      0.94 |      4.73 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      8.61 |     16.14 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -4.83 |     20.72 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.07 |      9.72 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         4 |         0 |      8.15 |     -2.71 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -9.72 |      8.23 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -2.51 |     17.03 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         3 |         1 |      3.99 |      7.73 |        1 |        0 | ✗    
+INFO:root: 13 |           9 |         1 |         8 |     -2.86 |      8.68 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     22.36 |      0.60 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.5 (Detection Rate: 0.9375):  41%|████      | 16/39 [08:16<13:55, 36.33s/it]Inserted Entities - 0.5 (Detection Rate: 0.9375):  44%|████▎     | 17/39 [08:16<13:54, 37.93s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.6 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.6 question generate: 100%|██████████| 127/127 [00:00<00:00, 14160.91it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 80000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.6 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         4 |      1.05 |      7.05 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      4.21 |     15.72 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         7 |     -2.12 |     13.66 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     14.24 |      3.87 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |     10.17 |     12.49 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -5.00 |     14.26 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      6.59 |      1.15 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -7.36 |      7.15 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.88 |     15.70 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         2 |         3 |     -0.96 |      9.75 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -2.86 |      8.68 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     19.03 |     -0.36 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.6 (Detection Rate: 1.0000):  44%|████▎     | 17/39 [08:58<13:54, 37.93s/it]Inserted Entities - 0.6 (Detection Rate: 1.0000):  46%|████▌     | 18/39 [08:58<13:39, 39.03s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.7 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.7 question generate: 100%|██████████| 127/127 [00:00<00:00, 13639.14it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 85000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.7 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         3 |      2.13 |      8.22 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      1.59 |     15.62 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         6 |      0.28 |     10.35 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         6 |         4 |     14.57 |      7.15 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.32 |      4.02 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |     10.50 |     15.76 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -1.81 |     18.28 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         4 |     -4.43 |     12.85 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         2 |         0 |      5.98 |      1.64 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      7.61 |     -5.07 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -7.03 |      1.25 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -2.20 |     17.15 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -2.79 |     10.62 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -3.22 |      8.32 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     20.82 |     -1.62 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         1 |         5 |     -0.96 |     10.34 |        1 |        1 | ✓    
+Inserted Entities - 0.7 (Detection Rate: 1.0000):  46%|████▌     | 18/39 [09:39<13:39, 39.03s/it]Inserted Entities - 0.7 (Detection Rate: 1.0000):  49%|████▊     | 19/39 [09:39<13:16, 39.83s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.8 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.8 question generate: 100%|██████████| 127/127 [00:00<00:00, 13628.32it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 90000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.8 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         3 |      2.85 |      8.21 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.11 |     17.19 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      1.26 |     12.31 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     15.25 |      4.11 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |      9.86 |     11.98 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -3.00 |      9.18 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.48 |     -5.00 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |    -10.90 |      5.82 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.35 |     15.88 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -4.29 |      9.25 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         7 |     -4.13 |      9.54 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     19.79 |      0.71 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.8 (Detection Rate: 1.0000):  49%|████▊     | 19/39 [10:22<13:16, 39.83s/it]Inserted Entities - 0.8 (Detection Rate: 1.0000):  51%|█████▏    | 20/39 [10:22<12:50, 40.54s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.9 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.9 question generate: 100%|██████████| 127/127 [00:00<00:00, 13064.44it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 95000 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.9 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         3 |     -2.24 |      8.10 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.35 |     17.08 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |     -2.46 |     12.26 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         8 |         2 |     12.54 |      3.70 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         4 |         5 |     11.75 |     18.59 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -2.18 |     19.18 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.46 |      5.00 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.38 |      1.44 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      9.51 |     -7.32 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -6.97 |      4.54 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.88 |     18.94 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -4.12 |     11.30 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -3.80 |     11.27 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     21.59 |      3.10 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.9 (Detection Rate: 1.0000):  51%|█████▏    | 20/39 [11:05<12:50, 40.54s/it]Inserted Entities - 0.9 (Detection Rate: 1.0000):  54%|█████▍    | 21/39 [11:05<12:23, 41.30s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_InsertedEntities_0.95 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_InsertedEntities_0.95 question generate: 100%|██████████| 127/127 [00:00<00:00, 12610.72it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 97500 records
+INFO:root:
+====================== winemag50k_InsertedEntities_0.95 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      2.48 |     11.60 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      3.03 |     15.61 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         8 |     -0.37 |     15.57 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         8 |         2 |     13.60 |      3.71 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         2 |         3 |      2.35 |      3.35 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         4 |         5 |      8.11 |     11.80 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.10 |      9.76 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.20 |      2.04 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.46 |     -3.40 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |    -10.83 |     11.40 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -1.35 |     14.60 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -3.76 |      7.37 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         2 |         7 |     -2.78 |      9.08 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     19.51 |      2.57 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Inserted Entities - 0.95 (Detection Rate: 1.0000):  54%|█████▍    | 21/39 [11:47<12:23, 41.30s/it]Inserted Entities - 0.95 (Detection Rate: 1.0000):  56%|█████▋    | 22/39 [11:47<11:47, 41.59s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0 question generate: 100%|██████████| 127/127 [00:00<00:00, 16284.33it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      2.48 |     11.60 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      3.60 |     14.92 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      2.05 |     13.09 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     16.31 |      4.15 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      0.88 |      5.50 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         6 |     10.30 |     15.16 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.94 |      5.48 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.98 |      0.83 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      7.46 |     -5.67 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |     -8.21 |      8.09 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         2 |         7 |     -1.73 |     17.24 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -2.81 |     10.37 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         7 |     -2.70 |      7.78 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         4 |     20.63 |      1.88 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Modified Entities - 0 (Detection Rate: 1.0000):  56%|█████▋    | 22/39 [12:32<11:47, 41.59s/it]   Modified Entities - 0 (Detection Rate: 1.0000):  59%|█████▉    | 23/39 [12:32<11:20, 42.51s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.1 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.1 question generate: 100%|██████████| 127/127 [00:00<00:00, 16620.69it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.1 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           4 |         1 |         2 |     -0.44 |      5.78 |        1 |        1 | ✓    
+INFO:root:  1 |           5 |         1 |         4 |      4.51 |     12.93 |        1 |        1 | ✓    
+INFO:root:  2 |           8 |         1 |         4 |      0.72 |      3.75 |        1 |        1 | ✓    
+INFO:root:  3 |           9 |         7 |         2 |     12.56 |      0.37 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         0 |         3 |     -1.09 |      2.23 |        1 |        1 | ✓    
+INFO:root:  5 |           8 |         3 |         5 |      8.49 |     10.74 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -3.27 |     17.66 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -4.02 |     11.49 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.20 |      2.04 |        0 |        0 | ✓    
+INFO:root:  9 |           4 |         4 |         0 |      6.19 |     -4.36 |        0 |        0 | ✓    
+INFO:root: 10 |          10 |         1 |         9 |     -9.85 |      7.91 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         1 |         7 |     -2.73 |     15.88 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         2 |         2 |     -1.00 |      6.10 |        1 |       -1 | ✗    
+INFO:root: 13 |           8 |         0 |         8 |     -5.13 |      9.29 |        1 |        1 | ✓    
+INFO:root: 14 |          15 |        12 |         3 |     19.11 |      0.40 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Modified Entities - 0.1 (Detection Rate: 0.9375):  59%|█████▉    | 23/39 [13:08<11:20, 42.51s/it]Modified Entities - 0.1 (Detection Rate: 0.9375):  62%|██████▏   | 24/39 [13:08<10:11, 40.75s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.2 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.2 question generate: 100%|██████████| 127/127 [00:00<00:00, 16478.78it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.2 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         1 |         2 |     -1.05 |      1.51 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         5 |      0.34 |     18.13 |        1 |        1 | ✓    
+INFO:root:  2 |           7 |         0 |         5 |      1.79 |      9.39 |        1 |        1 | ✓    
+INFO:root:  3 |           8 |         5 |         3 |     13.66 |      5.72 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |     -0.16 |      2.79 |        1 |        1 | ✓    
+INFO:root:  5 |           7 |         2 |         5 |      5.67 |     15.16 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -2.08 |     20.42 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -3.67 |      6.90 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         3 |         0 |      5.34 |     -0.60 |        0 |        0 | ✓    
+INFO:root:  9 |           4 |         4 |         0 |      6.17 |     -2.75 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -7.33 |      7.66 |        1 |        1 | ✓    
+INFO:root: 11 |           7 |         1 |         6 |     -1.06 |      9.09 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         2 |         3 |     -1.49 |      7.85 |        1 |        1 | ✓    
+INFO:root: 13 |           7 |         1 |         6 |     -0.66 |      5.73 |        1 |        1 | ✓    
+INFO:root: 14 |          13 |         9 |         4 |     15.75 |      4.20 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -1.85 |      7.19 |        1 |        1 | ✓    
+Modified Entities - 0.2 (Detection Rate: 1.0000):  62%|██████▏   | 24/39 [13:43<10:11, 40.75s/it]Modified Entities - 0.2 (Detection Rate: 1.0000):  64%|██████▍   | 25/39 [13:43<09:05, 38.93s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.3 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.3 question generate: 100%|██████████| 127/127 [00:00<00:00, 16827.57it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.3 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         3 |      2.84 |      9.00 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         5 |      1.99 |     14.66 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |     -0.99 |     13.60 |        1 |        1 | ✓    
+INFO:root:  3 |           8 |         6 |         2 |     14.30 |      3.20 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.87 |      5.68 |        1 |        1 | ✓    
+INFO:root:  5 |           5 |         1 |         4 |      3.38 |     10.02 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         5 |     -2.58 |     10.96 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         4 |     -3.72 |      7.08 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      5.91 |     -1.31 |        0 |        0 | ✓    
+INFO:root:  9 |           3 |         3 |         0 |      5.32 |     -4.19 |        0 |        0 | ✓    
+INFO:root: 10 |          11 |         3 |         7 |     -7.98 |      3.79 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         0 |         7 |     -3.36 |     13.45 |        1 |        1 | ✓    
+INFO:root: 12 |           3 |         1 |         2 |      0.75 |      3.42 |        1 |        1 | ✓    
+INFO:root: 13 |           7 |         1 |         6 |     -3.46 |      7.09 |        1 |        1 | ✓    
+INFO:root: 14 |          14 |        11 |         3 |     18.19 |      1.64 |        0 |        0 | ✓    
+INFO:root: 15 |           5 |         0 |         4 |     -3.33 |      4.45 |        1 |        1 | ✓    
+Modified Entities - 0.3 (Detection Rate: 1.0000):  64%|██████▍   | 25/39 [14:17<09:05, 38.93s/it]Modified Entities - 0.3 (Detection Rate: 1.0000):  67%|██████▋   | 26/39 [14:17<08:06, 37.43s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.4 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.4 question generate: 100%|██████████| 127/127 [00:00<00:00, 16775.63it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.4 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      3.40 |     10.68 |        1 |        1 | ✓    
+INFO:root:  1 |           4 |         1 |         3 |      2.40 |     10.05 |        1 |        1 | ✓    
+INFO:root:  2 |           7 |         1 |         6 |     -1.97 |     10.49 |        1 |        1 | ✓    
+INFO:root:  3 |           5 |         4 |         1 |      9.47 |      1.17 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |      2.65 |      4.33 |        1 |        1 | ✓    
+INFO:root:  5 |           5 |         2 |         3 |      5.85 |      8.74 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         5 |     -1.99 |     13.49 |        1 |        1 | ✓    
+INFO:root:  7 |           2 |         0 |         1 |     -2.48 |      4.19 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         2 |         0 |      3.43 |      2.01 |        0 |        0 | ✓    
+INFO:root:  9 |           3 |         3 |         0 |      5.17 |     -2.75 |        0 |        0 | ✓    
+INFO:root: 10 |          11 |         3 |         7 |     -6.64 |      1.60 |        1 |        1 | ✓    
+INFO:root: 11 |           5 |         0 |         4 |     -1.95 |      7.72 |        1 |        1 | ✓    
+INFO:root: 12 |           3 |         1 |         2 |     -2.90 |      2.04 |        1 |        1 | ✓    
+INFO:root: 13 |           7 |         1 |         6 |     -2.48 |      7.44 |        1 |        1 | ✓    
+INFO:root: 14 |          10 |         6 |         3 |      4.60 |     -3.52 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -3.59 |      8.58 |        1 |        1 | ✓    
+Modified Entities - 0.4 (Detection Rate: 1.0000):  67%|██████▋   | 26/39 [14:45<08:06, 37.43s/it]Modified Entities - 0.4 (Detection Rate: 1.0000):  69%|██████▉   | 27/39 [14:45<06:56, 34.72s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.5 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.5 question generate: 100%|██████████| 127/127 [00:00<00:00, 16669.06it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.5 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           4 |         0 |         3 |      2.86 |      8.05 |        1 |        1 | ✓    
+INFO:root:  1 |           4 |         1 |         3 |      1.87 |     11.30 |        1 |        1 | ✓    
+INFO:root:  2 |           3 |         0 |         3 |      1.56 |      6.66 |        1 |        1 | ✓    
+INFO:root:  3 |           6 |         4 |         2 |      7.60 |      2.60 |        0 |        0 | ✓    
+INFO:root:  4 |           3 |         0 |         3 |     -1.09 |      2.23 |        1 |        1 | ✓    
+INFO:root:  5 |           6 |         3 |         3 |      5.97 |      7.54 |        1 |       -1 | ✗    
+INFO:root:  6 |           5 |         0 |         5 |     -1.75 |     12.97 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         1 |         2 |     -2.40 |      5.37 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         2 |         0 |      5.51 |      1.41 |        0 |        0 | ✓    
+INFO:root:  9 |           2 |         2 |         0 |      3.55 |     -3.13 |        0 |        0 | ✓    
+INFO:root: 10 |           8 |         3 |         5 |     -4.67 |      3.88 |        1 |        1 | ✓    
+INFO:root: 11 |           7 |         1 |         6 |     -1.31 |     13.95 |        1 |        1 | ✓    
+INFO:root: 12 |           1 |         0 |         1 |     -0.33 |      2.00 |        1 |        1 | ✓    
+INFO:root: 13 |           7 |         1 |         6 |     -1.75 |      6.06 |        1 |        1 | ✓    
+INFO:root: 14 |          12 |         8 |         3 |     10.05 |     -0.76 |        0 |        0 | ✓    
+INFO:root: 15 |           4 |         0 |         2 |     -0.88 |      5.42 |        1 |        1 | ✓    
+Modified Entities - 0.5 (Detection Rate: 0.9375):  69%|██████▉   | 27/39 [15:11<06:56, 34.72s/it]Modified Entities - 0.5 (Detection Rate: 0.9375):  72%|███████▏  | 28/39 [15:11<05:52, 32.03s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.6 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.6 question generate: 100%|██████████| 127/127 [00:00<00:00, 16876.62it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.6 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 81.25%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           2 |         0 |         2 |      1.99 |      5.27 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         4 |      2.42 |     12.43 |        1 |        1 | ✓    
+INFO:root:  2 |           2 |         1 |         0 |     -0.95 |     -1.26 |        1 |        0 | ✗    
+INFO:root:  3 |           6 |         3 |         2 |      8.19 |      3.33 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |      2.46 |      4.52 |        1 |        1 | ✓    
+INFO:root:  5 |           7 |         5 |         2 |      8.65 |      7.55 |        1 |        0 | ✗    
+INFO:root:  6 |           5 |         0 |         4 |     -1.34 |      9.48 |        1 |        1 | ✓    
+INFO:root:  7 |           1 |         0 |         0 |     -0.58 |     -0.58 |        1 |       -1 | ✗    
+INFO:root:  8 |           2 |         2 |         0 |      2.66 |      1.21 |        0 |        0 | ✓    
+INFO:root:  9 |           1 |         1 |         0 |      1.00 |      0.00 |        0 |        0 | ✓    
+INFO:root: 10 |          11 |         4 |         7 |     -3.70 |      9.26 |        1 |        1 | ✓    
+INFO:root: 11 |           6 |         1 |         5 |      0.20 |      8.76 |        1 |        1 | ✓    
+INFO:root: 12 |           2 |         0 |         2 |     -2.54 |      7.52 |        1 |        1 | ✓    
+INFO:root: 13 |           4 |         1 |         3 |     -0.67 |      4.31 |        1 |        1 | ✓    
+INFO:root: 14 |           9 |         7 |         2 |     10.49 |      0.19 |        0 |        0 | ✓    
+INFO:root: 15 |           4 |         0 |         2 |      0.31 |      5.82 |        1 |        1 | ✓    
+Modified Entities - 0.6 (Detection Rate: 0.8125):  72%|███████▏  | 28/39 [15:35<05:52, 32.03s/it]Modified Entities - 0.6 (Detection Rate: 0.8125):  74%|███████▍  | 29/39 [15:35<04:54, 29.48s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.7 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.7 question generate: 100%|██████████| 127/127 [00:00<00:00, 16754.00it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.7 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         0 |         3 |     -0.18 |      4.30 |        1 |        1 | ✓    
+INFO:root:  1 |           3 |         0 |         3 |      4.06 |      6.95 |        1 |        1 | ✓    
+INFO:root:  2 |           4 |         0 |         4 |      1.82 |      6.43 |        1 |        1 | ✓    
+INFO:root:  3 |           4 |         4 |         0 |      5.94 |      0.16 |        0 |        0 | ✓    
+INFO:root:  4 |           3 |         1 |         2 |      2.82 |      3.43 |        1 |        1 | ✓    
+INFO:root:  5 |           6 |         3 |         3 |      4.87 |      3.74 |        1 |       -1 | ✗    
+INFO:root:  6 |           3 |         0 |         3 |     -4.58 |      7.09 |        1 |        1 | ✓    
+INFO:root:  7 |           2 |         0 |         2 |     -0.35 |      2.09 |        1 |        1 | ✓    
+INFO:root:  8 |           2 |         2 |         0 |      2.40 |      1.38 |        0 |        0 | ✓    
+INFO:root:  9 |           1 |         1 |         0 |      0.73 |     -1.60 |        0 |        0 | ✓    
+INFO:root: 10 |           7 |         2 |         5 |     -8.68 |     -0.02 |        1 |        1 | ✓    
+INFO:root: 11 |           4 |         0 |         4 |     -1.29 |      4.94 |        1 |        1 | ✓    
+INFO:root: 12 |           2 |         0 |         2 |     -1.44 |      7.56 |        1 |        1 | ✓    
+INFO:root: 13 |           6 |         1 |         5 |     -5.53 |      3.76 |        1 |        1 | ✓    
+INFO:root: 14 |          10 |         8 |         2 |     11.69 |     -1.35 |        0 |        0 | ✓    
+INFO:root: 15 |           2 |         0 |         2 |      0.32 |      3.84 |        1 |        1 | ✓    
+Modified Entities - 0.7 (Detection Rate: 0.9375):  74%|███████▍  | 29/39 [15:55<04:54, 29.48s/it]Modified Entities - 0.7 (Detection Rate: 0.9375):  77%|███████▋  | 30/39 [15:55<04:00, 26.75s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.8 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.8 question generate: 100%|██████████| 127/127 [00:00<00:00, 16698.85it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.8 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 81.25%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         0 |         2 |      2.33 |      5.15 |        1 |        1 | ✓    
+INFO:root:  1 |           2 |         0 |         2 |      0.72 |      6.71 |        1 |        1 | ✓    
+INFO:root:  2 |           6 |         1 |         5 |      1.09 |     10.44 |        1 |        1 | ✓    
+INFO:root:  3 |           5 |         3 |         2 |      5.76 |      3.68 |        0 |        0 | ✓    
+INFO:root:  4 |           1 |         1 |         0 |      0.93 |      0.56 |        1 |        0 | ✗    
+INFO:root:  5 |           4 |         3 |         1 |      6.17 |      2.42 |        1 |        0 | ✗    
+INFO:root:  6 |           3 |         0 |         3 |     -3.35 |      8.03 |        1 |        1 | ✓    
+INFO:root:  7 |           2 |         0 |         2 |     -1.32 |      2.58 |        1 |        1 | ✓    
+INFO:root:  8 |           3 |         2 |         0 |      5.17 |     -1.14 |        0 |        0 | ✓    
+INFO:root:  9 |           4 |         4 |         0 |      5.89 |     -4.36 |        0 |        0 | ✓    
+INFO:root: 10 |           4 |         2 |         2 |     -2.44 |      1.25 |        1 |       -1 | ✗    
+INFO:root: 11 |           4 |         1 |         3 |      0.48 |      9.63 |        1 |        1 | ✓    
+INFO:root: 12 |           3 |         1 |         2 |     -0.98 |      7.11 |        1 |        1 | ✓    
+INFO:root: 13 |           4 |         1 |         3 |      0.56 |      5.06 |        1 |        1 | ✓    
+INFO:root: 14 |           7 |         6 |         1 |      4.22 |     -1.92 |        0 |        0 | ✓    
+INFO:root: 15 |           3 |         0 |         2 |     -4.41 |      6.47 |        1 |        1 | ✓    
+Modified Entities - 0.8 (Detection Rate: 0.8125):  77%|███████▋  | 30/39 [16:14<04:00, 26.75s/it]Modified Entities - 0.8 (Detection Rate: 0.8125):  79%|███████▉  | 31/39 [16:14<03:16, 24.56s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.9 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.9 question generate: 100%|██████████| 127/127 [00:00<00:00, 16818.00it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.9 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 81.25%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           2 |         0 |         2 |      0.10 |      3.44 |        1 |        1 | ✓    
+INFO:root:  1 |           3 |         1 |         2 |      3.49 |      6.82 |        1 |        1 | ✓    
+INFO:root:  2 |           4 |         0 |         2 |     -1.20 |      2.69 |        1 |        1 | ✓    
+INFO:root:  3 |           2 |         2 |         0 |      3.05 |      0.83 |        0 |        0 | ✓    
+INFO:root:  4 |           2 |         1 |         1 |      0.93 |      0.97 |        1 |       -1 | ✗    
+INFO:root:  5 |           5 |         2 |         3 |      8.89 |     16.36 |        1 |        1 | ✓    
+INFO:root:  6 |           6 |         0 |         5 |      0.07 |     14.25 |        1 |        1 | ✓    
+INFO:root:  7 |           3 |         0 |         3 |     -3.77 |      5.75 |        1 |        1 | ✓    
+INFO:root:  8 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root:  9 |           0 |         0 |         0 |      0.00 |      0.00 |        0 | N/A      | N/A  
+INFO:root: 10 |           4 |         1 |         3 |     -3.21 |      0.74 |        1 |        1 | ✓    
+INFO:root: 11 |           3 |         0 |         3 |     -0.76 |      3.85 |        1 |        1 | ✓    
+INFO:root: 12 |           1 |         0 |         1 |     -1.11 |      5.56 |        1 |        1 | ✓    
+INFO:root: 13 |           7 |         2 |         5 |      0.78 |      6.65 |        1 |        1 | ✓    
+INFO:root: 14 |           7 |         6 |         1 |     10.70 |      1.16 |        0 |        0 | ✓    
+INFO:root: 15 |           4 |         0 |         3 |     -0.11 |      6.29 |        1 |        1 | ✓    
+Modified Entities - 0.9 (Detection Rate: 0.8125):  79%|███████▉  | 31/39 [16:32<03:16, 24.56s/it]Modified Entities - 0.9 (Detection Rate: 0.8125):  82%|████████▏ | 32/39 [16:32<02:38, 22.57s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedEntities_0.95 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedEntities_0.95 question generate: 100%|██████████| 127/127 [00:00<00:00, 16778.27it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedEntities_0.95 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 87.50%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           3 |         0 |         1 |      1.59 |      3.67 |        1 |        1 | ✓    
+INFO:root:  1 |           4 |         0 |         4 |     -1.10 |      5.54 |        1 |        1 | ✓    
+INFO:root:  2 |           1 |         0 |         1 |     -1.22 |     -0.41 |        1 |        1 | ✓    
+INFO:root:  3 |           3 |         1 |         2 |      3.15 |      3.69 |        0 |        1 | ✗    
+INFO:root:  4 |           3 |         0 |         3 |     -1.09 |      2.23 |        1 |        1 | ✓    
+INFO:root:  5 |           5 |         2 |         3 |      4.73 |     12.27 |        1 |        1 | ✓    
+INFO:root:  6 |           5 |         0 |         4 |      1.20 |     13.93 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         4 |     -4.02 |      4.94 |        1 |        1 | ✓    
+INFO:root:  8 |           1 |         1 |         0 |      1.43 |      0.80 |        0 |        0 | ✓    
+INFO:root:  9 |           3 |         3 |         0 |      5.70 |     -1.71 |        0 |        0 | ✓    
+INFO:root: 10 |           6 |         1 |         5 |     -3.78 |      4.44 |        1 |        1 | ✓    
+INFO:root: 11 |           3 |         1 |         2 |      0.56 |      6.82 |        1 |        1 | ✓    
+INFO:root: 12 |           2 |         1 |         1 |      0.12 |      1.54 |        1 |       -1 | ✗    
+INFO:root: 13 |           4 |         0 |         4 |     -1.60 |      3.66 |        1 |        1 | ✓    
+INFO:root: 14 |           9 |         8 |         1 |      9.29 |     -1.13 |        0 |        0 | ✓    
+INFO:root: 15 |           2 |         0 |         2 |      0.32 |      3.84 |        1 |        1 | ✓    
+Modified Entities - 0.95 (Detection Rate: 0.8750):  82%|████████▏ | 32/39 [16:52<02:38, 22.57s/it]Modified Entities - 0.95 (Detection Rate: 0.8750):  85%|████████▍ | 33/39 [16:52<02:09, 21.58s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.01 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.01 question generate: 100%|██████████| 127/127 [00:00<00:00, 15802.21it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.01 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         1 |         3 |      1.94 |      7.50 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         5 |      0.29 |     13.36 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         8 |     -0.01 |     15.84 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     14.37 |      6.65 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |      2.46 |      4.52 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         2 |         6 |      6.58 |     22.33 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -0.72 |     19.81 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -3.83 |      6.66 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      6.59 |      1.15 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      7.46 |     -5.67 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |    -10.77 |      3.69 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -2.73 |     18.24 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -3.69 |      9.48 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -3.59 |      7.95 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     15.63 |     -1.73 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -1.87 |      8.14 |        1 |        1 | ✓    
+Modified Attributes - 0.01 (Detection Rate: 1.0000):  85%|████████▍ | 33/39 [17:43<02:09, 21.58s/it]Modified Attributes - 0.01 (Detection Rate: 1.0000):  87%|████████▋ | 34/39 [17:43<02:32, 30.52s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.02 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.02 question generate: 100%|██████████| 127/127 [00:00<00:00, 15986.21it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.02 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         4 |      3.40 |     10.68 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.38 |     17.91 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      0.22 |     11.65 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     14.23 |      4.21 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         1 |         3 |      1.73 |      4.84 |        1 |        1 | ✓    
+INFO:root:  5 |           8 |         3 |         5 |      8.55 |     14.06 |        1 |        1 | ✓    
+INFO:root:  6 |           7 |         0 |         5 |     -1.89 |     15.20 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -3.55 |      3.98 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         2 |         0 |      4.76 |      0.42 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |     10.66 |     -3.20 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         4 |        10 |     -7.77 |      7.96 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         7 |     -1.94 |     14.59 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -6.19 |      9.00 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -3.39 |      9.72 |        1 |        1 | ✓    
+INFO:root: 14 |          15 |        11 |         3 |     17.24 |      1.10 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -2.14 |     10.68 |        1 |        1 | ✓    
+Modified Attributes - 0.02 (Detection Rate: 1.0000):  87%|████████▋ | 34/39 [18:44<02:32, 30.52s/it]Modified Attributes - 0.02 (Detection Rate: 1.0000):  90%|████████▉ | 35/39 [18:44<02:39, 39.81s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.03 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.03 question generate: 100%|██████████| 127/127 [00:00<00:00, 15488.39it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.03 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           4 |         0 |         3 |      2.86 |      8.05 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         2 |         5 |      3.48 |     12.46 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         7 |      0.40 |     15.02 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         7 |         3 |     17.84 |      6.50 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.73 |      5.25 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         5 |      5.66 |     20.01 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -1.81 |     18.28 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -2.27 |      7.76 |        1 |        1 | ✓    
+INFO:root:  8 |           4 |         2 |         0 |      5.77 |      1.24 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      7.61 |     -5.07 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         5 |         8 |     -5.48 |      4.25 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         1 |         7 |     -2.03 |     16.23 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -2.69 |      9.48 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         8 |     -2.65 |     10.17 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     23.38 |      1.07 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         4 |     -0.72 |      7.31 |        1 |        1 | ✓    
+Modified Attributes - 0.03 (Detection Rate: 1.0000):  90%|████████▉ | 35/39 [19:57<02:39, 39.81s/it]Modified Attributes - 0.03 (Detection Rate: 1.0000):  92%|█████████▏| 36/39 [19:57<02:28, 49.54s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.04 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.04 question generate: 100%|██████████| 127/127 [00:00<00:00, 15351.80it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.04 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         3 |      2.84 |      9.00 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         5 |     -0.41 |     12.07 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         8 |     -2.62 |     17.15 |        1 |        1 | ✓    
+INFO:root:  3 |           9 |         7 |         2 |     13.25 |      0.99 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.33 |      3.44 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         4 |         5 |      9.87 |     24.02 |        1 |        1 | ✓    
+INFO:root:  6 |           7 |         0 |         6 |     -1.28 |     15.77 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         1 |         3 |     -1.59 |      9.25 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.32 |      2.08 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.24 |     -5.43 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         6 |         7 |     -8.36 |      2.29 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         2 |         6 |     -2.53 |     14.06 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         4 |     -1.87 |      9.89 |        1 |        1 | ✓    
+INFO:root: 13 |           8 |         1 |         7 |     -2.16 |      8.07 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        12 |         3 |     16.06 |      1.86 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.35 |        1 |        1 | ✓    
+Modified Attributes - 0.04 (Detection Rate: 1.0000):  92%|█████████▏| 36/39 [21:20<02:28, 49.54s/it]Modified Attributes - 0.04 (Detection Rate: 1.0000):  95%|█████████▍| 37/39 [21:20<01:59, 59.59s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.05 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.05 question generate: 100%|██████████| 127/127 [00:00<00:00, 15905.54it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.05 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 93.75%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           4 |         0 |         3 |      3.04 |      8.23 |        1 |        1 | ✓    
+INFO:root:  1 |           6 |         1 |         5 |      4.11 |     14.26 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         0 |         7 |      0.40 |     11.11 |        1 |        1 | ✓    
+INFO:root:  3 |          10 |         8 |         2 |     14.82 |     -0.21 |        0 |        0 | ✓    
+INFO:root:  4 |           5 |         1 |         4 |      1.92 |      5.06 |        1 |        1 | ✓    
+INFO:root:  5 |           8 |         2 |         6 |      7.58 |     14.25 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         7 |     -1.62 |     19.63 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -5.18 |     11.50 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.20 |      2.45 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |      8.70 |     -3.47 |        0 |        0 | ✓    
+INFO:root: 10 |          13 |         5 |         8 |     -7.41 |      2.90 |        1 |        1 | ✓    
+INFO:root: 11 |           8 |         1 |         6 |     -1.71 |     13.90 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         2 |         2 |     -0.66 |      6.82 |        1 |       -1 | ✗    
+INFO:root: 13 |           8 |         1 |         7 |     -3.63 |      6.43 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     21.81 |      1.70 |        0 |        0 | ✓    
+INFO:root: 15 |           7 |         0 |         5 |     -1.87 |      8.79 |        1 |        1 | ✓    
+Modified Attributes - 0.05 (Detection Rate: 0.9375):  95%|█████████▍| 37/39 [22:53<01:59, 59.59s/it]Modified Attributes - 0.05 (Detection Rate: 0.9375):  97%|█████████▋| 38/39 [22:53<01:09, 69.74s/it]question generate(light) completed
+question mapping load successfully ...
+question generate(light) begin ...
+
+winemag50k_ModifiedAttributes_0.06 question generate:   0%|          | 0/127 [00:00<?, ?it/s][Awinemag50k_ModifiedAttributes_0.06 question generate: 100%|██████████| 127/127 [00:00<00:00, 15355.78it/s]
+INFO:root:Initializing RAG-based watermark detection...
+INFO:root:Original watermark bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Candidate attributes: [('', '', '', ''), ('', '', '', ''), ('', '', '', ''), ('', '', '', ''), 'id']
+INFO:root:Using provided model and tokenizer...
+INFO:root:Starting detection on 50000 records
+INFO:root:
+====================== winemag50k_ModifiedAttributes_0.06 Detection Summary ============================
+INFO:root:Original Watermark Bits: [1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+INFO:root:Overall Match Rate: 100.00%
+INFO:root:Detectable Bits: 16/16
+INFO:root:
+Bit-Level Statistics:
+INFO:root:Bit | Embed_Count | Tend_to_0 | Tend_to_1 | Z_Score_0 | Z_Score_1 | Original | Detected | Match
+INFO:root:-----------------------------------------------------------------------------------------------
+INFO:root:  0 |           5 |         0 |         3 |      1.92 |      9.93 |        1 |        1 | ✓    
+INFO:root:  1 |           7 |         1 |         6 |      2.39 |     13.10 |        1 |        1 | ✓    
+INFO:root:  2 |           9 |         1 |         7 |      1.54 |     13.34 |        1 |        1 | ✓    
+INFO:root:  3 |           8 |         5 |         3 |     15.62 |      4.73 |        0 |        0 | ✓    
+INFO:root:  4 |           4 |         0 |         4 |      0.80 |      4.69 |        1 |        1 | ✓    
+INFO:root:  5 |           9 |         3 |         5 |      7.20 |     14.18 |        1 |        1 | ✓    
+INFO:root:  6 |           8 |         0 |         6 |     -1.71 |     18.59 |        1 |        1 | ✓    
+INFO:root:  7 |           4 |         0 |         3 |     -3.67 |      6.90 |        1 |        1 | ✓    
+INFO:root:  8 |           5 |         3 |         0 |      7.20 |      2.04 |        0 |        0 | ✓    
+INFO:root:  9 |           5 |         5 |         0 |     15.07 |     -4.43 |        0 |        0 | ✓    
+INFO:root: 10 |          14 |         5 |         9 |     -5.42 |      7.69 |        1 |        1 | ✓    
+INFO:root: 11 |           9 |         1 |         8 |     -1.88 |     15.70 |        1 |        1 | ✓    
+INFO:root: 12 |           5 |         1 |         3 |     -2.93 |      8.15 |        1 |        1 | ✓    
+INFO:root: 13 |           9 |         1 |         7 |     -2.86 |      7.96 |        1 |        1 | ✓    
+INFO:root: 14 |          16 |        13 |         3 |     19.96 |      0.26 |        0 |        0 | ✓    
+INFO:root: 15 |           6 |         0 |         5 |     -1.87 |      9.14 |        1 |        1 | ✓    
+Modified Attributes - 0.06 (Detection Rate: 1.0000):  97%|█████████▋| 38/39 [24:37<01:09, 69.74s/it]Modified Attributes - 0.06 (Detection Rate: 1.0000): 100%|██████████| 39/39 [24:37<00:00, 80.06s/it]Modified Attributes - 0.06 (Detection Rate: 1.0000): 100%|██████████| 39/39 [24:37<00:00, 37.89s/it]
+question generate(light) completed
+question mapping load successfully ...
+
+Drawing RAG detection rate curves...
+  Saved Deleted Entities adaptive curve: data/attacked_eva/fig_onRAG/Deleted_Entities_detection_curve.png
+  Saved Inserted Entities adaptive curve: data/attacked_eva/fig_onRAG/Inserted_Entities_detection_curve.png
+  Saved Modified Entities adaptive curve: data/attacked_eva/fig_onRAG/Modified_Entities_detection_curve.png
+  Saved Modified Attributes adaptive curve: data/attacked_eva/fig_onRAG/Modified_Attributes_detection_curve.png
+  Saved comparison chart: data/attacked_eva/fig_onRAG/all_attacks_comparison.png
+
+Testing completed!
+Results saved to: data/attacked_eva/detRAG_result
+Images saved to: data/attacked_eva/fig_onRAG
+Summary results: data/attacked_eva/detRAG_result/attack_test_summary.json
+Performing final GPU cleanup...
+Final GPU cleanup completed

@@ -1,0 +1,94 @@
+nohup: ignoring input
+Evaluating perplexity results...
+Creating judge model instance...
+Judge model created successfully
+
+ Computing RS for ../dataset/watermark_dataset/VectorMark_nfcorpus_g37.csv...
+RAG Model: qwen:14b
+Dataset name: VectorMark_nfcorpus_g37
+Loaded 3633 from ../dataset/watermark_dataset/VectorMark_nfcorpus_g37.csv
+Found 5 watermarked samples using VectorMark method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db VectorMark_nfcorpus_g37_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+Computing RS:   0%|          | 0/5 [00:00<?, ?it/s]Computing RS:  20%|██        | 1/5 [00:12<00:49, 12.32s/it]Computing RS:  40%|████      | 2/5 [00:19<00:28,  9.35s/it]Computing RS:  60%|██████    | 3/5 [00:25<00:15,  7.69s/it]Computing RS:  80%|████████  | 4/5 [00:29<00:06,  6.12s/it]Computing RS: 100%|██████████| 5/5 [00:34<00:00,  6.04s/it]Computing RS: 100%|██████████| 5/5 [00:34<00:00,  6.98s/it]
+RS Evaluation completed:
+  - Total watermarked samples: 5
+  - Average RS score: 0.6000
+  - Score range: 0.000 - 1.000
+
+ Computing RS for ../dataset/watermark_dataset/VectorMark_winemag50k_g587.csv...
+RAG Model: qwen:14b
+Dataset name: VectorMark_winemag50k_g587
+Loaded 50000 from ../dataset/watermark_dataset/VectorMark_winemag50k_g587.csv
+Found 5 watermarked samples using VectorMark method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db VectorMark_winemag50k_g587_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+Computing RS:   0%|          | 0/5 [00:00<?, ?it/s]Computing RS:  20%|██        | 1/5 [00:04<00:19,  4.78s/it]Computing RS:  40%|████      | 2/5 [00:10<00:15,  5.31s/it]Computing RS:  60%|██████    | 3/5 [00:14<00:09,  4.92s/it]Computing RS:  80%|████████  | 4/5 [00:20<00:05,  5.06s/it]Computing RS: 100%|██████████| 5/5 [00:29<00:00,  6.55s/it]Computing RS: 100%|██████████| 5/5 [00:29<00:00,  5.88s/it]
+RS Evaluation completed:
+  - Total watermarked samples: 5
+  - Average RS score: 0.6000
+  - Score range: 0.000 - 1.000
+
+ Computing RS for ../dataset/watermark_dataset/RAGWM_nfcorpus.csv...
+RAG Model: qwen:14b
+Dataset name: RAGWM_nfcorpus
+Loaded 3633 from ../dataset/watermark_dataset/RAGWM_nfcorpus.csv
+Found 0 watermarked samples using RAGWM method
+No watermarked data found, returning default score 0.5
+
+ Computing RS for ../dataset/watermark_dataset/RAGWM_winemag50k.csv...
+RAG Model: qwen:14b
+Dataset name: RAGWM_winemag50k
+Loaded 50000 from ../dataset/watermark_dataset/RAGWM_winemag50k.csv
+Found 0 watermarked samples using RAGWM method
+No watermarked data found, returning default score 0.5
+
+ Computing RS for ../dataset/watermark_dataset/WARD_nfcorpus_191.csv...
+RAG Model: qwen:14b
+Dataset name: WARD_nfcorpus_191
+Loaded 3633 from ../dataset/watermark_dataset/WARD_nfcorpus_191.csv
+Found 5 watermarked samples using WARD method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db WARD_nfcorpus_191_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+Computing RS:   0%|          | 0/5 [00:00<?, ?it/s]Computing RS:  20%|██        | 1/5 [00:03<00:15,  3.76s/it]Computing RS:  40%|████      | 2/5 [00:10<00:16,  5.48s/it]Computing RS:  60%|██████    | 3/5 [00:15<00:10,  5.44s/it]Computing RS:  80%|████████  | 4/5 [00:21<00:05,  5.58s/it]Computing RS: 100%|██████████| 5/5 [00:27<00:00,  5.52s/it]Computing RS: 100%|██████████| 5/5 [00:27<00:00,  5.41s/it]
+RS Evaluation completed:
+  - Total watermarked samples: 5
+  - Average RS score: 0.4000
+  - Score range: 0.000 - 1.000
+
+ Computing RS for ../dataset/watermark_dataset/WARD_winemag50k_127.csv...
+RAG Model: qwen:14b
+Dataset name: WARD_winemag50k_127
+Loaded 50000 from ../dataset/watermark_dataset/WARD_winemag50k_127.csv
+Found 5 watermarked samples using WARD method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db WARD_winemag50k_127_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+Computing RS:   0%|          | 0/5 [00:00<?, ?it/s]Computing RS:  20%|██        | 1/5 [00:05<00:20,  5.11s/it]Computing RS:  40%|████      | 2/5 [00:08<00:12,  4.29s/it]Computing RS:  60%|██████    | 3/5 [00:12<00:08,  4.08s/it]Computing RS:  80%|████████  | 4/5 [00:20<00:05,  5.70s/it]Computing RS: 100%|██████████| 5/5 [00:26<00:00,  5.57s/it]Computing RS: 100%|██████████| 5/5 [00:26<00:00,  5.23s/it]
+RS Evaluation completed:
+  - Total watermarked samples: 5
+  - Average RS score: 0.8000
+  - Score range: 0.000 - 1.000
+
+================================================================================
+RAG Evaluation Results
+================================================================================
+    Method    Dataset Text_Column  Perplexity  Rationality Score
+VectorMark   NFCorpus        text           0             0.6000
+VectorMark Winemag50k description           0             0.6000
+     RAGWM   NFCorpus        text           0             0.5000
+     RAGWM Winemag50k description           0             0.5000
+      WARD   NFCorpus        text           0             0.4000
+      WARD Winemag50k description           0             0.8000
+================================================================================

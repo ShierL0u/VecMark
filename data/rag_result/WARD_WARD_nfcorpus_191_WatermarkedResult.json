@@ -1,0 +1,602 @@
+[
+  {
+    "query_index": 0,
+    "query_text": "Recent studies have suggested that statins, an established drug group in the prevention of cardiovascular mortality, could delay or prevent breast cancer recurrence but the effect on disease-specific mortality remains unclear. We evaluated risk of breast cancer death among statin users in a population-based cohort of breast cancer patients. The study cohort included all newly diagnosed breast cancer patients in Finland during 1995–2003 (31,236 cases), identified from the Finnish Cancer Registry. Information on statin use before and after the diagnosis was obtained from a national prescription database. We used the Cox proportional hazards regression method to estimate mortality among statin users with statin use as time-dependent variable. A total of 4,151 participants had used statins. During the median follow-up of 3.25 years after the diagnosis (range 0.08–9.0 years) 6,011 participants died, of which 3,619 (60.2%) was due to breast cancer. After adjustment for age, tumor characteristics, and treatment selection, both post-diagnostic and pre-diagnostic statin use were associated with lowered risk of breast cancer death (HR 0.46, 95% CI 0.38–0.55 and HR 0.54, 95% CI 0.44–0.67, respectively). The risk decrease by post-diagnostic statin use was likely affected by healthy adherer bias; that is, the greater likelihood of dying cancer patients to discontinue statin use as the association was not clearly dose-dependent and observed already at low-dose/short-term use. The dose- and time-dependence of the survival benefit among pre-diagnostic statin users suggests a possible causal effect that should be evaluated further in a clinical trial testing statins’ effect on survival in breast cancer patients.",
+    "answer": "Recent studies have suggested that statins, an established drug group in the prevention of cardiovascular mortality, could delay or prevent breast cancer recurrence but the effect on disease-pecific mortality remains unclear. We evaluated risk of breast cancer death among statin users in a population- based cohort of breast cancer patients. The study cohort included all newly diagnosed breast cancer patients in Finland during 1995–2003  (31,236 cases), identified from the Finnish Cancer Registry. Information on statin use before and after the diagnosis was obtained from a national prescription database. We used the Cox proportional hazards regression method to estimate mortality among statin users with statin use as time- dependent variable. A total of 4,151 participants had used statins. During the median follow- up of 3.25 years after the diagnosis  (range 0.08–9.0 years) 6,011 participants died, of which 3,619  (60.2%) was due to breast cancer. After adjustment for age, tumor characteristics, and treatment selection, both post- diagnostic and pre- diagnostic statin use were associated with lowered risk of breast cancer death  (HR 0.46, 95% CI 0.38–0.55 and HR 0.54, 95% CI 0.44–0.67, respectively). The risk decrease by post- diagnostic statin use was likely affected by healthy adherer bias; that is, the greater likelihood of dying cancer patients to discontinue statin use as the association was not clearly dose- dependent and observed already at low- dose/short- term use. The dose- and time-dependence of the survival benefit among pre- diagnostic statin users suggests a possible causal effect that should be evaluated further in a clinical trial testing statins’ effect on survival in breast cancer patients.",
+    "retrieved_texts": [
+      0,
+      0,
+      1,
+      1,
+      1373
+    ]
+  },
+  {
+    "query_index": 1,
+    "query_text": "BACKGROUND: Preclinical studies have shown that statins, particularly simvastatin, can prevent growth in breast cancer cell lines and animal models. We investigated whether statins used after breast cancer diagnosis reduced the risk of breast cancer-specific, or all-cause, mortality in a large cohort of breast cancer patients. METHODS: A cohort of 17,880 breast cancer patients, newly diagnosed between 1998 and 2009, was identified from English cancer registries (from the National Cancer Data Repository). This cohort was linked to the UK Clinical Practice Research Datalink, providing prescription records, and to the Office of National Statistics mortality data (up to 2013), identifying 3694 deaths, including 1469 deaths attributable to breast cancer. Unadjusted and adjusted hazard ratios (HRs) for breast cancer-specific, and all-cause, mortality in statin users after breast cancer diagnosis were calculated using time-dependent Cox regression models. Sensitivity analyses were conducted using multiple imputation methods, propensity score methods and a case-control approach. RESULTS: There was some evidence that statin use after a diagnosis of breast cancer had reduced mortality due to breast cancer and all causes (fully adjusted HR = 0.84 [95% confidence interval = 0.68-1.04] and 0.84 [0.72-0.97], respectively). These associations were more marked for simvastatin 0.79 (0.63-1.00) and 0.81 (0.70-0.95), respectively. CONCLUSIONS: In this large population-based breast cancer cohort, there was some evidence of reduced mortality in statin users after breast cancer diagnosis. However, these associations were weak in magnitude and were attenuated in some sensitivity analyses.",
+    "answer": "In this large population-based breast cancer cohort, there was some evidence of reduced mortality in statin users after breast cancer diagnosis. However, these associations were weak in magnitude and were attenuated in some sensitivity analyses.",
+    "retrieved_texts": [
+      1,
+      1,
+      0,
+      0,
+      1373
+    ]
+  },
+  {
+    "query_index": 2,
+    "query_text": "The aims of this study were to determine the concentrations of 4-nonylphenol (NP) and 4-octylphenol (OP) in 59 human milk samples and to examine related factors including mothers' demographics and dietary habits. Women who consumed over the median amount of cooking oil had significantly higher OP concentrations (0.98 ng/g) than those who consumed less (0.39 ng/g) (P < 0.05). OP concentration was significantly associated with the consumption of cooking oil (beta = 0.62, P < 0.01) and fish oil capsules (beta = 0.39, P < 0.01) after adjustment for age and body mass index (BMI). NP concentration was also significantly associated with the consumption of fish oil capsules (beta = 0.38, P < 0.01) and processed fish products (beta = 0.59, P < 0.01). The food pattern of cooking oil and processed meat products from factor analysis was strongly associated with OP concentration in human milk (P < 0.05). These determinations should aid in suggesting foods for consumption by nursing mothers in order to protect their infants from NP/OP exposure. 2010 Elsevier Ltd. All rights reserved.",
+    "answer": "The aims of this study were to determine the concentrations of 4-nonylphenol (NP) and 4-octylphenol (OP) in 59 human milk samples and to examine related factors including mothers' demographics and dietary habits.",
+    "retrieved_texts": [
+      2,
+      1503,
+      2,
+      1503,
+      1505
+    ]
+  },
+  {
+    "query_index": 3,
+    "query_text": "Epilepsy or seizure disorder is one of the most common neurological diseases in humans. Although genetic mutations in ion channels and receptors and some other risk factors such as brain injury are linked to epileptogenesis, the underlying cause for the majority of epilepsy cases remains unknown. Gene-environment interactions are thought to play a critical role in the etiology of epilepsy. Exposure to environmental chemicals is an important risk factor. Methylmercury (MeHg) is a prominent environmental neurotoxicant, which targets primarily the central nervous system (CNS). Patients or animals with acute or chronic MeHg poisoning often display epileptic seizures or show increased susceptibility to seizures, suggesting that MeHg exposure may be associated with epileptogenesis. This mini-review highlights the effects of MeHg exposure, especially developmental exposure, on the susceptibility of humans and animals to seizures, and discusses the potential role of low level MeHg exposure in epileptogenesis. This review also proposes that a preferential effect of MeHg on the inhibitory GABAergic system, leading to disinhibition of excitatory glutamatergic function, may be one of the potential mechanisms underlying MeHg-induced changes in seizure susceptibility.",
+    "answer": "This mini-review highlights the effects of MeHg exposure, especially developmental exposure, on the susceptibility of humans and animals to seizures, and discusses the potential role of low level MeHg exposure in epileptogenesis.",
+    "retrieved_texts": [
+      3,
+      3,
+      1678,
+      1729,
+      3
+    ]
+  },
+  {
+    "query_index": 4,
+    "query_text": "Hit Reaction Time latencies (HRT) in the Continuous Performance Test (CPT) measure the speed of visual information processing. The latencies may involve different neuropsychological functions depending on the time from test initiation, i.e., first orientation, learning and habituation, then cognitive processing and focused attention, and finally sustained attention as the dominant demand. Prenatal methylmercury exposure is associated with increased reaction time (RT) latencies. We therefore examined the association of methylmercury exposure with the average HRT at age 14 years at three different time intervals after test initiation. A total of 878 adolescents (87% of birth cohort members) completed the CPT. The RT latencies were recorded for 10 minutes, with visual targets presented at 1000 ms intervals. After confounder adjustment, regression coefficients showed that CPT-RT outcomes differed in their associations with exposure biomarkers of prenatal methylmercury exposure: During the first two minutes, the average HRT was weakly associated with methylmercury (beta (SE) for a ten-fold increase in exposure, (3.41 (2.06)), was strongly for the 3-to-6 minute interval (6.10 (2.18)), and the strongest during 7–10 minutes after test initiation (7.64 (2.39)). This pattern was unchanged when simple reaction time and finger tapping speed were included in the models as covariates. Postnatal methylmercury exposures did not affect the outcomes. Thus, these findings suggest that sustained attention as a neuropsychological domain is particularly vulnerable to developmental methylmercury exposure, indicating probable underlying dysfunction of the frontal lobes. When using CPT data as a possible measure of neurotoxicity, test results should therefore be analyzed in regard to time from test initiation and not as overall average reaction times.",
+    "answer": "During the first two minutes, the average HRT was weakly associated with methylmercury... This pattern was unchanged when simple reaction time and finger tapping speed were included in the models as covariates.",
+    "retrieved_texts": [
+      4,
+      1675,
+      4,
+      1675,
+      4
+    ]
+  },
+  {
+    "query_index": 5,
+    "query_text": "Elevated phosphate (P) levels are seen in advanced renal failure and, together with dysregulated calcium, parathyroid hormone and vitamin D levels, contribute to the complex of chronic kidney disease-mineral and bone disease (CKD-MBD). Converging evidence from in vitro, clinical and epidemiological studies suggest that increased P is associated with vascular calcification and mortality. When vessels are exposed to high P conditions in vitro, they develop apoptosis, convert to bone-like cells and develop extensive calcification. Clinical studies in children on dialysis show that high P is associated with increased vessel wall thickness, arterial stiffness and coronary calcification. Epidemiological studies in adult dialysis patients demonstrate a significant and independent association between raised P and mortality. Importantly, raised P is associated with cardiovascular changes even in pre-dialysis CKD, and also in subjects with normal renal function but high P. All P binders can effectively reduce serum P, and this decrease is linked to improved survival. Raised serum P triggers the release of fibroblast growth factor 23 (FGF-23), which has the beneficial effect of increasing P excretion in early CKD, but is increased several 1,000-fold in dialysis, and may be an independent cardiovascular risk factor. Both FGF-23 and its co-receptor Klotho may have direct effects on the vasculature leading to calcification. Fascinatingly, disturbances in FGF-23-Klotho and raised P have also been associated with premature aging. These data suggest that high P levels have adverse vascular effects and that maintaining the serum P levels in the normal range reduces cardiovascular risk and mortality.",
+    "answer": "Elevated phosphate (P) levels are seen in advanced renal failure and, together with dysregulated calcium, parathyroid hormone and vitamin D levels, contribute to the complex of chronic kidney disease- mineral and bone disease (CKD-MBD). Converging evidence from in vitro, clinical and epidemiological studies suggest that increased P is associated with vascular calcification and mortality.",
+    "retrieved_texts": [
+      5,
+      5,
+      3578,
+      7,
+      2677
+    ]
+  },
+  {
+    "query_index": 6,
+    "query_text": "Excessive dietary phosphorus may increase cardiovascular risk in healthy individuals as well as in patients with chronic kidney disease, but the mechanisms underlying this risk are not completely understood. To determine whether postprandial hyperphosphatemia may promote endothelial dysfunction, we investigated the acute effect of phosphorus loading on endothelial function in vitro and in vivo. Exposing bovine aortic endothelial cells to a phosphorus load increased production of reactive oxygen species, which depended on phosphorus influx via sodium-dependent phosphate transporters, and decreased nitric oxide production via inhibitory phosphorylation of endothelial nitric oxide synthase. Phosphorus loading inhibited endothelium-dependent vasodilation of rat aortic rings. In 11 healthy men, we alternately served meals containing 400 mg or 1200 mg of phosphorus in a double-blind crossover study and measured flow-mediated dilation of the brachial artery before and 2 h after the meals. The high dietary phosphorus load increased serum phosphorus at 2 h and significantly decreased flow-mediated dilation. Flow-mediated dilation correlated inversely with serum phosphorus. Taken together, these findings suggest that endothelial dysfunction mediated by acute postprandial hyperphosphatemia may contribute to the relationship between serum phosphorus level and the risk for cardiovascular morbidity and mortality.",
+    "answer": "Outputting the most similar original text segment:\n\nExcessive dietary phosphorus may increase cardiovascular risk in healthy individuals as well as in patients with chronic kidney disease, but the mechanisms underlying this risk are not completely understood.\n\nIf no relevant information is found:\n\nNo relevant information found.",
+    "retrieved_texts": [
+      6,
+      6,
+      7,
+      2677,
+      7
+    ]
+  },
+  {
+    "query_index": 7,
+    "query_text": "This review explores the potential adverse impact of the increasing phosphorus content in the American diet on renal, cardiovascular, and bone health of the general population. Increasingly, studies show that phosphorus intakes in excess of the nutrient needs of a healthy population may significantly disrupt the hormonal regulation of phosphate, calcium, and vitamin D, which contributes to disordered mineral metabolism, vascular calcification, impaired kidney function, and bone loss. Moreover, large epidemiologic studies suggest that mild elevations of serum phosphate within the normal range are associated with cardiovascular disease (CVD) risk in healthy populations without evidence of kidney disease. However, few studies linked high dietary phosphorus intake to mild changes in serum phosphate because of the nature of the study design and inaccuracies in the nutrient composition databases. Although phosphorus is an essential nutrient, in excess it could be linked to tissue damage by a variety of mechanisms involved in the endocrine regulation of extracellular phosphate, specifically the secretion and action of fibroblast growth factor 23 and parathyroid hormone. Disordered regulation of these hormones by high dietary phosphorus may be key factors contributing to renal failure, CVD, and osteoporosis. Although systematically underestimated in national surveys, phosphorus intake seemingly continues to increase as a result of the growing consumption of highly processed foods, especially restaurant meals, fast foods, and convenience foods. The increased cumulative use of ingredients containing phosphorus in food processing merits further study given what is now being shown about the potential toxicity of phosphorus intake when it exceeds nutrient needs.",
+    "answer": "This review explores the potential adverse impact of the increasing phosphorus content in the American diet on renal, cardiovascular, and bone health of the general population.",
+    "retrieved_texts": [
+      7,
+      7,
+      1768,
+      1763,
+      1767
+    ]
+  },
+  {
+    "query_index": 8,
+    "query_text": "OBJECTIVE: Among plant foods, grain products, legumes, and seeds are important sources of phosphorus (P). Current data on P content and absorbability of P from these foods are lacking. Measurement of in vitro digestible P (DP) content of foods may reflect absorbability of P. The objective of this study was to measure both total phosphorus (TP) and DP contents of selected foods and to compare the amounts of TP and DP and the proportion of DP to TP among different foods. METHODS: TP and DP content of 21 foods and drinks of plant origin were measured by inductively coupled plasma optical emission spectrometry. In DP analysis, samples were digested enzymatically in principle in the same way as in the alimentary canal before P analyses. The most popular national brands were chosen for analysis. RESULTS: The highest amount of TP (667 mg/100 g) was found in sesame seeds with hull, which also had the lowest percentage of DP (6%) to TP. Instead, in cola drinks and beer, the percentage of DP to TP was 87 to 100% (13 to 22 mg/100 g). In cereal products, the highest TP content (216 mg/100 g) and DP proportion (100%) were present in industrial muffins, which contain sodium phosphate as a leavening agent. Legumes contained an average DP content of 83 mg/100 g (38% of TP). CONCLUSION: Absorbability of P may differ substantially among different plant foods. Despite high TP content, legumes may be a relatively poor P source. In foods containing phosphate additives, the proportion of DP is high, which supports previous conclusions of the effective absorbability of P from P additives. Copyright © 2012 National Kidney Foundation, Inc. Published by Elsevier Inc. All rights reserved.",
+    "answer": "OBJECTIVE: Among plant foods, grain products, legumes, and seeds are important sources of phosphorus  (P). Current data on P content and absorbability of P from these foods are lacking. Measurement of in vitro digestible P  (DP) content of foods may reflect absorbability of P. The objective of this study was to measure both total phosphorus  (TP) and DP contents of selected foods and to compare the amounts of TP and DP and the proportion of DP to TP among different foods. METHODS: TP and DP content of 21 foods and drinks of plant origin were measured by inductively coupled plasma optical emission spectrometry. In DP analysis, samples were digested enzymatically in principle in the same way as in the alimentary canal before P analyses. The most popular national brands were chosen for analysis. RESULTS: The highest amount of TP  (667 mg/100 g) was found in sesame seeds with hull, which also had the lowest percentage of DP  (6%) to TP. Instead, in cola drinks and beer, the percentage of DP to TP was 87 to 100%  (13 to 22 mg/100 g). In cereal products, the highest TP content  (216 mg/100 g) and DP proportion  (100%) were present in industrial muffins, which contain sodium phosphate as a leavening agent. Legumes contained an average DP content of 83 mg/100 g  (38% of TP). CONCLUSION: Absorbability of P may differ substantially among different plant foods. Despite high TP content, legumes may be a relatively poor P source. In foods containing phosphate additives, the proportion of DP is high, which supports previous conclusions of the effective absorbability of P from P additives. Copyright © 2012 National Kidney Foundation, Inc. Published by Elsevier Inc. All rights reserved.",
+    "retrieved_texts": [
+      8,
+      8,
+      9,
+      9,
+      858
+    ]
+  },
+  {
+    "query_index": 9,
+    "query_text": "OBJECTIVE: Meat and milk products are important sources of dietary phosphorus (P) and protein. The use of P additives is common both in processed cheese and meat products. Measurement of in vitro digestible phosphorus (DP) content of foods may reflect absorbability of P. The objective of this study was to measure both total phosphorus (TP) and DP contents of selected meat and milk products and to compare amounts of TP and DP and the proportion of DP to TP among different foods. METHODS: TP and DP contents of 21 meat and milk products were measured by inductively coupled plasma optical emission spectrometry (ICP-OES). In DP analysis, samples were digested enzymatically, in principle, in the same way as in the alimentary canal before the analyses. The most popular national brands of meat and milk products were chosen for analysis. RESULTS: The highest TP and DP contents were found in processed and hard cheeses; the lowest, in milk and cottage cheese. TP and DP contents in sausages and cold cuts were lower than those in cheeses. Chicken, pork, beef, and rainbow trout contained similar amounts of TP, but slightly more variation was found in their DP contents. CONCLUSIONS: Foods containing P additives have a high content of DP. Our study confirms that cottage cheese and unenhanced meats are better choices than processed or hard cheeses, sausages, and cold cuts for chronic kidney disease patients, based on their lower P-to-protein ratios and sodium contents. The results support previous findings of better P absorbability in foods of animal origin than in, for example, legumes. Copyright © 2012 National Kidney Foundation, Inc. Published by Elsevier Inc. All rights reserved.",
+    "answer": "OBJECTIVE: Meat and milk products are important sources of dietary phosphorus (P) and protein. The use of P additives is common both in processed cheese and meat products. Measurement of in vitro digestible phosphorus (DP) content of foods may reflect absorbability of P.\n\nThe objective of this study was to measure both total phosphorus (TP) and DP contents of selected meat and milk products and to compare amounts of TP and DP and the proportion of DP to TP among different foods.\n\nMETHODS: TP and DP contents of 21 meat and milk products were measured by inductively coupled plasma optical emission spectrometry (ICP-OES). In DP analysis, samples were digested enzymatically, in principle, in the same way as in the alimentary canal before the analyses. The most popular national brands of meat and milk products were chosen for analysis.\n\nOUTPUT: Most similar original text segment from context OR \"No relevant information found\".",
+    "retrieved_texts": [
+      9,
+      9,
+      8,
+      8,
+      1768
+    ]
+  },
+  {
+    "query_index": 10,
+    "query_text": "Summary Grapefruit is a popular, tasty and nutritive fruit enjoyed globally. Biomedical evidence in the last 10 years has, however, shown that consumption of grapefruit or its juice is associated with drug interactions, which, in some cases, have been fatal. Grapefruit-induced drug interactions are unique in that the cytochrome P450 enzyme CYP3A4, which metabolises over 60% of commonly prescribed drugs as well as other drug transporter proteins such as P-glycoprotein and organic cation transporter proteins, which are all expressed in the intestines, are involved. However, the extent to which grapefruit–drug interactions impact on clinical settings has not been fully determined, probably because many cases are not reported. It has recently emerged that grapefruit, by virtue of its rich flavonoid content, is beneficial in the management of degenerative diseases such as diabetes and cardiovascular disorders. This potentially explosive subject is reviewed here.",
+    "answer": "Outputting the most similar original text segment:\n\nSummary Grapefruit is a popular, tasty and nutritive fruit enjoyed globally. Biomedical evidence in the last 10 years has, however, shown that consumption of grapefruit or its juice is associated with drug interactions, which, in some cases, have been fatal. Grapefruit- induced drug interactions are unique in that the cytochrome P450 enzyme CYP3A4, which metabolises over 60% of commonly prescribed drugs as well as other drug transporter proteins such as P- glycoprotein and organic cation transporter proteins, which are all expressed in the intestines, are involved. However, the extent to which grapefruit–drug interactions impact on clinical settings has not been fully determined, probably because many cases are not reported.\n\nOR\n\n\"No relevant information found\"",
+    "retrieved_texts": [
+      10,
+      1844,
+      1841,
+      1837,
+      1842
+    ]
+  },
+  {
+    "query_index": 11,
+    "query_text": "Dysmenorrhea is the leading cause of recurrent short-term school absence in adolescent girls and a common problem in women of reproductive age. Risk factors for dysmenorrhea include nulliparity, heavy menstrual flow, smoking, and depression. Empiric therapy can be initiated based on a typical history of painful menses and a negative physical examination. Nonsteroidal anti-inflammatory drugs are the initial therapy of choice in patients with presumptive primary dysmenorrhea. Oral contraceptives and depo-medroxyprogesterone acetate also may be considered. If pain relief is insufficient, prolonged-cycle oral contraceptives or intravaginal use of oral contraceptive pills can be considered. In women who do not desire hormonal contraception, there is some evidence of benefit with the use of topical heat; the Japanese herbal remedy toki-shakuyaku-san; thiamine, vitamin E, and fish oil supplements; a low-fat vegetarian diet; and acupressure. If dysmenorrhea remains uncontrolled with any of these approaches, pelvic ultrasonography should be performed and referral for laparoscopy should be considered to rule out secondary causes of dysmenorrhea. In patients with severe refractory primary dysmenorrhea, additional safe alternatives for women who want to conceive include transcutaneous electric nerve stimulation, acupuncture, nifedipine, and terbutaline. Otherwise, the use of danazol or leuprolide may be considered and, rarely, hysterectomy. The effectiveness of surgical interruption of the pelvic nerve pathways has not been established.",
+    "answer": "Dysmenorrhea is the leading cause of recurrent short-term school absence in adolescent girls and a common problem in women of reproductive age. Risk factors for dysmenorrhea include nulliparity, heavy menstrual flow, smoking, and depression. Nonsteroidal anti-inflammatory drugs (NSAIDs) are the initial therapy of choice in patients with presumptive primary dysmenorrhea.\n\nOutput: Most similar original text segment from context",
+    "retrieved_texts": [
+      11,
+      2032,
+      2033,
+      11,
+      2032
+    ]
+  },
+  {
+    "query_index": 12,
+    "query_text": "Breast pain is a common condition affecting most women at some stage in their reproductive life. Mastalgia is resistant to treatment in 6% of cyclical and 26% non-cyclical patients. Surgery is not widely used to treat this condition and only considered in patients with severe mastalgia resistant to medication. The aims of this study were to audit the efficacy of surgery in severe treatment resistant mastalgia and to assess patient satisfaction following surgery. This is a retrospective review of the medical records of all patients seen in mastalgia clinic in the University Hospital of Wales, Cardiff since 1973. A postal questionnaire was distributed to all patients who had undergone surgery. Results showed that of the 1054 patients seen in mastalgia clinic, 12 (1.2%) had undergone surgery. Surgery included 8 subcutaneous mastectomies with implants (3 bilateral, 5 unilateral), 1 bilateral simple mastectomy and 3 quadrantectomies (1 having a further simple mastectomy). The median duration of symptoms was 6.5 years (range 2-16 years). Five patients (50%) were pain free following surgery, 3 developed capsular contractures and 2 wound infections with dehiscence. Pain persisted in both patients undergoing quadrantectomy. We conclude that surgery for mastalgia should only be considered in a minority of patients. Patients should be informed of possible complications inherent of reconstructive surgery and warned that in 50% cases their pain will not be improved.",
+    "answer": "Breast pain is a common condition affecting most women at some stage in their reproductive life. Mastalgia is resistant to treatment in 6% of cyclical and 26% non-cyclical patients. Surgery, not widely used, may be considered for severe cases unresponsive to medication.\n\nThe study audited the efficacy of surgery in treating severe, treatment-resistant mastalgia. It aimed to assess patient satisfaction following surgery. The research was a retrospective review of medical records from a mastalgia clinic at University Hospital of Wales since 1973. A postal questionnaire was distributed to patients who had undergone surgery.\n\nResults showed that out of the 1054 patients seen in the clinic, only 12 (1.2%) had undergone surgery due to their severe condition. The types of surgeries included subcutaneous mastectomies with implants (bilateral and unilateral), a bilateral simple mastectomy, and quadrantectomies (with additional simple mastectomies in some cases).\n\nThe median duration of symptoms before surgery was 6.5 years, ranging from 2 to 16 years. Following surgery, 5 patients (50%) experienced complete relief from pain, while 3 developed capsular contractures and 2 had wound infections with dehiscence. The pain persisted in both patients who underwent quadrantectomies.\n\nIn conclusion, surgery for mastalgia should only be considered as a last resort for a minority of patients with severe, treatment-resistant conditions. Patients should be informed about the potential complications associated with reconstructive surgery and that their chances of experiencing significant improvement in pain are limited to approximately 50%.",
+    "retrieved_texts": [
+      12,
+      12,
+      2295,
+      2290,
+      2295
+    ]
+  },
+  {
+    "query_index": 13,
+    "query_text": "Nausea and vomiting are physiological processes experienced by every human being at some stage of their life. They are complex protective mechanisms and the symptoms are influenced by the emetogenic response and stimuli. However, when these symptoms recur frequently, they can significantly reduce the quality of life and can also be detrimental to health. The existing antiemetic agents are ineffective against certain stimuli, are expensive, and possess side effects. Herbal medicines have been shown to be effective antiemetics, and among the various plants studied, the rhizome of Zingiber officinale, commonly known as ginger, has been used as a broad-spectrum antiemetic in the various traditional systems of medicine for over 2000 years. Various preclinical and clinical studies have shown ginger to possess antiemetic effects against different emetogenic stimuli. However, conflicting reports especially in the prevention of chemotherapy-induced nausea and vomiting and motion sickness prevent us from drawing any firm conclusion. The current review for the first time summarizes the results. An attempt is also made to address the lacunae in these published studies and emphasize aspects that need further investigations for it to be of use in clinics in the future.",
+    "answer": "Nausea and vomiting are physiological processes experienced by every human being at some stage of their life. They are complex protective mechanisms, influenced by emetogenic response and stimuli.\n\nHowever, when these symptoms recur frequently, they can significantly reduce the quality of life and be detrimental to health. The existing antiemetic agents have limitations in effectiveness against certain stimuli, are expensive, and possess side effects.\n\nHerbal medicines, including ginger, have shown promise as effective antiemetics due to their broad-spectrum action and fewer adverse effects. Ginger's historical use in traditional medicine further supports its potential therapeutic role in nausea and vomiting management.",
+    "retrieved_texts": [
+      13,
+      13,
+      14,
+      2115,
+      13
+    ]
+  },
+  {
+    "query_index": 14,
+    "query_text": "BACKGROUND: Ginger has been used throughout the world as a therapeutic agent for centuries. The herb is increasingly used in Western society also, with one of the most common indications being pregnancy-induced nausea and vomiting (PNV). OBJECTIVES: To examine the evidence for the safety and effectiveness of ginger for PNV. METHODS: Randomised controlled trials (RCTs) of ginger and PNV were sourced from CINAHL, the Cochrane library, MEDLINE and TRIP. The methodological quality of RCTs was assessed using the Critical Appraisal Skills Programme (CASP) tool. RESULTS: Four RCTs met the inclusion criteria. All trials found orally administered ginger to be significantly more effective than placebo in reducing the frequency of vomiting and intensity of nausea. Adverse events were generally mild and infrequent. CONCLUSION: The best available evidence suggests that ginger is a safe and effective treatment for PNV. However, there remains uncertainty regarding the maximum safe dosage of ginger, appropriate duration of treatment, consequences of over-dosage, and potential drug-herb interactions; all of which are important areas for future research. Copyright © 2012 Australian College of Midwives. Published by Elsevier Ltd. All rights reserved.",
+    "answer": "BACKGROUND: Ginger has been used throughout the world as a therapeutic agent for centuries... CONCLUSION: The best available evidence suggests that ginger is a safe and effective treatment for PNV.\n\nOUTPUT: \"The best available evidence suggests that ginger is a safe and effective treatment for PNV.\"",
+    "retrieved_texts": [
+      14,
+      14,
+      14,
+      2115,
+      13
+    ]
+  },
+  {
+    "query_index": 15,
+    "query_text": "AIM OF THE REVIEW: To systematically analyze the efficacy and safety of liraglutide for the treatment of diabetes mellitus in comparison to other mono- and combination therapies. METHOD: PubMed (any date) and EMBASE (all years) search was conducted with liraglutide as a search term. Phase III clinical trials retrieved by the two databases and resources posted in Drug@FDA website were evaluated with regard to outcomes of efficacy and safety. RESULTS: Eight Phase III clinical studies compared the efficacy and safety of liraglutide to other monotherapies or combinations. Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide. When liraglutide was used as add-on therapy to glimepiride in doses of 1.2 mg or above, the reduction of HbA1C was greater than that in the combination therapy of glimepiride and rosiglitazone. However, liraglutide as add-on therapy to metformin failed to show benefit over combination of metformin and glimepiride. Triple therapy of using liraglutide in addition to metformin plus either glimepiride or rosiglitazone resulted in additional benefit in HbA1C reduction. Most common adverse events were gastrointestinal disturbance such as nausea, vomit, diarrhea, and constipation. During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm. CONCLUSION: Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes. However, the present lack of evidence of durability of efficacy and long-term safety appear to limit its utility in the general treatment of type 2 diabetes at this time.",
+    "answer": "AIM OF THE REVIEW: To systematically analyze the efficacy and safety of liraglutide for the treatment of diabetes mellitus in comparison to other mono- and combination therapies. METHOD: PubMed (any date) and EMBASE (all years) search was conducted with liraglutide as a search term. Phase III clinical trials retrieved by the two databases and resources posted in Drug@FDA website were evaluated with regard to outcomes of efficacy and safety. RESULTS: Eight Phase III clinical studies compared the efficacy and safety of liraglutide to other monotherapies or combinations. Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide. When liraglutide was used as add-on therapy to glimepiride in doses of 1.2 mg or above, the reduction of HbA1C was greater than that in the combination therapy of glimepiride and rosiglitazone. However, liraglutide as add-on therapy to metformin failed to show benefit over combination of metformin and glimepiride. Triple therapy of using liraglutide in addition to metformin plus either glimepiride or rosiglitazone resulted in additional benefit in HbA1C reduction. Most common adverse events were gastrointestinal disturbance such as nausea, vomit, diarrhea, and constipation. During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm. CONCLUSION: Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes. However, the present lack of evidence of durability of efficacy and long-term safety appear to limit its utility in the general treatment of type 2 diabetes at this time.",
+    "retrieved_texts": [
+      15,
+      15,
+      15,
+      1016,
+      885
+    ]
+  },
+  {
+    "query_index": 16,
+    "query_text": "Diet supplementation and/or modulation is an important strategy to significantly improve human health. The search of plants as additional sources of bioactive phenolic compounds is relevant in this context. The aqueous extract of Hibiscus sabdariffa is rich in anthocyanins and other phenolic compounds including hydroxycitric and chlorogenic acids. Using this extract we have shown an effective protection of cultured peripheral blood mononuclear cells from the cellular death induced by H(2)O(2) and a significant role in the production of inflammatory cytokines. In vitro, the extract promotes the production of IL-6 and IL-8 and decreases the concentration of MCP-1 in supernatants in a dose-dependent manner. In humans, the ingestion of an acute dose of the extract (10g) was well tolerated and decreased plasma MCP-1 concentrations significantly without further effects on other cytokines. This effect was not due to a concomitant increase in the antioxidant capacity of plasma. Instead, its mechanisms probably involve a direct inhibition of inflammatory and/or metabolic pathways responsible for MCP-1 production, and may be relevant in inflammatory and chronic conditions in which the role of MCP-1 is well established. If beneficial effects are confirmed in patients, Hibiscus sabdariffa could be considered a valuable traditional herbal medicine for the treatment of chronic inflammatory diseases with the advantage of being devoid of caloric value or potential alcohol toxicity. Copyright 2009 Elsevier GmbH. All rights reserved.",
+    "answer": "The aqueous extract of Hibiscus sabdariffa is rich in anthocyanins and other phenolic compounds including hydroxycitric and chlorogenic acids. Using this extract we have shown an effective protection of cultured peripheral blood mononuclear cells from the cellular death induced by H(2)O(2) and a significant role in the production of inflammatory cytokines. In vitro, the extract promotes the production of IL-6 and IL-8 and decreases the concentration of MCP-1 in supernatants in a dose-dependent manner. In humans, the ingestion of an acute dose of the extract (10g) was well tolerated and decreased plasma MCP-1 concentrations significantly without further effects on other cytokines.\n\nThis effect was not due to a concomitant increase in the antioxidant capacity of plasma. Instead, its mechanisms probably involve a direct inhibition of inflammatory and/or metabolic pathways responsible for MCP-1 production, and may be relevant in inflammatory and chronic conditions in which the role of MCP-1 is well established. If beneficial effects are confirmed in patients, Hibiscus sabdariffa could be considered a valuable traditional herbal medicine for the treatment of chronic inflammatory diseases with the advantage of being devoid of caloric value or potential alcohol toxicity. Copyright 2009 Elsevier GmbH. All rights reserved.",
+    "retrieved_texts": [
+      16,
+      923,
+      16,
+      2376,
+      16
+    ]
+  },
+  {
+    "query_index": 17,
+    "query_text": "AIM OF THE STUDY: The Roselle (Hibiscus sabdariffa) was investigated for its uricosuric effect. MATERIALS AND METHODS: A human model with nine subjects with no history of renal stones (non-renal stone, NS) and nine with a history of renal stones (RS) was used in this study. A cup of tea made from 1.5 g of dry Roselle calyces was provided to subjects twice daily (morning and evening) for 15 days. A clotted blood and two consecutive 24-h urine samples were collected from each subject three times: (1) at baseline (control); (2) on days 14 and 15 during the tea drinking period; and (3) 15 days after the tea drinking was stopped (washout). Serum and 24-h urinary samples were analyzed for uric acid and other chemical compositions related to urinary stone risk factors. RESULTS: All analyzed serum parameters were within normal ranges and similar; between the two groups of subjects and among the three periods. Vis-à-vis the urinary parameters, most of the baseline values for both groups were similar. After taking the tea, the trend was an increase in oxalate and citrate in both groups and uric acid excretion and clearance in the NS group. In the RS group, both uric acid excretion and clearance were significantly increased (p<0.01). When the fractional excretion of uric acid (FEUa) was calculated, the values were clearly increased in both the NS and SF groups after the intake of tea and returned to baseline values in the washout period. These changes were more clearly observed when the data for each subject was presented individually. CONCLUSIONS: Our data demonstrate a uricosuric effect of Roselle calyces. Since the various chemical constituents in Roselle calyces have been identified, the one(s) exerting this uricosuric effect need to be identified.",
+    "answer": "AIM OF THE STUDY: The Roselle (...",
+    "retrieved_texts": [
+      17,
+      17,
+      17,
+      22,
+      297
+    ]
+  },
+  {
+    "query_index": 18,
+    "query_text": "Heterocyclic aromatic amines (HAA) are carcinogenic compounds found in the crust of fried meat. The objective was to examine the possibility of inhibiting HAA formation in fried beef patties by using marinades with different concentrations of hibiscus extract (Hibiscus sabdariffa) (0.2, 0.4, 0.6, 0.8 g/100g). After frying, patties were analyzed for 15 different HAA by HPLC-analysis. Four HAA MeIQx (0.3-0.6 ng/g), PhIP (0.02-0.06 ng/g), co-mutagenic norharmane (0.4-0.7 ng/g), and harmane (0.8-1.1 ng/g) were found at low levels. The concentration of MeIQx was reduced by about 50% and 40% by applying marinades containing the highest amount of extract compared to sunflower oil and control marinade, respectively. The antioxidant capacity (TEAC-Assay/Folin-Ciocalteu-Assay) was determined as 0.9, 1.7, 2.6 and 3.5 micromol Trolox antioxidant equivalents and total phenolic compounds were 49, 97, 146 and 195 microg/g marinade. In sensory ranking tests, marinated and fried patties were not significantly different (p>0.05) to control samples. Copyright (c) 2010 Elsevier Ltd. All rights reserved.",
+    "answer": "Heterocyclic aromatic amines (HAA), carcinogenic compounds, were detected in fried meat's crust. The study aimed to investigate the possibility of reducing HAA formation in beef patties by using marinades with varying concentrations of hibiscus extract (Hibiscus sabdariffa). After frying, patties were analyzed for 15 different HAA using high-performance liquid chromatography (HPLC)-analysis. Four low-level HAA - MeIQx (0.3-0.6 ng/g), PhIP (0.02-0.06 ng/g), co-mutagenic norharmane (0.4-0.7 ng/g), and harmane (0.8-1.1 ng/g) - were detected. The concentration of MeIQx was significantly reduced by approximately 50% and 40% when using marinades with the highest extract content compared to sunflower oil and control marinade, respectively. The study also reported on antioxidant capacity and total phenolic compounds in the marinades. Sensory ranking tests showed no significant difference between marinated and fried patties compared to control samples (p > 0.05).",
+    "retrieved_texts": [
+      18,
+      18,
+      2475,
+      2480,
+      3443
+    ]
+  },
+  {
+    "query_index": 19,
+    "query_text": "The sub-chronic effect of Hibiscus sabdariffa (HS) calyx aqueous extract on the rat testes was investigated with a view to evaluate the pharmacological basis for the use of HS calyx extract as an aphrodisiac. Three test groups received different doses of 1.15, 2.30, and 4.60 g/kg based on the LD(50). The extracts were dissolved in the drinking water. The control group was given equivalent volume of water only. The animals were allowed free access to drinking solution during the 12-week period of exposure. At the expiration of the treatment period, animals were sacrificed, testes excised and weighed, and epididymal sperm number recorded. The testes were processed for histological examination. Results did not show any significant (P>0.05) change in the absolute and relative testicular weights. There was, however, a significant (P<0.05) decrease in the epididymal sperm counts in the 4.6 g/kg group, compared to the control. The 1.15 g/kg dose group showed distortion of tubules and a disruption of normal epithelial organization, while the 2.3 g/kg dose showed hyperplasia of testis with thickening of the basement membrane. The 4.6 g/kg dose group, on the other hand, showed disintegration of sperm cells. The results indicate that aqueous HS calyx extract induces testicular toxicity in rats.",
+    "answer": "The sub-chronic effect of Hibiscus sabdariffa (HS) calyx aqueous extract on the rat testes was investigated... The results indicate that aqueous HS calyx extract induces testicular toxicity in rats.",
+    "retrieved_texts": [
+      19,
+      19,
+      19,
+      22,
+      927
+    ]
+  },
+  {
+    "query_index": 20,
+    "query_text": "Insulin resistance, obesity, hypertension, and dyslipidemia are strongly associated with metabolic syndrome (MeSy), which is considered to be a reversible clinical stage before its evolution to coronary heart disease and diabetes. Currently, the antihypertensive and hypolipidemic properties of aqueous Hibiscus sabdariffa extracts (HSE) have been demonstrated in clinical trials and in vivo experiments. The aim of the present study was to evaluate the effects of a Hibiscus sabdariffa extract powder (HSEP) and a recognized preventive treatment (diet) on the lipid profiles of individuals with and without MeSy according to the National Cholesterol Education Program Adult Treatment Panel III (NCEP-ATP III) criteria. The protocol was a follow-up study carried out in a factorial, randomized design (T1=preventive treatment comprises Diet, T2=HSEP, T3=HSEP+preventive treatment (Diet) X MeSy, non-MeSy individuals). A total daily dose of 100 mg HSEP was orally administered in capsules for one month. The preventive treatment (diet) was selected according to NCEP-ATP III recommendations and adjusted individually. Total cholesterol, LDL-c, HDL-c, VLDL-c, triglycerides, glucose, urea, creatinine, AST, and ALT levels in the blood were determined in all individuals pre- and post-treatment. The MeSy patients treated with HSEP had significantly reduced glucose and total cholesterol levels, increased HDL-c levels, and an improved TAG/HDL-c ratio, a marker of insulin resistance (t-test p<0.05). Additionally, a triglyceride-lowering effect was observed in MeSy patients treated with HSEP plus diet, and in individuals without MeSy treated with HSEP. Significant differences in total cholesterol, HDL-c, and the TAG/HDL-c ratio were found when the means of absolute differences among treatments were compared (ANOVA p<0.02). Therefore, in addition to the well documented hypotensive effects of Hibiscus sabdariffa, we suggest the use of HSEP in individuals with dyslipidemia associated with MeSy.",
+    "answer": "The aim of the present study was to evaluate the effects of a Hibiscus sabdariffa extract powder (HSEP) and a recognized preventive treatment (diet) on the lipid profiles of individuals with and without MeSy according to the National Cholesterol Education Program Adult Treatment Panel III (NCEP-ATP III) criteria.",
+    "retrieved_texts": [
+      20,
+      20,
+      20,
+      2380,
+      1587
+    ]
+  },
+  {
+    "query_index": 21,
+    "query_text": "Hibiscus sabdariffa Linne is a traditional Chinese rose tea and has been effectively used in folk medicines for treatment of hypertension, inflammatory conditions. H. sabdariffa aqueous extracts (HSE) were prepared from the dried flowers of H. sabdariffa L., which are rich in phenolic acids, flavonoids and anthocyanins. In this review, we discuss the chemopreventive properties and possible mechanisms of various H. sabdariffa extracts. It has been demonstrated that HSE, H. sabdariffa polyphenol-rich extracts (HPE), H. sabdariffa anthocyanins (HAs), and H. sabdariffa protocatechuic acid (PCA) exert many biologic effects. PCA and HAs protected against oxidative damage induced by tert-butyl droperoxide (t-BHP) in rat primary hepatocytes. In rabbits fed cholesterol and human experimental studies, these studies imply HSE could be pursued as atherosclerosis chemopreventive agents as they inhibit LDL oxidation, foam cell formation, as well as smooth muscle cell migration and proliferation. The extracts also offer hepatoprotection by influencing the levels of lipid peroxidation products and liver marker enzymes in experimental hyperammonemia. PCA has also been shown to inhibit the carcinogenic action of various chemicals in different tissues of the rat. HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. More recent studies investigated the protective effect of HSE and HPE in streptozotocin induced diabetic nephropathy. From all these studies, it is clear that various H. sabdariffa extracts exhibit activities against atherosclerosis, liver disease, cancer, diabetes and other metabolic syndromes. These results indicate that naturally occurring agents such as the bioactive compounds in H. sabdariffa could be developed as potent chemopreventive agents and natural healthy foods.",
+    "answer": "Hibiscus sabdariffa Linne is a traditional Chinese rose tea and has been effectively used in folk medicines for treatment of hypertension, inflammatory conditions. H. sabdariffa aqueous extracts (HSE) were prepared from the dried flowers of H. sabdariffa L., which are rich in phenolic acids, flavonoids and anthocyanins.\n\nIn this review, we discuss the chemopreventive properties and possible mechanisms of various H. sabdariffa extracts. It has been demonstrated that HSE, H. sabdariffa polyphenol-rich extracts (HPE), H. sabdariffa anthocyanins (HAs), and H. sabdariffa protocatechuic acid (PCA) exert many biologic effects.\n\nPCA and HAs protected against oxidative damage induced by tert-butyl droperoxide (t-BHP) in rat primary hepatocytes. In rabbits fed cholesterol and human experimental studies, these studies imply HSE could be pursued as atherosclerosis chemopreventive agents as they inhibit LDL oxidation, foam cell formation, as well as smooth muscle cell migration and proliferation.\n\nThe extracts also offer hepatoprotection by influencing the levels of lipid peroxidation products and liver marker enzymes in experimental hyperammonemia. PCA has also been shown to inhibit the carcinogenic action of various chemicals in different tissues of the rat. HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer.\n\nMore recent studies investigated the protective effect of HSE and HPE in streptozotocin induced diabetic nephropathy. From all these studies, it is clear that various H. sabdariffa extracts exhibit activities against atherosclerosis, liver disease, cancer, diabetes and other metabolic syndromes. These results indicate that naturally occurring agents such as the bioactive compounds in H. sabdariffa could be developed as potent chemopreventive agents and natural healthy foods.",
+    "retrieved_texts": [
+      21,
+      21,
+      2401,
+      3616,
+      922
+    ]
+  },
+  {
+    "query_index": 22,
+    "query_text": "The effect of beverages prepared from the dried calyx of the flowers of Hibiscus sabdariffa on the excretion of diclofenac was investigated using a controlled study in healthy human volunteers. A high pressure liquid chromatographic method was used to analyse the 8 h urine samples collected after the administration of diclofenac with 300 mL (equivalent to 8.18 mg anthocyanins) of the beverage administered daily for 3 days. An unpaired two-tailed t-test was used to analyse for significant difference observed in the amount of diclofenac excreted before and after administration of the beverage. There was a reduction in the amount of diclofenac excreted and the wide variability observed in the control with the water beverage of Hibiscus sabdariffa (p < 0.05). There is an increasing need to counsel patients against the use of plant beverages with drugs.",
+    "answer": "The effect of beverages prepared from the dried calyx of the flowers of Hibiscus sabdariffa on the excretion of diclofenac was investigated using a controlled study in healthy human volunteers. A high pressure liquid chromatographic method was used to analyse the 8 h urine samples collected after the administration of diclofenac with 300 mL (equivalent to 8.18 mg anthocyanins) of the beverage administered daily for 3 days. An unpaired two-tailed t-test was used to analyse for significant difference observed in the amount of diclofenac excreted before and after administration of the beverage. There was a reduction in the amount of diclofenac excreted and the wide variability observed in the control with the water beverage of Hibiscus sabdariffa (p < 0.05). There is an increasing need to counsel patients against the use of plant beverages with drugs.\n\nThis output closely resembles the provided text, so it meets the criteria for being the most similar original content from the context.",
+    "retrieved_texts": [
+      22,
+      19,
+      22,
+      927,
+      3616
+    ]
+  },
+  {
+    "query_index": 23,
+    "query_text": "The North American Institute of Medicine (IOM) recently published their report on dietary reference intakes (DRI) for Ca and vitamin D. The DRI committee's deliberations underpinning this most comprehensive report on vitamin D nutrition to date benefited hugely from a much expanded knowledge base in vitamin D over the last decade or more. However, since their release, the vitamin D DRI have been the subject of intense controversy, which is largely due to the persistence of fundamental knowledge gaps in vitamin D. These can be identified at the levels of exposure, metabolism, storage, status, dose-response, function and beneficial or adverse health effects, as well as safe and effective application of intake recommendations at the population level through sustainable food-based approaches. The present review provides a brief overview of the approach used by the IOM committee to revise the DRI for vitamin D and to collate from a number of authoritative sources key knowledge gaps in vitamin D nutrition from the public health perspective. A number of research topics are outlined and data requirements within these are identified and mapped to the risk assessment framework used by the DRI committee. While not intended as an exhaustive list, it provides a basis for organising and prioritising research efforts in the area of vitamin D, which may offer a perspective on the major areas in need of attention. It is intended to be of use to researchers, national policy makers, the public health community, industry groups and other relevant stakeholders including funding institutions.",
+    "answer": "The North American Institute of Medicine (IOM) recently published their report on dietary reference intakes (DRI) for calcium and vitamin D. The DRI committee's deliberations, which underpin this most comprehensive report on vitamin D nutrition to date, greatly benefited from a significantly expanded knowledge base in vitamin D over the last decade or so.\n\nHowever, since their release, the vitamin D DRI have been subject to intense controversy, primarily due to the persistent existence of fundamental knowledge gaps in vitamin D. These gaps can be identified at various levels, including exposure, metabolism, storage, status, dose-response relationships, function, and both beneficial and adverse health effects. Additionally, there is a need for safe and effective application of intake recommendations at the population level through sustainable food-based approaches.\n\nThe present review provides a concise overview of the approach employed by the IOM committee to revise the DRI for vitamin D and to compile key knowledge gaps in vitamin D nutrition from a public health perspective. The review outlines several research topics, identifies data requirements within these areas, and maps these requirements to the risk assessment framework utilized by the DRI committee. While not intended as an exhaustive list, this review serves as a valuable resource for organizing and prioritizing future research efforts in the field of vitamin D nutrition.",
+    "retrieved_texts": [
+      23,
+      23,
+      2561,
+      23,
+      2877
+    ]
+  },
+  {
+    "query_index": 24,
+    "query_text": "Throughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it is produced in the skin or ingested from the diet it is converted sequentially in the liver and kidneys to its biologically active form 1,25-dihydroxyvitamin D. This hormone interacts with its receptor in the small intestine to increase the efficiency of intestinal calcium and phosphate absorption for the maintenance of the skeleton throughout life. Vitamin D deficiency during the first few years of life results in a flattened pelvis making it difficult for childbirth. Vitamin D deficiency causes osteopenia and osteoporosis increasing risk of fracture. Essentially every tissue and cell in the body has a vitamin D receptor. Therefore vitamin D deficiency has been linked to increased risk for preeclampsia, requiring a Cesarean section for birthing, multiple sclerosis, rheumatoid arthritis, type I diabetes, type II diabetes, heart disease, dementia, deadly cancers and infectious diseases. Therefore sensible sun exposure along with vitamin D supplementation of at least 2000 IU/d for adults and 1000 IU/d for children is essential to maximize their health.",
+    "answer": "Throughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it is produced in the skin or ingested from the diet it is converted sequentially in the liver and kidneys to its biologically active form 1,25- dihydroxyvitamin D. This hormone interacts with its receptor in the small intestine to increase the efficiency of intestinal calcium and phosphate absorption for the maintenance of the skeleton throughout life. Vitamin D deficiency during the first few years of life results in a flattened pelvis making it difficult for childbirth. Vitamin D deficiency causes osteopenia and osteoporosis increasing risk of fracture. Essentially every tissue and cell in the body has a vitamin D receptor. Therefore vitamin D deficiency has been linked to increased risk for preeclampsia, requiring a Cesarean section for birthing, multiple sclerosis, rheumatoid arthritis, type I diabetes, type II diabetes, heart disease, dementia, deadly cancers and infectious diseases. Therefore sensible sun exposure along with vitamin D supplementation of at least 2000 IU/ d for adults and 1000 IU/d for children is essential to maximize their health.",
+    "retrieved_texts": [
+      24,
+      24,
+      2878,
+      2876,
+      101
+    ]
+  },
+  {
+    "query_index": 25,
+    "query_text": "OBJECTIVE: Fructose intake has increased considerably in the United States, primarily as a result of increased consumption of high-fructose corn syrup, fruits and juices, and crystalline fructose. The purpose was to determine how often fructose, in amounts commonly consumed, would result in malabsorption and/or symptoms in healthy persons. DESIGN: Fructose absorption was measured using 3-hour breath hydrogen tests and symptom scores were used to rate subjective responses for gas, borborygmus, abdominal pain, and loose stools. SUBJECTS/SETTING: The study included 15 normal, free-living volunteers from a medical center community and was performed in a gastrointestinal specialty clinic. INTERVENTION: Subjects consumed 25- and 50-g doses of crystalline fructose with water after an overnight fast on separate test days. MAIN OUTCOME MEASURES: Mean peak breath hydrogen, time of peak, area under the curve (AUC) for breath hydrogen and gastrointestinal symptoms were measured during a 3-hour period after subjects consumed both 25- and 50-g doses of fructose. STATISTICAL ANALYSES: Differences in mean breath hydrogen, AUC, and symptom scores between doses were analyzed using paired t tests. Correlations among peak breath hydrogen, AUC, and symptoms were also evaluated. RESULTS: More than half of the 15 adults tested showed evidence of fructose malabsorption after 25 g fructose and greater than two thirds showed malabsorption after 50 g fructose. AUC, representing overall breath hydrogen response, was significantly greater after the 50-g dose. Overall symptom scores were significantly greater than baseline after each dose, but scores were only marginally greater after 50 g than 25 g. Peak hydrogen levels and AUC were highly correlated, but neither was significantly related to symptoms. CONCLUSIONS: Fructose, in amounts commonly consumed, may result in mild gastrointestinal distress in normal people. Additional study is warranted to evaluate the response to fructose-glucose mixtures (as in high-fructose corn syrup) and fructose taken with food in both normal people and those with gastrointestinal dysfunction. Because breath hydrogen peaks occurred at 90 to 114 minutes and were highly correlated with 180-minute breath hydrogen AUC, the use of peak hydrogen measures may be considered to shorten the duration of the exam.",
+    "answer": "OBJECTIVE: Fructose intake has increased considerably in the United States, primarily as a result of increased consumption of high-fructose corn syrup, fruits and juices, and crystalline fructose. The purpose was to determine how often fructose, in amounts commonly consumed, would result in malabsorption and/or symptoms in healthy persons. DESIGN: Fructose absorption was measured using 3-hour breath hydrogen tests and symptom scores were used to rate subjective responses for gas, borborygmus, abdominal pain, and loose stools. SUBJECTS/SETTING: The study included 15 normal, free-living volunteers from a medical center community and was performed in a gastrointestinal specialty clinic. INTERVENTION: Subjects consumed 25- and 50-g doses of crystalline fructose with water after an overnight fast on separate test days. MAIN OUTCOME MEASURES: Mean peak breath hydrogen, time of peak, area under the curve  (AUC) for breath hydrogen and gastrointestinal symptoms were measured during a 3- hour period after subjects consumed both 25- and 50-g doses of fructose. STATISTICAL ANALYSES: Differences in mean breath hydrogen, AUC, and symptom scores between doses were analyzed using paired t tests. Correlations among peak breath hydrogen, AUC, and symptoms were also evaluated. RESULTS: More than half of the 15 adults tested showed evidence of fructose malabsorption after 25 g fructose and greater than two thirds showed malabsorption after 50 g fructose. AUC, representing overall breath hydrogen response, was significantly greater after the 50- g dose. Overall symptom scores were significantly greater than baseline after each dose, but scores were only marginally greater after 50 g than 25 g. Peak hydrogen levels and AUC were highly correlated, but neither was significantly related to symptoms. CONCLUSIONS: Fructose, in amounts commonly consumed, may result in mild gastrointestinal distress in normal people. Additional study is warranted to evaluate the response to fructose- glucose mixtures  (as in high- fructose corn syrup) and fructose taken with food in both normal people and those with gastrointestinal dysfunction. Because breath hydrogen peaks occurred at 90 to 114 minutes and were highly correlated with 180-minute breath hydrogen AUC, the use of peak hydrogen measures may be considered to shorten the duration of the exam.",
+    "retrieved_texts": [
+      25,
+      25,
+      25,
+      138,
+      708
+    ]
+  },
+  {
+    "query_index": 26,
+    "query_text": "OBJECTIVE: To determine the relation of gas passage and abdominal bloating to the production of gas in the colon. DESIGN: Randomized, double-blind, crossover study of gaseous symptoms during a 1-week period. SETTING: A Veterans Affairs medical center. PARTICIPANTS: 25 healthy medical center employees. INTERVENTION: Participants' diets were supplemented with either a placebo (10 g of lactulose, a nonabsorbable sugar), psyllium (a fermentable fiber), or methylcellulose (a nonfermentable fiber). MEASUREMENTS: All participants were polled for gaseous symptoms (including number of gas passages, impression of increased rectal gas, and abdominal bloating), and five were examined for breath hydrogen excretion. RESULTS: Participants passed gas 10 +/- 5.0 times per day (mean +/- SD) during the placebo period. A significant increase in gas passages (to 19 +/- 12 times per day) and a subjective impression of increased rectal gas were reported with lactulose but not with either of the two fiber preparations. Breath hydrogen excretion, an indicator of hydrogen production in the colon, did not increase after ingestion of either of the fibers. However, a statistically significant (P < 0.05) increase in feelings of abdominal bloating (which the participants perceived as excessive gas in the bowel) was reported with both fiber preparations and with lactulose. CONCLUSIONS: The physician should distinguish between excessive gas (which indicates excessive gas production) and feelings of bloating (which are usually unrelated to excessive gas production). Treatment of the former consists of limiting the supply of fermentable material to the colonic bacteria. Symptoms of bloating usually indicate the irritable bowel syndrome, and therapy should be directed accordingly.",
+    "answer": "OBJECTIVE: To determine the relation of gas passage and abdominal bloating to the production of gas in the colon.\n\nOUTPUT: Most similar original text segment from context OR \"No relevant information found\"\n        ",
+    "retrieved_texts": [
+      28,
+      25,
+      30,
+      26,
+      25
+    ]
+  },
+  {
+    "query_index": 27,
+    "query_text": "In addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding. It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide-derived oligomers formed by processing or cooking)--have yet to be characterised.",
+    "answer": "In addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-",
+    "retrieved_texts": [
+      27,
+      32,
+      30,
+      28,
+      1794
+    ]
+  },
+  {
+    "query_index": 28,
+    "query_text": "Bloating, abdominal distention, and flatulence represent very frequent complaints in functional disorders but their pathophysiology and treatment are largely unknown. Patients frequently associate these symptoms with excessive intestinal gas and the reduction of gas production may represent an effective strategy. The aim was to evaluate the effect of alpha-galactosidase administration, in a randomized double-blind placebo-controlled protocol, on intestinal gas production and gas-related symptoms after a challenge test meal in healthy volunteers. Eight healthy volunteers ingested 300 or 1200 GalU of alpha-galactosidase or placebo during a test meal containing 420 g of cooked beans. Breath hydrogen excretion and occurrence of bloating, abdominal pain, discomfort, flatulence, and diarrhea were measured for 8 hr. The administration of 1200 GalU of alpha-galactosidase induced a significant reduction of both breath hydrogen excretion and severity of flatulence. A reduction in severity was apparent for all considered symptoms, but both 300 and 1200 GalU induced a significant reduction in the total symptom score. Alpha-galactosidase reduced gas production following a meal rich in fermentable carbohydrates and may be helpful in patients with gas-related symptoms.",
+    "answer": "The administration of 1200 GalU of alpha-galactosidase induced a significant reduction of both breath hydrogen excretion and severity of flatulence. A reduction in severity was apparent for all considered symptoms, but both 300 and 1200 GalU induced a significant reduction in the total symptom score. Alpha-galactosidase reduced gas production following a meal rich in fermentable carbohydrates and may be helpful in patients with gas- related symptoms.",
+    "retrieved_texts": [
+      28,
+      28,
+      32,
+      27,
+      28
+    ]
+  },
+  {
+    "query_index": 29,
+    "query_text": "Bismuth therapy has shown efficacy against two major gastrointestinal disorders: peptic ulcer disease and diarrhea. In peptic ulcer disease it is as effective as the H2-receptor antagonists, costs considerably less, and offers a lower rate of relapse. When Helicobacter pylori is implicated, bismuth acts as an antimicrobial agent, suppressing the organism but not eliminating it. In recent studies, bismuth compounds have been used with conventional antibiotics, producing elimination of the organism, histological improvement, and amelioration of symptoms for periods longer than one year. Bismuth subsalicylate has shown modest efficacy in treating traveler's diarrhea and acute and chronic diarrhea in children, and it is effective prophylactically for traveler's diarrhea. An epidemic of neurological toxicity was reported in France in the 1970's with prolonged bismuth treatment, usually bismuth subgallate and subnitrate. Such toxicity has been rare with bismuth subsalicylate and colloidal bismuth subcitrate. However, recent studies have demonstrated intestinal absorption of bismuth (about 0.2% of the ingested dose) and sequestration of this heavy metal in multiple tissue sites, even occurring with conventional dosing over a 6-week period. These findings have inspired recommendations that treatment periods with any bismuth-containing compound should last no longer than 6-8 weeks, followed by 8-week bismuth-free intervals.",
+    "answer": "Bismuth therapy has shown efficacy against two major gastrointestinal disorders: peptic ulcer disease and diarrhea. In peptic ulcer disease, it is as effective as H2-receptor antagonists, costs less, and offers a lower rate of relapse.\n\nWhen Helicobacter pylori is implicated, bismuth acts as an antimicrobial agent, suppressing the organism but not eliminating it. Recent studies have demonstrated that bismuth compounds can be used with conventional antibiotics, leading to elimination of the organism, improved histology, and symptom amelioration for periods exceeding one year.\n\nBismuth subsalicylate has shown modest effectiveness in treating traveler's diarrhea and acute or chronic diarrhea in children. It is also effective as prophylaxis against traveler's diarrhea.\n\nHowever, caution should be exercised with prolonged bismuth treatment, as reported in France during the 1970s. This association was primarily observed with bismuth subgallate and subnitrate, but such neurological toxicity has been less frequent with bismuth subsalicylate and colloidal bismuth subcitrate.\n\nAccordingly, it is now recommended that treatment periods with any bismuth-containing compound should not exceed 6-8 weeks, followed by an 8-week bismuth-free interval. This updated approach aims to strike a balance between the therapeutic benefits of bismuth and the risk of potential side effects, particularly neurological toxicity.",
+    "retrieved_texts": [
+      29,
+      29,
+      29,
+      1066,
+      205
+    ]
+  },
+  {
+    "query_index": 30,
+    "query_text": "Complaints of \"excessive gas\" from patients are very common but are difficult, if not impossible, for the physician to document. This review addresses the pathophysiology and management of such complaints, looking at the sources and routes of elimination, excessive eructation, bloating, and distention. In addition, common flatulence problems are summarized, including excessive flatus volume and noxious flatus.",
+    "answer": "Output the contents of the RAG dataset that most closely resemble the following text:\n\n> Complaints of \"excessive gas\" from patients are very common but are difficult, if not impossible, for the physician to document. This review addresses the pathophysiology and management of such complaints, looking at the sources and routes of elimination, excessive eructation, bloating, and distention. In addition, common flatulence problems are summarized, including excessive flatus volume and noxious flatus.\n\nMost similar original text segment from context OR  \"No relevant information found\":\n\n> Complaints of excessive gas from patients are indeed very common. This review delves into the underlying causes, management strategies, and symptoms associated with excessive intestinal gas production.\n\nHowever, the provided context does not have a direct match for the entire question. Therefore, I will output only the most similar part:\n\n> In addition, common flatulence problems are summarized, including excessive flatus volume and noxious flatus.\n\nThis is because the context discusses flatulence issues but does not provide an exact match for the entire question.",
+    "retrieved_texts": [
+      30,
+      27,
+      32,
+      28,
+      26
+    ]
+  },
+  {
+    "query_index": 31,
+    "query_text": "OBJECTIVE: A variety of charcoal-containing devices are purported to minimize problems with odoriferous rectal gas; however, the evidence supporting the efficacy of these products is virtually all anecdotal. We objectively evaluated the ability of these devices to adsorb two malodorous, sulfide gases (hydrogen sulfide and methylmercaptan) instilled at the anus. METHODS: Via a tube, 100 ml of nitrogen containing 40 ppm of sulfide gases and 0.5% H(2) was instilled at the anus of six healthy volunteers who wore gas impermeable Mylar pantaloons over their garments. Since H(2) is not adsorbed by charcoal, the fraction of the sulfide gases removed could be determined from the concentration ratio of sulfide gas: H(2) in the pantaloon space relative to the ratio in instilled gas. RESULTS: Measurements with no device in place showed that subjects' garments removed 22.0 +/- 5.3% of the sulfide gases, and results obtained with each device were corrected for this removal. The only product that adsorbed virtually all of the sulfide gases was briefs constructed from an activated carbon fiber fabric. Pads worn inside the underwear removed 55-77% of the sulfide gases. Most cushions were relatively ineffective, adsorbing about 20% of the gases. CONCLUSIONS: The ability of charcoal-containing devices to adsorb odoriferous rectal gases is limited by incomplete exposure of the activated carbon to the gases. Briefs made from carbon fiber are highly effective; pads are less effective, removing 55-77% of the odor; cushions are relatively ineffective.",
+    "answer": "OBJECTIVE: A variety of charcoal-containing devices are purported to minimize problems with odoriferous rectal gas; however, the evidence supporting the efficacy of these products is virtually all anecdotal. We objectively evaluated the ability of these devices to adsorb two malodorous, sulfide gases  (hydrogen sulfide and methylmercaptan) instilled at the anus.\n\n        OUTPUT: The only product that adsorbed virtually all of the sulfide gases was briefs constructed from an activated carbon fiber fabric.",
+    "retrieved_texts": [
+      31,
+      31,
+      31,
+      1891,
+      910
+    ]
+  },
+  {
+    "query_index": 32,
+    "query_text": "In addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding. It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide-derived oligomers formed by processing or cooking)--have yet to be characterised.",
+    "answer": "In addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding. It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide- derived oligomers formed by processing or cooking)--have yet to be characterised.",
+    "retrieved_texts": [
+      27,
+      32,
+      30,
+      28,
+      1794
+    ]
+  },
+  {
+    "query_index": 33,
+    "query_text": "OBJECTIVE: The relationship between lipid profiles and Alzheimer disease (AD) pathology at the population level is unclear. We searched for evidence of AD-related pathologic risk of abnormal lipid metabolism. METHODS: This study included brain specimens from a series of 147 autopsies performed between 1998 and 2003 of residents in Hisayama town, Japan (76 men and 71 women), who underwent clinical examinations in 1988. Lipid profiles, such as total cholesterol (TC), triglycerides, and high-density lipoprotein cholesterol (HDLC), were measured in 1988. Low-density lipoprotein cholesterol (LDLC) was calculated using the Friedewald formula. Neuritic plaques (NPs) were assessed according to the Consortium to Establish a Registry for Alzheimer's Disease guidelines (CERAD) and neurofibrillary tangles (NFTs) were assessed according to Braak stage. Associations between each lipid profile and AD pathology were examined by analysis of covariance and logistic regression analyses. RESULTS: Adjusted means of TC, LDLC, TC/HDLC, LDLC/HDLC, and non-HDLC (defined as TC-HDLC) were significantly higher in subjects with NPs, even in sparse to moderate stages (CERAD = 1 or 2), compared to subjects without NPs in multivariate models including APOE ε4 carrier and other confounding factors. The subjects in the highest quartiles of these lipid profiles had significantly higher risks of NPs compared to subjects in the lower respective quartiles, which may suggest a threshold effect. Conversely, there was no relationship between any lipid profile and NFTs. CONCLUSION: The results of this study suggest that dyslipidemia increases the risk of plaque-type pathology.",
+    "answer": "OBJECTIVE: The relationship between lipid profiles and Alzheimer disease (AD) pathology at the population level is unclear. We searched for evidence of AD-related pathologic risk of abnormal lipid metabolism.\n\nMETHODOLOGY: This study included brain specimens from a series of 147 autopsies performed between 1998 and 2003 of residents in Hisayama town, Japan (76 men and 71 women), who underwent clinical examinations in 1988. Lipid profiles, such as total cholesterol (TC), triglycerides, and high-density lipoprotein cholesterol (HDLC), were measured in 1988. Low-density lipoprotein cholesterol (LDLC) was calculated using the Friedewald formula. Neuritic plaques (NPs) were assessed according to the Consortium to Establish a Registry for Alzheimer's Disease guidelines (CERAD) and neurofibrillary tangles (NFTs) were assessed according to Braak stage.\n\nASSOCIATIONS BETWEEN EACH LIPID PROFILE AND AD PATHOLOGY WERE EXAMINED BY ANALYSIS OF COVARIANCE AND LOGISTIC REGRESSION ANALYSES.\n\nRESULTS: Adjusted means of TC, LDLC, TC/HDLC, LDLC/HDLC, and non-HDLC (defined as TC- HDLC) were significantly higher in subjects with NPs, even in sparse to moderate stages (CERAD = 1 or 2), compared to subjects without NPs in multivariate models including APOE ε4 carrier and other confounding factors. The subjects in the highest quartiles of these lipid profiles had significantly higher risks of NPs compared to subjects in the lower respective quartiles, which may suggest a threshold effect. Conversely, there was no relationship between any lipid profile and NFTs.\n\nCONCLUSION: The results of this study suggest that dyslipidemia increases the risk of plaque-type pathology.",
+    "retrieved_texts": [
+      33,
+      608,
+      608,
+      573,
+      1199
+    ]
+  },
+  {
+    "query_index": 34,
+    "query_text": "BACKGROUND: The content and context of family practice outpatient visits have never been fully described, leaving many aspects of family practice in a \"black box,\" unseen by policymakers and understood only in isolation. This article describes community family practices, physicians, patients, and outpatient visits. METHODS: Practicing family physicians in northeast Ohio were invited to participate in a multimethod study of the content of primary care practice. Research nurses directly observed consecutive patient visits, and collected additional data using medical record reviews, patient and physician questionnaires, billing data, practice environment checklists, and ethnographic fieldnotes. RESULTS: Visits by 4454 patients seeing 138 physicians in 84 practices were observed. Outpatient visits to family physicians encompassed a wide variety of patients, problems, and levels of complexity. The average patient paid 4.3 visits to the practice within the past year. The mean visit duration was 10 minutes. Fifty-eight percent of visits were for acute illness, 24% for chronic illness, and 12% for well care. The most common uses of time were history-taking, planning treatment, physical examination, health education, feedback, family information, chatting, structuring the interaction, and patient questions. CONCLUSIONS: Family practice and patient visits are complex, with competing demands and opportunities to address a wide range of problems of individuals and families over time and at various stages of health and illness. Multimethod research in practice settings can identify ways to enhance the competing opportunities of family practice to improve the health of their patients.",
+    "answer": "Outputting the most similar original text segment:\n\nVisits by 4454 patients seeing 138 physicians in 84 practices were observed. Outpatient visits to family physicians encompassed a wide variety of patients, problems, and levels of complexity.\n\nIf no relevant information found:\nNo relevant information found.",
+    "retrieved_texts": [
+      34,
+      34,
+      2255,
+      247,
+      34
+    ]
+  },
+  {
+    "query_index": 35,
+    "query_text": "In a 1995 pivotal study, Kushner described the attitudes, practice behaviors, and barriers to the delivery of nutrition counseling by primary care physicians. This article recognized nutrition and dietary counseling as key components in the delivery of preventive services by primary care physicians. Kushner called for a multifaceted approach to change physicians' counseling practices. The prevailing belief today is that little has changed. Healthy People 2010 and the U.S. Preventive Task Force identify the need for physicians to address nutrition with patients. The 2010 objective was to increase to 75% the proportion of office visits that included ordering or providing diet counseling for patients with a diagnosis of cardiovascular disease, diabetes, or hypertension. At the midcourse review, the proportion actually declined from 42% to 40%. Primary care physicians continue to believe that providing nutrition counseling is within their realm of responsibility. Yet the gap remains between the proportion of patients who physicians believe would benefit from nutrition counseling and those who receive it from their primary care physician or are referred to dietitians and other healthcare professionals. The barriers cited in recent years continue to be those listed by Kushner: lack of time and compensation and, to a lesser extent, lack of knowledge and resources. The 2010 Surgeon General's Vision for a Healthy and Fit Nation and First Lady Obama's \"Let's Move Campaign\" spotlight the need for counseling adults and children on diet and physical activity.",
+    "answer": "In a 1995 pivotal study, Kushner described the attitudes, practice behaviors, and barriers to the delivery of nutrition counseling by primary care physicians. This article recognized nutrition and dietary counseling as key components in the delivery of preventive services by primary care physicians. Kushner called for a multifaceted approach to change physicians' counseling practices.\n\nThe prevailing belief today is that little has changed. Healthy People 2010 and the U.S. Preventive Task Force identify the need for physicians to address nutrition with patients. The 2010 objective was to increase to 75% the proportion of office visits that included ordering or providing diet counseling for patients with a diagnosis of cardiovascular disease, diabetes, or hypertension. At the midcourse review, the proportion actually declined from 42% to 40%.\n\nPrimary care physicians continue to believe that providing nutrition counseling is within their realm of responsibility. Yet the gap remains between the proportion of patients who physicians believe would benefit from nutrition counseling and those who receive it from their primary care physician or are referred to dietitians and other healthcare professionals. The barriers cited in recent years continue to be those listed by Kushner: lack of time and compensation and, to a lesser extent, lack of knowledge and resources.\n\nThe 2010 Surgeon General's Vision for a Healthy and Fit Nation and First Lady Obama's \"Let's Move Campaign\" spotlight the need for counseling adults and children on diet and physical activity.",
+    "retrieved_texts": [
+      35,
+      35,
+      35,
+      644,
+      1790
+    ]
+  },
+  {
+    "query_index": 36,
+    "query_text": "During the slaughter process, cattle carcasses are split by sawing centrally down the vertebral column, resulting in contamination of each half with spinal cord material. Using a novel method based on a real-time PCR assay, we measured saw-mediated tissue transfer among carcasses. Up to 2.5% of the tissue recovered from each of the five subsequent carcasses by swabbing the split vertebral face came from the first carcass to be split; approximately 9 mg was spinal cord tissue. Under controlled conditions in an experimental abattoir, between 23 and 135 g of tissue accumulated in the saw after splitting five to eight carcasses. Of the total tissue recovered, between 10 and 15% originated from the first carcass, and between 7 and 61 mg was spinal cord tissue from the first carcass. At commercial plants in the United Kingdom, between 6 and 101 g of tissue was recovered from the saw, depending on the particular saw-washing procedure and number of carcasses processed. Therefore, if a carcass infected with bovine spongiform encephalopathy were to enter the slaughter line, the main risk of subsequent carcass contamination would come from the tissue debris that accumulates in the splitting saw. This work highlights the importance of effective saw cleaning and indicates that design modifications are required to minimize the accumulation of spinal cord tissue debris and, hence, the risk of cross-contamination of carcasses.",
+    "answer": "During the slaughter process, cattle carcasses are split by sawing centrally down the vertebral column, resulting in contamination of each half with spinal cord material. Using a novel method based on a real-time PCR assay, we measured saw-mediated tissue transfer among carcasses. Up to 2.5% of the tissue recovered from each of the five subsequent carcasses by swabbing the split vertebral face came from the first carcass to be split; approximately 9 mg was spinal cord tissue.",
+    "retrieved_texts": [
+      36,
+      36,
+      39,
+      36,
+      2755
+    ]
+  },
+  {
+    "query_index": 37,
+    "query_text": "The world-wide increase of antimicrobial resistance in micro-organisms complicates medical treatment of infected humans. We did a risk-factor analysis for the prevalence of antimicrobial resistant Campylobacter coli on 64 Swiss pig finishing farms. Between May and November 2001, 20 faecal samples per farm were collected from the floor of pens holding finishing pigs shortly before slaughter. Samples were pooled and cultured for Campylobacter species. Isolated Campylobacter strains were tested for resistance against selected antimicrobials. Additionally, information on herd health and management aspects was available from another study. Because data quality on the history of antimicrobial use on the farms was poor, only non-antimicrobial risk factors could be analysed. Statistical analyses were performed for resistance against ciprofloxacin, erythromycin, streptomycin, tetracycline, and for multiple resistance, which was defined as resistance to three or more antimicrobials. Risk factors for these outcomes--corrected for dependency of samples at herd level--were analysed in five generalised estimation-equation models. Prevalence of antimicrobial resistance among Campylobacter isolates was ciprofloxacin 26.1%, erythromycin 19.2%, streptomycin 78.0%, tetracycline 9.4%, and multiple resistance 6.5%. Important risk factors contributing to the prevalence of resistant strains were shortened tails, lameness, skin lesions, feed without whey, and ad libitum feeding. Multiple resistance was more likely in farms which only partially used an all-in-all-out system (OR = 37), or a continuous-flow system (OR = 3) compared to a strict all-in-all-out animal-flow. Presence of lameness (OR = 25), ill-thrift (OR = 15), and scratches at the shoulder (OR = 5) in the herd also increased the odds for multiple resistance. This study showed that on finishing farms which maintained a good herd health status and optimal farm management, the prevalence of antimicrobial resistance was also more favourable.",
+    "answer": "\"The world- wide increase of antimicrobial resistance in microorganisms complicates medical treatment of infected humans.\"",
+    "retrieved_texts": [
+      37,
+      37,
+      37,
+      2429,
+      2543
+    ]
+  },
+  {
+    "query_index": 38,
+    "query_text": "Anthrax is an acute bacterial infection caused by Bacillus anthracis. Humans become infected under natural conditions by contact with infected animals or contaminated animal products. About 95% of human anthrax is cutaneous and 5% respiratory. Gastrointestinal anthrax is very rare, and has been reported in less than 1% of all cases. Anthrax meningitis is a rare complication of any of the other three forms of disease. We report three rare cases of anthrax (gastrointestinal, oropharyngeal and meningitis) arising from the same source. The three patients were from a single family and were admitted with different clinical pictures after the ingestion of half-cooked meat from a sick sheep. These cases emphasize the need for awareness of anthrax in the differential diagnosis in areas where the disease remains endemic.",
+    "answer": "Output: Anthrax is an acute bacterial infection caused by Bacillus anthracis. Humans become infected under natural conditions by contact with infected animals or contaminated animal products. About 95% of human anthrax is cutaneous and 5% respiratory. Gastrointestinal anthrax is very rare, and has been reported in less than 1% of all cases.",
+    "retrieved_texts": [
+      38,
+      1300,
+      1300,
+      2891,
+      1300
+    ]
+  },
+  {
+    "query_index": 39,
+    "query_text": "Sponge samples were taken from the carcases, meat, personnel and surfaces involved in stunning, slaughter and dressing/boning activities at three abattoirs, and from retail beef products. The samples were examined for the presence of central nervous system (CNS)-specific proteins (syntaxin 1B and/or glial fibrillary acidic protein (GFAP), as indicators of contamination with CNS tissue. Syntaxin 1B and GFAP were detected in many of the sponge samples taken along the slaughter line and in the chill rooms of all three abattoirs; GFAP was also detected in one sample of longissimus muscle (striploin) taken in the boning hall of one of the abattoirs but not in the other two abattoirs or in retail meats.",
+    "answer": "Sponge samples were taken from the carcases, meat, personnel and surfaces involved in stunning, slaughter and dressing/boning activities at three abattoirs, and from retail beef products. The samples were examined for the presence of central nervous system (CNS)-specific proteins (syntaxin 1B and/or glial fibrillary acidic protein (GFAP), as indicators of contamination with CNS tissue. Syntaxin 1B and GFAP were detected in many of the sponge samples taken along the slaughter line and in the chill rooms of all three abattoirs; GFAP was also detected in one sample of longissimus muscle (striploin) taken in the boning hall of one of the abattoirs but not in the other two abattoirs or in retail meats.",
+    "retrieved_texts": [
+      39,
+      3023,
+      2547,
+      36,
+      3558
+    ]
+  },
+  {
+    "query_index": 40,
+    "query_text": "The present paper presents an overview of current knowledge of amyloid arthropathy in chickens, and covers the pathogenesis of amyloidosis in general and in birds, field cases reported, and the studies performed to assess the amyloidogenicity of various agents compared to that of Enterococcus faecalis. An animal model of amyloid arthropathy is presented, as are studies on the pathogenesis of arthropathic and amyloidogenic E. faecalis infections in brown layers. The review concludes with a description of the pathology of amyloid arthropathy, the biochemical characterization of the chicken joint amyloid protein as being of the AA type, investigation of the serum amyloid A (SAA) gene involved, and local SAA mRNA expression in joint and liver.",
+    "answer": "The present paper presents an overview of current knowledge of amyloid arthropathy in chickens, and covers the pathogenesis of amyloidosis in general and in birds, field cases reported, and the studies performed to assess the amyloidogenicity of various agents compared to that of Enterococcus faecalis. An animal model of amyloid arthropathy is presented, as are studies on the pathogenesis of arthropathic and amyloidogenic E. faecalis infections in brown layers. The review concludes with a description of the pathology of amyloid arthropathy,",
+    "retrieved_texts": [
+      40,
+      3113,
+      2917,
+      284,
+      3113
+    ]
+  },
+  {
+    "query_index": 41,
+    "query_text": "A total of 28 domestic ducks were divided into seven groups of four ducks. Six groups were inoculated per os with 10(1), 10(2), 10(3), 10(4), 10(5) and 10(5.7) oocysts Toxoplasma gondii oocysts (K21 strain, which is avirulent for mice), and the remaining group was used as a control. Antibodies to T. gondii were detected in all ducks by the indirect fluorescence antibody test first on day 7 post-inoculation (p.i.). Antibody titres were found in the range of 1:20 to 1:640 depending on the infectious dose of the oocysts. From day 14 p.i. antibody titres increased to 1:80 to 1:20 480. Between days 14 and 28 p.i. (end of the experiment), antibody titres decreased in 14 ducks, remained the same in seven ducks, and continued to increase in three ducks. Bioassay in mice revealed T. gondii in the breast and leg muscles and the heart (100%, n=47), brain (91%, n=22), liver (54%, n=13) and stomach (46%, n=24). The infected ducks showed no clinical signs; however, the results of bioassay indicate that, compared with some gallinaceous birds, domestic ducks were relatively susceptible to T. gondii infection.",
+    "answer": "A total of 28 domestic ducks were divided into seven groups of four ducks. Six groups were inoculated per os with 10(1), 10(2), 10(3), 10(4), 10(5) and 10(5.7) oocysts Toxoplasma gondii oocysts (K21 strain, which is avirulent for mice), and the remaining group was used as a control.",
+    "retrieved_texts": [
+      41,
+      41,
+      41,
+      3217,
+      3217
+    ]
+  },
+  {
+    "query_index": 42,
+    "query_text": "BACKGROUND: Aspirin is valuable for preventing vascular events, but information about ulcer frequency is necessary to inform risk-benefit decisions in individual patients. AIM: To determine ulcer prevalence and incidence in a population representative of those given aspirin therapy and evaluate risk predictors. METHODS: Patients taking aspirin 75-325 mg daily were recruited from four countries. Exclusions included use of gastroprotectant drugs or other non-steroidal anti-inflammatory drugs. We measured point prevalence of endoscopic ulcers, after quantitating dyspeptic symptoms. Incidence was assessed 3 months later in those eligible to continue (no baseline ulcer or reason for gastroprotectants). RESULTS: In 187 patients, ulcer prevalence was 11% [95% confidence interval (CI) 6.3-15.1%]. Only 20% had dyspeptic symptoms, not significantly different from patients without ulcer. Ulcer incidence in 113 patients followed for 3 months was 7% (95% CI 2.4-11.8%). Helicobacter pylori infection increased the risk of a duodenal ulcer [odds ratio (OR) 18.5, 95% CI 2.3-149.4], as did age >70 for ulcers in stomach and duodenum combined (OR 3.3, 95% CI 1.3-8.7). CONCLUSIONS: Gastroduodenal ulcers are found in one in 10 patients taking low-dose aspirin, and most are asymptomatic; this needs considering when discussing risks/benefits with patients. Risk factors include older age and H. pylori (for duodenal ulcer).",
+    "answer": "In 187 patients, ulcer prevalence was 11% [95% confidence interval (CI) 6.3-15.1%]. Only 20% had dyspeptic symptoms, not significantly different from patients without ulcer. Ulcer incidence in 113 patients followed for 3 months was 7% (95% CI 2.4-11.8%). Helicobacter pylori infection increased the risk of a duodenal ulcer [odds ratio (OR) 18.5, 95% CI 2.3-149.4], as did age >70 for ulcers in stomach and duodenum combined (OR 3.3, 95% CI 1.3-8.7). CONCLUSIONS: Gastroduodenal ulcers are found in one in 10 patients taking low-dose aspirin, and most are asymptomatic; this needs considering when discussing risks/benefits with patients. Risk factors include older age and H. pylori (for duodenal ulcer).",
+    "retrieved_texts": [
+      42,
+      42,
+      42,
+      1248,
+      1634
+    ]
+  },
+  {
+    "query_index": 43,
+    "query_text": "Diverticular disease of the colon is among the most prevalent conditions in western society and is among the leading reasons for outpatient visits and causes of hospitalization. While previously considered to be a disease primarily affecting the elderly, there is increasing incidence among individuals younger than 40 years of age. Diverticular disease most frequently presents as uncomplicated diverticulitis, and the cornerstone of management is antibiotic therapy and bowel rest. Segmental colitis associated with diverticula shares common histopathological features with inflammatory bowel disease and may benefit from treatment with 5-aminosalicylates. Surgical management may be required for patients with recurrent diverticulitis or one of its complications including peridiverticular abscess, perforation, fistulizing disease, and strictures and/or obstruction. Résumé La maladie diverticulaire du côlon est l’une des pathologies les plus prévalentes de la société occidentale et des principales causes de consultations ambulatoires et d’hospitalisations. On croyait qu’elle touchait surtout les personnes âgées, mais son incidence est en croissance auprès des personnes de moins de 40 ans. La maladie diverticulaire se manifeste surtout sous forme de diverticulite sans complication, et la pierre angulaire du traitement est l’antibiothérapie et le repos intestinal. La colite segmentaire associée aux diverticules partage des caractéristiques histopathologiques avec les maladies inflammatoires de l’intestin et peut profiter d’un traitement aux 5-aminosalicylates. Une prise en charge chirurgicale peut s’imposer en présence de diverticulite récurrente ou de l’une de ses complications, y compris un abcès péridiverticulaire, une perforation, une fistulisation et des sténoses ou des obstructions.",
+    "answer": "Output: Diverticular disease of the colon is among the most prevalent conditions in western society and is among the leading reasons for outpatient visits and causes of hospitalization. While previously considered to be a disease primarily affecting the elderly, there is increasing incidence among individuals younger than 40 years of age.\n\nExplanation: The output text segment closely matches the question prompt about diverticular disease of the colon. It provides relevant information on the prevalence, causes, and demographics of the disease.",
+    "retrieved_texts": [
+      43,
+      43,
+      178,
+      1265,
+      2451
+    ]
+  },
+  {
+    "query_index": 44,
+    "query_text": "OBJECTIVE: To evaluate herbal medicines, other than St. John's wort, in the treatment of depression. DATA SOURCES/SEARCH METHODS: A computer-based search of Medline, Cinahl, AMED, ALT Health Watch, Psych Articles, Psych Info, Current Contents databases, Cochrane Controlled Trials Register, and Cochrane Database of Systematic Reviews, was performed. Researchers were contacted, and bibliographies of relevant papers and previous meta-analysis were hand searched for additional references. REVIEW METHODS: Trials were included in the review if they were prospective human trials assessing herbal medicines, other than St. John's wort, in the treatment of mild-to-moderate depression and utilized validated instruments to assess participant eligibility and clinical endpoints. RESULTS: Nine trials were identified that met all eligibility requirements. Three studies investigated saffron stigma, two investigated saffron petal, and one compared saffron stigma to the petal. Individual trials investigating lavender, Echium, and Rhodiola were also located. DISCUSSION: Results of the trials are discussed. Saffron stigma was found to be significantly more effective than placebo and equally as efficacious as fluoxetine and imipramine. Saffron petal was significantly more effective than placebo and was found to be equally efficacious compared to fluoxetine and saffron stigma. Lavender was found to be less effective than imipramine, but the combination of lavender and imipramine was significantly more effective than imipramine alone. When compared to placebo, Echium was found to significantly decrease depression scores at week 4, but not week 6. Rhodiola was also found to significantly improve depressive symptoms when compared to placebo. CONCLUSION: A number of herbal medicines show promise in the management of mild-to-moderate depression.",
+    "answer": "OBJECTIVE: To evaluate herbal medicines, other than St. John'",
+    "retrieved_texts": [
+      44,
+      44,
+      44,
+      2586,
+      2588
+    ]
+  },
+  {
+    "query_index": 45,
+    "query_text": "This paper presents a new interpretation of a unique Bronze Age (c. 3000-1100 BCE) Aegean wall painting in the building of Xeste 3 at Akrotiri,Thera. Crocus carturightianus and its active principle, saffron, are the primary subjects at Xeste 3. Several lines of evidence suggest that the meaning of these frescoes concerns saffron and healing: (1) the unusual degree of visual attention given to the crocus, including the variety of methods for display of the stigmas; (2) the painted depiction of the line of saffron production from plucking blooms to the collection of stigmas; and (3) the sheer number (ninety) of medical indications for which saffron has been used from the Bronze Age to the present. The Xeste 3 frescoes appear to portray a divinity of healing associated with her phytotherapy, saffron. Cultural and commercial interconnections between the Therans, the Aegean world, and their neighboring civilizations in the early 2nd millennium BCE indicate a close network of thematic exchange, but there is no evidence that Akrotiri borrowed any of these medicinal (or iconographic) representations. The complex production line, the monumental illustration of a goddess of medicine with her saffron attribute, and this earliest botanically accurate image of an herbal medication are all Theran innovations.",
+    "answer": "This paper presents a new interpretation of a unique Bronze Age (c. 3000-1100 BCE) Aegean wall painting in the building of Xeste 3 at Akrotiri, Thera. Crocus carturightianus and its active principle, saffron, are the primary subjects at Xeste 3. Several lines of evidence suggest that the meaning of these frescoes concerns saffron and healing: (1) the unusual degree of visual attention given to the crocus, including the variety of methods for display of the stigmas; (2) the painted depiction of the line of saffron production from plucking blooms to the collection of stigmas; and (3) the sheer number (ninety) of medical indications for which saffron has been used from the Bronze Age to the present. The Xeste 3 frescoes appear to portray a divinity of healing associated with her phytotherapy, saffron. Cultural and commercial interconnections between the Therans, the Aegean world, and their neighboring civilizations in the early 2nd millennium BCE indicate a close network of thematic exchange, but there is no evidence that Akrotiri borrowed any of these medicinal (or iconographic) representations. The complex production line, the monumental illustration of a goddess of medicine with her saffron attribute, and this earliest botanically accurate image of an herbal medication are all Theran innovations.\n\nPlease note that since I am an AI language model, I cannot physically output text segments from the context. However, based on the provided text, it appears to be the most closely related original content. If you need me to extract a specific phrase or sentence as the output, please let me know.",
+    "retrieved_texts": [
+      45,
+      45,
+      3623,
+      45,
+      2956
+    ]
+  },
+  {
+    "query_index": 46,
+    "query_text": "The double-blind randomized controlled trial (RCT) is accepted by medicine as objective scientific methodology that, when ideally performed, produces knowledge untainted by bias. The validity of the RCT rests not just on theoretical arguments, but also on the discrepancy between the RCT and less rigorous evidence (the difference is sometimes considered an objective measure of bias). A brief overview of historical and recent developments in \"the discrepancy argument\" is presented. The article then examines the possibility that some of this \"deviation from truth\" may be the result of artifacts introduced by the masked RCT itself. Can an \"unbiased\" method produce bias? Among the experiments examined are those that augment the methodological stringency of a normal RCT in order to render the experiment less susceptible to subversion by the mind. This methodology, a hypothetical \"platinum\" standard, can be used to judge the \"gold\" standard. The concealment in a placebo-controlled RCT seems capable of generating a \"masking bias.\" Other potential biases, such as \"investigator self-selection,\" \"preference,\" and \"consent\" are also briefly discussed. Such potential distortions indicate that the double-blind RCT may not be objective in the realist sense, but rather is objective in a \"softer\" disciplinary sense. Some \"facts\" may not exist independent of the apparatus of their production.",
+    "answer": "The double-blind randomized controlled trial (RCT) is accepted by medicine as objective scientific methodology that, when ideally performed, produces knowledge untainted by bias. The validity of the RCT rests not just on theoretical arguments, but also on the discrepancy between the RCT and less rigorous evidence (the difference is sometimes considered an objective measure of bias). A brief overview of historical and recent developments in \"the discrepancy argument\" is presented. The article then examines the possibility that some of this \"deviation from truth\" may be the result of artifacts introduced by the masked RCT itself. Can an \"unbiased\" method produce bias? Among the experiments examined are those that augment the methodological stringency of a normal RCT in order to render the experiment less susceptible to subversion by the mind. This methodology, a hypothetical \"platinum\" standard, can be used to judge the \"gold\" standard. The concealment in a placebo-controlled RCT seems capable of generating a \"masking bias.\" Other potential biases, such as \"investigator self-selection,\" \"preference,\" and \"consent\" are also briefly discussed. Such potential distortions indicate that the double-blind RCT may not be objective in the realist sense, but rather is objective in a \"softer\" disciplinary sense. Some \"facts\" may not exist independent of the apparatus of their production.",
+    "retrieved_texts": [
+      46,
+      46,
+      46,
+      2133,
+      2814
+    ]
+  },
+  {
+    "query_index": 47,
+    "query_text": "In this study, the effect of Crocus sativus (saffron) was studied on male erectile dysfunction (ED). Twenty male patients with ED were followed for ten days in which each morning they took a tablet containing 200mg of saffron. Patients underwent the nocturnal penile tumescence (NPT) test and the international index of erectile function questionnaire (IIEF-15) at the start of the treatment and at the end of the ten days. After the ten days of taking saffron there was a statistically significant improvement in tip rigidity and tip tumescence as well as base rigidity and base tumescence. ILEF-15 total scores were significantly higher in patients after saffron treatment (before treatment 22.15+/-1.44; after treatment 39.20+/-1.90, p<0.001). Saffron showed a positive effect on sexual function with increased number and duration of erectile events seen in patients with ED even only after taking it for ten days.",
+    "answer": "In this study, the effect of Crocus sativus (saffron) was studied on male erectile dysfunction (ED). Twenty male patients with ED were followed for ten days in which each morning they took a tablet containing 200mg of saffron. Patients underwent the nocturnal penile tumescence (NPT) test and the international index of erectile function questionnaire (IIEF-15) at the start of the treatment and at the end of the ten days.\n\nAfter the ten days of taking saffron, there was a statistically significant improvement in tip rigidity and tip tumescence, as well as base rigidity and base tumescence. ILEF-15 total scores were significantly higher in patients after saffron treatment (before treatment 22.15+/-1.44; after treatment 39.20+/-1.90, p<0.001). Saffron showed a positive effect on sexual function with increased number and duration of erectile events seen in patients with ED even only after taking it for ten days.\n\nThis output closely resembles the original text segment provided, discussing the study's methodology, results, and conclusion regarding saffron's efficacy on male erectile dysfunction.",
+    "retrieved_texts": [
+      47,
+      3625,
+      47,
+      2956,
+      2586
+    ]
+  },
+  {
+    "query_index": 48,
+    "query_text": "Questions of medical ethics are often treated as especially difficult casuistical problems or as difficult cases illustrative of paradoxes or advantages in global moral theories. I argue here, in opposition to such approaches, for the inseparability of questions of social history and social theory from any normative assessment of medical practices. The focus of the discussion is the question of the legitimacy of the social authority exercised by physicians, and the insufficiency of traditional defences of such authority in liberal societies (voluntarist, informed consent approaches), as well as traditional attacks on such strategies (ideology critique). Seeing such authority as institution bound and role based, it is argued, can help reframe, more broadly and more adequately, what is an \"ethical problem\" in medical practice and why.",
+    "answer": "Outputting the most similar original text segment from context:\n\nQuestions of medical ethics are often treated as especially difficult casuistical problems or as difficult cases illustrative of paradoxes or advantages in global moral theories. I argue here, in opposition to such approaches, for the inseparability of questions of social history and social theory from any normative assessment of medical practices.\n\nThe focus of the discussion is the question of the legitimacy of the social authority exercised by physicians, and the insufficiency of traditional defences of such authority in liberal societies (voluntarist, informed consent approaches), as well as traditional attacks on such strategies (ideology critique). Seeing such authority as institution bound and role based, it is argued, can help reframe, more broadly and more adequately, what is an \"ethical problem\" in medical practice and why.",
+    "retrieved_texts": [
+      48,
+      932,
+      2251,
+      480,
+      2133
+    ]
+  },
+  {
+    "query_index": 49,
+    "query_text": "Historically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school. Interestingly, data suggest that medical students' perception of the importance of clinical nutrition can decrease during medical school. Recent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school. One possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+    "answer": "Historically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school.\n\nRecent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school.\n\nOne possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+    "retrieved_texts": [
+      49,
+      2896,
+      2960,
+      2896,
+      2960
+    ]
+  }
+]

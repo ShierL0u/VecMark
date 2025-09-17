@@ -1,0 +1,135 @@
+{
+  "original_bits": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "bit_stats": [
+    {
+      "embed_count": 12,
+      "tend_to_0": 0,
+      "tend_to_1": 12,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 11,
+      "tend_to_0": 0,
+      "tend_to_1": 11,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 13,
+      "tend_to_0": 0,
+      "tend_to_1": 13,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 14,
+      "tend_to_0": 0,
+      "tend_to_1": 14,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 9,
+      "tend_to_0": 0,
+      "tend_to_1": 9,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 13,
+      "tend_to_0": 0,
+      "tend_to_1": 13,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 9,
+      "tend_to_0": 0,
+      "tend_to_1": 9,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 10,
+      "tend_to_0": 0,
+      "tend_to_1": 10,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 13,
+      "tend_to_0": 0,
+      "tend_to_1": 13,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 12,
+      "tend_to_0": 0,
+      "tend_to_1": 12,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 13,
+      "tend_to_0": 0,
+      "tend_to_1": 13,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 9,
+      "tend_to_0": 0,
+      "tend_to_1": 9,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 14,
+      "tend_to_0": 0,
+      "tend_to_1": 14,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 13,
+      "tend_to_0": 0,
+      "tend_to_1": 13,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 11,
+      "tend_to_0": 0,
+      "tend_to_1": 11,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    },
+    {
+      "embed_count": 15,
+      "tend_to_0": 0,
+      "tend_to_1": 15,
+      "z_score_0": 0.0,
+      "z_score_1": 0.0
+    }
+  ],
+  "match_rate": 0.75
+}

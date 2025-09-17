@@ -1,0 +1,602 @@
+[
+  {
+    "query_index": 0,
+    "query_text": "Possibly a little sweet, this is a soft, easygoing Chardonnay marked by clean, modest pear and melon flavors.",
+    "answer": "This is a soft, easygoing Chardonnay marked by clean, modest pear and melon flavors.",
+    "retrieved_texts": [
+      36353,
+      0,
+      49334,
+      39844,
+      34394
+    ]
+  },
+  {
+    "query_index": 1,
+    "query_text": "A soft, almost off dry wine that is full in the mouth. It has caramel and spice flavors as well as light acidity. The wine feels weighty and definitely needs food.",
+    "answer": "A well-made, full-bodied Riesling that lingers gracefully through the finish, with a streak of lemon tea. It has hints of caramel and spice, along with light acidity that keeps it refreshing. Despite its weightiness, this wine is best enjoyed with food, particularly rich or savory dishes.",
+    "retrieved_texts": [
+      45191,
+      22690,
+      45632,
+      7706,
+      16244
+    ]
+  },
+  {
+    "query_index": 2,
+    "query_text": "Generic white-fruit aromas of peach and apple are slightly pithy. This feels good but innocuous, while flavors of apple and stone fruits lose some of their snap and directness on a tropical-tasting finish.",
+    "answer": "Generic white-fruit aromas of peach and apple are slightly pithy. This feels good but innocuous, while flavors of apple and stone fruits lose some of their snap and directness on a tropical- tasting finish.",
+    "retrieved_texts": [
+      2217,
+      40238,
+      17885,
+      10446,
+      2
+    ]
+  },
+  {
+    "query_index": 3,
+    "query_text": "This is the winery's best Nebula in years. While it's still a little on the soft, sweet side, the cool vintage has resonated in the wine's flavor, giving it a good structure housing cherry, currant and sandalwood flavors. Drink now.",
+    "answer": "This is the winery's best Nebbiolo in years. While it's still a little on the soft, sweet side, the cool vintage has resonated in the wine's flavor, giving it a good structure housing cherry, currant and sandalwood flavors. Drink now.\n\nThe most similar original text segment from the context is:\n\n\"Really fragrant, with this vineyard's near-perfect mix of fruit, rock, and barrel. This is restrained, elegant but powerful—raspberry fruit over crushed rock, with vertical structure, an immaculate mouthfeel, and a finish that continues to resonate for minutes after the swallow.\"\n\nHowever, since the context provided does not closely resemble the text you've given (which seems to be a review rather than a description), there is no relevant information found in the context.",
+    "retrieved_texts": [
+      36527,
+      42817,
+      31891,
+      14717,
+      32610
+    ]
+  },
+  {
+    "query_index": 4,
+    "query_text": "This is a very rich Pinot whose primary virtue is fruit. It just explodes with delicious cherry jam, red currant, licorice and mocha flavors. Dry and crisply acidic, it's a beautiful wine for early drinking.",
+    "answer": "This is a very rich Pinot whose primary virtue is fruit. It just explodes with delicious cherry jam, red currant, licorice and mocha flavors. Dry and crisply acidic, it's a beautiful wine for early drinking.\n\nThe most similar original text segment from the context is provided above.",
+    "retrieved_texts": [
+      44261,
+      4,
+      8468,
+      44247,
+      12343
+    ]
+  },
+  {
+    "query_index": 5,
+    "query_text": "An unabashedly rich and luscious wine, this combines ripe and fresh fruit flavors with luxurious spicy, buttery accents and an almost thick texture. With a subtext as savory as Udon broth it's practically a meal in a bottle. Call it full-bodied, full-flavored, ultrasmooth and impressive.",
+    "answer": "An unabashedly rich and luscious wine, this combines ripe and fresh fruit flavors with luxurious spicy, buttery accents and an almost thick texture.\n\nWith a subtext as savory as Udon broth, it's practically a meal in a bottle. Call it full-bodied, full-flavored, ultrasmooth, and impressive.\n\nThis description closely resembles the requested text segment from the context provided.",
+    "retrieved_texts": [
+      13100,
+      28326,
+      4815,
+      40128,
+      27834
+    ]
+  },
+  {
+    "query_index": 6,
+    "query_text": "This opens with a pleasing toasty aroma, following through on the palate. That deft touch of French oak (33% new) frames a solid core of strawberry preserves and Bing cherry fruit. It resonates on through a stylish, textural finish. Enjoy this immediately, and tuck away a few bottles to drink in five years.",
+    "answer": "This opens with a powerful, sharp and spicy set of aromas mixing dense blackberry and boysenberry fruit with sweet smoke and chocolate-covered raisins. It resonates on through a stylish, textural finish.\n\nEnjoy this immediately, and tuck away a few bottles to drink in five years.",
+    "retrieved_texts": [
+      6,
+      19076,
+      21689,
+      12054,
+      29747
+    ]
+  },
+  {
+    "query_index": 7,
+    "query_text": "Made with 100% Chardonnay, this creamy sparkler opens with aromas of hawthorn, peach and a whiff of bread crust. The palate reveals candied nectarine zest and golden apple alongside a soft perlage. It ends on a note of white almond.",
+    "answer": "Made with 100% Chardonnay, this creamy sparkler opens with aromas of hawthorn, peach and a whiff of bread crust. The palate reveals candied nectarine zest and golden apple alongside a soft perlage. It ends on a note of white almond.\n\nThis text closely resembles the description provided in the context.",
+    "retrieved_texts": [
+      7,
+      21640,
+      42802,
+      46898,
+      14913
+    ]
+  },
+  {
+    "query_index": 8,
+    "query_text": "Here's a good, everyday Cab if you're looking for a bargain. It's dry, tannic and earthy, with suggestions of currants and oak.",
+    "answer": "Here's a good, everyday Cab if you're looking for a bargain. It's dry, tannic and earthy, with suggestions of currants and oak.\n\nThis output matches the description provided in the question, which makes it the most similar original text segment from the context.",
+    "retrieved_texts": [
+      8,
+      21535,
+      43121,
+      22272,
+      39194
+    ]
+  },
+  {
+    "query_index": 9,
+    "query_text": "Made from low-yielding, 70-year-old vines, this is a dense wine with an almost-dark structure and ripe red-plum flavors. Powerful, it obviously will be better with food and could even benefit from decanting before drinking. Age this concentrated wine until late 2016.",
+    "answer": "Made from low-yielding, 70-year-old vines, this is a dense wine with an almost-dark structure and ripe red-plum flavors. Powerful, it obviously will be better with food and could even benefit from decanting before drinking. Age this concentrated wine until late 2016.\n\nThis text segment closely resembles the given description of the wine.",
+    "retrieved_texts": [
+      9,
+      39811,
+      16371,
+      3952,
+      29102
+    ]
+  },
+  {
+    "query_index": 10,
+    "query_text": "Amidst cola and sassafras on the nose, there's a bit of rotting cherry funk and some compost pile aromas to this intriguing single-vineyard Syrah from the Los Alamos area. The little bit of cherry sweetness on the palate gets more serious with chopped herbs, tobacco and cedar.",
+    "answer": "Amidst cola and sassafras on the nose, there's a bit of rotting cherry funk and some compost pile aromas to this intriguing single-vineyard Syrah from the Los Alamos area. The little bit of cherry sweetness on the palate gets more serious with chopped herbs, tobacco, and cedar.\n\nThis text closely resembles the given context about the Syrah wine.",
+    "retrieved_texts": [
+      10,
+      41508,
+      25595,
+      30020,
+      11097
+    ]
+  },
+  {
+    "query_index": 11,
+    "query_text": "This ripe, fruity wine has both freshness and a warmer, rounded character. Apricot and fresh white peach fruits are filled out with almond flavors as well as acidity. It's a wine to enjoy now, although it will be better from 2016",
+    "answer": "This ripe, fruity wine has both freshness and a warmer, rounded character. Apricot and fresh white peach fruits are filled out with almond flavors as well as acidity. It's a wine to enjoy now, although it will be better from 2016\n\nThe most similar original text segment from the context is:\n\n\"Generous orange and ripe, red apple meet with the zesty freshness of tangerine peel in this wine.\"\n\nHowever, there is no direct match for the entire description provided. Therefore, a suitable response would be to extract the part that best resembles the question, as shown above. Since there's no exact match, \"No relevant information found\" would not be an appropriate output in this case.",
+    "retrieved_texts": [
+      11,
+      3941,
+      45900,
+      30123,
+      37166
+    ]
+  },
+  {
+    "query_index": 12,
+    "query_text": "This is a smooth and creamy wine with soft apple flavors mingling with almonds and brisk acidity. It has a tight edge of minerality that adds a fine texture, offering a glimpse of the extra richness that can be expected in 2–3 years.",
+    "answer": "This is a smooth and creamy wine with soft apple flavors mingling with almonds and brisk acidity. It has a tight edge of minerality that adds a fine texture, offering a glimpse of the extra richness that can be expected in 2–3 years.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      12,
+      18740,
+      18122,
+      27690,
+      17393
+    ]
+  },
+  {
+    "query_index": 13,
+    "query_text": "It shows ultrarich tannins and a flavor complexity ranging from briary wild blackberries and prunes to currants, nettles, sweet tea and softened cola. It's absolutely dry, despite or perhaps because of very high alcohol. The wine is unapologetic about that ripeness, instead asking only to be happily paired with barbecue.",
+    "answer": "This wine exhibits an extraordinary richness in tannins, giving it a deep and complex flavor profile. The palate is dominated by notes of wild blackberries, prunes, currants, nettles, sweet tea, and softened cola. Despite its high alcohol content, the wine remains impressively dry.\n\nThe unapologetic ripeness of this wine is evident in its bold flavors. It seeks a harmonious pairing with barbecue, inviting consumers to enjoy it alongside their favorite grilled dishes.\n\nIf no similar text segment exists in the provided context, output: \"No relevant information found.\"",
+    "retrieved_texts": [
+      47175,
+      20727,
+      19269,
+      32367,
+      30938
+    ]
+  },
+  {
+    "query_index": 14,
+    "query_text": "With a high proportion of generous Alicante Bouschet in the blend, this is a big, bold wine. It has smoky flavors showing a meaty character that's enhanced by 12 months wood aging. Generous tannins give a rich, structured character. It could still do with some aging, so drink from 2017.",
+    "answer": "With a high proportion of generous Alicante Bouschet in the blend, this is a big, bold wine. It has smoky flavors showing a meaty character that's enhanced by 12 months wood aging. Generous tannins give a rich, structured character. It could still do with some aging, so drink from 2017.\n\nThis text closely resembles the original content you provided.",
+    "retrieved_texts": [
+      14,
+      1300,
+      9423,
+      6713,
+      33345
+    ]
+  },
+  {
+    "query_index": 15,
+    "query_text": "Baked plum, blue flower, dark spice, vanilla and dried herb emerge in the glass. The dense, chewy palate offers mature black cherry, raspberry jam, fig and sweet cake spice alongside velvety tannins. It has hit its ideal drinking window so enjoy soon.",
+    "answer": "Baked plum, blue flower, dark spice, vanilla and dried herb emerge in the glass. The dense, chewy palate offers mature black cherry, raspberry jam, fig and sweet cake spice alongside velvety tannins. It has hit its ideal drinking window so enjoy soon.\n\nThis text closely resembles the given prompt, describing a similar wine tasting experience.",
+    "retrieved_texts": [
+      46971,
+      20168,
+      15,
+      19076,
+      26364
+    ]
+  },
+  {
+    "query_index": 16,
+    "query_text": "The winery says this high-alcohol wine, made from Muscat and Verdelho, was aged for ten years in barrels. It has a floral, Sherry taste, with that distinctive yeasty flavor undergirding quite sweet pineapples, oranges, apricots and white chocolate.",
+    "answer": "The winery says this high-alcohol wine, made from Muscat and Verdelho, was aged for ten years in barrels. It has a floral, Sherry taste, with that distinctive yeasty flavor undergirding quite sweet pineapples, oranges, apricots and white chocolate.\n\nThis text segment closely resembles the description provided.",
+    "retrieved_texts": [
+      6930,
+      10862,
+      46417,
+      5970,
+      15812
+    ]
+  },
+  {
+    "query_index": 17,
+    "query_text": "Hints of lemon shortbread, fresh apple and white flower unfold on the nose of this delicately honeyed wine. On the palate, sweet white-peach and yellow-cherry flavors run just a shade off dry. Easy going and fresh, it finishes long, with a streak of tangerine acidity.",
+    "answer": "Hints of lemon shortbread, fresh apple and white flower unfold on the nose of this delicately honeyed wine. On the palate, sweet white-peach and yellow-cherry flavors run just a shade off dry. Easy going and fresh, it finishes long, with a streak of tangerine acidity.\n\nThis text closely resembles the description provided in the context.",
+    "retrieved_texts": [
+      7706,
+      16721,
+      16558,
+      7968,
+      20168
+    ]
+  },
+  {
+    "query_index": 18,
+    "query_text": "Notes of cherry and raspberry open the nose of this organic wine. It is easy on the palate, with a lean, fruit-filled finish.",
+    "answer": "Notes of cherry and raspberry open the nose of this [ORGANIC] wine. It is easy on the palate, with a lean, fruit-filled finish.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      15565,
+      14717,
+      20168,
+      13616,
+      11265
+    ]
+  },
+  {
+    "query_index": 19,
+    "query_text": "A blend of Ciel du Cheval and Force Majeure vineyards, this wine brings a mix of pomegranate, dark raspberry, dried tobacco, crushed rock and peppery spices. It explodes on the palate with rich, dense, cranberry and spice flavors that linger.",
+    "answer": "A blend of Ciel du Cheval and Force Majeure vineyards, this wine brings a mix of pomegranate, dark raspberry, dried tobacco, crushed rock and peppery spices. It explodes on the palate with rich, dense, cranberry and spice flavors that linger.\n\nThis text segment closely resembles the provided description.",
+    "retrieved_texts": [
+      22845,
+      31891,
+      25108,
+      2393,
+      11070
+    ]
+  },
+  {
+    "query_index": 20,
+    "query_text": "Fleshy, tropical aromas with a touch of varietal snap set up a green palate with sweet lime and scallion flavors. The finish shows ripeness and tropical notes before turning heavy. Drink this well chilled.",
+    "answer": "Fleshy, tropical aromas with a touch of varietal snap set up a green palate with sweet lime and scallion flavors. The finish shows ripeness and tropical notes before turning heavy.\n\nDrink this well chilled.",
+    "retrieved_texts": [
+      42385,
+      7430,
+      40144,
+      7899,
+      46971
+    ]
+  },
+  {
+    "query_index": 21,
+    "query_text": "This restrained, medium-bodied Cabernet Sauvignon is a solid value. On the nose, cedar, vanilla and cassis elements blend together easily, while brown sugar and vanilla flavors are supported by just enough cassis and black cherry fruit. Drink now–2028.",
+    "answer": "This restrained, medium-bodied Cabernet Sauvignon is a solid value. On the nose, cedar, vanilla and cassis elements blend together easily, while brown sugar and vanilla flavors are supported by just enough cassis and black cherry fruit. Drink now–2028.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      3024,
+      20168,
+      11855,
+      1423,
+      36072
+    ]
+  },
+  {
+    "query_index": 22,
+    "query_text": "Intense perfume and floral notes overcome ripe apple aromas. It's dry on the palate with flavors of savory apple and green herbs, but feels a bit flat and heavy in mouthfeel.",
+    "answer": "Intense perfume and floral notes overcome ripe apple aromas. It's dry on the palate with flavors of savory apple and green herbs, but feels a bit flat and heavy in mouthfeel.\n\nThis description matches the provided text closely. Therefore, the most similar original text segment from the context is:\n\n\"Intense perfume and floral notes overcome ripe apple aromas. It's dry on the palate with flavors of savory apple and green herbs, but feels a bit flat and heavy in mouthfeel.\"\n\nIf no relevant information was found, the output would be \"No relevant information found\". Since there is a match, this phrase will not be included in the output.",
+    "retrieved_texts": [
+      42385,
+      20491,
+      44741,
+      5893,
+      10797
+    ]
+  },
+  {
+    "query_index": 23,
+    "query_text": "This cool climate region is well-suited to this grape, producing aromatic, elegant wines such as this without the over-the-top perfume that can drive consumers away. Subtle aromas suggest light talc, acacia and calla lily, while in the mouth this is soft and smooth. Overall it's just plain pretty, with details of apple and apple skin.",
+    "answer": "This cool climate region is well-suited to this grape, producing aromatic, elegant wines such as this without the over-the-top perfume that can drive consumers away. Subtle aromas suggest light talc, acacia and calla lily, while in the mouth this is soft and smooth. Overall it's just plain pretty, with details of apple and apple skin.\n\nThis text closely resembles the original content from the context provided.",
+    "retrieved_texts": [
+      23,
+      27690,
+      7706,
+      34179,
+      26075
+    ]
+  },
+  {
+    "query_index": 24,
+    "query_text": "A soft apple-tinged wine, with bright acidity that cuts right through. The wine is rounded, with just enough crispness. Ready to drink.",
+    "answer": "A soft apple-tinged wine, with bright acidity that cuts right through. The wine is rounded, with just enough crispness.\n\nThis description closely resembles the requested text.",
+    "retrieved_texts": [
+      7706,
+      45900,
+      6686,
+      9890,
+      16059
+    ]
+  },
+  {
+    "query_index": 25,
+    "query_text": "Here's a Pinot Grigio that ranks high in terms of fresh, easy-drinking white wine options from northern Italy. The bouquet delivers crisp tones of honeydew melon, herb and a distant mineral dusting. In the mouth, it shows balanced freshness and a bright peach finish.",
+    "answer": "Here's a Pinot Grigio that ranks high in terms of fresh, easy- drinking white wine options from northern Italy. The bouquet delivers crisp tones of honeydew melon, herb and a distant mineral dusting. In the mouth, it shows balanced freshness and a bright peach finish.\n\nThis text closely resembles the given prompt, which makes it the most relevant information found in the context.",
+    "retrieved_texts": [
+      25,
+      9042,
+      26215,
+      23389,
+      2394
+    ]
+  },
+  {
+    "query_index": 26,
+    "query_text": "Sweaty and pickled at first, although airing reveals some hidden dark fruit aromas. The palate is grapy and accented by black plum, yet it finishes salty and cheeky, with grabby tannins. Has it good points but lacks direction and elegance.",
+    "answer": "Sweaty and pickled at first, although airing reveals some hidden dark fruit aromas. The palate is grapy and accented by black plum, yet it finishes salty and cheeky, with grabby tannins. Has it good points but lacks direction and elegance.",
+    "retrieved_texts": [
+      20168,
+      49960,
+      46971,
+      26,
+      22109
+    ]
+  },
+  {
+    "query_index": 27,
+    "query_text": "This plush Syrah opens with a pretty ruby color and thick, almost syrupy, tones of blueberry and raspberry. The fruit aromas are followed by spice and roasted almonds and the wine is succulent and chewy to the very end.",
+    "answer": "This plush Syrah opens with a pretty ruby color and thick, almost syrupy, tones of blueberry and raspberry. The fruit aromas are followed by spice and roasted almonds and the wine is succulent and chewy to the very end.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      27,
+      30020,
+      32634,
+      25595,
+      21689
+    ]
+  },
+  {
+    "query_index": 28,
+    "query_text": "This is pretty pale for a Tavel, with a coppery tinge to its pink color. Notes of lime zest, wet stone and modest cherry-berry notes finish on a bright citrus note.",
+    "answer": "This is pretty pale for a Tavel, with a coppery tinge to its pink color. Notes of lime zest, wet stone and modest cherry-berry notes finish on a bright citrus note.\n\nThe description provided closely resembles the original text segment about a Tavel wine. Therefore, the most similar original content from the context is:\n\n\"This is pretty pale for a Tavel, with a coppery tinge to its pink color. Notes of lime zest, wet stone and modest cherry-berry notes finish on a bright citrus note.\"\n\nIf no relevant information was found, the output would be \"No relevant information found\". Since there is a relevant match in the context, this phrase does not apply.",
+    "retrieved_texts": [
+      1232,
+      7612,
+      12733,
+      38759,
+      20168
+    ]
+  },
+  {
+    "query_index": 29,
+    "query_text": "This brilliant Sauvignon Blanc should be scooped up by sommeliers. It's exceptionally dry and tart in citrusy acids, with a mineral scour that's perfect for shellfish or savory appetizers. The flavors are of lemons, limes, gooseberries and white pepper. Beautiful and compelling.",
+    "answer": "This brilliant Sauvignon Blanc should be scooped up by sommeliers. It's exceptionally dry and tart in citrusy acids, with a mineral scour that's perfect for shellfish or savory appetizers. The flavors are of lemons, limes, gooseberries and white pepper. Beautiful and compelling.\n\n(Original text segment from context)",
+    "retrieved_texts": [
+      29,
+      24845,
+      43343,
+      22953,
+      29763
+    ]
+  },
+  {
+    "query_index": 30,
+    "query_text": "Foxy berry aromas are the lead scent, and they're followed by notes of wet dog and raspberry. This is full bodied and round as a ball, with earthy, lightly herbal flavors of red berries, thyme and rosemary. A warm, loamy finish brings oaky flavors and closing weight. Drink this blend of 70% Malbec and 30% Cabernet Sauvignon through 2016.",
+    "answer": "Foxy berry aromas are the lead scent, and they're followed by notes of wet dog and raspberry. This is full bodied and round as a ball, with earthy, lightly herbal flavors of red berries, thyme and rosemary. A warm, loamy finish brings oaky flavors and closing weight.\n\nDrink this blend of 70% Malbec and 30% Cabernet Sauvignon through 2016.",
+    "retrieved_texts": [
+      30,
+      26787,
+      47495,
+      14603,
+      38720
+    ]
+  },
+  {
+    "query_index": 31,
+    "query_text": "A decadent blend of ripe berries and rich oak characterizes this wine; sweet smoke and baking spice mingle harmoniously with notes of mashed raspberry and blackberry, accented by hints of hickory-cured bacon and raw cocoa nibs. The medium-weight mouth is structured and bold, with chewy tannins and heady flavors of plum and berry preserves, roasted coffee and sweet licorice. The finish is long and dry, and although this would certainly benefit from 5–10 years of cellaring time, it's approachable now with decanting.",
+    "answer": "A decadent blend of ripe berries and rich oak characterizes this wine; sweet smoke and baking spice mingle harmoniously with notes of mashed raspberry and blackberry, accented by hints of hickory- cured bacon and raw cocoa nibs. The medium-weight mouth is structured and bold, with chewy tannins and heady flavors of plum and berry preserves, roasted coffee and sweet licorice. The finish is long and dry, and although this would certainly benefit from 5–10 years of cellaring time, it's approachable now with decanting.\n\nThis matches the provided text segment closely.",
+    "retrieved_texts": [
+      32534,
+      26787,
+      31,
+      3162,
+      38880
+    ]
+  },
+  {
+    "query_index": 32,
+    "query_text": "Tastes a bit medicinal, with a sweet-sour quality of lemons and pineapples, and is quite acidic. Lacks richness, but it's a decent everyday Chardonnay.",
+    "answer": "Tastes a bit medicinal, with a sweet-sour quality of lemons and pineapples, and is quite acidic. Lacks richness, but it's a decent everyday Chardonnay.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      15958,
+      15355,
+      28443,
+      34394,
+      35849
+    ]
+  },
+  {
+    "query_index": 33,
+    "query_text": "Quinta do Pégo produces a light, fast maturing style of vintage Port. This 2009 has the bonus of great richness, although its fruity character and soft tannins suggest it will mature rapidly.",
+    "answer": "Quinta do Pégo produces a light, fast maturing style of vintage Port. This 2009 has the bonus of great richness, although its fruity character and soft tannins suggest it will mature rapidly.\n\nThis output matches the original text segment from the context provided.",
+    "retrieved_texts": [
+      33,
+      21706,
+      13540,
+      3148,
+      42597
+    ]
+  },
+  {
+    "query_index": 34,
+    "query_text": "A surprisingly green tinge vies with tobacco, raspberry and woodspice for attention. This wine is full in feel with good concentration of flavors but ultimately the greenness provides distraction.",
+    "answer": "A surprisingly green tinge vies with tobacco, raspberry and woodspice for attention. This wine is full in feel with good concentration of flavors but ultimately the greenness provides distraction.\n\nThis description closely resembles the given text. Therefore, the most similar original text segment from the context is:\n\n\"Aromas of black currant, menthol, oak and vanilla lead the nose. The extracted, one-dimensional palate offers prune, blackberry extract, dried sage and tobacco alongside extremely raspy, astringent tannins that dry out the palate.\"\n\nIf no relevant information was found in the provided context, the output would be \"No relevant information found.\"",
+    "retrieved_texts": [
+      48382,
+      24671,
+      34521,
+      47703,
+      26364
+    ]
+  },
+  {
+    "query_index": 35,
+    "query_text": "Dense and dry, this is a tough, extracted wine. It has a hard edge followed by juicy acidity and will probably remain on the dry side.",
+    "answer": "(Dense and dry, this is a tough, extracted wine. It has a hard edge followed by juicy acidity and will probably remain on the dry side.)\n\nThis is the most similar original text segment from the provided context.",
+    "retrieved_texts": [
+      35,
+      39907,
+      34105,
+      40550,
+      37432
+    ]
+  },
+  {
+    "query_index": 36,
+    "query_text": "This varietal Cabernet Sauvignon hails from the producer's organic Chiles Valley estate. It's muscular and lushly layered, with spicy leather and tobacco notes accented by a delicate touch of violet and supported by firm, grippy tannin. Drink now through 2033.",
+    "answer": "This varietal Cabernet Sauvignon hails from the producer's organic Chiles Valley estate. It's muscular and lushly layered, with spicy leather and tobacco notes accented by a delicate touch of violet and supported by firm, grippy tannin. Drink now through 2033.\n\nThis text closely resembles the description provided in the context.",
+    "retrieved_texts": [
+      43425,
+      7232,
+      33435,
+      4308,
+      31204
+    ]
+  },
+  {
+    "query_index": 37,
+    "query_text": "Standard berry aromas show touches of raisin and earth, but not too much of either. It feels fresh, crisp and alert, with cherry tomato, berry fruit, tobacco and vanilla flavors. This feels healthy but not real deep or complex on the finish.",
+    "answer": "Standard berry aromas show touches of raisin and earth, but not too much of either. It feels fresh, crisp and alert, with cherry tomato, berry fruit, tobacco and vanilla flavors. This wine is healthy but not overly complex on the finish.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      19463,
+      11507,
+      29100,
+      15565,
+      13616
+    ]
+  },
+  {
+    "query_index": 38,
+    "query_text": "The blend is mainly Cabernet Sauvignon, with the other four classic Bordeaux varieties added for complexity. The grapes were sourced from vineyards throughout Sonoma County, and the finished wine was aged in 75% new oak. It's very fine, with concentrated, intense blackberry, cherry and crème de cassis flavors.Minerality, in the form of granite, lends a lick of stone. It's still extremely tannic, and needs much more timebefore it begins to come around.",
+    "answer": "The blend is mainly Cabernet Sauvignon, with the other four classic Bordeaux varieties added for complexity. The grapes were sourced from vineyards throughout Sonoma County, and the finished wine was aged in 75% new oak. It's very fine, with concentrated, intense blackberry, cherry and crème de cassis flavors. Minerality, in the form of granite, lends a lick of stone. It's still extremely tannic, and needs much more time before it begins to come around.\n\nThis is the most similar original text segment from the provided context.",
+    "retrieved_texts": [
+      38,
+      2224,
+      6657,
+      49689,
+      20096
+    ]
+  },
+  {
+    "query_index": 39,
+    "query_text": "Named after Siza Vieira, the architect of the modern Adega Mayor winery, this dense, darkly colored wine is hugely ripe, with great fruits and rich coffee and spice flavors. It's a wine that perfectly fits the adjective opulent, powered by great fruits and dense tannins, with fine aging potential. Drink from 2017.",
+    "answer": "Named after Siza Vieira, the architect of the modern Adega Mayor winery, this dense, darkly colored wine is hugely ripe, with great fruits and rich coffee and spice flavors. It's a wine that perfectly fits the adjective opulent, powered by great fruits and dense tannins, with fine aging potential. Drink from 2017.",
+    "retrieved_texts": [
+      39,
+      42408,
+      8644,
+      16734,
+      11366
+    ]
+  },
+  {
+    "query_index": 40,
+    "query_text": "A gorgeously perfumed wine, dominated by the ripest Cabernet Franc, combining richness and an intense structure. With its tannins, it will age well over many years. The fruit is finely textured, deliciously juicy, showing the most complex series of flavors.",
+    "answer": "A gorgeously perfumed wine, dominated by the ripest Cabernet Franc, combining richness and an intense structure. With its tannins, it will age well over many years.\n\nThe fruit is finely textured, deliciously juicy, showing the most complex series of flavors.",
+    "retrieved_texts": [
+      15428,
+      38474,
+      34295,
+      22228,
+      29335
+    ]
+  },
+  {
+    "query_index": 41,
+    "query_text": "New oak dominates this wine, giving it aromas of toast and vanilla. After decanting, the air brings out interesting notes of dried herbs and blackberries. Tastes very rich and flamboyant, almost sweet, like a chocolate berry pastry, and should develop over the next few years. Mainly Cabernet Sauvignon, with Sangiovese, Cabernet Franc and Petit Verdot.",
+    "answer": "New oak dominates this wine, giving it aromas of toast and vanilla. After decanting, the air brings out interesting notes of dried herbs and blackberries. Tastes very rich and flamboyant, almost sweet, like a chocolate berry pastry, and should develop over the next few years.\n\nThis text segment closely resembles the given description of the wine.",
+    "retrieved_texts": [
+      20168,
+      36978,
+      44905,
+      32534,
+      6657
+    ]
+  },
+  {
+    "query_index": 42,
+    "query_text": "This blend of 79% Sauvignon Blanc and 21% Semillon is pungent and sweaty, with an almost Collio-like pungency. It's a bold, in-your-face passion-fruit monster that fades quickly on the finish.",
+    "answer": "This blend of 79% Sauvignon Blanc and 21% Semillon is pungent and sweaty, with an almost Collio-liked pungency. It's a bold, in-your-face passion-fruit monster that fades quickly on the finish.\n\nMost similar original text segment from context.",
+    "retrieved_texts": [
+      42,
+      38814,
+      29400,
+      34024,
+      12425
+    ]
+  },
+  {
+    "query_index": 43,
+    "query_text": "All the warm southern heat of the Alentejo is in this wine. It is rich, generous and full of ripe, black fruits. Berries and juicy damsons are spiced with pepper, rich tannins and lifted by acidity. It is a wine for big meat dishes, for stews, a powerful, no-holds-barred style. It will be ready to drink from 2017.",
+    "answer": "All the warm southern heat of the Alentejo is in this wine. It is rich, generous and full of ripe, black fruits. Berries and juicy damsons are spiced with pepper, rich tannins and lifted by acidity. It is a wine for big meat dishes, for stews, a powerful, no-holds-barred style. It will be ready to drink from 2017.\n\nThis text closely matches the provided description of a Portuguese red wine from the Alentejo region.",
+    "retrieved_texts": [
+      43,
+      12331,
+      8775,
+      35054,
+      6714
+    ]
+  },
+  {
+    "query_index": 44,
+    "query_text": "73% Merlot, with Cabernet and Petite Verdot making up the difference, this is a finely crafted and delicious effort. Medium-bodied and creamy, the Merlot gives this wine a feminine feel, despite solid, soft tannins. Dark, extracted black fruits have some accents of forest and black olive, while leather adds to the cherry and cassis nose. Could use time to soften further, but very approachable now.",
+    "answer": "This is a finely crafted and delicious effort. Medium-bodied and creamy, the Merlot gives this wine a feminine feel, despite solid, soft tannins. Dark, extracted black fruits have some accents of forest and black olive, while leather adds to the cherry and cassis nose. Could use time to soften further, but very approachable now.",
+    "retrieved_texts": [
+      14828,
+      44,
+      12344,
+      43728,
+      35718
+    ]
+  },
+  {
+    "query_index": 45,
+    "query_text": "This inky red-violet wine has a nose of blueberry pie, green pepper and violet. It is slightly tart at first sip, with tannins that hide at first and then coat the tongue and gums. A rich flavor profile of blackberry, cranberry, anise, violet and white chocolate makes way for cherry and chocolate notes in the finish.",
+    "answer": "This inky red-violet wine has a nose of blueberry pie, green pepper and violet. It is slightly tart at first sip, with tannins that hide at first and then coat the tongue and gums. A rich flavor profile of blackberry, cranberry, anise, violet and white chocolate makes way for cherry and chocolate notes in the finish.\n\nThis description closely resembles the given text.",
+    "retrieved_texts": [
+      45447,
+      15565,
+      125,
+      2811,
+      43501
+    ]
+  },
+  {
+    "query_index": 46,
+    "query_text": "Succulent steak or breaded veal would make good pairing partners to this elegant Brunello. The wine delivers oak spice, red fruit, black pepper and balsam notes of dried ginger and cola. The wine is lively and delicate with some astringency to the tannins that will soften in a few more years.",
+    "answer": "Succulent steak or breaded veal would make good pairing partners to this elegant Brunello. The wine delivers oak spice, red fruit, black pepper and balsam notes of dried ginger and cola. The wine is lively and delicate with some astringency to the tannins that will soften in a few more years.",
+    "retrieved_texts": [
+      46,
+      41116,
+      18533,
+      36278,
+      25363
+    ]
+  },
+  {
+    "query_index": 47,
+    "query_text": "This wine is firm with solid tannins. It has rich fruit and concentration with layers of blackberry and dark plums. It comes from a small seven-acre property and is aged for 15 months in wood. This impressive wine needs to age, so drink from 2022.",
+    "answer": "This wine is firm with solid tannins. It has rich fruit and concentration with layers of blackberry and dark plums. It comes from a small seven-acre property and is aged for 15 months in wood. This impressive wine needs to age, so drink from 2022.\n\nOUTPUT: The contents of the RAG dataset that most closely resemble the provided text are as follows:",
+    "retrieved_texts": [
+      4060,
+      49205,
+      20953,
+      29756,
+      3952
+    ]
+  },
+  {
+    "query_index": 48,
+    "query_text": "This opens with delicate scents of field flower and white stone fruit. On the creamy off-dry palate, a soft mousse backs up sweet white peach, green apple and a candied citrus note while bright acidity lends freshness.",
+    "answer": "This opens with delicate scents of field flower and white stone fruit. On the creamy off-dry palate, a soft mousse backs up sweet white peach, green apple and a candied citrus note while bright acidity lends freshness.\n\nThe description provided closely resembles the text segment from the context about a wine with similar floral and fruity aromas and flavors.",
+    "retrieved_texts": [
+      21689,
+      37166,
+      20168,
+      19076,
+      45632
+    ]
+  },
+  {
+    "query_index": 49,
+    "query_text": "Steely, minerally and very textured, this has concentratio and taut layer of acidity to go with the lime fruit. Powered by its structure, it will age for 3–4 years.",
+    "answer": "Steely, minerally and very textured, this has concentration and a taut layer of acidity to go with the lime fruit. Powered by its structure, it will age for 3–4 years.\n\nThis text closely resembles the description provided in the context. Therefore, the most similar original text segment from the context is:\n\n\"Intense, crisp acidity shines on this young wine... Lime fruit...Powered by its structure, it will age for 3–4 years.\"\n\nHowever, since the instruction specifically asks for \"the contents of the RAG dataset,\" and there's no direct mention of a RAG dataset in the provided context, it's not clear how to respond to that part of the question. If a RAG dataset is indeed relevant, more information would be needed to extract the most similar text segment from that dataset.",
+    "retrieved_texts": [
+      1128,
+      46822,
+      2801,
+      37355,
+      24436
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+nohup: ignoring input
+Evaluating perplexity results...
+Creating judge model instance...
+Judge model created successfully
+
+ Computing RS for ../dataset/watermark_dataset/VectorMark_nfcorpus_g37.csv...
+RAG Model: qwen:14b
+Dataset name: VectorMark_nfcorpus_g37
+Loaded 3633 from ../dataset/nfcorpus_corpus.csv
+Found 5 watermarked samples using VectorMark method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db VectorMark_nfcorpus_g37_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+RS VectorMark_nfcorpus_g37:   0%|          | 0/5 [00:00<?, ?it/s]RS VectorMark_nfcorpus_g37:  20%|██        | 1/5 [00:20<01:22, 20.73s/it]RS VectorMark_nfcorpus_g37:  40%|████      | 2/5 [00:35<00:51, 17.04s/it]RS VectorMark_nfcorpus_g37:  60%|██████    | 3/5 [00:43<00:25, 13.00s/it]RS VectorMark_nfcorpus_g37:  80%|████████  | 4/5 [00:46<00:09,  9.26s/it]RS VectorMark_nfcorpus_g37: 100%|██████████| 5/5 [00:50<00:00,  7.29s/it]RS VectorMark_nfcorpus_g37: 100%|██████████| 5/5 [00:50<00:00, 10.14s/it]
+Error in judge_relevance: invalid literal for int() with base 10: '<think>\nOkay, let\'s tackle this evaluation. The task is to rate how naturally and reasonably the watermark text fits within the context of the provided documents. The watermark text is about bismut
+Error in judge_relevance: invalid literal for int() with base 10: '<think>\nOkay, let\'s tackle this evaluation. The user wants me to assess how naturally and reasonably the provided watermark text fits within the context of the given documents. The key here is to c
+Error in judge_relevance: invalid literal for int() with base 10: '<think>\nOkay, let\'s tackle this evaluation. The task is to rate how naturally and reasonably the watermark text fits within the context of the provided documents. The key here is to compare the wat
+Error in judge_relevance: invalid literal for int() with base 10: "<think>\nOkay, let's tackle this evaluation. The task is to rate how naturally and reasonably the watermark text fits within the context of the provided documents. The watermark text is actually iden
+Error in judge_relevance: invalid literal for int() with base 10: "<think>\nOkay, let's tackle this evaluation. The task is to rate how naturally and reasonably the watermark text fits within the context of the provided documents. The key is to focus on content rele
+RS Evaluation completed:
+  - Total watermarked samples: 5
+  - Average RS score: 0.5000
+  - Score range: 0.500 - 0.500
+
+ Computing RS for ../dataset/watermark_dataset/VectorMark_winemag50k_g587.csv...
+RAG Model: qwen:14b
+Dataset name: VectorMark_winemag50k_g587
+Loaded 50000 from ../dataset/winemag_sub_dataset_50k.csv
+Found 5 watermarked samples using VectorMark method
+Processing 5 watermarked texts
+Creating RAG database...
+Success load vector_db VectorMark_winemag50k_g587_RAG_db
+Creating RAG chain...
+Evaluating 5 watermarked samples...
+RS VectorMark_winemag50k_g587:   0%|          | 0/5 [00:00<?, ?it/s]RS VectorMark_winemag50k_g587:  20%|██        | 1/5 [00:05<00:23,  5.94s/it]RS VectorMark_winemag50k_g587:  40%|████      | 2/5 [00:11<00:17,  5.72s/it]RS VectorMark_winemag50k_g587:  60%|██████    | 3/5 [00:15<00:09,  4.96s/it]
